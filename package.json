@@ -1,0 +1,19 @@
+{
+  "name": "wafflejs",
+  "version": "0.0.1",
+  "description": "A fun-centric JSish meetup in the Bay Area.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wafflejs/wafflejs.git"
+  },
+  "author": "Visnu Pitiyanuvath <visnup@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wafflejs/wafflejs/issues"
+  },
+  "homepage": "https://github.com/wafflejs/wafflejs#readme"
+}
