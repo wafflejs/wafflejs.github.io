@@ -2,4 +2,4 @@
 
 A fun-centric JSish meetup in the Bay Area.
 
-Ongoing ideating and organization is happening in the [issues](/issues).
+Ongoing ideating and organization is happening in the [issues](/wafflejs/wafflejs/issues).
