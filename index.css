@@ -2,20 +2,16 @@ body {
   color: #333;
   text-rendering: optimizeLegibility;
   font-family: Lato, sans-serif;
+  padding: 0 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 h1 {
   font-family: Alegreya, serif;
   font-size: 400%;
   letter-spacing: -2px;
-}
-
-.container {
-  max-width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
 }

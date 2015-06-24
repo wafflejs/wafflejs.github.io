@@ -6,7 +6,7 @@ import marked from 'marked';
 marked.setOptions({ smartypants: true });
 
 const pre = document.querySelector('pre');
-pre.outerHTML = `<div class="container">${marked(pre.innerHTML)}</div>`;
+pre.outerHTML = `<div>${marked(pre.innerHTML)}</div>`;
 
 document.title = 'waffle.js';
 
@@ -15,3 +15,8 @@ fonts.href = 'http://fonts.googleapis.com/css?family=Lato|Alegreya:700';
 fonts.rel = 'stylesheet';
 fonts.type = 'text/css';
 document.head.appendChild(fonts);
+
+const viewport = document.createElement('meta');
+viewport.name = 'viewport';
+viewport.content = 'initial-scale=1';
+document.head.appendChild(viewport);
