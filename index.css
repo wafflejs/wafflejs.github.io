@@ -11,7 +11,6 @@ body {
 }
 
 h1 {
-  font-family: Alegreya, serif;
-  font-size: 400%;
+  font: 400% Alegreya, serif;
   letter-spacing: -2px;
 }
