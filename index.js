@@ -8,8 +8,10 @@ marked.setOptions({ smartypants: true });
 const pre = document.querySelector('pre');
 pre.outerHTML = `<div class="container">${marked(pre.innerHTML)}</div>`;
 
+document.title = 'waffle.js';
+
 const fonts = document.createElement('link');
 fonts.href = 'http://fonts.googleapis.com/css?family=Lato|Alegreya:700';
 fonts.rel = 'stylesheet';
 fonts.type = 'text/css';
-document.body.appendChild(fonts);
+document.head.appendChild(fonts);
