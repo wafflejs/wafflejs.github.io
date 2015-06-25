@@ -5,10 +5,23 @@
   --gray-text: hsl(12, 2%, 40%);
 }
 
+html {
+  @media (min-width: 769px) {
+    background: linear-gradient(90deg, var(--orange) 50%, white 50%);
+  }
+}
+
+html, body, main, .markdown {
+  height: 100%;
+}
+
 body {
   text-rendering: optimizeLegibility;
   line-height: 150%;
   font-family: 'PT Sans', sans-serif;
+}
+
+.markdown {
   display: flex;
   flex-wrap: wrap;
 }
@@ -31,6 +44,8 @@ header, aside {
 
   > div {
     max-width: 380px;
+    position: relative;
+    z-index: 10000;
   }
 
   flex-basis: 50%;

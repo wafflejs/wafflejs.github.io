@@ -11,9 +11,14 @@ head.innerHTML = `
 while (head.childNodes.length)
   document.head.appendChild(head.childNodes[0]);
 
-import marked from 'marked';
-marked.setOptions({ smartypants: true });
+import React from 'react';
+import Markdown from './markdown';
+import Watchmaker from './watchmaker';
 
-const content = document.querySelector('noscript');
-const src = marked(content.innerHTML).split('<hr>');
-content.outerHTML = `<header><div>${src[0]}</div></header><aside><div>${src[1]}</div></aside>`;
+React.render(
+  <main>
+    <Markdown>{document.querySelector('noscript').innerHTML}</Markdown>
+    <Watchmaker />
+  </main>,
+  document.body
+);
