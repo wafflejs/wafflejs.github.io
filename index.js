@@ -11,7 +11,7 @@ pre.outerHTML = `<div>${marked(pre.innerHTML)}</div>`;
 document.title = 'waffle.js';
 
 const fonts = document.createElement('link');
-fonts.href = 'http://fonts.googleapis.com/css?family=Lato|Alegreya:700';
+fonts.href = 'http://fonts.googleapis.com/css?family=Lato:400,700|Alegreya:700';
 fonts.rel = 'stylesheet';
 fonts.type = 'text/css';
 document.head.appendChild(fonts);

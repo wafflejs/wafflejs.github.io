@@ -9,11 +9,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 90vh;
 }
 
-h1, a {
-  color: hsl(0, 0%, 100%);
+h1, h2, h3, a {
+  color: hsla(0, 0%, 100%, .9);
 }
 
 h1 {
@@ -21,8 +20,22 @@ h1 {
   letter-spacing: -2px;
 }
 
+h2 + p a {
+  text-decoration: none;
+  border: solid 1px hsla(0, 0%, 100%, .8);
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 2em 0;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
 @media (max-width: 480px) {
   h1 ~ p {
     text-align: left;
+  }
+
+  h2 + p {
+    text-align: center;
   }
 }
