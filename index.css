@@ -1,5 +1,6 @@
 body {
-  color: #333;
+  background: hsl(12, 99%, 67%);
+  color: hsla(0, 0%, 100%, .8);
   text-rendering: optimizeLegibility;
   font-family: Lato, sans-serif;
   padding: 0 20px;
@@ -8,6 +9,10 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 90vh;
+}
+
+h1, a {
+  color: hsl(0, 0%, 100%);
 }
 
 h1 {
