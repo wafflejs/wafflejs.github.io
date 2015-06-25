@@ -2,6 +2,7 @@ body {
   background: hsl(12, 99%, 67%);
   color: hsla(0, 0%, 100%, .8);
   text-rendering: optimizeLegibility;
+  line-height: 125%;
   font-family: Lato, sans-serif;
   padding: 0 20px;
   text-align: center;
@@ -18,4 +19,10 @@ h1, a {
 h1 {
   font: bold 400% Alegreya, serif;
   letter-spacing: -2px;
+}
+
+@media (max-width: 480px) {
+  h1 ~ p {
+    text-align: left;
+  }
 }
