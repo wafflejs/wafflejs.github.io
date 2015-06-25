@@ -1,5 +1,4 @@
 const path = require('path');
-const autoprefixer = require('autoprefixer-core');
 
 module.exports = {
 
@@ -20,7 +19,7 @@ module.exports = {
     ]
   },
 
-  postcss: function() { return [ autoprefixer ] },
+  postcss: function() { return [ require('autoprefixer-core') ] },
 
   resolve: {
     extensions: [ '', '.js' ]
