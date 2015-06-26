@@ -31,11 +31,7 @@ h2 + p a {
 }
 
 @media (max-width: 480px) {
-  h1 ~ p {
+  h2 + p ~ p {
     text-align: left;
-  }
-
-  h2 + p {
-    text-align: center;
   }
 }
