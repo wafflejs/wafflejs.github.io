@@ -19,7 +19,11 @@ module.exports = {
     ]
   },
 
-  postcss: function() { return [ require('autoprefixer-core') ] },
+  postcss: function() { return [
+    require('autoprefixer-core'),
+    require('postcss-nested'),
+    require('postcss-custom-properties')
+  ] },
 
   resolve: {
     extensions: [ '', '.js' ]
