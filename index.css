@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --orange: hsl(12, 99%, 67%);
   --white: hsla(0, 0%, 100%, .8);
@@ -6,9 +10,9 @@
 
 body {
   text-rendering: optimizeLegibility;
-  line-height: 125%;
+  line-height: 145%;
   font-family: Lato, sans-serif;
-  text-align: center;
+  /*text-align: center;*/
   display: flex;
   flex-wrap: wrap;
 }
@@ -25,10 +29,11 @@ header, aside {
     flex-basis: 100%;
   }
 
-  @media (max-width: 480px) {
-    p + p {
-      text-align: left;
-    }
+  h1, h2, h3, h4, p {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -40,27 +45,24 @@ header {
     color: var(--bright-white);
   }
 
+  img:first-of-type {
+    width: 191px;
+  }
+
   h1 {
     font: bold 400% Alegreya, serif;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
   }
 
-  h2 {
-    font-weight: normal;
-  }
-}
-
-aside {
-  h1, h2, h3, a {
-    color: var(--orange);
-  }
-
-  p:first-child a {
+  p:last-child a {
     text-decoration: none;
     background: var(--orange);
     color: var(--bright-white);
-    border-radius: 3px;
-    padding: 10px 20px;
+    border: 2px solid var(--bright-white);
+    border-radius: 4px;
+    padding: 10px 30px;
     margin-bottom: 2em;
     display: inline-block;
     text-transform: uppercase;
@@ -72,5 +74,19 @@ aside {
     text-align: left;
     max-width: 18em;
     margin: 1em auto;
+  }
+
+  @media (max-width: 480px) {
+    p:last-child a {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+aside {
+  text-align: left;
+  h1, h2, h3, a {
+    color: var(--orange);
   }
 }
