@@ -11,7 +11,7 @@
 body {
   text-rendering: optimizeLegibility;
   line-height: 185%;
-  font-family: Georgia, serif;
+  font-family: 'PT Sans', sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -41,8 +41,8 @@ header, aside {
   }
 
   h3, h4 {
-    font-family: Georgia, serif;
-    font-weight: 100;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 200;
   }
 
   h3 {
