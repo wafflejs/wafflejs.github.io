@@ -13,6 +13,7 @@ body {
 }
 
 h1, h2, h3, h4, p, ul {
+  width: 100%;
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
@@ -74,13 +75,6 @@ header {
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
-  }
-
-  @media (max-width: 480px) {
-    p:last-child a {
-      width: 100%;
-      text-align: center;
-    }
   }
 }
 
