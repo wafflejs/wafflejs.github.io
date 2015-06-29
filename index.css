@@ -6,11 +6,34 @@
 
 body {
   text-rendering: optimizeLegibility;
-  line-height: 125%;
-  font-family: Lato, sans-serif;
-  text-align: center;
+  line-height: 185%;
+  font-family: 'PT Sans', sans-serif;
   display: flex;
   flex-wrap: wrap;
+}
+
+h1, h2, h3, h4, p, ul {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2 {
+  font-family: Menlo, monospace;
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p, li {
+  font-size: 16px;
 }
 
 header, aside {
@@ -24,12 +47,6 @@ header, aside {
   @media (max-width: 768px) {
     flex-basis: 100%;
   }
-
-  @media (max-width: 480px) {
-    p + p {
-      text-align: left;
-    }
-  }
 }
 
 header {
@@ -40,37 +57,46 @@ header {
     color: var(--bright-white);
   }
 
-  h1 {
-    font: bold 400% Alegreya, serif;
-    letter-spacing: -2px;
+  img[alt='a tasty waffle'] {
+    width: 191px;
   }
 
-  h2 {
-    font-weight: normal;
+  img[alt='waffle.js'] {
+    width: 270px;
+  }
+
+  p:last-child a {
+    font-family: Menlo, monospace;
+    text-decoration: none;
+    border: 3px solid var(--bright-white);
+    border-radius: 4px;
+    padding: 10px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  @media (max-width: 480px) {
+    p:last-child a {
+      width: 100%;
+      text-align: center;
+    }
   }
 }
 
 aside {
+  text-align: left;
   h1, h2, h3, a {
     color: var(--orange);
   }
 
-  p:first-child a {
-    text-decoration: none;
-    background: var(--orange);
-    color: var(--bright-white);
-    border-radius: 3px;
-    padding: 10px 20px;
-    margin-bottom: 2em;
-    display: inline-block;
-    text-transform: uppercase;
-    font-size: large;
+  ul {
+    padding-left: 0;
   }
 
   li {
     list-style-type: none;
     text-align: left;
-    max-width: 18em;
-    margin: 1em auto;
+    margin: 0.5em auto;
   }
 }
