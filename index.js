@@ -7,7 +7,10 @@ head.innerHTML = `
   <meta name="viewport" content="initial-scale=1" />
   <title>WaffleJS</title>
   <link rel="icon" type="image/png" href="favicon.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://wafflejs.com" />
   <meta property="og:title" content="WaffleJS" />
+  <meta property="og:site_name" content="WaffleJS" />
   <meta property="og:description" content="A fun meetup for people who like waffles and technology." />
   <meta property="og:image" content="social.png" />
 `;
