@@ -15,4 +15,4 @@ marked.setOptions({ smartypants: true });
 
 const pre = document.querySelector('pre');
 const src = marked(pre.innerHTML).split('<hr>');
-pre.outerHTML = `<header>${src[0]}</header><aside><div>${src[1]}</div></aside>`;
+pre.outerHTML = `<header><div>${src[0]}</div></header><aside><div>${src[1]}</div></aside>`;

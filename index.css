@@ -1,40 +1,19 @@
 :root {
   --orange: hsl(12, 99%, 67%);
-  --white: hsla(0, 0%, 100%, .8);
-  --bright-white: hsla(0, 0%, 100%, .9);
+  --white: hsla(0, 0%, 100%, .9);
 }
 
 body {
   text-rendering: optimizeLegibility;
-  line-height: 185%;
+  line-height: 175%;
   font-family: 'PT Sans', sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
 
-h1, h2, h3, h4, p, ul {
-  width: 100%;
-  max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 h1, h2 {
-  font-family: Menlo, monospace;
+  font-family: 'Roboto Mono', monospace;
   text-transform: uppercase;
-}
-
-h3, h4 {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: normal;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-p, li {
-  font-size: 16px;
 }
 
 header, aside {
@@ -43,6 +22,11 @@ header, aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+
+  > div {
+    max-width: 320px;
+  }
 
   flex-basis: 50%;
   @media (max-width: 768px) {
@@ -52,24 +36,20 @@ header, aside {
 
 header {
   background: var(--orange);
-  color: var(--white);
+  font-size: 18pt;
+  line-height: 175%;
 
-  h1, h2, h3, a {
-    color: var(--bright-white);
+  &, a {
+    color: var(--white);
   }
 
   img[alt='a tasty waffle'] {
     width: 191px;
   }
 
-  img[alt='waffle.js'] {
-    width: 270px;
-  }
-
   p:last-child a {
-    font-family: Menlo, monospace;
     text-decoration: none;
-    border: 3px solid var(--bright-white);
+    border: 3px solid var(--white);
     border-radius: 4px;
     padding: 10px 30px;
     display: inline-block;
@@ -79,18 +59,16 @@ header {
 }
 
 aside {
-  text-align: left;
-  h1, h2, h3, a {
+  h1, h2, a {
     color: var(--orange);
   }
 
   ul {
     padding-left: 0;
+    list-style-type: none;
   }
 
   li {
-    list-style-type: none;
-    text-align: left;
-    margin: 0.5em auto;
+    margin: 0.5em 0;
   }
 }
