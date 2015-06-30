@@ -5,7 +5,8 @@ const head = document.createElement('div');
 head.innerHTML = `
   <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="initial-scale=1" />
-  <title>waffle.js</title>
+  <title>WaffleJS</title>
+  <link rel="icon" type="image/png" href="favicon.png">
 `;
 while (head.childNodes.length)
   document.head.appendChild(head.childNodes[0]);

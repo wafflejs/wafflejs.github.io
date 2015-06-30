@@ -11,8 +11,8 @@ body {
   flex-wrap: wrap;
 }
 
-h1, h2 {
-  font-family: 'Menlo', monospace;
+h1, h2, .time {
+  font-family: 'Menlo', 'Roboto Mono', monospace;
   text-transform: uppercase;
 }
 
@@ -25,7 +25,7 @@ header, aside {
   align-items: center;
 
   > div {
-    max-width: 320px;
+    max-width: 380px;
   }
 
   flex-basis: 50%;
@@ -36,7 +36,7 @@ header, aside {
 
 header {
   background: var(--orange);
-  font-size: 16pt;
+  font-size: 20px;
   line-height: 175%;
 
   &, a {
@@ -61,6 +61,12 @@ header {
 aside {
   h1, h2, a {
     color: var(--orange);
+  }
+
+  strong {
+    font-family: 'Menlo', 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    font-weight: 300;
   }
 
   ul {
