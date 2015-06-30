@@ -63,6 +63,12 @@ aside {
     color: var(--orange);
   }
 
+  strong {
+    font-family: 'Menlo', 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
   ul {
     padding-left: 0;
     list-style-type: none;
