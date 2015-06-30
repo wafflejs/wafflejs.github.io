@@ -36,7 +36,7 @@ header, aside {
 
 header {
   background: var(--orange);
-  font-size: 18pt;
+  font-size: 16pt;
   line-height: 175%;
 
   &, a {
