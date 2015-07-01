@@ -1,0 +1,6 @@
+deployment:
+  github:
+    branch: master
+    commands:
+      - git commit -am "webpack"
+      - git push origin master
