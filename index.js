@@ -3,7 +3,7 @@ import css from './index.css';
 
 const head = document.createElement('div');
 head.innerHTML = `
-  <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans|Roboto+Mono:400,700' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="initial-scale=1" />
   <title>WaffleJS</title>
   <link rel="icon" type="image/png" href="favicon.png">
