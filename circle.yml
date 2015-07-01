@@ -2,5 +2,7 @@ deployment:
   github:
     branch: master
     commands:
+      - git config user.email "robot@circleci.com"
+      - git config user.name "CircleCI"
       - git commit -am "webpack"
       - git push origin master
