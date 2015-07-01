@@ -66,12 +66,13 @@ aside {
   strong {
     font-family: 'Menlo', 'Roboto Mono', monospace;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: normal;
+    color: gray;
   }
 
   em {
     font-style: normal;
-    margin-right: 9px;
+    margin: 0 1ex;
   }
 
   ul {
