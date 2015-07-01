@@ -7,17 +7,25 @@ class Person extends Thing {
   constructor(props) {
     super(props);
 
-    this.state.frame = 8;
-    this.state.direction = 'idle';
+    this.frame = 0;
+    this.state.frame = frameOffset.idle + this.frame;
 
     this.img.onload = (event) => {
-      this.setState({ size: new Vector(80, event.target.height) });
+      const width = props.width || 80;
+      this.setState({
+        size: new Vector(width, event.target.height),
+        idleFrames: (event.target.width - (width*8)) / width
+      });
       this.animate();
     };
   }
 
   animate() {
-    this.setState({ frame: this.state.frame === 8 ? 9 : 8 });
+    const frames = this.props.direction === 'idle' ? this.state.idleFrames : 2;
+    this.frame = (this.frame + 1) % frames;
+    this.setState({
+      frame: frameOffset[this.props.direction] + this.frame
+    });
     setTimeout(this.animate.bind(this), 400);
   }
 }

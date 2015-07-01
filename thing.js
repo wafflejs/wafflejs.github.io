@@ -26,7 +26,7 @@ class Thing extends React.Component {
     let transform = `translate(${offset})`;
     return {
       background: `url(${this.img.src})`,
-      backgroundPosition: `-${this.state.frame * 80}px 0px`,
+      backgroundPosition: `-${this.state.frame * this.state.size.x}px 0px`,
       position: 'absolute',
       left: this.state.pos.x,
       top: this.state.pos.y,
@@ -43,6 +43,7 @@ class Thing extends React.Component {
   animate() { }
 
   render() {
+    this.state.pos = new Vector(this.props);
     let classes = cx('thing', this.props.name);
 
     return (

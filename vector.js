@@ -1,7 +1,7 @@
 export default class Vector {
   constructor(x, y) {
     if (typeof(x) === 'undefined') return
-    if (typeof(x) === 'number') {
+    if (typeof(x) === 'number' || typeof(x) === 'string') {
       this.x = x || 0;
       this.y = y || 0;
     } else if (0 in x) {
@@ -10,6 +10,9 @@ export default class Vector {
     } else if ('left' in x) {
       this.x = x.left;
       this.y = x.top;
+    } else if ('pageX' in x) {
+      this.x = x.pageX;
+      this.y = x.pageY;
     } else {
       this.x = x.x;
       this.y = x.y;
@@ -39,7 +42,7 @@ export default class Vector {
     return this.x + 'px, ' + this.y + 'px';
   }
 
-  cardinalDirection() {
+  get cardinalDirection() {
     if (Math.abs(this.x) > Math.abs(this.y))
       return this.x < 0 ? 'w' : 'e';
     else
