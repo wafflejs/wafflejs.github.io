@@ -4,9 +4,8 @@
   "description": "A fun-centric JSish meetup in the Bay Area.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --hot --inline",
-    "webpack": "webpack -p"
+    "test": "webpack -p",
+    "start": "webpack-dev-server --hot --inline"
   },
   "repository": {
     "type": "git",
