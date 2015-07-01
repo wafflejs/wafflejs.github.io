@@ -1,3 +1,4 @@
+import heap from './heap';
 import normalize from 'normalize.css';
 import css from './index.css';
 
