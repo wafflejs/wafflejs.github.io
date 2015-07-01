@@ -52,6 +52,7 @@ header {
     border: 3px solid var(--white);
     border-radius: 4px;
     padding: 10px 30px;
+    margin: 1em 0;
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
