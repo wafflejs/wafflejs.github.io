@@ -14,6 +14,6 @@ while (head.childNodes.length)
 import marked from 'marked';
 marked.setOptions({ smartypants: true });
 
-const pre = document.querySelector('pre');
-const src = marked(pre.innerHTML).split('<hr>');
-pre.outerHTML = `<header><div>${src[0]}</div></header><aside><div>${src[1]}</div></aside>`;
+const content = document.querySelector('noscript');
+const src = marked(content.innerHTML).split('<hr>');
+content.outerHTML = `<header><div>${src[0]}</div></header><aside><div>${src[1]}</div></aside>`;
