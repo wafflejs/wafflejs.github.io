@@ -11,8 +11,8 @@ body {
   flex-wrap: wrap;
 }
 
-h1, h2, .time {
-  font-family: 'Menlo', 'Roboto Mono', monospace;
+h1, h2 {
+  font-family: 'Roboto Mono', 'Menlo', monospace;
   text-transform: uppercase;
 }
 
