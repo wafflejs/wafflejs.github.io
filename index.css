@@ -65,27 +65,35 @@ aside {
   }
 
   strong {
-    text-transform: uppercase;
     font-weight: normal;
     color: gray;
   }
 
   em {
     font-style: normal;
-    margin: 0 1ex;
-  }
-  
-  br + em {
     color: gray;
-    margin-left: 96px;
+  }
+
+  em:nth-child(2) {
+    margin: 0 1ex;
+    display: inline-block;
+    width: 22px;
   }
 
   ul {
     padding-left: 0;
     list-style-type: none;
+
+    li {
+      margin: 1em 0;
+    }
   }
 
-  li {
-    margin: 1em 0;
+  ul ul {
+    margin-left: 6.4em;
+
+    li {
+      margin: 0;
+    }
   }
 }
