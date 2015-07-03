@@ -72,12 +72,12 @@ aside {
   em {
     font-style: normal;
     color: gray;
-  }
 
-  em:nth-child(2) {
-    margin: 0 1ex;
-    display: inline-block;
-    width: 22px;
+    &:nth-child(2) {
+      margin: 0 1ex;
+      display: inline-block;
+      width: 22px;
+    }
   }
 
   ul {
@@ -87,13 +87,13 @@ aside {
     li {
       margin: 1em 0;
     }
-  }
 
-  ul ul {
-    margin-left: 6.4em;
+    ul {
+      margin-left: 6.4em;
 
-    li {
-      margin: 0;
+      li {
+        margin: 0;
+      }
     }
   }
 }
