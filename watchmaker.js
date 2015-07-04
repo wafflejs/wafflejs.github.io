@@ -2,29 +2,39 @@ import React from 'react';
 import Vector from './vector';
 import Thing from './thing';
 import Person from './person';
+import { easingTypes, Mixin } from 'react-tween-state';
 
 const Watchmaker = React.createClass({
-  mixins: [ require('react-tween-state').Mixin ],
+  mixins: [ Mixin ],
   
   getInitialState() {
-    return { x: 400, y: 540, direction: 'idle' };
+    return { x: 0, y: 2520, direction: 'idle' };
   },
-  
+
+  componentDidMount() {
+    window.addEventListener('click', this.onClick);
+  },
+
+  componentWillUnmount() {
+    window.removeEventListener('click', this.onClick);
+  },
+
   onClick(e) {
-    const delta = (new Vector(e.nativeEvent)).minus(new Vector(this.state));
+    const delta = (new Vector(e)).minus(new Vector(this.state));
+    const duration = delta.length * 8;
     this.state.direction = delta.cardinalDirection;
-    this.tweenState('x', { duration: delta.length * 10, endValue: e.nativeEvent.pageX, onEnd: () => { this.state.direction = 'idle' } });
-    this.tweenState('y', { duration: delta.length * 10, endValue: e.nativeEvent.pageY });
+    this.tweenState('x', { endValue: e.pageX, duration: duration, easing: easingTypes.linear, onEnd: () => { this.state.direction = 'idle' } });
+    this.tweenState('y', { endValue: e.pageY, duration: duration, easing: easingTypes.linear });
   },
-  
+
   render() {
     let x = this.getTweeningValue('x');
     let y = this.getTweeningValue('y');
     return (
-      <div className="watchmaker" onClick={this.onClick}>
-        <Thing name="livetree" x="20" y="1800" />
-        <Thing name="deadtree" x="90" y="1680" />
-        <Thing name="livetree" x="60" y="2000" />
+      <div className="watchmaker">
+        <Thing name="livetree" x="70" y="2600" />
+        <Thing name="deadtree" x="140" y="2480" />
+        <Thing name="livetree" x="110" y="2800" />
         <Person name="iceking" x={x} y={y} direction={this.state.direction} width="196" />
       </div>
     );

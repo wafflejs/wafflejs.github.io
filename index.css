@@ -33,7 +33,7 @@ h1, h2 {
 
 header, aside {
   box-sizing: border-box;
-  padding: 2rem 20px;
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,7 +44,7 @@ header, aside {
 
   > div {
     max-width: 380px;
-    position: relative;
+    padding: 0 20px;
     z-index: 10000;
   }
 
@@ -176,4 +176,8 @@ aside {
       }
     }
   }
+}
+
+.watchmaker {
+  z-index: 0;
 }
