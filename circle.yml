@@ -4,5 +4,4 @@ deployment:
     commands:
       - git config user.email "robot@circleci.com"
       - git config user.name "CircleCI"
-      - git commit -am "webpack"
-      - git push origin master
+      - git commit -am "webpack" && git push origin master
