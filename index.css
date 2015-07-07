@@ -23,6 +23,7 @@ header, aside {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
 
   > div {
     max-width: 380px;
@@ -31,6 +32,7 @@ header, aside {
   flex-basis: 50%;
   @media (max-width: 768px) {
     flex-basis: 100%;
+    width: 100%;
   }
 }
 
@@ -38,6 +40,8 @@ header {
   background: var(--orange);
   font-size: 20px;
   line-height: 175%;
+  position: fixed;
+  height: 100vh;
 
   &, a {
     color: var(--white);
@@ -57,11 +61,24 @@ header {
     text-transform: uppercase;
     font-weight: bold;
   }
+
+  @media (max-width: 768px) {
+    position: initial;
+    height: auto;
+    flex-basis: 100%;
+    width: 100%;
+  }
 }
 
 aside {
+  width: 50%;
+  margin-left: 50%;
   h1, h2, a {
     color: var(--orange);
+  }
+
+  h2 {
+    margin-top: 60px;
   }
 
   strong {
@@ -80,6 +97,10 @@ aside {
     }
   }
 
+  strong {
+    margin: 0 0.8ex 0 0.2ex;
+  }
+
   ul {
     padding-left: 0;
     list-style-type: none;
@@ -95,5 +116,9 @@ aside {
         margin: 0;
       }
     }
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 0;
   }
 }
