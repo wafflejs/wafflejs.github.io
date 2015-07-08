@@ -55,7 +55,7 @@ header {
     text-decoration: none;
     border: 3px solid var(--white);
     border-radius: 4px;
-    padding: 10px 30px 6px;
+    padding: 10px 30px;
     margin: 1em 0;
     display: inline-block;
     text-transform: uppercase;
