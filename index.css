@@ -115,6 +115,7 @@ aside {
 
     @media (max-width: 375px) {
       &:first-child {
+        padding-top: 2px;
         font-size: 14px;
       }
     }
