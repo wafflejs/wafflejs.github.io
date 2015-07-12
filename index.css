@@ -89,16 +89,44 @@ aside {
   em {
     font-style: normal;
     color: gray;
+    font-size: 14px;
+
+    &:first-child {
+      width: 32px;
+      height: 32px;
+      border: 2px solid #D8D8D8;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+      box-sizing: border-box;
+      padding-top: 4px;
+      background-color: #fff;
+      font-size: 16px;
+    }
 
     &:nth-child(2) {
-      margin: 0 1ex;
+      margin: 0 16px;
+      margin-top: -10px;
+      padding-top: 0;
       display: inline-block;
-      width: 22px;
     }
   }
 
   strong {
-    margin: 0 0.8ex 0 0.2ex;
+    border-left: 2px solid #D8D8D8;
+    position: absolute;
+    content: '';
+    font-size: 0;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 925px;
+    z-index: -1;
+  }
+
+  @media (max-width: 320px) {
+    strong {
+      height: 960px;
+    }
   }
 
   ul {
@@ -106,11 +134,11 @@ aside {
     list-style-type: none;
 
     li {
-      margin: 1em 0;
+      margin: 2em 0;
     }
 
     ul {
-      margin-left: 6.4em;
+      margin-left: 52px;
 
       li {
         margin: 0;
