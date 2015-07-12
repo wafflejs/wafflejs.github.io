@@ -113,6 +113,12 @@ aside {
       font-size: 16px;
     }
 
+    @media (max-width: 375px) {
+      &:first-child {
+        font-size: 14px;
+      }
+    }
+
     &:nth-child(2) {
         margin: 0 52px;
         margin-top: -34px;
