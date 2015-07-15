@@ -1,6 +1,8 @@
 :root {
   --orange: hsl(12, 99%, 67%);
   --white: hsla(0, 0%, 100%, .9);
+  --dark-text: hsl(12, 7%, 8%);
+  --gray-text: hsl(12, 2%, 40%);
 }
 
 body {
@@ -24,6 +26,8 @@ header, aside {
   justify-content: center;
   align-items: center;
   width: 50%;
+  color: var(--dark-text);
+  color: var(--gray-text);
 
   > div {
     max-width: 380px;
@@ -92,12 +96,12 @@ aside {
 
   strong {
     font-weight: normal;
-    color: gray;
+    color: var(--gray-text);
   }
 
   em {
     font-style: normal;
-    color: gray;
+    color: var(--gray-text);
 
     &:first-child {
       width: 32px;
@@ -130,7 +134,7 @@ aside {
     font-size: 0;
     margin-left: 15px;
     margin-top: 40px;
-    height: 1232px;
+    height: 1193px;
     z-index: -1;
   }
 
@@ -140,14 +144,16 @@ aside {
 
     li {
       margin: 3.2em 0;
-      color: black;
-      font-weight: 700;
+      color: var(--dark-text);
+      font-family: 'Roboto Mono', 'Menlo', monospace;
+      font-size: 14px;
     }
 
     li:nth-child(2) {
+      color: var(--gray-text);
       margin-top: 4px;
-      color: gray;
-      font-weight: 400;
+      font-size: 16px;
+      font-family: 'PT Sans', sans-serif;
     }
 
     ul {
@@ -161,13 +167,12 @@ aside {
 
   @media (max-width: 375px) {
     strong {
-      height: 1250px;
+      height: 1211px;
     }
 
     em {
       &:nth-child(2) {
         font-family: 'Roboto Mono', 'Menlo', monospace;
-        font-weight: 400;
         font-size: 12px;
         text-transform: uppercase;
         margin: 0 44px;
