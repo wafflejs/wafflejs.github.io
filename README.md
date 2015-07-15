@@ -1,7 +1,7 @@
 ![a tasty waffle](waffle.png)
 
-![waffle.js](logotype.svg)
-==========================
+WaffleJS
+========
 
 A fun night of tech, waffles, and karaoke.
 
