@@ -98,7 +98,6 @@ aside {
   em {
     font-style: normal;
     color: gray;
-    
 
     &:first-child {
       width: 32px;
@@ -131,7 +130,7 @@ aside {
     font-size: 0;
     margin-left: 15px;
     margin-top: 40px;
-    height: 1030px;
+    height: 1240px;
     z-index: -1;
   }
 
@@ -141,6 +140,14 @@ aside {
 
     li {
       margin: 3.2em 0;
+      color: black;
+      font-weight: 700;
+    }
+
+    li:nth-child(2) {
+      margin-top: 4px;
+      color: gray;
+      font-weight: 400;
     }
 
     ul {
@@ -154,13 +161,13 @@ aside {
 
   @media (max-width: 375px) {
     strong {
-      height: 1072px;
+      height: 1250px;
     }
 
     em {
       &:nth-child(2) {
         font-family: 'Roboto Mono', 'Menlo', monospace;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 12px;
         text-transform: uppercase;
         margin: 0 44px;
