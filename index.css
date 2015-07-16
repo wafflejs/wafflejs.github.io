@@ -86,110 +86,79 @@ header {
 aside {
   width: 50%;
   margin-left: 50%;
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+  }
+
   h1, h2, a {
     color: var(--orange);
   }
 
   h2 {
-    margin-top: 60px;
-  }
-
-  strong {
-    font-weight: normal;
-    color: var(--gray-text);
-  }
-
-  em {
-    font-style: normal;
-    color: var(--gray-text);
-
-    &:first-child {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      display: inline-block;
-      text-align: center;
-      box-sizing: border-box;
-      padding-top: 4px;
-      background-color: #fff;
-      font-size: 16px;
-    }
-
-    &:nth-child(2) {
-      font-family: 'Roboto Mono', 'Menlo', monospace;
-      font-weight: 300;
-      font-size: 12px;
-      text-transform: uppercase;
-      margin: 0 52px;
-      margin-top: -31px;
-      padding-top: 0;
-      display: block;
-    }
-  }
-
-  strong {
-    border-left: 2px solid #EFEFEF;
-    position: absolute;
-    content: '';
-    font-size: 0;
-    margin-left: 15px;
-    margin-top: 40px;
-    height: 1193px;
-    z-index: -1;
+    margin-top: 2em;
   }
 
   ul {
-    padding-left: 0;
     list-style-type: none;
+  }
 
-    li {
-      margin: 3.2em 0;
+  > div > ul {
+    position: relative;
+    padding-left: 0;
+
+    &::before { /* line */
+      content: '';
+      border-left: 2px solid #EFEFEF;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 10px;
+      z-index: -1;
+    }
+
+    > li {
+      margin: 3em 0;
       color: var(--dark-text);
       font-family: 'Roboto Mono', 'Menlo', monospace;
       font-size: 14px;
-    }
 
-    li:nth-child(2) {
-      color: var(--gray-text);
-      margin-top: 4px;
-      font-size: 16px;
-      font-family: 'PT Sans', sans-serif;
-    }
+      &:last-child {
+        background-color: white;
+      }
 
-    ul {
-      margin-left: 52px;
+      em {
+        font-style: normal;
+        color: var(--gray-text);
 
-      li {
-        margin: 0;
+        &:first-child { /* emoji */
+          font: 16px/16px Helvetica;
+          width: 20px;
+          height: 20px;
+          padding: 8px 0 0;
+          display: inline-block;
+          background-color: white;
+        }
+
+        &:nth-child(2) {
+          font-weight: 300;
+          font-size: 12px;
+          text-transform: uppercase;
+          margin-left: 12px;
+        }
+      }
+
+      > ul {
+        li {
+          margin: .25em 0;
+        }
+
+        li:nth-child(2) {
+          color: var(--gray-text);
+          font-size: 16px;
+          font-family: 'PT Sans', sans-serif;
+        }
       }
     }
-  }
-
-  @media (max-width: 375px) {
-    strong {
-      height: 1211px;
-    }
-
-    em {
-      &:nth-child(2) {
-        font-family: 'Roboto Mono', 'Menlo', monospace;
-        font-size: 12px;
-        text-transform: uppercase;
-        margin: 0 44px;
-        margin-top: -31px;
-        padding-top: 0;
-        display: block;
-      }
-    }
-
-    ul {
-      ul {
-        margin-left: 44px;
-      }
-    }
-  }
-
-  @media (max-width: 768px) {
-    margin-left: 0;
   }
 }
