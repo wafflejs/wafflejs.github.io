@@ -8,8 +8,7 @@ class Thing extends React.Component {
 
     this.state = {
       pos: new Vector(props),
-      size: new Vector(props.size/2),
-      frame: 0
+      size: new Vector(props.size/2)
     };
 
     this.img = new Image();
@@ -17,10 +16,7 @@ class Thing extends React.Component {
     this.img.onload = (event) => {
       let img = event.target;
       this.setState({ size: new Vector(img.width/2, img.height/2) });
-      this.animate();
     };
-
-    this.animate = this.animate.bind(this);
   }
 
   get styles() {
@@ -28,7 +24,6 @@ class Thing extends React.Component {
     let transform = `translate(${offset})`;
     return {
       background: `url(${this.img.src})`,
-      backgroundPosition: `-${this.state.frame * this.state.size.x}px 0px`,
       backgroundSize: 'auto 100%',
       position: 'absolute',
       left: this.state.pos.x,
@@ -42,8 +37,6 @@ class Thing extends React.Component {
       transform: transform,
     };
   }
-
-  animate() { }
 
   render() {
     this.state.pos = new Vector(this.props);

@@ -1,5 +1,6 @@
 import Vector from './vector'
 import Thing from './thing'
+import { merge } from 'lodash';
 
 const frameOffset = { w: 0, e: 2, s: 4, n: 6, idle: 8 };
 
@@ -7,8 +8,7 @@ class Person extends Thing {
   constructor(props) {
     super(props);
 
-    this.frame = 0;
-    this.state.frame = frameOffset.idle + this.frame;
+    this.state.frame = 0;
 
     this.img.onload = (event) => {
       const width = props.width || 80;
@@ -18,14 +18,23 @@ class Person extends Thing {
       });
       this.animate();
     };
+
+    this.animate = this.animate.bind(this);
+  }
+
+  get frames() {
+    return this.props.direction === 'idle' ? this.state.idleFrames : 2;
+  }
+
+  get styles() {
+    const frame = frameOffset[this.props.direction] + (this.state.frame % this.frames);
+    return merge(super.styles, {
+      backgroundPosition: `-${frame * this.state.size.x}px 0`,
+    });
   }
 
   animate() {
-    const frames = this.props.direction === 'idle' ? this.state.idleFrames : 2;
-    this.frame = (this.frame + 1) % frames;
-    this.setState({
-      frame: frameOffset[this.props.direction] + this.frame
-    });
+    this.setState({ frame: (this.state.frame + 1) % this.frames });
     setTimeout(this.animate, 400);
   }
 }
