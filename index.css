@@ -2,12 +2,6 @@
   --orange: hsl(12, 99%, 67%);
 }
 
-html {
-  @media (min-width: 769px) {
-    background: linear-gradient(90deg, var(--orange) 50%, white 50%);
-  }
-}
-
 html, body, main, .markdown {
   height: 100%;
 }

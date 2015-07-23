@@ -1,5 +1,6 @@
 :root {
   --orange: hsl(12, 99%, 67%);
+  --gray: hsl(0, 0%, 96%);
   --white: hsla(0, 0%, 100%, .9);
   --dark-text: hsl(12, 7%, 8%);
   --gray-text: hsl(12, 2%, 40%);
@@ -39,6 +40,7 @@ header {
   font-size: 20px;
   line-height: 175%;
   position: fixed;
+  z-index: 1;
   height: 100vh;
 
   &, a {
@@ -97,19 +99,12 @@ aside {
     list-style-type: none;
   }
 
-  > div > ul {
-    position: relative;
-    padding-left: 0;
+  > div {
+    background-color: var(--white);
+  }
 
-    &::before { /* line */
-      content: '';
-      border-left: 2px solid #EFEFEF;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 10px;
-      z-index: -1;
-    }
+  > div > ul {
+    padding-left: 0;
 
     > li {
       margin: 3em 0;
@@ -117,8 +112,19 @@ aside {
       font-family: 'Roboto Mono', 'Menlo', monospace;
       font-size: 14px;
 
-      &:last-child {
-        background-color: white;
+      /* line */
+      position: relative;
+      &::before {
+        content: '';
+        border-left: 2px solid var(--gray);
+        position: absolute;
+        top: 26px;
+        bottom: calc(-3em + 6px);
+        left: 10px;
+        z-index: -1;
+      }
+      &:last-child::before {
+        border-left: none;
       }
 
       em {
@@ -126,12 +132,10 @@ aside {
         color: var(--gray-text);
 
         &:first-child { /* emoji */
-          font: 16px/16px Helvetica;
+          font: 16px/16px sans-serif;
           width: 20px;
           height: 20px;
-          padding: 8px 0 0;
           display: inline-block;
-          background-color: white;
         }
 
         &:nth-child(2) {

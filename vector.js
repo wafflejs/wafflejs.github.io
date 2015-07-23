@@ -13,6 +13,9 @@ export default class Vector {
     } else if ('pageX' in x) {
       this.x = x.pageX;
       this.y = x.pageY;
+    } else if ('offsetLeft' in x) {
+      this.x = x.offsetLeft;
+      this.y = x.offsetTop;
     } else {
       this.x = x.x;
       this.y = x.y;
