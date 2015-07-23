@@ -13,7 +13,7 @@ class Person extends Thing {
     this.img.onload = (event) => {
       const width = props.width || 80;
       this.setState({
-        size: new Vector(width, event.target.height),
+        size: new Vector(width/2, event.target.height/2),
         idleFrames: (event.target.width - (width*8)) / width
       });
       this.animate();

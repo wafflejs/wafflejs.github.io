@@ -23,7 +23,7 @@ const Watchmaker = React.createClass({
   mixins: [ Mixin ],
   
   getInitialState() {
-    return { x: -80, y: 420, direction: 'idle', name: sample(names) };
+    return { x: -40, y: 210, direction: 'idle', name: sample(names) };
   },
 
   componentDidMount() {
@@ -40,7 +40,7 @@ const Watchmaker = React.createClass({
     const origin = new Vector(this.getDOMNode());
     const destination = new Vector(e).minus(origin);
     const delta = destination.minus(new Vector(this.state));
-    const duration = delta.length * 8;
+    const duration = delta.length * 16;
     this.state.direction = delta.cardinalDirection;
     this.tweenState('x', {
       endValue: destination.x,
@@ -63,9 +63,9 @@ const Watchmaker = React.createClass({
     let y = this.getTweeningValue('y');
     return (
       <div className="watchmaker">
-        <Thing name="deadtree" x="120" y="480" />
-        <Thing name="livetree" x="50" y="600" />
-        <Thing name="livetree" x="90" y="800" />
+        <Thing name="deadtree" x="60" y="240" />
+        <Thing name="livetree" x="25" y="300" />
+        <Thing name="livetree" x="45" y="400" />
         <Person name={this.state.name} x={x} y={y} direction={this.state.direction} width="196" />
       </div>
     );

@@ -8,7 +8,7 @@ class Thing extends React.Component {
 
     this.state = {
       pos: new Vector(props),
-      size: new Vector(props.size),
+      size: new Vector(props.size/2),
       frame: 0
     };
 
@@ -16,7 +16,7 @@ class Thing extends React.Component {
     this.img.src = `/images/${props.name}.png`;
     this.img.onload = (event) => {
       let img = event.target;
-      this.setState({ size: new Vector(img.width, img.height) });
+      this.setState({ size: new Vector(img.width/2, img.height/2) });
       this.animate();
     };
   }
@@ -27,6 +27,7 @@ class Thing extends React.Component {
     return {
       background: `url(${this.img.src})`,
       backgroundPosition: `-${this.state.frame * this.state.size.x}px 0px`,
+      backgroundSize: 'auto 100%',
       position: 'absolute',
       left: this.state.pos.x,
       top: this.state.pos.y,
