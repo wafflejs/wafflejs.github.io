@@ -1,5 +1,6 @@
 import React from 'react';
 import { easingTypes, Mixin } from 'react-tween-state';
+import { sample } from 'lodash';
 
 import Vector from './vector';
 import Thing from './thing';
@@ -7,11 +8,22 @@ import Person from './person';
 
 import css from './watchmaker.css';
 
+const names = [
+  'bmo',
+  'bubblegum',
+  'finn',
+  'gunter',
+  'iceking',
+  'jake',
+  'lsp',
+  'marceline',
+];
+
 const Watchmaker = React.createClass({
   mixins: [ Mixin ],
   
   getInitialState() {
-    return { x: 0, y: 520, direction: 'idle' };
+    return { x: -100, y: 420, direction: 'idle', name: sample(names) };
   },
 
   componentDidMount() {
@@ -32,7 +44,10 @@ const Watchmaker = React.createClass({
       endValue: destination.x,
       duration: duration,
       easing: easingTypes.linear,
-      onEnd: () => this.state.direction = 'idle'
+      onEnd: () => {
+        if (this.state.tweenQueue.length === 2)
+          this.state.direction = 'idle'
+      }
     });
     this.tweenState('y', {
       endValue: destination.y,
@@ -49,7 +64,7 @@ const Watchmaker = React.createClass({
         <Thing name="livetree" x="70" y="600" />
         <Thing name="deadtree" x="140" y="480" />
         <Thing name="livetree" x="110" y="800" />
-        <Person name="iceking" x={x} y={y} direction={this.state.direction} width="196" />
+        <Person name={this.state.name} x={x} y={y} direction={this.state.direction} width="196" />
       </div>
     );
   }
