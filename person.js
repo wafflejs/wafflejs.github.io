@@ -26,7 +26,7 @@ class Person extends Thing {
     this.setState({
       frame: frameOffset[this.props.direction] + this.frame
     });
-    setTimeout(this.animate.bind(this), 400);
+    setTimeout(this.animate, 400);
   }
 }
 

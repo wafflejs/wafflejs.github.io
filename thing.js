@@ -19,6 +19,8 @@ class Thing extends React.Component {
       this.setState({ size: new Vector(img.width/2, img.height/2) });
       this.animate();
     };
+
+    this.animate = this.animate.bind(this);
   }
 
   get styles() {

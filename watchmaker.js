@@ -1,6 +1,6 @@
 import React from 'react';
-import { easingTypes, Mixin } from 'react-tween-state';
-import { sample } from 'lodash';
+import { easingTypes, stackBehavior, Mixin } from 'react-tween-state';
+import { sample, merge } from 'lodash';
 
 import Vector from './vector';
 import Thing from './thing';
@@ -37,25 +37,29 @@ const Watchmaker = React.createClass({
   },
 
   onClick(e) {
-    const origin = new Vector(this.getDOMNode());
-    const destination = new Vector(e).minus(origin);
-    const delta = destination.minus(new Vector(this.state));
-    const duration = delta.length * 16;
-    this.state.direction = delta.cardinalDirection;
-    this.tweenState('x', {
-      endValue: destination.x,
+    const destination = new Vector(e).minus(new Vector(this.getDOMNode()));
+    const current = new Vector(this.getTweeningValue('x'),
+                               this.getTweeningValue('y'));
+    const delta = destination.minus(current);
+    const duration = delta.length * 10;
+    const options = {
       duration: duration,
       easing: easingTypes.linear,
+      stackBehavior: stackBehavior.DESTRUCTIVE,
       onEnd: () => {
         if (this.state.tweenQueue.length === 2)
           this.state.direction = 'idle'
       }
-    });
-    this.tweenState('y', {
+    }
+    this.state.direction = delta.cardinalDirection;
+    this.tweenState('x', merge({
+      beginValue: this.getTweeningValue('x'),
+      endValue: destination.x,
+    }, options));
+    this.tweenState('y', merge({
+      beginValue: this.getTweeningValue('y'),
       endValue: destination.y,
-      duration: duration,
-      easing: easingTypes.linear,
-    });
+    }, options));
   },
 
   render() {
