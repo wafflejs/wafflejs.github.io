@@ -23,15 +23,17 @@ const Watchmaker = React.createClass({
   mixins: [ Mixin ],
   
   getInitialState() {
-    return { x: -100, y: 420, direction: 'idle', name: sample(names) };
+    return { x: -80, y: 420, direction: 'idle', name: sample(names) };
   },
 
   componentDidMount() {
     window.addEventListener('click', this.onClick);
+    window.addEventListener('touchend', this.onClick);
   },
 
   componentWillUnmount() {
     window.removeEventListener('click', this.onClick);
+    window.removeEventListener('touchend', this.onClick);
   },
 
   onClick(e) {
@@ -61,9 +63,9 @@ const Watchmaker = React.createClass({
     let y = this.getTweeningValue('y');
     return (
       <div className="watchmaker">
-        <Thing name="livetree" x="70" y="600" />
-        <Thing name="deadtree" x="140" y="480" />
-        <Thing name="livetree" x="110" y="800" />
+        <Thing name="deadtree" x="120" y="480" />
+        <Thing name="livetree" x="50" y="600" />
+        <Thing name="livetree" x="90" y="800" />
         <Person name={this.state.name} x={x} y={y} direction={this.state.direction} width="196" />
       </div>
     );

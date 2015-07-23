@@ -19,7 +19,6 @@ header, aside {
   justify-content: center;
   align-items: center;
   width: 50%;
-  color: var(--dark-text);
   color: var(--gray-text);
 
   > div {

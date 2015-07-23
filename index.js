@@ -5,7 +5,7 @@ import css from './index.css';
 const head = document.createElement('div');
 head.innerHTML = `
   <link href="http://fonts.googleapis.com/css?family=Roboto+Mono:500|PT+Sans" rel="stylesheet" type="text/css">
-  <meta name="viewport" content="initial-scale=1" />
+  <meta name="viewport" content="initial-scale=1,user-scalable=no" />
   <title>WaffleJS</title>
 `;
 while (head.childNodes.length)
