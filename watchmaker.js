@@ -3,6 +3,7 @@ import Vector from './vector';
 import Thing from './thing';
 import Person from './person';
 import { easingTypes, Mixin } from 'react-tween-state';
+import css from './watchmaker.css';
 
 const Watchmaker = React.createClass({
   mixins: [ Mixin ],

@@ -13,12 +13,10 @@ while (head.childNodes.length)
 
 import React from 'react';
 import Markdown from './markdown';
-import Watchmaker from './watchmaker';
 
 React.render(
   <main>
     <Markdown>{document.querySelector('noscript').innerHTML}</Markdown>
-    <Watchmaker />
   </main>,
   document.body
 );
