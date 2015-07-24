@@ -63,7 +63,7 @@ const Watchmaker = React.createClass({
         });
         break;
       case 'move':
-        this.move(message.clientId, message.event);
+        this.move(message.clientId, message.destination);
         break;
       default:
         console.log('unknown message type', message);
@@ -76,7 +76,7 @@ const Watchmaker = React.createClass({
       message: {
         type: 'move',
         clientId: this.state.channel.clientId,
-        event: { x: e.pageX, y: e.pageY },
+        destination: new Vector(e).minus(new Vector(this.getDOMNode())),
       }
     });
   },
@@ -109,8 +109,8 @@ const Watchmaker = React.createClass({
     this.sweepTimeout = setTimeout(this.sweep, 5000);
   },
 
-  move(id, pos) {
-    const destination = new Vector(pos).minus(new Vector(this.getDOMNode()));
+  move(id, destination) {
+    destination = new Vector(destination);
     const current = new Vector(this.getTweeningValue(['people', id, 'x']),
                                this.getTweeningValue(['people', id, 'y']));
     const delta = destination.minus(current);
