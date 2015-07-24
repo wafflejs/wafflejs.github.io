@@ -91,13 +91,13 @@ const Watchmaker = React.createClass({
         person: merge({
           name: sample(names),
           direction: 'idle',
-          x: Math.random() * 300,
-          y: Math.random() * 300,
+          x: Math.random() * 200,
+          y: Math.random() * 200,
         }, this.state.people[clientId])
       }
     });
 
-    this.announceTimeout = setTimeout(this.announce, 5000 + Math.random() * 2500);
+    this.announceTimeout = setTimeout(this.announce, 5000 + Math.random() * 2000);
   },
 
   sweep() {
@@ -141,8 +141,10 @@ const Watchmaker = React.createClass({
         {map(this.state.people, (person, id) => {
           let x = this.getTweeningValue(['people', id, 'x']);
           let y = this.getTweeningValue(['people', id, 'y']);
-          let direction = x === person.x && y === person.y ? 'idle' : person.direction
-          return <Person key={id} name={person.name} x={x} y={y} direction={direction} width="196" />
+          let direction = x === person.x && y === person.y ?
+            'idle' : person.direction
+          return <Person key={id} name={person.name} x={x} y={y}
+                         direction={direction} width="196" />
         })}
       </div>
     );
