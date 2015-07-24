@@ -22,6 +22,10 @@ class Person extends Thing {
     this.animate = this.animate.bind(this);
   }
 
+  componentWillUnmount() {
+    clearTimeout(this.animateTimeout);
+  }
+
   get frames() {
     return this.props.direction === 'idle' ? this.state.idleFrames : 2;
   }
@@ -35,7 +39,7 @@ class Person extends Thing {
 
   animate() {
     this.setState({ frame: (this.state.frame + 1) % this.frames });
-    setTimeout(this.animate, 400);
+    this.animateTimeout = setTimeout(this.animate, 400);
   }
 }
 
