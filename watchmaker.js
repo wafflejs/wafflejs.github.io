@@ -92,7 +92,7 @@ const Watchmaker = React.createClass({
         person: merge({
           name: sample(names),
           direction: 'idle',
-          x: Math.random() * 150,
+          x: Math.random() * 300,
           y: Math.random() * 300,
         }, this.state.people[clientId])
       }
