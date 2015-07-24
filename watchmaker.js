@@ -71,11 +71,12 @@ const Watchmaker = React.createClass({
   },
 
   onClick(e) {
+    const clientId = this.state.channel.clientId;
     this.state.channel.publish({
       room: 'watchmaker',
       message: {
         type: 'move',
-        clientId: this.state.channel.clientId,
+        clientId: clientId,
         destination: new Vector(e).minus(new Vector(this.getDOMNode())),
       }
     });
@@ -91,8 +92,8 @@ const Watchmaker = React.createClass({
         person: merge({
           name: sample(names),
           direction: 'idle',
-          x: Math.random() * 200,
-          y: Math.random() * 200,
+          x: Math.random() * 150,
+          y: Math.random() * 300,
         }, this.state.people[clientId])
       }
     });
