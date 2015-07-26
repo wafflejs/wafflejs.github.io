@@ -19,6 +19,10 @@ class Thing extends React.Component {
     };
   }
 
+  componentWillReceiveProps(nextProps) {
+    this.setState({ pos: new Vector(nextProps) });
+  }
+
   get styles() {
     let offset = new Vector(-this.state.size.x/2, -this.state.size.y+20);
     let transform = `translate(${offset})`;
@@ -39,7 +43,6 @@ class Thing extends React.Component {
   }
 
   render() {
-    this.state.pos = new Vector(this.props);
     let classes = cx('thing', this.props.name);
 
     return (
