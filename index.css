@@ -2,7 +2,7 @@
   --orange: hsl(12, 99%, 67%);
 }
 
-html, body, main, .markdown {
+html, body, .markdown {
   height: 100%;
 }
 

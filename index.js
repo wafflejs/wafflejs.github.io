@@ -16,10 +16,8 @@ import Markdown from './markdown';
 import Watchmaker from './watchmaker';
 
 React.render(
-  <main>
-    <Markdown src={document.querySelector('noscript').innerHTML}>
-      <Watchmaker />
-    </Markdown>
-  </main>,
+  <Markdown src={document.querySelector('noscript').innerHTML}>
+    <Watchmaker />
+  </Markdown>,
   document.body
 );
