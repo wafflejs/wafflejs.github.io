@@ -64,16 +64,16 @@ header {
     margin: 1em 0;
     display: inline-block;
     text-transform: uppercase;
-    font-weight: bold;
-  }
-
-  em {
-    display: block;
-    opacity: 0.7;
-    font-size: 14px;
-    font-style: normal;
-    margin-top: -10px;
     text-align: center;
+    font-weight: bold;
+
+    em {
+      display: block;
+      opacity: 0.7;
+      font-size: 14px;
+      font-style: normal;
+      margin-top: -.75em;
+    }
   }
 
   @media (max-width: 768px) {
