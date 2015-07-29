@@ -50,6 +50,12 @@ header {
     width: 191px;
   }
 
+  h1 {
+    color: transparent;
+    background: url('logotype.svg') no-repeat;
+    height: 46px;
+  }
+
   p:last-child a {
     text-decoration: none;
     border: 3px solid var(--white);
