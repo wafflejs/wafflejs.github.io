@@ -16,7 +16,7 @@ module.exports = {
     loaders: [
       { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
       { test: /\.css$/, loader: 'style!css!postcss' },
-      { test: /\.svg/, loader: 'file' },
+      { test: /\.svg/, loader: 'url' },
     ]
   },
 
