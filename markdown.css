@@ -66,6 +66,7 @@ header {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+    transition: all 75ms ease-in-out;
 
     em {
       display: block;
@@ -73,6 +74,11 @@ header {
       font-size: 14px;
       font-style: normal;
       margin-top: -.75em;
+    }
+
+    &:hover {
+      background-color: #fff;
+      color: var(--orange);
     }
   }
 
@@ -155,6 +161,7 @@ aside {
       > ul {
         li {
           margin: .25em 0;
+          font-weight: 400;
         }
 
         li:nth-child(2) {
@@ -166,4 +173,3 @@ aside {
     }
   }
 }
-
