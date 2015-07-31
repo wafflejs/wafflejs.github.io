@@ -14,5 +14,5 @@ body {
 
 h1, h2 {
   font-family: 'Roboto Mono', 'Menlo', monospace;
-  text-transform: uppercase;
+  font-weight: 400;
 }
