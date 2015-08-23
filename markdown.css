@@ -46,7 +46,7 @@ header {
     color: var(--white);
   }
 
-  img[alt='a tasty waffle'] {
+  img {
     width: 191px;
   }
 
