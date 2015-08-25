@@ -22,7 +22,7 @@ header, aside {
   color: var(--gray-text);
 
   > div {
-    max-width: 380px;
+    max-width: 500px;
     padding: 0 20px;
     z-index: 10000;
   }
