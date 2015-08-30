@@ -52,7 +52,7 @@ header {
 
   h1 {
     color: transparent;
-    background: url('logotype.svg') no-repeat;
+    background: url('/images/logotype.svg') no-repeat;
     height: 46px;
   }
 

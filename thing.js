@@ -12,7 +12,7 @@ class Thing extends React.Component {
     };
 
     this.img = new Image();
-    this.img.src = `/images/${props.name}.png`;
+    this.img.src = `/images/watchmaker/${props.name}.png`;
     this.img.onload = (event) => {
       let img = event.target;
       this.setState({ size: new Vector(img.width/2, img.height/2) });
