@@ -111,6 +111,10 @@ aside {
     list-style-type: none;
   }
 
+  ul + p img {
+    vertical-align: middle;
+  }
+
   > div {
     background-color: var(--white);
   }
