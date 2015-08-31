@@ -115,6 +115,10 @@ aside {
     vertical-align: middle;
   }
 
+  a > img {
+    margin-right: 15px;
+  }
+
   > div {
     background-color: var(--white);
   }
