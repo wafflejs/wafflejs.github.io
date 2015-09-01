@@ -111,12 +111,9 @@ aside {
     list-style-type: none;
   }
 
-  ul + p img {
-    vertical-align: middle;
-  }
-
-  a > img {
+  #sponsors + p img {
     margin-right: 15px;
+    vertical-align: middle;
   }
 
   > div {
