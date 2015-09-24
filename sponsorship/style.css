@@ -71,5 +71,6 @@ ul.horizontal-list li {
 /* Hero */
 
 .hero {
-  margin-top: 2em;
+  max-width: 1400px;
+  margin: 2em auto 0;
 }
