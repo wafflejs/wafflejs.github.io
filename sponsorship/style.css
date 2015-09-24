@@ -21,11 +21,17 @@ a {
   color: hsl(12, 99%, 67%);
 }
 
+/* Components */
+
 section {
   max-width: 720px;
   width: 100%;
   padding: 1em;
   margin: 0 auto;
+}
+
+img {
+  width: 100%;
 }
 
 /* Table */
@@ -60,4 +66,10 @@ ul.horizontal-list {
 ul.horizontal-list li {
   display: inline;
   padding-right: 1em;
+}
+
+/* Hero */
+
+.hero {
+  margin-top: 2em;
 }
