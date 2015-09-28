@@ -1,5 +1,6 @@
 import React from 'react';
 import marked from 'marked';
+import cx from 'classnames';
 import css from './markdown.css';
 
 marked.setOptions({ smartypants: true });
@@ -14,8 +15,9 @@ class Markdown extends React.Component {
 
   render() {
     const src = this.state.src;
+    const classes = cx('markdown', this.props.className);
     return (
-      <div className="markdown">
+      <div className={classes}>
         <header><div dangerouslySetInnerHTML={{__html: src[0] }} /></header>
         <aside>
           <div dangerouslySetInnerHTML={{__html: src[1] }} />

@@ -6,7 +6,6 @@ const head = document.createElement('div');
 head.innerHTML = `
   <link href="http://fonts.googleapis.com/css?family=Roboto+Mono:400|PT+Sans" rel="stylesheet" type="text/css">
   <meta name="viewport" content="initial-scale=1,user-scalable=no" />
-  <title>WaffleJS</title>
 `;
 while (head.childNodes.length)
   document.head.appendChild(head.childNodes[0]);
@@ -15,8 +14,9 @@ import React from 'react';
 import Markdown from './markdown';
 import Watchmaker from './watchmaker';
 
+const src = document.querySelector('noscript');
 React.render(
-  <Markdown src={document.querySelector('noscript').innerHTML}>
+  <Markdown src={src.innerText} className={src.className}>
     <Watchmaker />
   </Markdown>,
   document.body
