@@ -243,11 +243,6 @@
       "from": "balanced-match@>=0.2.0 <0.3.0",
       "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-0.2.0.tgz"
     },
-    "base62": {
-      "version": "0.1.1",
-      "from": "base62@0.1.1",
-      "resolved": "https://registry.npmjs.org/base62/-/base62-0.1.1.tgz"
-    },
     "base64-arraybuffer": {
       "version": "0.1.2",
       "from": "base64-arraybuffer@0.1.2",
@@ -513,11 +508,6 @@
       "from": "decamelize@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/decamelize/-/decamelize-1.0.0.tgz"
     },
-    "deep-equal": {
-      "version": "1.0.1",
-      "from": "deep-equal@>=1.0.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/deep-equal/-/deep-equal-1.0.1.tgz"
-    },
     "defined": {
       "version": "1.0.0",
       "from": "defined@>=1.0.0 <2.0.0",
@@ -603,11 +593,6 @@
       "version": "0.9.0",
       "from": "enhanced-resolve@>=0.9.0 <0.10.0",
       "resolved": "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-0.9.0.tgz"
-    },
-    "envify": {
-      "version": "3.4.0",
-      "from": "envify@>=3.0.0 <4.0.0",
-      "resolved": "https://registry.npmjs.org/envify/-/envify-3.4.0.tgz"
     },
     "escape-html": {
       "version": "1.0.2",
@@ -1509,11 +1494,6 @@
       "from": "has-flag@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/has-flag/-/has-flag-1.0.0.tgz"
     },
-    "history": {
-      "version": "1.11.1",
-      "from": "history@*",
-      "resolved": "https://registry.npmjs.org/history/-/history-1.11.1.tgz"
-    },
     "home-or-tmp": {
       "version": "1.0.0",
       "from": "home-or-tmp@>=1.0.0 <2.0.0",
@@ -1563,11 +1543,6 @@
       "version": "0.6.6",
       "from": "interpret@>=0.6.4 <0.7.0",
       "resolved": "https://registry.npmjs.org/interpret/-/interpret-0.6.6.tgz"
-    },
-    "invariant": {
-      "version": "2.1.1",
-      "from": "invariant@>=2.0.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/invariant/-/invariant-2.1.1.tgz"
     },
     "ipaddr.js": {
       "version": "1.0.1",
@@ -1686,23 +1661,6 @@
       "from": "json5@>=0.4.0 <0.5.0",
       "resolved": "https://registry.npmjs.org/json5/-/json5-0.4.0.tgz"
     },
-    "jstransform": {
-      "version": "10.1.0",
-      "from": "jstransform@>=10.0.1 <11.0.0",
-      "resolved": "https://registry.npmjs.org/jstransform/-/jstransform-10.1.0.tgz",
-      "dependencies": {
-        "esprima-fb": {
-          "version": "13001.1001.0-dev-harmony-fb",
-          "from": "esprima-fb@13001.1001.0-dev-harmony-fb",
-          "resolved": "https://registry.npmjs.org/esprima-fb/-/esprima-fb-13001.1001.0-dev-harmony-fb.tgz"
-        },
-        "source-map": {
-          "version": "0.1.31",
-          "from": "source-map@0.1.31",
-          "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.1.31.tgz"
-        }
-      }
-    },
     "kind-of": {
       "version": "1.1.0",
       "from": "kind-of@>=1.1.0 <2.0.0",
@@ -1737,11 +1695,6 @@
       "version": "3.10.1",
       "from": "lodash@>=3.10.1 <4.0.0",
       "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
-    },
-    "loose-envify": {
-      "version": "1.0.0",
-      "from": "loose-envify@>=1.0.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.0.0.tgz"
     },
     "lru-cache": {
       "version": "2.7.0",
@@ -2395,11 +2348,6 @@
       "from": "q@>=1.1.2 <1.2.0",
       "resolved": "https://registry.npmjs.org/q/-/q-1.1.2.tgz"
     },
-    "qs": {
-      "version": "4.0.0",
-      "from": "qs@>=4.0.0 <5.0.0",
-      "resolved": "https://registry.npmjs.org/qs/-/qs-4.0.0.tgz"
-    },
     "query-string": {
       "version": "2.4.1",
       "from": "query-string@>=2.1.0 <3.0.0",
@@ -2967,11 +2915,6 @@
       "version": "1.0.1",
       "from": "vary@>=1.0.1 <1.1.0",
       "resolved": "https://registry.npmjs.org/vary/-/vary-1.0.1.tgz"
-    },
-    "warning": {
-      "version": "2.0.0",
-      "from": "warning@>=2.0.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/warning/-/warning-2.0.0.tgz"
     },
     "watchpack": {
       "version": "0.2.8",
