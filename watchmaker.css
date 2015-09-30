@@ -2,7 +2,6 @@
   z-index: 0 !important;
   position: relative;
   padding: 0;
-  box-sizing: border-box;
   width: 100vw;
   height: 420px;
 }
