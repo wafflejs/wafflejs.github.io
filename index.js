@@ -4,7 +4,7 @@ import css from './index.css';
 
 const head = document.createElement('div');
 head.innerHTML = `
-  <link href="http://fonts.googleapis.com/css?family=Roboto+Mono:400|PT+Sans" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400|PT+Sans" rel="stylesheet" type="text/css">
   <meta name="viewport" content="initial-scale=1,user-scalable=no" />
 `;
 while (head.childNodes.length)
