@@ -17,6 +17,9 @@ module.exports = {
       { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
       { test: /\.css$/, loader: 'style!css!postcss' },
       { test: /\.svg/, loader: 'url' },
+
+      // incompletely packaged modules
+      { test: /scaledrone/, loader: 'exports?ScaleDrone' },
     ]
   },
 
