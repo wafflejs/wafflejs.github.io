@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/wafflejs/wafflejs#readme",
   "devDependencies": {
-    "autoprefixer-core": "^6.0.1",
+    "autoprefixer": "^6.0.1",
     "babel-core": "^5.8.25",
     "babel-loader": "^5.3.2",
     "classnames": "^2.1.3",

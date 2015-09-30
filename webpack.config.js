@@ -21,7 +21,7 @@ module.exports = {
   },
 
   postcss: function() { return [
-    require('autoprefixer-core'),
+    require('autoprefixer'),
     require('postcss-nested'),
     require('postcss-custom-properties')
   ] },
