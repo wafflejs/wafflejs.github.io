@@ -16,7 +16,7 @@ import Watchmaker from './watchmaker';
 
 const src = document.querySelector('noscript');
 React.render(
-  <Markdown src={src.innerText} className={src.className}>
+  <Markdown src={src.innerText || src.innerHTML} className={src.className}>
     <Watchmaker />
   </Markdown>,
   document.body
