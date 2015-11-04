@@ -1,135 +1,143 @@
-<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400|PT+Sans:400,700" rel="stylesheet" type="text/css">
-<meta name="viewport" content="initial-scale=1,user-scalable=no" />
-<style>
-  body {
-    padding: 0;
-    margin: 0;
-    background-color: black;
-  }
+<!doctype html>
+<html>
+  <head>
+    <title>WaffleJS – Map</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400|PT+Sans:400,700" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no" />
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: black;
+      }
 
-  .map {
-    width: 100vw;
-    height: 83.5vw;
-    position: relative;
-    background: url("/images/map.png") no-repeat center;
-    background-size: 100% 100%;
-  }
+      .map {
+        width: 100vw;
+        height: 83.5vw;
+        position: relative;
+        background: url("/images/map.png") no-repeat center;
+        background-size: 100% 100%;
+      }
 
-  .map .marker:before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+      .map .marker:before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
 
-  .map .marker:after {
-    position: absolute;
-    font: 3vw 'Roboto Mono', sans-serif;
-    color: white;
-    text-shadow: 0 -1px 0 hsla(0, 0%, 0%, .4);
-    text-align: center;
-    margin-top: 11vw;
-    width: 30vw;
-    margin-left: -15vw;
-  }
+      .map .marker:after {
+        position: absolute;
+        font: 3vw 'Roboto Mono', sans-serif;
+        color: white;
+        text-shadow: 0 -1px 0 hsla(0, 0%, 0%, .4);
+        text-align: center;
+        margin-top: 11vw;
+        width: 30vw;
+        margin-left: -15vw;
+      }
 
-  .map .marker.barn:before {
-    background-image: radial-gradient(circle at 46% 46%,
-                                      hsla(0, 0%, 0%, .1) 10vw,
-                                      hsla(0, 0%, 0%, .4) 0);
-  }
-  .map .marker.barn:after {
-    content: 'You are here';
-    left: 46%;
-    top: 46%;
-  }
+      .map .marker.barn:before {
+        background-image: radial-gradient(circle at 46% 46%,
+                                          hsla(0, 0%, 0%, .1) 10vw,
+                                          hsla(0, 0%, 0%, .4) 0);
+      }
+      .map .marker.barn:after {
+        content: 'You are here';
+        left: 46%;
+        top: 46%;
+      }
 
-  .map .marker.restrooms:before {
-    background-image: radial-gradient(circle at 86% 49%,
-                                      hsla(0, 0%, 0%, .1) 10vw,
-                                      hsla(0, 0%, 0%, .4) 0);
-  }
-  .map .marker.restrooms:after {
-    content: 'Drank too much refreshment?';
-    left: 86%;
-    top: 49%;
-  }
+      .map .marker.restrooms:before {
+        background-image: radial-gradient(circle at 86% 49%,
+                                          hsla(0, 0%, 0%, .1) 10vw,
+                                          hsla(0, 0%, 0%, .4) 0);
+      }
+      .map .marker.restrooms:after {
+        content: 'Drank too much refreshment?';
+        left: 86%;
+        top: 49%;
+      }
 
-  .map .marker.drinks:before {
-    background-image: radial-gradient(circle at 77% 37%,
-                                      hsla(0, 0%, 0%, .1) 10vw,
-                                      hsla(0, 0%, 0%, .4) 0);
-  }
-  .map .marker.drinks:after {
-    content: 'Get a refreshment';
-    left: 77%;
-    top: 37%;
-  }
+      .map .marker.drinks:before {
+        background-image: radial-gradient(circle at 77% 37%,
+                                          hsla(0, 0%, 0%, .1) 10vw,
+                                          hsla(0, 0%, 0%, .4) 0);
+      }
+      .map .marker.drinks:after {
+        content: 'Get a refreshment';
+        left: 77%;
+        top: 37%;
+      }
 
-  .map .marker.food:before {
-    background-image: radial-gradient(circle at 56% 27%,
-                                      hsla(0, 0%, 0%, .1) 9vw,
-                                      hsla(0, 0%, 0%, .4) 0);
-  }
-  .map .marker.food:after {
-    content: 'Grab some food!';
-    margin-top: 10vw;
-    left: 56%;
-    top: 27%;
-  }
+      .map .marker.food:before {
+        background-image: radial-gradient(circle at 56% 27%,
+                                          hsla(0, 0%, 0%, .1) 9vw,
+                                          hsla(0, 0%, 0%, .4) 0);
+      }
+      .map .marker.food:after {
+        content: 'Grab some food!';
+        margin-top: 10vw;
+        left: 56%;
+        top: 27%;
+      }
 
-  .map .marker.more-food:before {
-    background-image: radial-gradient(circle at 33% 70%,
-                                      hsla(0, 0%, 0%, .1) 9vw,
-                                      hsla(0, 0%, 0%, .4) 0);
-  }
-  .map .marker.more-food:after {
-    content: 'OMG more food!';
-    margin-top: 10vw;
-    left: 33%;
-    top: 70%;
-  }
+      .map .marker.more-food:before {
+        background-image: radial-gradient(circle at 33% 70%,
+                                          hsla(0, 0%, 0%, .1) 9vw,
+                                          hsla(0, 0%, 0%, .4) 0);
+      }
+      .map .marker.more-food:after {
+        content: 'OMG more food!';
+        margin-top: 10vw;
+        left: 33%;
+        top: 70%;
+      }
 
-  .map .marker.games:before {
-    background-image: radial-gradient(circle at 36% 48%,
-                                      hsla(0, 0%, 0%, .1) 4vw,
-                                      hsla(0, 0%, 0%, .4) 0);
-  }
-  .map .marker.games:after {
-    content: 'Games on your table';
-    margin-top: 5vw;
-    left: 36%;
-    top: 48%;
-  }
+      .map .marker.games:before {
+        background-image: radial-gradient(circle at 36% 48%,
+                                          hsla(0, 0%, 0%, .1) 4vw,
+                                          hsla(0, 0%, 0%, .4) 0);
+      }
+      .map .marker.games:after {
+        content: 'Games on your table';
+        margin-top: 5vw;
+        left: 36%;
+        top: 48%;
+      }
 
-  .map .marker.karaoke:before {
-    background-image: radial-gradient(circle at 53% 48%,
-                                      hsla(0, 0%, 0%, .1) 5vw,
-                                      hsla(0, 0%, 0%, .4) 0);
-  }
-  .map .marker.karaoke:after {
-    content: 'wafflejs.com/karaoke';
-    margin-top: 6vw;
-    left: 53%;
-    top: 48%;
-  }
-</style>
-<div class="map">
-  <div class="marker barn"></div>
-</div>
-<script>
-  (function() {
-    var i = -1;
-    var places = ['barn', 'drinks', 'restrooms', 'food', 'more-food', 'games',
-                  'karaoke'];
-    var marker = document.querySelector('.marker');
-    (function loop() {
-      marker.classList.remove(places[i]);
-      i = (i + 1) % places.length;
-      marker.classList.add(places[i]);
-      setTimeout(loop, 8888);
-    })();
-  })();
-</script>
+      .map .marker.karaoke:before {
+        background-image: radial-gradient(circle at 53% 48%,
+                                          hsla(0, 0%, 0%, .1) 5vw,
+                                          hsla(0, 0%, 0%, .4) 0);
+      }
+      .map .marker.karaoke:after {
+        content: 'wafflejs.com/karaoke';
+        margin-top: 6vw;
+        left: 53%;
+        top: 48%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="map">
+      <div class="marker barn"></div>
+    </div>
+    <script>
+      (function() {
+        var i = -1;
+        var places = ['barn', 'drinks', 'restrooms', 'food', 'more-food', 'games',
+                      'karaoke'];
+        var marker = document.querySelector('.marker');
+        (function loop() {
+          marker.classList.remove(places[i]);
+          i = (i + 1) % places.length;
+          marker.classList.add(places[i]);
+          setTimeout(loop, 8888);
+        })();
+      })();
+    </script>
+  </body>
+</html>
