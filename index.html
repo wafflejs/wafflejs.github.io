@@ -1,120 +1,27 @@
-<head>
-<meta property="og:title" content="WaffleJS" />
-<meta property="og:description" content="A fun night of tech, waffles, and karaoke." />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="https://wafflejs.com/images/social.png" />
-<meta property="og:url" content="https://wafflejs.com" />
-<title>WaffleJS</title>
-</head>
-<noscript class="index" style="white-space:pre;font:13 monospace">
-![
-                 ::+s:.
-             ..:+ss/-so::..
-         ..++s+-/ysssy/+s+//:..
-     ..+/ :+hy----/+/--//:+/:  ::..
-  .::  sso+:/-----/:---++/:ssys+  :::.
- +-   ++oo++so/// ++ ///oo/:++//    ::+
- +///:    +ss++/+so+++ss++/:    ::://+/
- --//+//::    :sss+++:::    ::://+//--
-     --//+//::           ::://+//-
-         --//+//::--:::://+//--
-             --//+//++///--
-                 +----
-](/images/waffle.png)
-
-WaffleJS
-========
-
-A fun night of tech, waffles, and karaoke.
-
-Wednesday, January 6 at 7 PM  
-[SOMA StrEat Food Park][2] (in the [barn][9])
-
-All [proceeds][14] go to [Girls Who Code][7].
-
-[Buy Waffle – $10 *Ticket Included*][1]
-
-* * *
-
-About
------
-
-WaffleJS is a monthly meetup with waffles and a side of JavaScript.
-
-We host 10-minute talks about everything from watercolor painting to
-robot lobbyists, interspersed with fun!
-
-Schedule
---------
-
-* _📋_ _Survey_
-  * Attended last month? Please [give us
-    feedback](https://wafflejs.typeform.com/to/GNqJGQ)!
-
-
-* _🍪_ _7:00 PM_
-  * Get some tasty waffles and drinks
-* _👋_ _7:30 PM_
-  * Introductions
-* _🎩_ _7:45 PM · Speaker_
-  * Wanna speak? [Submit a proposal][11].
-* _👥_ _8:00 PM · Speaker_
-* _🙏_ _8:25 PM · Intermission_
-* _🎤_ _8:35 PM · Performance_
-  * Wanna perform? [Submit a proposal][12].
-* _🎻_ _8:45 PM · Speaker_
-* _🔐_ _9:00 PM · Speaker_
-* _🎉_ _9:15 PM · Closing_
-  * [Open karaoke][13]! (You can just hang out, too.)
-
-Sponsors
---------
-Interested in sponsoring? [See sponsorship details](/sponsorship).
-
-Also
-----
-
-All participants are expected to follow the [JSConf Code of Conduct][3].
-
-Organized by [Visnu][@visnup], [Billy][@billyroh], and [Kelly][@kng]. Hosted by
-[Emily][@nexxylove] and Visnu. Inspired by [BrooklynJS][8].
-
-Find us on [Twitter][@wafflejs] and [Slack][15]. Peruse our [budget][14] and
-[planning][4].
-
-Looking for [last month's event][10]?
-
-[1]: https://ti.to/wafflejs/january
-[2]: https://goo.gl/maps/0gkOe
-[3]: http://jsconf.com/codeofconduct.html
-[4]: https://github.com/wafflejs/wafflejs.github.io/issues
-[7]: http://girlswhocode.com/
-[8]: http://brooklynjs.com
-[9]: https://wafflejs.com/map
-[10]: https://wafflejs.com/past/2015-12
-[11]: https://github.com/wafflejs/wafflejs.github.io/issues/90
-[12]: https://github.com/wafflejs/wafflejs.github.io/issues/89
-[13]: https://wafflejs.com/karaoke/
-[14]: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit?usp=sharing
-[15]: http://slack.borojs.com
-[16]: https://wafflejs.typeform.com/to/mOaCK4
-
-[@shirleyxywu]: https://twitter.com/shirleyxywu
-[@rockbot]: https://twitter.com/rockbot
-[@thealphanerd]: https://twitter.com/thealphanerd
-[@_tessr]: https://twitter.com/_tessr
-
-[@_gjg_]: https://twitter.com/_gjg_
-[@_riamaria]: https://twitter.com/_riamaria
-
-[dropbox]: https://www.dropbox.com/jobs
-[opendoor]: https://www.opendoor.com/jobs
-[new relic]: http://newrelic.com/about/careers
-
-[@visnup]: https://twitter.com/visnup
-[@billyroh]: https://twitter.com/billyroh
-[@nexxylove]: https://twitter.com/nexxylove
-[@kng]: https://twitter.com/kng
-[@wafflejs]: https://twitter.com/wafflejs
-</noscript>
-<script src="/dist/main.js" async></script>
+<!doctype html>
+<html>
+  <head>
+    <title>WaffleJS</title>
+    <meta name="viewport" content="initial-scale=1,user-scalable=no" />
+    <meta property="og:title" content="WaffleJS" />
+    <meta property="og:description" content="A fun night of tech, waffles, and karaoke." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://wafflejs.com/images/social.png" />
+    <meta property="og:url" content="https://wafflejs.com" />
+    <base href="/" />
+  </head>
+  <body ng-app="wafflejs" ng-strict-di>
+    <main ng-view></main>
+    <footer class="fixed">
+      <div class="container">
+        <ul class="nav">
+          <li><a href='/#introduction'>Introduction</a></li>
+          <li><a href='/#about'>About</a></li>
+          <li><a href='/#schedule'>Schedule</a></li>
+          <li><a href='/sponsorship'>Sponsorship</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="/dist/main.js" async></script>
+  </body>
+</html>

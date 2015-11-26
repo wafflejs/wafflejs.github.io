@@ -1,18 +1,48 @@
-:root {
-  --orange: hsl(12, 99%, 67%);
-}
-
-html, body, .markdown {
-  height: 100%;
-}
+@import 'normalize.css';
+@import './colors.css';
+@import './typography.css';
+@import './grid.css';
+@import './form.css';
 
 body {
-  text-rendering: optimizeLegibility;
-  line-height: 150%;
-  font-family: 'PT Sans', sans-serif;
+  background-color: var(--orange);
+  padding: 5px 0;
+  @media (--sm-viewport) {
+    padding: 5px;
+  }
 }
 
-h1, h2 {
-  font-family: 'Roboto Mono', 'Menlo', monospace;
-  font-weight: 400;
+main, footer {
+  background-color: var(--tan);
+}
+
+footer {
+  padding: 1em 0;
+
+  &.fixed {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, .2);
+    border-bottom: solid 5px var(--orange);
+    @media (--sm-viewport) {
+      border-left: solid 5px var(--orange);
+      border-right: solid 5px var(--orange);
+    }
+  }
+
+  ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+    }
+    li + li {
+      margin-left: 1em;
+    }
+  }
 }

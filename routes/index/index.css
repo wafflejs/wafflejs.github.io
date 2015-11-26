@@ -1,0 +1,65 @@
+@import '../../colors.css';
+@import '../../grid.css';
+
+:local(.className) {
+  header, section {
+    padding: 4em 0 0;
+  }
+
+  header {
+    color: white;
+    text-shadow: 0 1px hsla(0, 0%, 0%, .6);
+    background-color: var(--tan);
+    background: linear-gradient(hsla(0, 0%, 0%, .4), transparent 75%),
+                url('/images/hero-1.jpg') 50% 40%;
+    background-size: cover;
+    padding-bottom: 15em;
+  }
+
+  #schedule {
+    .container {
+      background: url('../../images/computer.svg') 100% 0%,
+                  url('../../images/waffle.svg') 100% 50%,
+                  url('../../images/microphone.svg') 100% 100%;
+      background-repeat: no-repeat;
+      background-size: 50%;
+      @media (--xs-viewport-only) {
+        background: linear-gradient(hsla(0, 0%, 100%, .9), hsla(0, 0%, 100%, .9)),
+                    url('../../images/computer.svg') 100% 0%,
+                    url('../../images/waffle.svg') 100% 50%,
+                    url('../../images/microphone.svg') 100% 100%;
+        background-repeat: no-repeat;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      border-bottom: solid 1px var(--lighter-gray);
+      padding-bottom: 1em;
+      margin-bottom: 2em;
+
+      > .row {
+        align-items: baseline;
+      }
+    }
+
+    [marked] p:first-child {
+      margin-top: 0;
+    }
+
+    h3[marked] p {
+      margin: 0;
+      color: inherit;
+    }
+  }
+
+  #sponsors {
+    svg {
+      vertical-align: center;
+    }
+  }
+}

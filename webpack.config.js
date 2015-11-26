@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
 
@@ -9,25 +9,46 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: 'dist',
-    filename: '[name].js'
+    filename: '[name].js',
+    sourceMapFilename: '[file].map.json',
   },
 
   module: {
     loaders: [
-      { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
-      { test: /\.css$/, loader: 'style!css!postcss' },
-      { test: /\.svg/, loader: 'url' },
+      { test: /\.css$/,
+        loaders: ['style', 'css', 'postcss'] },
+
+      { test: /\.jade$/, loader: 'jade' },
+
+      { test: /\.js$/,
+        exclude: /node_modules/,
+        loaders: ['ng-annotate?regexp=^.?angular.*$', 'babel'] },
+
+      { test: /\.svg/, loaders: ['url', 'svgo?useConfig=svgo'] },
+
+      { test: /\.yml/, loaders: ['json', 'yaml'] },
+
+      { test: /angular-new-router/, loader: 'exports?default="ngNewRouter"' }
     ]
   },
 
-  postcss: function() { return [
-    require('autoprefixer'),
+  postcss: function(webpack) { return [
+    require('postcss-import')({ addDependencyTo: webpack }),
     require('postcss-nested'),
-    require('postcss-custom-properties')
+    require('postcss-custom-properties'),
+    require('postcss-custom-media'),
+    require('autoprefixer'),
   ] },
+
+  svgo: {
+    plugins: [
+      { collapseGroups: false },
+      { convertTransform: false },
+    ]
+  },
 
   resolve: {
     extensions: [ '', '.js' ]
   },
 
-};
+}

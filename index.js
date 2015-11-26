@@ -1,23 +1,11 @@
-import heap from './heap';
-import normalize from 'normalize.css';
-import css from './index.css';
+//import heap from './heap'
 
-const head = document.createElement('div');
-head.innerHTML = `
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400|PT+Sans:400,700" rel="stylesheet" type="text/css">
-  <meta name="viewport" content="initial-scale=1,user-scalable=no" />
-`;
-while (head.childNodes.length)
-  document.head.appendChild(head.childNodes[0]);
+import angular from 'angular'
+import css from './index.css'
 
-import React from 'react';
-import Markdown from './markdown';
-import Watchmaker from './watchmaker';
-
-const src = document.querySelector('noscript');
-React.render(
-  <Markdown src={src.innerText || src.innerHTML} className={src.className}>
-    <Watchmaker />
-  </Markdown>,
-  document.body
-);
+angular.module('wafflejs', [
+  require('./routes/index').default,
+  require('./title').default,
+]).config(($locationProvider) => {
+  $locationProvider.html5Mode(true)
+})
