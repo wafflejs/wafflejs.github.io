@@ -1,5 +1,4 @@
 import heap from './heap';
-import normalize from 'normalize.css';
 import css from './index.css';
 
 const head = document.createElement('div');
@@ -11,11 +10,11 @@ while (head.childNodes.length)
   document.head.appendChild(head.childNodes[0]);
 
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import Markdown from './markdown';
 
 const src = document.querySelector('noscript');
-ReactDOM.render(
+render(
   <Markdown src={src.innerText || src.innerHTML} className={src.className}/>,
   document.body
 );
