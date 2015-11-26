@@ -11,10 +11,11 @@ while (head.childNodes.length)
   document.head.appendChild(head.childNodes[0]);
 
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Markdown from './markdown';
 
 const src = document.querySelector('noscript');
-React.render(
+ReactDOM.render(
   <Markdown src={src.innerText || src.innerHTML} className={src.className}/>,
   document.body
 );
