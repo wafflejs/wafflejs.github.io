@@ -14,9 +14,12 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
-      { test: /\.css$/, loader: 'style!css!postcss' },
       { test: /\.svg/, loader: 'url' },
+      { test: /\.css$/, loader: 'style!css!postcss' },
+      { test: /\.jade$/, loader: 'jade' },
+      { test: /\.js$/,
+        loaders: ['ng-annotate?regexp=^.?angular.*$', 'babel'],
+        exclude: /node_modules/ },
     ]
   },
 

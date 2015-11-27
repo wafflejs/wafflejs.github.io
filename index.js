@@ -1,13 +1,12 @@
 //import heap from './heap'
 import css from './index.css'
 
-import React from 'react'
-import { render } from 'react-dom'
-import { Router, IndexRoute, Route, Link } from 'react-router'
-import Markdown from 'matthewmueller-react-remarkable'
-import Sponsorship from './sponsorship'
+import angular from 'angular'
 
-class Index extends React.Component {
+angular.module('wafflejs', [])
+
+/*
+class Index {
   render() {
     return (
       <div>
@@ -68,14 +67,4 @@ class Index extends React.Component {
     )
   }
 }
-
-render(
-  <Router>
-    <Route path="/">
-      <IndexRoute component={Index} />
-      <Route path="sponsorship" component={Sponsorship} />
-      <Route path="speakers" component={Sponsorship} />
-    </Route>
-  </Router>,
-  document.body
-)
+*/
