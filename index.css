@@ -1,7 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://cloud.typography.com/7886252/634328/css/fonts.css);
 @import '~normalize.css';
-@import '~flexboxgrid';
+@import 'typography.css';
+@import 'grid.css';
 
 :root {
   --orange: hsl(12, 99%, 67%);
@@ -9,73 +8,6 @@
 }
 
 body {
-  text-rendering: optimizeLegibility;
-  font: 125% Roboto, sans-serif;
   border: solid 5px var(--orange);
   background-color: var(--tan);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-}
-
-h1 {
-  font-family: 'Quarto A', 'Quarto B', serif;
-  font-size: 3em !important;
-}
-
-h2 {
-  font-family: 'Quarto A', 'Quarto B', serif;
-  font-size: 2em;
-}
-
-h3 {
-  font-weight: 400;
-}
-
-h4 {
-  color: var(--orange);
-  font-family: 'Quarto A', 'Quarto B', serif;
-}
-
-h5 {
-  font-weight: 400;
-  text-transform: uppercase;
-  opacity: .6;
-}
-
-h6 {
-  font-weight: 400;
-}
-
-a {
-  color: var(--orange);
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-p {
-  line-height: 150%;
-  opacity: .6;
-}
-
-header, section {
-  padding: 4em 0 0;
-}
-
-header {
-  color: white;
-  background: linear-gradient(hsla(0, 0%, 0%, .8), transparent),
-              url('/images/hero-1.jpg') 50% 20%;
-  background-size: cover;
-  padding-bottom: 18em;
-}
-
-.container {
-  box-sizing: border-box;
-  padding-left: var(--outer-margin, 2rem);
-  padding-right: var(--outer-margin, 2rem);
 }

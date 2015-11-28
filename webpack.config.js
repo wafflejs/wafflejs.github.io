@@ -9,17 +9,20 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: 'dist',
-    filename: '[name].js'
+    filename: '[name].js',
+    sourceMapFilename: '[file].map.json',
   },
 
   module: {
     loaders: [
       { test: /\.svg/, loader: 'url' },
-      { test: /\.css$/, loader: 'style!css!postcss' },
+      { test: /\.css$/, loader: 'style!css?importLoaders=1!postcss' },
       { test: /\.jade$/, loader: 'jade' },
       { test: /\.js$/,
         loaders: ['ng-annotate?regexp=^.?angular.*$', 'babel'],
         exclude: /node_modules/ },
+
+      { test: /angular-new-router/, loader: 'exports?default="ngNewRouter"' }
     ]
   },
 

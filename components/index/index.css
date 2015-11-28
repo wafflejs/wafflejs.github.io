@@ -1,0 +1,11 @@
+header, section {
+  padding: 4em 0 0;
+}
+
+header {
+  color: white;
+  background: linear-gradient(hsla(0, 0%, 0%, .8), transparent),
+              url('/images/hero-1.jpg') 50% 20%;
+  background-size: cover;
+  padding-bottom: 18em;
+}

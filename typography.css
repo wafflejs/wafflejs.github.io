@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://cloud.typography.com/7886252/634328/css/fonts.css);
+
+:root {
+  --orange: hsl(12, 99%, 67%);
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  font: 125% Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+h1 {
+  font-family: 'Quarto A', 'Quarto B', serif;
+  font-size: 3em !important;
+}
+
+h2 {
+  font-family: 'Quarto A', 'Quarto B', serif;
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h4 {
+  color: var(--orange);
+  font-family: 'Quarto A', 'Quarto B', serif;
+}
+
+h5 {
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: .6;
+}
+
+h6 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: var(--orange);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+p {
+  line-height: 150%;
+  opacity: .6;
+}
