@@ -40,7 +40,7 @@ h4 {
 h5 {
   font-weight: 400;
   text-transform: uppercase;
-  color: var(--gray);
+  color: var(--light-gray);
 }
 
 h6 {

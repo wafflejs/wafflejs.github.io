@@ -2,6 +2,6 @@
 
 .container {
   box-sizing: border-box;
-  padding-left: var(--outer-margin, 2rem);
-  padding-right: var(--outer-margin, 2rem);
+  padding-left: var(--gutter-width, 1rem);
+  padding-right: var(--gutter-width, 1rem);
 }

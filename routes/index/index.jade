@@ -44,7 +44,9 @@ div( class=className )
         .row( ng-repeat="(time, item) in event" )
           .col-xs-12: h5 {{time}} {{item.type}}
           .col-xs-12( ng-show='item.person' )
-            h5.highlight {{item.person.name}} @{{item.person.twitter}}
+            h5.highlight {{item.person.name}} · 
+              a( ng-href='https://twitter.com/{{item.person.twitter}}' )
+                | @{{item.person.twitter}}
           .col-xs-12: h3 {{item.title || item}}
           .col-xs-12( marked='item.description' )
 
@@ -106,4 +108,5 @@ div( class=className )
           [2]: bar
           [3]: baz
 
+  section
   section

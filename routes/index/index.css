@@ -8,7 +8,8 @@
   header {
     color: white;
     text-shadow: 0 1px hsla(0, 0%, 0%, .6);
-    background: linear-gradient(hsla(0, 0%, 0%, .8), transparent),
+    background-color: var(--tan);
+    background: linear-gradient(hsla(0, 0%, 0%, .4), transparent 75%),
                 url('/images/hero-1.jpg') 50% 20%;
     background-size: cover;
     padding-bottom: 18em;
@@ -18,6 +19,12 @@
     ul {
       list-style-type: none;
       padding: 0;
+    }
+
+    li {
+      border-bottom: solid 1px var(--lighter-gray);
+      padding-bottom: 1em;
+      margin-bottom: 2em;
     }
 
     [marked] p:first-child {
