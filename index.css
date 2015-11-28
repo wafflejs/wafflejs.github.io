@@ -13,15 +13,18 @@ main, footer {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  box-sizing: border-box;
-  width: 100%;
-  left: 0;
   padding: 1em 0;
-  border: solid 5px var(--orange);
-  border-top: none;
-  box-shadow: 0 0 10px hsla(0, 0%, 0%, .2);
+
+  &.fixed {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid 5px var(--orange);
+    border-top: none;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, .2);
+  }
 
   ul.nav {
     list-style-type: none;

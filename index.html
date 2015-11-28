@@ -8,15 +8,17 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://wafflejs.com/images/social.png" />
     <meta property="og:url" content="https://wafflejs.com" />
+    <base href="/" />
   </head>
   <body ng-app="wafflejs" ng-strict-di>
-    <main ng-viewport></main>
-    <footer>
+    <main ng-view></main>
+    <footer class="fixed">
       <div class="container">
         <ul class="nav">
-          <li><a href='#hero'>Introduction</a></li>
-          <li><a href='#about'>About</a></li>
-          <li><a href='#schedule'>Schedule</a></li>
+          <li><a href='/#introduction'>Introduction</a></li>
+          <li><a href='/#about'>About</a></li>
+          <li><a href='/#schedule'>Schedule</a></li>
+          <li><a href='/sponsorship'>Sponsorship</a></li>
         </ul>
       </div>
     </footer>
