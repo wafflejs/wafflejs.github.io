@@ -1,4 +1,4 @@
-@import '~flexboxgrid';
+@import 'flexboxgrid';
 
 .container {
   box-sizing: border-box;

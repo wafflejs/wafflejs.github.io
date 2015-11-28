@@ -15,21 +15,28 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.svg/, loader: 'url' },
-      { test: /\.css$/, loader: 'style!css?importLoaders=1!postcss' },
+      { test: /\.css$/,
+        loaders: ['style', 'css', 'postcss'] },
+
       { test: /\.jade$/, loader: 'jade' },
+
       { test: /\.js$/,
-        loaders: ['ng-annotate?regexp=^.?angular.*$', 'babel'],
-        exclude: /node_modules/ },
+        exclude: /node_modules/,
+        loaders: ['ng-annotate?regexp=^.?angular.*$', 'babel'] },
+
+      { test: /\.svg/, loader: 'url' },
+
+      { test: /\.yml/, loaders: ['json', 'yaml'] },
 
       { test: /angular-new-router/, loader: 'exports?default="ngNewRouter"' }
     ]
   },
 
-  postcss: function() { return [
-    require('autoprefixer'),
+  postcss: function(webpack) { return [
+    require('postcss-import')({ addDependencyTo: webpack }),
     require('postcss-nested'),
-    require('postcss-custom-properties')
+    require('postcss-custom-properties'),
+    require('autoprefixer'),
   ] },
 
   resolve: {

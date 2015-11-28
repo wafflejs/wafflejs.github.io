@@ -1,11 +1,27 @@
-header, section {
-  padding: 4em 0 0;
-}
+@import '../../colors.css';
 
-header {
-  color: white;
-  background: linear-gradient(hsla(0, 0%, 0%, .8), transparent),
-              url('/images/hero-1.jpg') 50% 20%;
-  background-size: cover;
-  padding-bottom: 18em;
+:local(.className) {
+  header, section {
+    padding: 4em 0 0;
+  }
+
+  header {
+    color: white;
+    text-shadow: 0 1px hsla(0, 0%, 0%, .6);
+    background: linear-gradient(hsla(0, 0%, 0%, .8), transparent),
+                url('/images/hero-1.jpg') 50% 20%;
+    background-size: cover;
+    padding-bottom: 18em;
+  }
+
+  #schedule {
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    [marked] p:first-child {
+      margin-top: 0;
+    }
+  }
 }

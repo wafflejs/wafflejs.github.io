@@ -1,17 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://cloud.typography.com/7886252/634328/css/fonts.css);
-
-:root {
-  --orange: hsl(12, 99%, 67%);
-}
+@import './colors.css';
 
 body {
   text-rendering: optimizeLegibility;
-  font: 125% Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
+  @media only screen and (min-width: 48em) {
+    font-size: 125%;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 h1 {
@@ -36,7 +37,7 @@ h4 {
 h5 {
   font-weight: 400;
   text-transform: uppercase;
-  opacity: .6;
+  color: var(--gray);
 }
 
 h6 {
@@ -54,5 +55,5 @@ a {
 
 p {
   line-height: 150%;
-  opacity: .6;
+  color: var(--gray);
 }

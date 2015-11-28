@@ -1,13 +1,38 @@
-@import '~normalize.css';
-@import 'typography.css';
-@import 'grid.css';
-
-:root {
-  --orange: hsl(12, 99%, 67%);
-  --tan: hsl(48, 100%, 98%);
-}
+@import 'normalize.css';
+@import './colors.css';
+@import './typography.css';
+@import './grid.css';
 
 body {
-  border: solid 5px var(--orange);
+  background-color: var(--orange);
+  padding: 5px;
+}
+
+main, footer {
   background-color: var(--tan);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box;
+  width: 100%;
+  left: 0;
+  padding: 1em 0;
+  border: solid 5px var(--orange);
+  border-top: none;
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, .2);
+
+  ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+    }
+    li + li {
+      margin-left: 1em;
+    }
+  }
 }
