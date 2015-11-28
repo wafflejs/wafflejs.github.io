@@ -36,6 +36,7 @@ module.exports = {
     require('postcss-import')({ addDependencyTo: webpack }),
     require('postcss-nested'),
     require('postcss-custom-properties'),
+    require('postcss-custom-media'),
     require('autoprefixer'),
   ] },
 

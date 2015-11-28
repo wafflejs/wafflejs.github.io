@@ -2,7 +2,7 @@ div( class=className )
   header: .container: .row.bottom-sm
     .col-xs-12.col-sm-7
       :marked
-        #### WaffleJS
+        <h4 class="highlight">WaffleJS</h4>
 
         A fun night of code, waffles, and karaoke.
         ==========================================
@@ -36,16 +36,17 @@ div( class=className )
 
         [1]: http://jsconf.com/codeofconduct.html
 
-  section#schedule: .container
-    h2 Schedule
+  section#schedule: .container: .row
+    .col-xs-12.col-sm-6
+      h2 Schedule
 
-    ul: li( ng-repeat="event in index.schedule" )
-      .row( ng-repeat="(time, item) in event" )
-        .col-xs-12: h5 {{time}}
-        .col-xs-12( ng-show='item.person' )
-          h5 {{item.person.name}} @{{item.person.twitter}}
-        .col-xs-12: h3 {{item.title || item}}
-        .col-xs-12( marked='item.description' )
+      ul: li( ng-repeat="event in index.schedule" )
+        .row( ng-repeat="(time, item) in event" )
+          .col-xs-12: h5 {{time}} {{item.type}}
+          .col-xs-12( ng-show='item.person' )
+            h5.highlight {{item.person.name}} @{{item.person.twitter}}
+          .col-xs-12: h3 {{item.title || item}}
+          .col-xs-12( marked='item.description' )
 
   section#sponsors: .container: .row.bottom-sm
     .col-xs-12.col-sm-6

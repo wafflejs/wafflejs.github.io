@@ -5,7 +5,7 @@
 body {
   text-rendering: optimizeLegibility;
   font-family: Roboto, sans-serif;
-  @media only screen and (min-width: 48em) {
+  @media (--sm-viewport) {
     font-size: 125%;
   }
 }
@@ -13,6 +13,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1rem;
+
+  &.highlight {
+    color: var(--orange);
+  }
 }
 
 h1 {
@@ -30,7 +34,6 @@ h3 {
 }
 
 h4 {
-  color: var(--orange);
   font-family: 'Quarto A', 'Quarto B', serif;
 }
 
