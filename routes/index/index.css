@@ -1,4 +1,5 @@
 @import '../../colors.css';
+@import '../../grid.css';
 
 :local(.className) {
   header, section {
@@ -10,9 +11,9 @@
     text-shadow: 0 1px hsla(0, 0%, 0%, .6);
     background-color: var(--tan);
     background: linear-gradient(hsla(0, 0%, 0%, .4), transparent 75%),
-                url('/images/hero-1.jpg') 50% 20%;
+                url('/images/hero-1.jpg') 50% 40%;
     background-size: cover;
-    padding-bottom: 18em;
+    padding-bottom: 15em;
   }
 
   #schedule {
@@ -25,6 +26,10 @@
       border-bottom: solid 1px var(--lighter-gray);
       padding-bottom: 1em;
       margin-bottom: 2em;
+
+      > .row {
+        align-items: baseline;
+      }
     }
 
     [marked] p:first-child {

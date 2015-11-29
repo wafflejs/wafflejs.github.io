@@ -40,15 +40,22 @@ div( class=className )
     .col-xs-12.col-sm-6
       h2 Schedule
 
-      ul: li( ng-repeat="event in index.schedule" )
-        .row( ng-repeat="(time, item) in event" )
-          .col-xs-12: h5 {{time}} {{item.type}}
-          .col-xs-12( ng-show='item.person' )
-            h5.highlight {{item.person.name}} · 
+      ul: li( ng-repeat='event in index.schedule' )
+        .row.row-lg-offset--3( ng-repeat="(time, item) in event" )
+          .col-xs-12.col-lg-3.end-lg
+            h5
+              | {{time}} 
+              span.hide-lg( ng-show='item.type') · {{item.type}}
+          .col-xs-12.col-lg-9( ng-show='item.person || item.type' )
+            h5.highlight( ng-show='item.person' )
+              | {{item.person.name}} · 
               a( ng-href='https://twitter.com/{{item.person.twitter}}' )
                 | @{{item.person.twitter}}
-          .col-xs-12: h3 {{item.title || item}}
-          .col-xs-12( marked='item.description' )
+          .hide-md-down.col-lg-3.end-lg( ng-show='item.type' )
+            h5 {{item.type}}
+          .col-xs-12.col-lg-9
+            h3 {{item.title || item}}
+          .col-xs-12.col-lg-9.col-lg-offset-3( marked='item.description' )
 
   section#sponsors: .container: .row.bottom-sm
     .col-xs-12.col-sm-6
