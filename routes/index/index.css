@@ -17,6 +17,21 @@
   }
 
   #schedule {
+    .container {
+      background: url('../../images/computer.svg') 100% 0%,
+                  url('../../images/waffle.svg') 100% 60%,
+                  url('../../images/microphone.svg') 100% 120%;
+      background-repeat: no-repeat;
+      background-size: 50% 50%;
+      @media (--xs-viewport-only) {
+        background: linear-gradient(hsla(0, 0%, 100%, .8), hsla(0, 0%, 100%, .8)),
+                    url('../../images/computer.svg') 100% 0%,
+                    url('../../images/waffle.svg') 100% 50%,
+                    url('../../images/microphone.svg') 100% 100%;
+        background-repeat: no-repeat;
+      }
+    }
+
     ul {
       list-style-type: none;
       padding: 0;

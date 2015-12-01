@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370" height="335" viewBox="0 0 370 335" version="1.1">
+  <title>
+    waffle
+  </title>
+  <desc>
+    Created with Sketch.
+  </desc>
+  <defs>
+    <path d="M107.26 114.47C103.14 119.09 97.14 122 90.46 122L22.5 122C10.08 122 0 111.93 0 99.5L0 31.54C0 24.89 2.89 18.91 7.47 14.79L15.5 6.71 15.5 6.72C19.58 2.57 25.26 0 31.54 0L99.5 0C111.92 0 122 10.07 122 22.5L122 90.46C122 95.87 120.09 100.84 116.9 104.72L116.91 104.8 116.47 105.23C115.8 106 115.08 106.73 114.31 107.4L107.26 114.47Z" id="path-1"/>
+    <path d="M14.81 81.72C6.39 80.22 0 72.86 0 64.01L0 30.99C0 28.89 0.36 26.87 1.02 25L1 25 1.09 24.8C1.49 23.72 1.99 22.68 2.58 21.71L13 0 77 0 87.41 21.68C88.01 22.67 88.51 23.72 88.91 24.82L89 25 88.98 25C89.64 26.87 90 28.89 90 30.99L90 64.01C90 72.86 83.6 80.21 75.19 81.72L73 85 17 85 14.81 81.72Z" id="path-3"/>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="waffle">
+      <g id="Group" transform="translate(195.327550, 224.327550) rotate(-30.000000) translate(-195.327550, -224.327550) translate(134.327550, 163.327550)">
+        <mask id="mask-2" fill="white">
+          <use xlink:href="#path-1"/>
+        </mask>
+        <use id="Mask" stroke="#8C8473" stroke-width="5" fill="#FFFDF5" xlink:href="#path-1"/>
+        <ellipse id="Oval-89" fill="#8C8473" mask="url(#mask-2)" cx="61" cy="74.56" rx="4.52" ry="6.78"/>
+        <ellipse id="Oval-89" fill="#8C8473" mask="url(#mask-2)" cx="103.93" cy="74.56" rx="4.52" ry="6.78"/>
+        <path d="M81.74 89.62C86.54 89.62 90.43 85.73 90.43 80.93 90.43 76.13 86.54 79.43 81.74 79.43 76.94 79.43 73.05 76.13 73.05 80.93 73.05 85.73 76.94 89.62 81.74 89.62Z" id="Oval-91" stroke="#8C8473" stroke-width="2.25" fill="#8C8473" mask="url(#mask-2)"/>
+        <g mask="url(#mask-2)" stroke-linecap="round" stroke="#8C8474" id="Path-126" stroke-width="3">
+          <g transform="translate(65.141586, 22.018129) scale(-1, -1) translate(-65.141586, -22.018129) translate(23.141586, 14.018129)">
+            <path d="M0.43 0C0.43 0 3.12 0 6.43 0L9.5 0C12.81 0 15.49 2.69 15.49 6L15.49 15.06"/>
+            <path d="M23.35 0C23.35 0 26.04 0 29.34 0L32.41 0C35.72 0 38.41 2.69 38.41 6L38.41 15.06"/>
+            <path d="M45.94 0C45.94 0 48.63 0 51.93 0L55 0C58.32 0 61 2.69 61 6L61 15.06"/>
+            <path d="M68.53 0C68.53 0 71.22 0 74.53 0L77.6 0C80.91 0 83.59 2.69 83.59 6L83.59 15.06"/>
+          </g>
+        </g>
+        <g mask="url(#mask-2)" stroke-linecap="round" stroke="#8C8474" id="Path-126" stroke-width="3">
+          <g transform="translate(65.141586, 44.610722) scale(-1, -1) translate(-65.141586, -44.610722) translate(23.141586, 36.610722)">
+            <path d="M0.43 0C0.43 0 3.12 0 6.43 0L9.5 0C12.81 0 15.49 2.69 15.49 6L15.49 15.06"/>
+            <path d="M23.35 0C23.35 0 26.04 0 29.34 0L32.41 0C35.72 0 38.41 2.69 38.41 6L38.41 15.06"/>
+            <path d="M45.94 0C45.94 0 48.63 0 51.93 0L55 0C58.32 0 61 2.69 61 6L61 15.06"/>
+            <path d="M68.53 0C68.53 0 71.22 0 74.53 0L77.6 0C80.91 0 83.59 2.69 83.59 6L83.59 15.06"/>
+          </g>
+        </g>
+        <g mask="url(#mask-2)" stroke-linecap="round" stroke="#8C8474" id="Path-126" stroke-width="3">
+          <g transform="translate(31.000000, 67.203315) scale(-1, -1) translate(-31.000000, -67.203315) translate(23.000000, 59.203315)">
+            <path d="M0.53 0C0.53 0 3.22 0 6.53 0L9.6 0C12.91 0 15.59 2.69 15.59 6L15.59 15.06"/>
+          </g>
+        </g>
+        <g mask="url(#mask-2)" stroke-linecap="round" stroke="#8C8474" id="Path-126" stroke-width="3">
+          <g transform="translate(31.000000, 90.000000) scale(-1, -1) translate(-31.000000, -90.000000) translate(23.000000, 82.000000)">
+            <path d="M0.53 0C0.53 0 3.22 0 6.53 0L9.6 0C12.91 0 15.59 2.69 15.59 6L15.59 15.06"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group" transform="translate(298.495317, 115.069715) rotate(-20.000000) translate(-298.495317, -115.069715) translate(267.495317, 71.069715)">
+        <g id="Path-424-+-Oval-94" transform="translate(0.000000, 0.000000)">
+          <path d="M24.07 8.53C24.6 4.11 27.6 0.71 28.99 0.71 30.4 0.71 33.48 4.22 33.94 8.76 37.94 6.53 42.73 7.21 43.4 8.17 44.12 9.2 42.91 14.62 38.76 17.53 35.34 19.92 31.09 20.01 29.22 19.26 27.35 20.01 23.1 19.92 19.68 17.53 15.53 14.62 14.32 9.2 15.04 8.17 15.69 7.25 20.16 6.58 24.07 8.53Z" id="Oval-94" stroke="#8C8473" stroke-width="3" fill="#FFFDF5"/>
+          <path d="M30.62 24.83C39.1 24.83 61.24 20.21 61.24 41.78 61.24 50.24 56.36 57.76 53.05 65.49 47.9 77.49 42.16 88 30.62 88 19.58 88 15.35 76.85 10.12 65.49 6.36 57.32 0 50.13 0 41.78 0 21.82 22.14 24.83 30.62 24.83Z" id="Path-424" stroke="#8C8473" stroke-width="3" fill="#FFFDF5"/>
+          <circle id="Oval-85" fill="#8C8473" cx="31" cy="35" r="2"/>
+          <circle id="Oval-85" fill="#8C8473" cx="25" cy="44" r="2"/>
+          <circle id="Oval-85" fill="#8C8473" cx="17" cy="35" r="2"/>
+          <circle id="Oval-85" fill="#8C8473" cx="11" cy="44" r="2"/>
+          <circle id="Oval-85" fill="#8C8473" cx="45" cy="35" r="2"/>
+          <circle id="Oval-85" fill="#8C8473" cx="39" cy="44" r="2"/>
+          <circle id="Oval-85" fill="#8C8473" cx="53" cy="44" r="2"/>
+        </g>
+        <ellipse id="Oval-83" fill="#8C8473" cx="40.61" cy="61.16" rx="2.5" ry="4"/>
+        <ellipse id="Oval-83" fill="#8C8473" cx="18.61" cy="61.16" rx="2.5" ry="4"/>
+        <path d="M25.45 63.78C25.45 63.78 26.68 67.71 29.76 67.71 32.83 67.71 34.06 63.78 34.06 63.78" id="Path-351" stroke="#8C8473" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <g id="Rectangle-225-+-Rectangle-224-+-Oval-122" transform="translate(89.000000, 95.500000) rotate(-330.000000) translate(-89.000000, -95.500000) translate(44.000000, 46.000000)">
+        <g id="Rectangle-225-+-Oval-122-+-Rectangle-228" transform="translate(0.000000, 14.000000)">
+          <mask id="mask-4" fill="white">
+            <use xlink:href="#path-3"/>
+          </mask>
+          <use id="Mask" stroke="#8C8473" stroke-width="3" fill="#FFFDF5" xlink:href="#path-3"/>
+          <path d="M89 67.95L89 26.05C84.65 28.31 66.6 30 45 30 20.15 30 0 27.76 0 25L0 70 0.9 70C5.07 72.28 23.23 74 45 74 69.85 74 90 71.76 90 69 90 68.64 89.66 68.29 89 67.95Z" id="Oval-122" stroke="#8C8473" stroke-width="3" fill="#FFFDF5" mask="url(#mask-4)"/>
+          <path d="M22.61 50.47C22.61 50.47 22.74 45.08 26.63 45.08 30.52 45.08 30.61 50.47 30.61 50.47" id="Path-388" stroke="#8C8473" stroke-width="3" stroke-linecap="round" mask="url(#mask-4)"/>
+          <ellipse id="Oval-126" fill="#8C8473" mask="url(#mask-4)" cx="76" cy="48.5" rx="3" ry="4.5"/>
+          <path d="M41 53C41 53 43.93 53.2 43.93 56.49 43.93 59.77 41 59.91 41 59.91" id="Path-389" stroke="#8C8473" stroke-width="3" stroke-linecap="round" mask="url(#mask-4)"/>
+          <g id="Path-389" mask="url(#mask-4)" stroke-linecap="round" stroke="#8C8473" stroke-width="3">
+            <g transform="translate(61.000000, 53.000000)">
+              <path d="M0 0C0 0 2.93 0.2 2.93 3.49 2.93 6.77 0 6.91 0 6.91" transform="translate(1.466707, 3.455595) scale(-1, 1) translate(-1.466707, -3.455595) "/>
+            </g>
+          </g>
+          <path d="M45.5 56.5L59.54 56.5" id="Line" stroke="#8C8473" stroke-width="3" stroke-linecap="round" mask="url(#mask-4)"/>
+        </g>
+        <g id="Rectangle-224-+-Oval-122" transform="translate(10.000000, 0.000000)" stroke="#8C8473" stroke-width="3" fill="#FFFDF5">
+          <path d="M70 15L70 5 0 5 0 15C0 17.76 15.67 20 35 20 54.33 20 70 17.76 70 15Z" id="Rectangle-224"/>
+          <ellipse id="Oval-122" cx="35" cy="5" rx="35" ry="5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
