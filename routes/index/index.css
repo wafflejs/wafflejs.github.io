@@ -24,7 +24,7 @@
       background-repeat: no-repeat;
       background-size: 50% 50%;
       @media (--xs-viewport-only) {
-        background: linear-gradient(hsla(0, 0%, 100%, .8), hsla(0, 0%, 100%, .8)),
+        background: linear-gradient(hsla(0, 0%, 100%, .9), hsla(0, 0%, 100%, .9)),
                     url('../../images/computer.svg') 100% 0%,
                     url('../../images/waffle.svg') 100% 50%,
                     url('../../images/microphone.svg') 100% 100%;
@@ -49,6 +49,12 @@
 
     [marked] p:first-child {
       margin-top: 0;
+    }
+  }
+
+  #sponsors {
+    svg {
+      vertical-align: center;
     }
   }
 }

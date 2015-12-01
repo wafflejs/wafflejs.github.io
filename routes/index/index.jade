@@ -59,7 +59,7 @@ div( class=className )
             h3 {{item.title || item}}
           .col-xs-12.col-lg-9.col-lg-offset-3( marked='item.description' )
 
-  section#sponsors: .container: .row.bottom-sm
+  section#sponsors: .container: .row
     .col-xs-12.col-sm-6
       :marked
         Sponsors
@@ -73,6 +73,11 @@ div( class=className )
         [3]: https://newrelic.com/about/careers
 
       p: a.button( href='/sponsorship' ) Sponsor
+
+    .col-xs-12.col-sm-6.row.around-xs.middle-xs
+      include ../../images/sponsors/dropbox.svg
+      include ../../images/sponsors/opendoor.svg
+      include ../../images/sponsors/newrelic.svg
 
   section#get-involved: .container
     h2 Get Involved
