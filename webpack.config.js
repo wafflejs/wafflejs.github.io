@@ -24,7 +24,7 @@ module.exports = {
         exclude: /node_modules/,
         loaders: ['ng-annotate?regexp=^.?angular.*$', 'babel'] },
 
-      { test: /\.svg/, loader: 'url' },
+      { test: /\.svg/, loaders: ['url', 'svgo?useConfig=svgo'] },
 
       { test: /\.yml/, loaders: ['json', 'yaml'] },
 
@@ -39,6 +39,13 @@ module.exports = {
     require('postcss-custom-media'),
     require('autoprefixer'),
   ] },
+
+  svgo: {
+    plugins: [
+      { collapseGroups: false },
+      { convertTransform: false },
+    ]
+  },
 
   resolve: {
     extensions: [ '', '.js' ]
