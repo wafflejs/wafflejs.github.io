@@ -19,10 +19,10 @@
   #schedule {
     .container {
       background: url('../../images/computer.svg') 100% 0%,
-                  url('../../images/waffle.svg') 100% 60%,
-                  url('../../images/microphone.svg') 100% 120%;
+                  url('../../images/waffle.svg') 100% 50%,
+                  url('../../images/microphone.svg') 100% 100%;
       background-repeat: no-repeat;
-      background-size: 50% 50%;
+      background-size: 50%;
       @media (--xs-viewport-only) {
         background: linear-gradient(hsla(0, 0%, 100%, .9), hsla(0, 0%, 100%, .9)),
                     url('../../images/computer.svg') 100% 0%,

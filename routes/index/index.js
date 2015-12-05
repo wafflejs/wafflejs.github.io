@@ -1,4 +1,5 @@
 import angular from 'angular'
+import { values } from 'lodash'
 import css from './index.css'
 import schedule from './schedule.yml'
 
@@ -12,7 +13,7 @@ export default angular.module('wafflejs.routes.index', [
     controllerAs: 'index',
     controller: class {
       constructor() {
-        this.schedule = schedule;
+        this.schedule = values(schedule[0])[0]
       }
     }
   })

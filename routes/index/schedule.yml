@@ -1,63 +1,100 @@
-- 7:00 PM: Get some tasty waffles and drinks
+- 2016-01:
+  - 7:00 PM: Get some tasty waffles and drinks
 
-- 7:20 PM:
-    type: Performance
-    title: Karaoke
-    person:
-      name: Gabriel Gilder
-      twitter: _gjg_
+  - 7:20 PM:
+      type: Performance
+      title: Wanna perform?
 
-- 7:30 PM: Introductions
+  - 7:30 PM: Introductions
 
-- 7:45 PM:
-    type: Talk 🎩
-    title: React + D3
-    description: Together they’re black magic.
-    person:
-      name: Shirley Wu
-      twitter: shirleyxywu
+  - 7:45 PM:
+      type: Talk
+      title: Wanna talk?
 
-- 8:00 PM:
-    type: Talk 👥
-    title: How we hire — what we’ve learned that’s worth sharing
-    description: At npm, we've had some pretty excellent luck with hiring.
-      But even we get it wrong sometimes. Here's a 10-step breakdown of what
-      we do now (and how it differs from other hiring processes).
-    person:
-      name: Raquel Vélez
-      twitter: rockbot
+  - 8:00 PM:
+      type: Talk
+      title: ' '
 
-- 8:25 PM: Intermission
+  - 8:25 PM: Intermission
 
-- 8:35 PM:
-    type: Performance
-    title: Karaoke
-    person:
-      name: Maria Mora
-      twitter: _riamaria
+  - 8:35 PM:
+      type: Performance
+      title: ' '
 
-- 8:45 PM:
-    type: Talk 🎻
-    title: Turning a room into a synthesizer with a distributed harmonic series
-    description: Let’s talk about what a harmonic series is. This natural
-      phenomena tells us quite a bit about the symmetry found in our physiology
-      and how our brain interprets it is fascinating. We’ll discover why
-      certain instruments sound the way they do, and why some instruments are
-      better suited for rhythm than percussion. We’ll also turn the room into a
-      giant distributed synthesizer and make some noise.
-    person:
-      name: Myles Borins
-      twitter: thealphanerd
+  - 8:45 PM:
+      type: Talk
+      title: ' '
 
-- 9:00 PM:
-    type: Talk 🔐
-    title: 🔐👶 — or, an Introduction to Cryptography
-    description: Breaking down some basic ideas in cryptography, one 💩 at a
-      time.
-    person:
-      name: Tess Rinearson
-      twitter: _tessr
+  - 9:00 PM:
+      type: Talk
+      title: ' '
 
-- 9:15 PM:
-    type: Performance
-    title: Open karaoke!
+  - 9:15 PM:
+      type: Performance
+      title: Open karaoke!
+
+- 2015-12:
+  - 7:00 PM: Get some tasty waffles and drinks
+
+  - 7:20 PM:
+      type: Performance
+      title: Karaoke
+      person:
+        name: Gabriel Gilder
+        twitter: _gjg_
+
+  - 7:30 PM: Introductions
+
+  - 7:45 PM:
+      type: Talk 🎩
+      title: React + D3
+      description: Together they’re black magic.
+      person:
+        name: Shirley Wu
+        twitter: shirleyxywu
+
+  - 8:00 PM:
+      type: Talk 👥
+      title: How we hire — what we’ve learned that’s worth sharing
+      description: At npm, we've had some pretty excellent luck with hiring.
+        But even we get it wrong sometimes. Here's a 10-step breakdown of what
+        we do now (and how it differs from other hiring processes).
+      person:
+        name: Raquel Vélez
+        twitter: rockbot
+
+  - 8:25 PM: Intermission
+
+  - 8:35 PM:
+      type: Performance
+      title: Karaoke
+      person:
+        name: Maria Mora
+        twitter: _riamaria
+
+  - 8:45 PM:
+      type: Talk 🎻
+      title: Turning a room into a synthesizer with a distributed harmonic
+        series
+      description: Let’s talk about what a harmonic series is. This natural
+        phenomena tells us quite a bit about the symmetry found in our
+        physiology and how our brain interprets it is fascinating. We’ll
+        discover why certain instruments sound the way they do, and why some
+        instruments are better suited for rhythm than percussion. We’ll also
+        turn the room into a giant distributed synthesizer and make some noise.
+      person:
+        name: Myles Borins
+        twitter: thealphanerd
+
+  - 9:00 PM:
+      type: Talk 🔐
+      title: 🔐👶 — or, an Introduction to Cryptography
+      description: Breaking down some basic ideas in cryptography, one 💩 at a
+        time.
+      person:
+        name: Tess Rinearson
+        twitter: _tessr
+
+  - 9:15 PM:
+      type: Performance
+      title: Open karaoke!

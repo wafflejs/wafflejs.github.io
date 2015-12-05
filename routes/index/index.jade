@@ -72,7 +72,7 @@ div( class=className )
         [2]: https://www.opendoor.com/jobs
         [3]: https://newrelic.com/about/careers
 
-      p: a.button( href='/sponsorship' ) Sponsor
+      p: a.btn( href='/sponsorship' ) Sponsor
 
     .col-xs-12.col-sm-6.row.around-xs.middle-xs
       include ../../images/sponsors/dropbox.svg
@@ -86,18 +86,25 @@ div( class=className )
       .col-xs-12.col-sm-6
         :marked
           ### Call for Speakers
+          We're looking for speakers! You don't need to be an expert. Talks are
+          ten minutes each. Topics we like are creative applications of
+          programming, something you're excited about outside of work, or a
+          deep dive on a technical topic. Surprise us!
 
-          We donate all proceeds every month.
-
-        p: a.button( href='' ) Speak
+        p: a.btn(
+          href='https://github.com/wafflejs/wafflejs.github.io/issues/90' )
+          | I Wanna Speak
 
       .col-xs-12.col-sm-6
         :marked
           ### Call for Performers
+          We're looking for people to perform! We like singing, plate-spinning,
+          dancing, and harps! You don't have to be great, just enthusiastic.
+          Try to keep it to one or more acts of six minutes each.
 
-          We plan everything out in the open.
-
-        p: a.button( href='' ) Perform
+        p: a.btn(
+          href='https://github.com/wafflejs/wafflejs.github.io/issues/89' )
+          | I Wanna Perform
 
   section#transparency: .container
     h2 Transparency
