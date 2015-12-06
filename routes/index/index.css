@@ -3,17 +3,16 @@
 
 :local(.className) {
   header, section {
-    padding: 4em 0 0;
+    padding: 4em 0;
   }
 
-  header {
-    color: white;
-    text-shadow: 0 1px hsla(0, 0%, 0%, .6);
-    background-color: var(--tan);
-    background: linear-gradient(hsla(0, 0%, 0%, .4), transparent 75%),
-                url('/images/hero-1.jpg') 50% 40%;
+  #header {
+  }
+
+  #cover-photo {
+    background: url('/images/hero-1.jpg') 50% 40%;
     background-size: cover;
-    padding-bottom: 15em;
+    height: 50vh;
   }
 
   #schedule {
