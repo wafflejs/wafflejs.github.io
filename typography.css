@@ -6,7 +6,7 @@ body {
   text-rendering: optimizeLegibility;
   font-family: Roboto, sans-serif;
   @media (--sm-viewport) {
-    font-size: 125%;
+    font-size: 110%;
   }
 }
 
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: 'Quarto A', 'Quarto B', serif;
-  font-size: 3em !important;
+  font-size: 3.5em !important;
 }
 
 h2 {
@@ -35,10 +35,12 @@ h3 {
 
 h4 {
   font-family: 'Quarto A', 'Quarto B', serif;
+  font-size: 1.25em;
 }
 
 h5 {
-  font-weight: 400;
+  font-size: 0.75em;
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--light-gray);
 }

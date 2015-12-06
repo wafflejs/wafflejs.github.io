@@ -26,7 +26,6 @@ footer {
     box-sizing: border-box;
     width: 100%;
     box-shadow: 0 0 10px hsla(0, 0%, 0%, .2);
-    border-bottom: solid 5px var(--orange);
     @media (--sm-viewport) {
       border-left: solid 5px var(--orange);
       border-right: solid 5px var(--orange);

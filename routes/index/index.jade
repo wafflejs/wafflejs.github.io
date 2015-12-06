@@ -1,7 +1,7 @@
 title  · A fun night of code, waffles, and karaoke.
 
 div( class=className )
-  header: .container: .row.bottom-sm
+  section#header: .container: .row.bottom-sm
     .col-xs-12.col-sm-7
       :marked
         <h4 class="highlight">WaffleJS</h4>
@@ -23,6 +23,8 @@ div( class=className )
 
         [1]: https://goo.gl/maps/0gkOe
         [2]: /map
+  
+  section#cover-photo
 
   section#about: .container: .row
     .col-xs-12.col-sm-6
@@ -37,6 +39,30 @@ div( class=className )
         Conduct][1].
 
         [1]: http://jsconf.com/codeofconduct.html
+  
+  section#get-involved: .container
+    h2 Get Involved
+
+    .row.between-xs
+      .col-xs-12.col-sm-6
+        :marked
+          ### Call for Speakers
+          Your talk can be anything from knitting machines to the JavaScript v8 
+          engine. And nope, you don't need to be an expert to speak.
+
+        p: a.btn(
+          href='https://github.com/wafflejs/wafflejs.github.io/issues/90' )
+          | Speaker Details
+
+      .col-xs-12.col-sm-6
+        :marked
+          ### Call for Performers
+          You don’t have to be great, just enthusiastic. Try to keep it to 
+          around six minutes.
+
+        p: a.btn(
+          href='https://github.com/wafflejs/wafflejs.github.io/issues/89' )
+          | Performer Details
 
   section#schedule: .container: .row
     .col-xs-12.col-sm-6
@@ -72,42 +98,11 @@ div( class=className )
         [2]: https://www.opendoor.com/jobs
         [3]: https://newrelic.com/about/careers
 
-        Interested in sponsoring?
-
       p: a.btn( href='/sponsorship' ) Sponsorship Details
 
     .col-xs-12.col-sm-6.row.around-xs.middle-xs
       include ../../images/sponsors/newrelic.svg
       include ../../images/sponsors/opendoor.svg
-
-  section#get-involved: .container
-    h2 Get Involved
-
-    .row
-      .col-xs-12.col-sm-6
-        :marked
-          ### Call for Speakers
-          You don’t need to be an expert.
-          Talks are ten minutes each.
-          We like creative applications of programming, something you’re
-          excited about outside of work, or a deep dive on a technical topics.
-          Surprise us!
-
-        p: a.btn(
-          href='https://github.com/wafflejs/wafflejs.github.io/issues/90' )
-          | Speaker Details
-
-      .col-xs-12.col-sm-6
-        :marked
-          ### Call for Performers
-          You don’t have to be great, just enthusiastic.
-          Try to keep it to one or more acts of six minutes each.
-          We like singing, plate-spinning, dancing, and harps!
-          If you’re into it, we're into it.
-
-        p: a.btn(
-          href='https://github.com/wafflejs/wafflejs.github.io/issues/89' )
-          | Performer Details
 
   section#transparency: .container
     h2 Transparency
@@ -131,6 +126,3 @@ div( class=className )
 
           [2]: bar
           [3]: baz
-
-  section
-  section
