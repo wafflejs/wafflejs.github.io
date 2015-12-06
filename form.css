@@ -1,0 +1,16 @@
+@import './colors.css';
+
+.btn {
+  border: solid 2px var(--orange);
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  box-shadow: 0 2px 2px var(--lighter-gray);
+  text-transform: uppercase;
+  display: inline-block;
+  transition: box-shadow .2s;
+
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 2px 5px var(--light-gray);
+  }
+}

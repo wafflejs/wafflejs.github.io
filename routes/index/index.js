@@ -1,5 +1,5 @@
 import angular from 'angular'
-import { values } from 'lodash'
+import { values, forEach } from 'lodash'
 import css from './index.css'
 import schedule from './schedule.yml'
 
@@ -14,6 +14,12 @@ export default angular.module('wafflejs.routes.index', [
     controller: class {
       constructor() {
         this.schedule = values(schedule[0])[0]
+        forEach(this.schedule, (event) => {
+          forEach(event, (item, time) => {
+            if (typeof(item) === 'string')
+              event[time] = { title: item }
+          })
+        })
       }
     }
   })

@@ -2,6 +2,7 @@
 @import './colors.css';
 @import './typography.css';
 @import './grid.css';
+@import './form.css';
 
 body {
   background-color: var(--orange);

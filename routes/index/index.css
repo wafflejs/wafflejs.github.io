@@ -50,6 +50,11 @@
     [marked] p:first-child {
       margin-top: 0;
     }
+
+    h3[marked] p {
+      margin: 0;
+      color: inherit;
+    }
   }
 
   #sponsors {
