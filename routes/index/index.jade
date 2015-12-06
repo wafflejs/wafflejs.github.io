@@ -24,7 +24,7 @@ div( class=className )
         [1]: https://goo.gl/maps/0gkOe
         [2]: /map
   
-  section#cover-photo
+  section#hero
 
   section#about: .container: .row
     .col-xs-12.col-sm-6
@@ -46,7 +46,7 @@ div( class=className )
     .row.between-xs
       .col-xs-12.col-sm-6
         :marked
-          ### Call for Speakers
+          ### Give a Talk
           Your talk can be anything from knitting machines to the JavaScript v8 
           engine. And nope, you don't need to be an expert to speak.
 
@@ -56,7 +56,7 @@ div( class=className )
 
       .col-xs-12.col-sm-6
         :marked
-          ### Call for Performers
+          ### Perform
           You don’t have to be great, just enthusiastic. Try to keep it to 
           around six minutes.
 
@@ -68,7 +68,7 @@ div( class=className )
     .col-xs-12.col-sm-6
       h2 Schedule
 
-      ul: li( ng-repeat='event in index.schedule' )
+      ul: li( ng-repeat='event in index.schedule track by $index' )
         .row.row-lg-offset--3( ng-repeat="(time, item) in event" )
           .col-xs-12.col-lg-3.end-lg
             h5
@@ -91,14 +91,14 @@ div( class=className )
         Sponsors
         --------
 
-        This month's WaffleJS is sponsored by [Dropbox][1], [Opendoor][2], and
-        [New Relic][3].
+        This month's WaffleJS is sponsored by [New Relic][3] and [Opendoor][2].
 
-        [1]: https://www.dropbox.com/jobs
+        Interested in sponsoring a future event?
+
         [2]: https://www.opendoor.com/jobs
         [3]: https://newrelic.com/about/careers
 
-      p: a.btn( href='/sponsorship' ) Sponsorship Details
+      p: a.btn( ui-sref='sponsorship' ) Sponsorship Details
 
     .col-xs-12.col-sm-6.row.around-xs.middle-xs
       include ../../images/sponsors/newrelic.svg
@@ -112,17 +112,17 @@ div( class=className )
         :marked
           ### Finance
 
-          We donate all proceeds every month. Check out [our budget
+          We donate all proceeds every month. Check out our [budget
           spreadsheet][1] to learn more.
 
-          [1]: foo
+          [1]: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit?usp=sharing
 
       .col-xs-12.col-sm-6
         :marked
           ### Planning
 
-          We plan everything out in the open. We track our issues on
-          [GitHub][2] and organize on [Slack][3]. Feel free to join and say hi!
+          We plan everything out in the open. Come chat with us on [Slack][2]
+          or chime in on [GitHub][3].
 
-          [2]: bar
-          [3]: baz
+          [2]: http://slack.borojs.com/
+          [3]: https://github.com/wafflejs/wafflejs.github.io/issues

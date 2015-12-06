@@ -1,10 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 @import url(https://cloud.typography.com/7886252/634328/css/fonts.css);
 @import './colors.css';
 
 body {
   text-rendering: optimizeLegibility;
   font-family: Roboto, sans-serif;
+  line-height: 150%;
   @media (--sm-viewport) {
     font-size: 110%;
   }
@@ -13,6 +14,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1rem;
+  line-height: 100%;
 
   &.highlight {
     color: var(--orange);
@@ -35,14 +37,15 @@ h3 {
 
 h4 {
   font-family: 'Quarto A', 'Quarto B', serif;
-  font-size: 1.25em;
+  font-size: 1.2em;
 }
 
 h5 {
-  font-size: 0.75em;
-  font-weight: 700;
+  font-size: 0.8em;
+  font-weight: 500;
   text-transform: uppercase;
   color: var(--light-gray);
+  margin-bottom: 1em;
 }
 
 h6 {
@@ -58,7 +61,6 @@ a {
   }
 }
 
-p {
-  line-height: 150%;
-  color: var(--gray);
+b, strong {
+  font-weight: 500;
 }

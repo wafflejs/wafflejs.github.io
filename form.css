@@ -1,15 +1,29 @@
 @import './colors.css';
 
 .btn {
+  display: inline-block;
   border: solid 2px var(--orange);
   border-radius: 5px;
-  font-size: 0.75em;
-  font-weight: 600;
-  padding: .5rem 1rem;
-  box-shadow: 0 2px 2px var(--lighter-gray);
+  font-size: 0.8em;
+  font-weight: 500;
+  line-height: 125%;
+  padding: 1rem 0;
   text-transform: uppercase;
-  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0 2px 2px var(--lighter-gray);
   transition: box-shadow .2s;
+
+  @media (--sm-viewport) {
+    width: auto;
+    padding: .75rem 1rem;
+  }
+
+  &.primary {
+    background-color: var(--orange);
+    color: white;
+  }
 
   &:hover {
     text-decoration: none;

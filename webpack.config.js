@@ -24,9 +24,9 @@ module.exports = {
         exclude: /node_modules/,
         loaders: ['ng-annotate?regexp=^.?angular.*$', 'babel'] },
 
-      { test: /\.svg/, loaders: ['url', 'svgo?useConfig=svgo'] },
+      { test: /\.svg$/, loaders: ['url', 'svgo?useConfig=svgo'] },
 
-      { test: /\.yml/, loaders: ['json', 'yaml'] },
+      { test: /\.yml$/, loaders: ['json', 'yaml'] },
 
       { test: /angular-new-router/, loader: 'exports?default="ngNewRouter"' }
     ]
@@ -51,4 +51,7 @@ module.exports = {
     extensions: [ '', '.js' ]
   },
 
+  devServer: {
+    historyApiFallback: true,
+  },
 }

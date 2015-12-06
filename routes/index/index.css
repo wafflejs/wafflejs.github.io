@@ -2,17 +2,10 @@
 @import '../../grid.css';
 
 :local(.className) {
-  header, section {
-    padding: 4em 0;
-  }
-
-  #header {
-  }
-
-  #cover-photo {
-    background: url('/images/hero-1.jpg') 50% 40%;
+  #hero {
+    background: url('/images/hero-1.jpg') 50% 50%;
     background-size: cover;
-    height: 50vh;
+    height: 40vh;
   }
 
   #schedule {
@@ -23,7 +16,7 @@
       background-repeat: no-repeat;
       background-size: 50%;
       @media (--xs-viewport-only) {
-        background: linear-gradient(hsla(0, 0%, 100%, .9), hsla(0, 0%, 100%, .9)),
+        background: linear-gradient(var(--tan-translucent), var(--tan-translucent)),
                     url('../../images/computer.svg') 100% 0%,
                     url('../../images/waffle.svg') 100% 50%,
                     url('../../images/microphone.svg') 100% 100%;
@@ -33,23 +26,26 @@
 
     ul {
       list-style-type: none;
+      color: inherit;
       padding: 0;
     }
 
     li {
-      border-bottom: solid 1px var(--lighter-gray);
+      padding-top: 2em;
       padding-bottom: 1em;
-      margin-bottom: 2em;
-
       > .row {
         align-items: baseline;
       }
+    }
+    li + li {
+      border-top: solid 1px var(--lighter-gray);
     }
 
     [marked] p:first-child {
       margin-top: 0;
     }
 
+    /* undo the effects of markdown's inherent <p> tag */
     h3[marked] p {
       margin: 0;
       color: inherit;

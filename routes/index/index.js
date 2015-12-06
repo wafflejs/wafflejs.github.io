@@ -1,27 +1,31 @@
 import angular from 'angular'
-import { values, forEach } from 'lodash'
+import { forEach } from 'lodash'
 import css from './index.css'
 import schedule from './schedule.yml'
 
 export default angular.module('wafflejs.routes.index', [
-  require('angular-route'),
+  require('angular-ui-router'),
   require('angular-marked'),
 ])
-.config(($routeProvider) => {
-  $routeProvider.when('/', {
+.config(($stateProvider) => {
+  $stateProvider.state('index', {
+    url: '/',
     template: require('./index.jade')(css),
     controllerAs: 'index',
     controller: class {
       constructor() {
-        this.schedule = values(schedule[0])[0]
+        this.schedule = schedule[0].schedule
+        // fix title
         forEach(this.schedule, (event) => {
           forEach(event, (item, time) => {
             if (typeof(item) === 'string')
               event[time] = { title: item }
           })
         })
+
+        this.sponsors = schedule[0].sponsors
       }
-    }
+    },
   })
 })
 .config((markedProvider) => {

@@ -1,8 +1,8 @@
 @import 'normalize.css';
 @import './colors.css';
-@import './typography.css';
-@import './grid.css';
 @import './form.css';
+@import './grid.css';
+@import './typography.css';
 
 body {
   background-color: var(--orange);
@@ -16,16 +16,39 @@ main, footer {
   background-color: var(--tan);
 }
 
+main {
+  padding-bottom: 4rem;
+
+  section {
+    margin: 4rem 0;
+
+    &:first-child {
+      margin-top: 0;
+      padding-top: 4rem;
+    }
+  }
+}
+
 footer {
-  padding: 1em 0;
+  @media (--xs-viewport-only) {
+    background-color: var(--orange);
+    .btn {
+      border-radius: 0;
+      box-shadow: none !important;
+    }
+  }
+
+  @media (--sm-viewport) {
+    padding: .5rem 0;
+  }
 
   &.fixed {
     position: fixed;
     left: 0;
     bottom: 0;
-    box-sizing: border-box;
-    width: 100%;
+    right: 0;
     box-shadow: 0 0 10px hsla(0, 0%, 0%, .2);
+
     @media (--sm-viewport) {
       border-left: solid 5px var(--orange);
       border-right: solid 5px var(--orange);
@@ -43,5 +66,22 @@ footer {
     li + li {
       margin-left: 1em;
     }
+  }
+}
+
+p, ul {
+  color: var(--gray);
+}
+
+ul {
+  padding-left: 22px;
+}
+
+table {
+  width: 100%;
+  margin: 1em auto;
+
+  @media (--sm-viewport) {
+    width: 75%;
   }
 }
