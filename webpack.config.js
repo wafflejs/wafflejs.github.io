@@ -24,6 +24,8 @@ module.exports = {
         exclude: /node_modules/,
         loaders: ['ng-annotate?regexp=^.?angular.*$', 'babel'] },
 
+      { test: /\.md$/, loaders: ['html', 'markdown?smartypants=true'] },
+
       { test: /\.svg$/, loaders: ['url', 'svgo?useConfig=svgo'] },
 
       { test: /\.yml$/, loaders: ['json', 'yaml'] },

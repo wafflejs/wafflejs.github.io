@@ -2,6 +2,10 @@
 @import '../../grid.css';
 
 :local(.className) {
+  h2 {
+    margin-top: 0;
+  }
+
   #hero {
     background: url('/images/hero-1.jpg') 50% 50%;
     background-size: cover;
