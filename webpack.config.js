@@ -1,10 +1,19 @@
+const webpack = require('webpack')
 const path = require('path')
 
 module.exports = {
 
   devtool: 'source-map',
 
-  entry: './index.js',
+  entry: {
+    main: './index.js',
+    vendor: [
+      'angular',
+      'angular-marked',
+      'angular-ui-router',
+      'lodash',
+    ]
+  },
 
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -53,6 +62,10 @@ module.exports = {
     extensions: [ '', '.js' ],
     root: path.resolve(__dirname),
   },
+
+  plugins: [
+    new webpack.optimize.CommonsChunkPlugin({ name: 'vendor' }),
+  ],
 
   devServer: {
     historyApiFallback: true,
