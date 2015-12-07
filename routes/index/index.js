@@ -4,7 +4,7 @@ import css from './index.css'
 export default angular.module('wafflejs.routes.index', [
   require('angular-ui-router'),
   require('angular-marked'),
-  require('../../models/calendar').default,
+  require('models/calendar').default,
 ])
 .config(($stateProvider) => {
   $stateProvider.state('index', {
@@ -15,7 +15,6 @@ export default angular.module('wafflejs.routes.index', [
       constructor(calendar) {
         calendar = calendar.slice()
         this.day = calendar.shift()
-        this.past = calendar
       }
     },
   })

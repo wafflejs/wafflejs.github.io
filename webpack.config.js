@@ -50,7 +50,8 @@ module.exports = {
   },
 
   resolve: {
-    extensions: [ '', '.js' ]
+    extensions: [ '', '.js' ],
+    root: path.resolve(__dirname),
   },
 
   devServer: {

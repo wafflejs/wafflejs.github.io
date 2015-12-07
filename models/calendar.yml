@@ -116,3 +116,84 @@
     - Dropbox: https://www.dropbox.com/jobs
     - New Relic: https://newrelic.com/about/careers
     - Opendoor: https://www.opendoor.com/jobs
+
+- date: 2015-11-04
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+    - 7:20 PM:
+        type: Performance
+        title: Karaoke
+        emoji: 🎤
+        person:
+          name: Maria Mora
+          twitter: _riamaria
+    - 7:30 PM:
+        emoji: 👋
+        title: Introductions
+    - 7:45 PM:
+        emoji: 📷
+        type: Talk
+        title: Kernel and Convolution are Friends (Image Processing with Canvas)
+        person:
+          name: Mariko Kosaka
+          twitter: kosamari
+        description: As web engineers, we take it for granted that the
+          &lt;img&gt; tag displays an image because it’s a "digital photo."
+          Let's look at what "a Pixel" is and how you can manipulate it for fun
+          with the Canvas API and JavaScript.
+    - 8:00 PM:
+        emoji: 🌳
+        type: Talk
+        title: Spherical geometry and high performance trees in JavaScript
+        person:
+          name: Matt Ranney
+          twitter: mranney
+        description: Our planet is a sphere, but thinking in 3D is hard. I'll
+          explain some of the basics of working with location data, how Uber
+          finds the nearest vehicles, and how you can use trees to make
+          everything fast.
+    - 8:25 PM:
+        title: Intermission
+        emoji: 🙏
+    - 8:35 PM:
+        emoji: 🎤
+        type: Performance
+        title: Live performance
+        person:
+          name: Evan Minto
+          twitter: VamptVo
+    - 8:45 PM:
+        emoji: 🎸
+        type: Talk
+        title: Creating sample-based music with the Web Audio API
+        person:
+          name: Nick Morgan
+          twitter: skilldrick
+        description: The Web Audio API is now a fully featured API for working
+          with audio. I'll show you how you can use this API to pull apart an
+          existing song into short samples and put it back together to create a
+          new song, with very little code.
+    - 9:00 PM:
+        emoji: 🔥
+        type: Talk
+        title: 'Everything old is new again (hopefully): functional programming
+          in JavaScript'
+        person:
+          name: Melinda Lu
+          twitter: skewleft
+        description: Let’s see how a programming paradigm from the 1950s can
+          help us write JavaScript in a concise, elegant, and super-productive
+          way. We’ll talk about React, Redux, hot reloading, and time-travel
+          debugging.
+    - 9:15 PM:
+        emoji: 🎉
+        type: Closing
+        title: Open karaoke (You can just hang out, too)
+
+- date: 2015-10-07
+
+- date: 2015-09-02
+
+- date: 2015-08-05

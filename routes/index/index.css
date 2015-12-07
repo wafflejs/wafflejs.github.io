@@ -53,6 +53,7 @@
     h3[marked] p {
       margin: 0;
       color: inherit;
+      line-height: 150%;
     }
   }
 
