@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
   <head>
-    <title>WaffleJS – Map</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400|PT+Sans:400,700" rel="stylesheet" type="text/css">
+    <title>WaffleJS · Map</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <meta name="viewport" content="initial-scale=1,user-scalable=no" />
     <style>
       body {
@@ -30,7 +30,7 @@
 
       .map .marker:after {
         position: absolute;
-        font: 3vw 'Roboto Mono', sans-serif;
+        font: 3vw 'Roboto', sans-serif;
         color: white;
         text-shadow: 0 -1px 0 hsla(0, 0%, 0%, .6);
         text-align: center;
@@ -128,8 +128,8 @@
     <script>
       (function() {
         var i = -1;
-        var places = ['barn', 'drinks', 'restrooms', 'food', 'more-food', 'games',
-                      'karaoke'];
+        var places = ['barn', 'drinks', 'restrooms', 'food', 'more-food',
+                      'games', 'karaoke'];
         var marker = document.querySelector('.marker');
         (function loop() {
           marker.classList.remove(places[i]);
