@@ -1,4 +1,4 @@
-<title> · Sponsorship</title>
+<title>· Sponsorship</title>
 Sponsorship
 ===========
 

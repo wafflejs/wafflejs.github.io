@@ -1,4 +1,4 @@
-<title> · Speaker FAQs</title>
+<title>· Speaker FAQs</title>
 Speaker FAQs
 ============
 
