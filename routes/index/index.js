@@ -22,11 +22,4 @@ export default angular.module('wafflejs.routes.index', [
 .config((markedProvider) => {
   markedProvider.setOptions({ smartypants: true })
 })
-.directive('schedule', () => {
-  return {
-    restrict: 'EA',
-    scope: { events: '=' },
-    template: require('./schedule.jade')(),
-  }
-})
 .name
