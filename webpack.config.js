@@ -2,7 +2,7 @@ const webpack = require('webpack')
 const path = require('path')
 
 const marked = require('marked')
-marked.setOptions({ smartypants: true })
+marked.setOptions({ smartypants: true, mangle: false })
 
 module.exports = {
 
