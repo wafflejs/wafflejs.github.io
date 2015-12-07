@@ -1,6 +1,9 @@
 const webpack = require('webpack')
 const path = require('path')
 
+const marked = require('jstransformer-marked/node_modules/marked')
+marked.setOptions({ smartypants: true })
+
 module.exports = {
 
   devtool: 'source-map',
