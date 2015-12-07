@@ -18,7 +18,7 @@ div( class=className )
         a( href='https://goo.gl/maps/0gkOe' ) SOMA StrEat Food
         |  (in the <a href="/map" target="_self">barn</a>)
   
-  section#hero
+  section#hero: .container
 
   section#about: .container: .row
     .col-xs-12.col-sm-6
@@ -68,10 +68,9 @@ div( class=className )
                 span( ng-show='item.emoji' ) {{item.emoji}} 
                 span( ng-show='item.type' ) {{item.type}}
           .col-xs-12.col-lg-9( ng-show='item.person || item.type' )
-            h5.highlight( ng-show='item.person' )
-              | {{item.person.name}} · 
+            h5( ng-show='item.person' )
               a( ng-href='https://twitter.com/{{item.person.twitter}}' )
-                | @{{item.person.twitter}}
+                | {{item.person.name}} · @{{item.person.twitter}}
           .hide-md-down.col-lg-3.end-lg( ng-show='item.type' )
             h5 {{item.type}}
           .col-xs-12.col-lg-9

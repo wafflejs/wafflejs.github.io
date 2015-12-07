@@ -21,6 +21,7 @@
     - 8:45 PM:
         type: Talk
         emoji: 🛠
+        title: 5 Things About Chrome DevTools That Will Surprise You
         person:
           name: Jon Kuperman
           twitter: jkup
@@ -28,7 +29,6 @@
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM:
-        type: Performance
         title: Open karaoke!
         emoji: 🎉
 
