@@ -4,6 +4,11 @@
   box-sizing: border-box;
   padding-left: var(--gutter-width, 1rem);
   padding-right: var(--gutter-width, 1rem);
+
+  @media (--lg-viewport) {
+    padding-left: calc(6 * var(--gutter-width, 1rem));
+    padding-right: calc(6 * var(--gutter-width, 1rem));
+  }
 }
 
 /* https://github.com/kristoferjoseph/flexboxgrid/pull/140 */
