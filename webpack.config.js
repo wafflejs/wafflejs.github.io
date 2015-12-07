@@ -1,7 +1,7 @@
 const webpack = require('webpack')
 const path = require('path')
 
-const marked = require('jstransformer-marked/node_modules/marked')
+const marked = require('marked')
 marked.setOptions({ smartypants: true })
 
 module.exports = {
