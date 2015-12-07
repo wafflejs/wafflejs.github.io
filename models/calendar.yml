@@ -18,7 +18,12 @@
 
     - 8:35 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 🛠
+        person:
+          name: Jon Kuperman
+          twitter: jkup
 
     - 9:00 PM: Speaker TBA
 
