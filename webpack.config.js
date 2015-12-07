@@ -49,6 +49,7 @@ module.exports = {
     require('postcss-nested'),
     require('postcss-custom-properties'),
     require('postcss-custom-media'),
+    require('postcss-calc'),
     require('autoprefixer'),
   ] },
 
