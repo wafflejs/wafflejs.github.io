@@ -11,6 +11,7 @@ module.exports = {
       'angular',
       'angular-marked',
       'angular-ui-router',
+      './heap',
       'lodash',
     ]
   },

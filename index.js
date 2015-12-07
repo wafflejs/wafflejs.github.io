@@ -1,4 +1,4 @@
-//import heap from './heap'
+import heap from './heap'
 
 import angular from 'angular'
 import css from './index.css'
