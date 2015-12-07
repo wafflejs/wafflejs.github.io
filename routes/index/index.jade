@@ -16,7 +16,7 @@ div( class=className )
     .col-xs-12.col-sm-5
       :marked
         ##### Date & Time
-        ### Wednesday, December 2 at 7 PM
+        ### {{index.day.date | date:'EEEE, MMMM d':'UTC'}} at 7 PM
 
         ##### Location
         ### [SOMA StrEat Food][1] (in the [barn][2])
@@ -50,9 +50,7 @@ div( class=className )
           Your talk can be anything from knitting machines to the JavaScript v8 
           engine. And nope, you don't need to be an expert to speak.
 
-        p: a.btn(
-          href='https://github.com/wafflejs/wafflejs.github.io/issues/90' )
-          | Speaker Details
+        p: a.btn( ui-sref='speakers' ) Speaker Details
 
       .col-xs-12.col-sm-6
         :marked
@@ -67,23 +65,7 @@ div( class=className )
   section#schedule: .container: .row
     .col-xs-12.col-sm-6
       h2 Schedule
-
-      ul: li( ng-repeat='event in index.schedule track by $index' )
-        .row.row-lg-offset--3( ng-repeat="(time, item) in event" )
-          .col-xs-12.col-lg-3.end-lg
-            h5
-              | {{time}} 
-              span.hide-lg( ng-show='item.type') · {{item.type}}
-          .col-xs-12.col-lg-9( ng-show='item.person || item.type' )
-            h5.highlight( ng-show='item.person' )
-              | {{item.person.name}} · 
-              a( ng-href='https://twitter.com/{{item.person.twitter}}' )
-                | @{{item.person.twitter}}
-          .hide-md-down.col-lg-3.end-lg( ng-show='item.type' )
-            h5 {{item.type}}
-          .col-xs-12.col-lg-9
-            h3( ng-show='item.title' marked='item.title' )
-          .col-xs-12.col-lg-9.col-lg-offset-3( marked='item.description' )
+      schedule( events='index.day.schedule' )
 
   section#sponsors: .container: .row
     .col-xs-12.col-sm-6
@@ -126,3 +108,10 @@ div( class=className )
 
           [2]: http://slack.borojs.com/
           [3]: https://github.com/wafflejs/wafflejs.github.io/issues
+
+  section#past: .container
+    h2 Past
+
+    .row: .col-xs-12.col-sm-6( ng-repeat='day in index.past' )
+      h2 {{day.date | date:'MMMM d, yyyy':'UTC'}}
+      schedule( events='day.schedule' )

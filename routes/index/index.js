@@ -1,11 +1,10 @@
 import angular from 'angular'
-import { forEach } from 'lodash'
 import css from './index.css'
-import schedule from './schedule.yml'
 
 export default angular.module('wafflejs.routes.index', [
   require('angular-ui-router'),
   require('angular-marked'),
+  require('../../models/calendar').default,
 ])
 .config(($stateProvider) => {
   $stateProvider.state('index', {
@@ -13,22 +12,22 @@ export default angular.module('wafflejs.routes.index', [
     template: require('./index.jade')(css),
     controllerAs: 'index',
     controller: class {
-      constructor() {
-        this.schedule = schedule[0].schedule
-        // fix title
-        forEach(this.schedule, (event) => {
-          forEach(event, (item, time) => {
-            if (typeof(item) === 'string')
-              event[time] = { title: item }
-          })
-        })
-
-        this.sponsors = schedule[0].sponsors
+      constructor(calendar) {
+        calendar = calendar.slice()
+        this.day = calendar.shift()
+        this.past = calendar
       }
     },
   })
 })
 .config((markedProvider) => {
   markedProvider.setOptions({ smartypants: true })
+})
+.directive('schedule', () => {
+  return {
+    restrict: 'EA',
+    scope: { events: '=' },
+    template: require('./schedule.jade')(),
+  }
 })
 .name

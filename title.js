@@ -1,16 +1,16 @@
-import angular from 'angular';
+import angular from 'angular'
 
 export default angular.module('title', [])
 .directive('title', function($document, $timeout) {
-  var title = angular.element($document[0].querySelector('title')).clone();
+  var title = angular.element($document[0].querySelector('title')).clone()
 
   function syncTitle() {
     // $timeout is needed to get pushState + history + title to play correctly
     // together. otherwise, the browser ends up recording weird page titles in
     // history for some reason.
     $timeout(function() {
-      $document[0].title = title.text();
-    });
+      $document[0].title = title.text()
+    })
   }
 
   return {
@@ -18,18 +18,18 @@ export default angular.module('title', [])
     transclude: true,
     link: function(scope, elem, attrs, controller, transclude) {
       transclude(function(clone, scope) {
-        title.append(clone);
+        title.append(clone)
         scope.$on('$destroy', function() {
-          clone.remove();
-          syncTitle();
-        });
+          clone.remove()
+          syncTitle()
+        })
 
         scope.$watch(function() { return clone.text() }, function(current) {
           if (current.indexOf('{{') === -1) // prevent unwanted/early updates
-            syncTitle();
-        });
-      });
+            syncTitle()
+        })
+      })
     }
-  };
+  }
 })
-.name;
+.name

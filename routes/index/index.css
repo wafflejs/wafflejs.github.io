@@ -27,12 +27,12 @@
         background-repeat: no-repeat;
       }
     }
+  }
 
-    ul {
-      list-style-type: none;
-      color: inherit;
-      padding: 0;
-    }
+  ul.schedule {
+    list-style-type: none;
+    color: inherit;
+    padding: 0;
 
     li {
       padding-top: 2em;

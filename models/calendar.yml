@@ -1,14 +1,20 @@
-- 2016-01:
+- date: 2016-01-06
   schedule:
-    - 7:00 PM: 🍪 Get some tasty waffles and drinks.
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks.
+        emoji: 🍪
 
-    - 7:30 PM: 👋 Introductions
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
 
     - 7:45 PM: Speaker TBA
 
     - 8:00 PM: Speaker TBA
 
-    - 8:25 PM: 🕣 Intermission
+    - 8:25 PM:
+        title: Intermission
+        emoji: 🕣
 
     - 8:35 PM: Performer TBA
 
@@ -16,36 +22,46 @@
 
     - 9:00 PM: Speaker TBA
 
-    - 9:15 PM: 🎉 Open karaoke!
+    - 9:15 PM:
+        type: Performance
+        title: Open karaoke!
+        emoji: 🎉
 
   sponsors:
     - New Relic: https://newrelic.com/about/careers
     - Opendoor: https://www.opendoor.com/jobs
 
-- 2015-12:
+- date: 2015-12-02
   schedule:
-    - 7:00 PM: Get some tasty waffles and drinks.
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks.
+        emoji: 🍪
 
     - 7:20 PM:
         type: Performance
         title: Karaoke
+        emoji: 🎤
         person:
           name: Gabriel Gilder
           twitter: _gjg_
 
-    - 7:30 PM: Introductions
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
 
     - 7:45 PM:
-        type: Talk 🎩
+        type: Talk
         title: React + D3
+        emoji: 🎩
         description: Together they’re black magic.
         person:
           name: Shirley Wu
           twitter: shirleyxywu
 
     - 8:00 PM:
-        type: Talk 👥
+        type: Talk
         title: How we hire — what we've learned that's worth sharing
+        emoji: 👥
         description: At npm, we've had some pretty excellent luck with hiring.
           But even we get it wrong sometimes. Here's a 10-step breakdown of
           what we do now (and how it differs from other hiring processes).
@@ -53,19 +69,23 @@
           name: Raquel Vélez
           twitter: rockbot
 
-    - 8:25 PM: Intermission
+    - 8:25 PM:
+        title: Intermission
+        emoji: 🕣
 
     - 8:35 PM:
         type: Performance
         title: Karaoke
+        emoji: 🎵
         person:
           name: Maria Mora
           twitter: _riamaria
 
     - 8:45 PM:
-        type: Talk 🎻
+        type: Talk
         title: Turning a room into a synthesizer with a distributed harmonic
           series
+        emoji: 🎻
         description: Let’s talk about what a harmonic series is. This natural
           phenomena tells us quite a bit about the symmetry found in our
           physiology and how our brain interprets it is fascinating. We’ll
@@ -78,8 +98,9 @@
           twitter: thealphanerd
 
     - 9:00 PM:
-        type: Talk 🔐
+        type: Talk
         title: 🔐👶 -- or, an Introduction to Cryptography
+        emoji: 🔐
         description: Breaking down some basic ideas in cryptography, one 💩 at
           a time.
         person:
@@ -89,3 +110,9 @@
     - 9:15 PM:
         type: Performance
         title: Open karaoke!
+        emoji: 🎉
+
+  sponsors:
+    - Dropbox: https://www.dropbox.com/jobs
+    - New Relic: https://newrelic.com/about/careers
+    - Opendoor: https://www.opendoor.com/jobs
