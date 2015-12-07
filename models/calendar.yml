@@ -1,4 +1,4 @@
-- date: 2016-01-06
+- day: '2016-01-06'
   schedule:
     - 7:00 PM:
         title: Get some tasty waffles and drinks.
@@ -36,7 +36,7 @@
     - New Relic: https://newrelic.com/about/careers
     - Opendoor: https://www.opendoor.com/jobs
 
-- date: 2015-12-02
+- day: '2015-12-02'
   schedule:
     - 7:00 PM:
         title: Get some tasty waffles and drinks.
@@ -122,7 +122,7 @@
     - New Relic: https://newrelic.com/about/careers
     - Opendoor: https://www.opendoor.com/jobs
 
-- date: 2015-11-04
+- day: '2015-11-04'
   schedule:
     - 7:00 PM:
         title: Get some tasty waffles and drinks
@@ -196,9 +196,12 @@
         emoji: 🎉
         type: Closing
         title: Open karaoke (You can just hang out, too)
+        person:
+          name: Gabriel Gilder
+          twitter: _gjg_
 
-- date: 2015-10-07
+- day: '2015-10-07'
 
-- date: 2015-09-02
+- day: '2015-09-02'
 
-- date: 2015-08-05
+- day: '2015-08-05'

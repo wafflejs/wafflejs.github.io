@@ -4,7 +4,7 @@ import { forEach } from 'lodash'
 import calendar from './calendar.yml'
 
 forEach(calendar, (day) => {
-  day.date = new Date(day.date)
+  day.date = new Date(day.day)
   forEach(day.schedule, (event) => {
     forEach(event, (item, time) => {
       // expand shorthand
