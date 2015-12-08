@@ -6,7 +6,6 @@ body {
   text-rendering: optimizeLegibility;
   font-family: Roboto, sans-serif;
   line-height: 150%;
-  font-size: 90%;
   @media (--sm-viewport) {
     font-size: 110%;
   }
