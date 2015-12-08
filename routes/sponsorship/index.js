@@ -7,7 +7,7 @@ export default angular.module('wafflejs.routes.sponsorship', [
 .config(($stateProvider) => {
   $stateProvider.state('sponsorship', {
     url: '/sponsorship',
-    template: `<section><div class="container">${html}</div></section>`,
+    template: `<section><div class="container-fluid">${html}</div></section>`,
   })
 })
 .name

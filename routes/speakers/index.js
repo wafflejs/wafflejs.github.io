@@ -7,7 +7,7 @@ export default angular.module('wafflejs.routes.speakers', [
 .config(($stateProvider) => {
   $stateProvider.state('speakers', {
     url: '/speakers',
-    template: `<section><div class="container">${html}</div></section>`,
+    template: `<section><div class="container-fluid">${html}</div></section>`,
   })
 })
 .name
