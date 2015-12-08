@@ -15,6 +15,7 @@
   transition: box-shadow .2s;
 
   &.primary {
+    border: none;
     background-color: var(--orange);
     color: white;
   }
@@ -26,8 +27,10 @@
 
   &.xs-full-width {
     width: 100%;
+    padding: .75rem 0;
     @media (--sm-viewport) {
       width: auto;
+      padding: .75rem 1rem;
     }
   }
 }

@@ -6,7 +6,7 @@
     margin-top: 0;
   }
 
-  #hero > .container {
+  #hero > .container-fluid {
     background: url('/images/hero-1.jpg') 50% 50%;
     background-size: cover;
     height: 50vh;
@@ -16,18 +16,18 @@
   }
 
   #schedule {
-    .container {
-      background: url('../../images/computer.svg') 80% 0%,
-                  url('../../images/waffle.svg') 80% 50%,
-                  url('../../images/microphone.svg') 80% 100%;
+    .container-fluid {
+      background: linear-gradient(var(--tan-translucent), var(--tan-translucent)),
+                  url('../../images/computer.svg') 100% 0%,
+                  url('../../images/waffle.svg') 100% 50%,
+                  url('../../images/microphone.svg') 100% 100%;
       background-repeat: no-repeat;
-      background-size: 25%;
-      @media (--xs-viewport-only) {
-        background: linear-gradient(var(--tan-translucent), var(--tan-translucent)),
-                    url('../../images/computer.svg') 100% 0%,
-                    url('../../images/waffle.svg') 100% 50%,
-                    url('../../images/microphone.svg') 100% 100%;
+      @media (--sm-viewport) {
+        background: url('../../images/computer.svg') 80% 0%,
+                    url('../../images/waffle.svg') 80% 50%,
+                    url('../../images/microphone.svg') 80% 100%;
         background-repeat: no-repeat;
+        background-size: 25%;
       }
     }
   }

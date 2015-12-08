@@ -1,7 +1,7 @@
 title · A fun night of code, waffles, and karaoke.
 
 div( class=className )
-  section#header: .container: .row.bottom-sm
+  section#header: .container-fluid: .row.bottom-sm
     .col-xs-12.col-sm-7
       h4.highlight WaffleJS
 
@@ -18,9 +18,9 @@ div( class=className )
         a( href='https://goo.gl/maps/0gkOe' ) SOMA StrEat Food Park
         |  (in the <a href="/map" target="_self">barn</a>)
   
-  section#hero: .container
+  section#hero: .container-fluid
 
-  section#about: .container: .row
+  section#about: .container-fluid: .row
     .col-xs-12.col-sm-6
       :marked
         About
@@ -34,7 +34,7 @@ div( class=className )
 
         [1]: http://jsconf.com/codeofconduct.html
   
-  section#get-involved: .container
+  section#get-involved: .container-fluid
     h2 Get Involved
 
     .row.between-xs
@@ -56,7 +56,7 @@ div( class=className )
           href='https://github.com/wafflejs/wafflejs.github.io/issues/89' )
           | Performer Details
 
-  section#schedule: .container: .row
+  section#schedule: .container-fluid: .row
     .col-xs-12.col-sm-6
       h2 Schedule
       ul.schedule: li( ng-repeat='event in index.day.schedule track by $index' )
@@ -81,7 +81,7 @@ div( class=className )
             ng-class='{ "col-lg-offset-3": !item.emoji }'
             marked='item.description' )
 
-  section#sponsors: .container: .row
+  section#sponsors: .container-fluid: .row
     .col-xs-12.col-sm-6
       :marked
         Sponsors
@@ -100,7 +100,7 @@ div( class=className )
       include ../../images/sponsors/newrelic.svg
       include ../../images/sponsors/opendoor.svg
 
-  section#transparency: .container
+  section#transparency: .container-fluid
     h2 Transparency
 
     .row
