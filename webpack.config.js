@@ -35,7 +35,7 @@ module.exports = {
 
       { test: /\.js$/,
         exclude: /node_modules/,
-        loaders: ['ng-annotate?regexp=^.?angular.*$', 'babel'] },
+        loaders: ['ng-annotate?regexp=^.?angular.*$', 'babel?presets=es2015'] },
 
       { test: /\.md$/, loaders: ['html', 'markdown?smartypants=true'] },
 
