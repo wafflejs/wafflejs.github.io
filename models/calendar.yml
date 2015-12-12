@@ -10,7 +10,12 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🗺
+        person:
+          name: Victor Powell
+          twitter: vicapow
 
     - 8:25 PM:
         title: Intermission
