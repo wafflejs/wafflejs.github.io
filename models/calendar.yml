@@ -13,6 +13,9 @@
     - 8:00 PM:
         type: Talk
         emoji: 🗺
+        title: Mapping with small modules
+        description: Using the Unix/Node philosophy of small modules to build a
+          mapping visualization library.
         person:
           name: Victor Powell
           twitter: vicapow
