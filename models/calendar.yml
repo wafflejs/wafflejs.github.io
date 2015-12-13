@@ -12,7 +12,7 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 🗺
+        emoji: 📍
         title: Mapping with small modules
         description: Using the Unix/Node philosophy of small modules to build a
           mapping visualization library.
