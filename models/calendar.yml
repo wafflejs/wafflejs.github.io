@@ -55,6 +55,48 @@
     - New Relic: https://newrelic.com/about/careers
     - Opendoor: https://www.opendoor.com/jobs
 
+- day: '2016-02-03'  # move to spot 0 when appropriate
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks.
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM:
+        type: Talk
+        emoji: 💸
+        title: Everything You Need to Know about Startup Equity
+        description: VC's Hate Him! Avoid completely irrational expectations
+          and bad financial decisions with this one weird trick! Since you’re
+          coming to a JS meetup in San Francisco, chances are that you are an
+          engineer working for a startup. This talk will cover, with math, the
+          absolute bare minimum that you ought to know about how startup equity
+          works. You won't walk out a finance guru, but at least you'll know
+          what the words mean, and have a much better idea of what VCs and
+          founders are talking about (what happens next will shock you!)
+        person:
+          name: Isaac Schlueter
+          twitter: izs
+
+    - 8:25 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:35 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM:
+        title: Open karaoke!
+        emoji: 🎉
+
 - day: '2015-12-02'
   schedule:
     - 7:00 PM:
