@@ -8,12 +8,23 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 💠
+        title: Mathematical Graph Coloring and Picking Colors for Modular
+          Origami
+        description: The most aesthetically pleasing origami turns out to be
+          the pieces that are properly colored (if the polyhedron shape is
+          treated as a graph). Graph coloring, the four color map theorem, and
+          modular origami.
+        person:
+          name: Georgia Andrews
+          twitter: antislice
 
     - 8:00 PM:
         type: Talk
         emoji: 📍
-        title: Mapping with small modules
+        title: Mapping with Small Modules
         description: Using the Unix/Node philosophy of small modules to build a
           mapping visualization library.
         person:
