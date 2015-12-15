@@ -6,12 +6,24 @@
     margin-top: 0;
   }
 
-  #hero > .container-fluid {
-    background: url('/images/hero-1.jpg') 50% 50%;
+  #hero {
+    padding-top: 0;
+  }
+
+  #hero {
+    background: url('/images/hero.jpg') 50% 50%;
     background-size: cover;
     height: 50vh;
     @media (--md-viewport) {
-      height: 75vh;
+      height:65vh;
+    }
+  }
+
+  #header {
+    margin-top: -35vh;
+    /*background: linear-gradient(to bottom, rgba(255,253,245,0) 0%,rgba(255,253,245,1) 49%,rgba(255,253,245,1) 100%);*/
+    .container-fluid > .row {
+      height: 50vh;
     }
   }
 
