@@ -2,25 +2,24 @@ title · A fun night of code, waffles, and karaoke.
 
 div( class=className )
   section#hero
-    #cover-photo
-    .container-fluid#header
-      .row-top-sm
+    .container-fluid
+      .row.top-sm.start-xs.end-md#header
         .col-xs-12.col-md-3
-          h4 WaffleJS
+          h4.text-left WaffleJS
         .col-md-9.hide-sm: ul
           li: a(href='about') About
           li: a(href='speakers') Speakers
           li: a(href='performers') Performers
           li: a(href='sponsorship') Sponsors
-    .container-fluid#content
-      .row.bottom-sm
-        .col-xs-12.col-sm-7
+      .row.bottom-sm#content
+        .col-xs-12.col-sm-8.col-md-7
           hr
-          h1 A fun night of code, waffles, and karaoke
+          h1 A night of code, waffles, and karaoke
           h3 All proceeds go to <a href="http://girlswhocode.com/">Girls Who Code</a>.
-        .col-xs-12.col-sm-5
-          h5 Details
+        .col-xs-12.col-sm-12.col-md-5
+          h5 Date & Time
           h3 {{index.day.date | date:'EEEE, MMMM d':'UTC'}} at 7 PM
+          h5 Location
           h3
             a( href='https://goo.gl/maps/0gkOe' ) SOMA StrEat Food Park
             |  (in the <a href="/map" target="_self">barn</a>)

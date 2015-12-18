@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: 'Quarto A', 'Quarto B', serif;
-  font-size: 3.5em !important;
+  font-size: 4em !important;
 }
 
 h2 {
@@ -68,4 +68,16 @@ b, strong {
 
 small {
   opacity: 0.75;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
 }

@@ -9,35 +9,30 @@
   #hero {
     height: 100vh;
     padding-top: 0;
-    .container-fluid {
-      position: absolute;
-    }
-    #cover-photo {
-      background: url('/images/hero.jpg') 50% 50%;
-      background-size: cover;
-      width: 100%;
-      height: 40vh;
-      position: absolute;
-      @media (--sm-viewport) {
-        height: 72vh;
-      }
-    }
-    #header {
-      ul {
-        list-style: none;
-        padding: 0;
-        li {
-          display: inline;
-          margin-right: 1em;
-          &:last-of-type {
-            margin-right: 0;
-          }
+    background: url('/images/panorama.jpg') -10% 50%,
+                url('/images/group-shot.jpg') 120% -20%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        display: inline;
+        margin-right: 1em;
+        &:last-of-type {
+          margin-right: 0;
+        }
+        a {
+          color: black;
         }
       }
     }
+    .row {
+      height: 50vh;
+    }
 
     #content {
-      bottom: 3.5em;
+      padding-bottom: 2em;
       hr {
         border: none;
         border-top: 5px solid black;
