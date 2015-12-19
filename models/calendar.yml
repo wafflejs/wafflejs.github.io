@@ -4,6 +4,13 @@
         title: Get some tasty waffles and drinks.
         emoji: 🍪
 
+    - 7:15 PM:
+        type: Performance
+        title: Opening
+        person:
+          name: Alexander Randon
+          twitter: alexandernaut
+
     - 7:30 PM:
         title: Introductions
         emoji: 👋
@@ -35,7 +42,12 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:35 PM: Performer TBA
+    - 8:35 PM:
+        type: Performance
+        title: Fugue Machine
+        person:
+          name: Alexander Randon
+          twitter: alexandernaut
 
     - 8:45 PM:
         type: Talk
