@@ -9,11 +9,18 @@
   #hero {
     height: 100vh;
     padding-top: 0;
-    background: url('/images/panorama.jpg') -10% 50%,
-                url('/images/group-shot.jpg') 120% -20%;
+    background: url('/images/panorama.jpg') left -2em top 50%,
+                url('/images/group-shot.jpg') right -7em top -5%;
     background-repeat: no-repeat;
-    background-size: 55%;
+    background-size: 100%;
+    @media (--sm-viewport) {
+      background: url('/images/panorama.jpg') -10% 50%,
+                  url('/images/group-shot.jpg') 120% -20%;
+      background-size: 55%;
+      background-repeat: no-repeat;
+    }
     ul {
+      color: black;
       list-style: none;
       padding: 0;
       li {
@@ -22,11 +29,17 @@
         &:last-of-type {
           margin-right: 0;
         }
-        a {
-          color: black;
-        }
+      }
+      a {
+        color: black;
       }
     }
+
+    .logotype {
+      color: var(--orange);
+      margin: 1em 0;
+    }
+
     .row {
       height: 50vh;
     }

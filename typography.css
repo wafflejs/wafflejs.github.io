@@ -23,13 +23,19 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: 'Quarto A', 'Quarto B', serif;
-  font-size: 4em !important;
+  font-size: 3em;
+  @media (--sm-viewport) {
+    font-size: 4em;
+  }
 }
 
 h2 {
   font-family: 'Quarto A', 'Quarto B', serif;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-top: 3rem;
+  @media (--sm-viewport) {
+    font-size: 2em;
+  }
 }
 
 h3 {
@@ -59,6 +65,10 @@ a {
 
   &:hover {
     text-decoration: underline;
+  }
+
+  &.black {
+    color: black;
   }
 }
 

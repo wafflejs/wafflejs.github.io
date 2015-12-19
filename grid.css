@@ -71,3 +71,7 @@
     transform: translateX(-25%);
   }
 }
+
+div[class^="col-"], div[class*=" col-"] {
+  padding: 0 1.5em;
+}

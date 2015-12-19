@@ -5,24 +5,26 @@ div( class=className )
     .container-fluid
       .row.top-sm.start-xs.end-md#header
         .col-xs-12.col-md-3
-          h4.text-left WaffleJS
+          h4.logotype.text-left WaffleJS
         .col-md-9.hide-sm: ul
-          li: a(href='about') About
-          li: a(href='speakers') Speakers
-          li: a(href='performers') Performers
-          li: a(href='sponsorship') Sponsors
+          li: a.black(href='about') About
+          li: a.black(href='speakers') Speakers
+          li: a.black(href='performers') Performers
+          li: a.black(href='sponsorship') Sponsors
       .row.bottom-sm#content
         .col-xs-12.col-sm-8.col-md-7
           hr
           h1 A night of code, waffles, and karaoke
           h3 All proceeds go to <a href="http://girlswhocode.com/">Girls Who Code</a>.
-        .col-xs-12.col-sm-12.col-md-5
-          h5 Date & Time
-          h3 {{index.day.date | date:'EEEE, MMMM d':'UTC'}} at 7 PM
-          h5 Location
-          h3
-            a( href='https://goo.gl/maps/0gkOe' ) SOMA StrEat Food Park
-            |  (in the <a href="/map" target="_self">barn</a>)
+        .col-xs-12.col-sm-12.col-md-5: ul
+          li 
+            h5 Date & Time
+            h3 {{index.day.date | date:'EEEE, MMMM d':'UTC'}} at 7 PM
+          li 
+            h5 Location
+            h3
+              a( href='https://goo.gl/maps/0gkOe' ) SOMA StrEat Food Park
+              |  (in the <a href="/map" target="_self">barn</a>)
 
   section#about: .container-fluid: .row
     .col-xs-12.col-sm-6
@@ -39,8 +41,9 @@ div( class=className )
         [1]: http://jsconf.com/codeofconduct.html
   
   section#get-involved: .container-fluid
-    h2 Get Involved
-
+    .row
+      .col-xs-12
+        h2 Get Involved
     .row.between-xs
       .col-xs-12.col-sm-6
         :marked
@@ -105,7 +108,8 @@ div( class=className )
       include ../../images/sponsors/opendoor.svg
 
   section#transparency: .container-fluid
-    h2 Transparency
+    .row
+      .col-xs-12: h2 Transparency
 
     .row
       .col-xs-12.col-sm-6

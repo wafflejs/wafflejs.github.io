@@ -18,3 +18,9 @@ angular.module('wafflejs', [
     $document[0].body.scrollTop = 0
   })
 })
+
+window.onscroll = function() {
+  if (window.pageYOffset > 50) {
+    document.getElementById('footer').className = '';
+  }
+}
