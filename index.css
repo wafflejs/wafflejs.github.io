@@ -34,10 +34,11 @@ footer {
   left: 0;
   bottom: 0;
   right: 0;
-  transition: all 1000ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
   @media (--xs-viewport-only) {
     background-color: var(--orange);
+    transition: all 1000ms cubic-bezier(0.645, 0.045, 0.355, 1);
     .btn {
       border-radius: 0;
       box-shadow: none !important;
