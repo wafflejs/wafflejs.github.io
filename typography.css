@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: 'Quarto A', 'Quarto B', serif;
-  font-size: 3em;
+  font-size: 2.5em;
   @media (--sm-viewport) {
     font-size: 4em;
   }

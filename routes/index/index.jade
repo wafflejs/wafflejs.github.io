@@ -6,7 +6,7 @@ div( class=className )
       .row.top-sm.start-xs.end-md#header
         .col-xs-12.col-md-3
           h4.logotype.text-left WaffleJS
-        .col-md-9.hide-sm: ul
+        .col-xs-12.col-md-9.hide-sm: ul.navigation
           li: a.black(href='about') About
           li: a.black(href='speakers') Speakers
           li: a.black(href='performers') Performers
@@ -15,7 +15,8 @@ div( class=className )
         .col-xs-12.col-sm-8.col-md-7
           hr
           h1 A night of code, waffles, and karaoke
-          h3 All proceeds go to <a href="http://girlswhocode.com/">Girls Who Code</a>.
+          h3 All proceeds go to 
+            a.black(href='http://girlswhocode.com') Girls Who Code.
         .col-xs-12.col-sm-12.col-md-5: ul
           li 
             h5 Date & Time
@@ -23,8 +24,8 @@ div( class=className )
           li 
             h5 Location
             h3
-              a( href='https://goo.gl/maps/0gkOe' ) SOMA StrEat Food Park
-              |  (in the <a href="/map" target="_self">barn</a>)
+              a.black(href='https://goo.gl/maps/0gkOe') SOMA StrEat Food Park
+              |  (in the <a class="black" href="/map" target="_self">barn</a>)
 
   section#about: .container-fluid: .row
     .col-xs-12.col-sm-6

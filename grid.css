@@ -8,7 +8,6 @@
     padding-left: calc(10 * var(--gutter-width, 1rem));
     padding-right: calc(10 * var(--gutter-width, 1rem));
     max-width: 90rem;
-    /*width: 100%;*/
   }
 }
 

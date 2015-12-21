@@ -7,22 +7,29 @@
   }
 
   #hero {
-    height: 100vh;
     padding-top: 0;
-    background: url('/images/panorama.jpg') left -2em top 50%,
-                url('/images/group-shot.jpg') right -7em top -5%;
+    background: url('/images/panorama.jpg') left -2em top 32%,
+                url('/images/group-shot.jpg') right -7.5em top -5%;
     background-repeat: no-repeat;
     background-size: 100%;
     @media (--sm-viewport) {
-      background: url('/images/panorama.jpg') -10% 50%,
+      height: 100vh;
+      background: url('/images/panorama.jpg') -15% 30%,
                   url('/images/group-shot.jpg') 120% -20%;
-      background-size: 55%;
+      background-size: 60%;
       background-repeat: no-repeat;
     }
+    h3 {
+      margin-bottom: 2em;
+    }
     ul {
-      color: black;
       list-style: none;
       padding: 0;
+      margin: 0;
+      color: black;
+    }
+    ul.navigation {
+      margin-top: -0.5em;
       li {
         display: inline;
         margin-right: 1em;
@@ -30,8 +37,8 @@
           margin-right: 0;
         }
       }
-      a {
-        color: black;
+      @media (--sm-viewport) {
+        margin: 1em 0;
       }
     }
 
@@ -41,11 +48,13 @@
     }
 
     .row {
-      height: 50vh;
+      @media (--sm-viewport) {
+        height: 50vh;
+      }
     }
 
     #content {
-      padding-bottom: 2em;
+      margin-top: 15em;
       hr {
         border: none;
         border-top: 5px solid black;
@@ -54,6 +63,9 @@
       }
       h1 {
         margin-bottom: 0.5em;
+      }
+      @media (--sm-viewport) {
+        margin-top: 0;
       }
     }
   }
