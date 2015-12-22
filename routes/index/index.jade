@@ -73,12 +73,12 @@ div( class=className )
                 | {{item.person.name}} · @{{item.person.twitter}}
           .hide-md-down.col-lg-3.end-lg( ng-show='item.type' )
             h5 {{item.type}}
-          .col-xs-12.col-lg-9
-            h3( ng-show='item.title' marked='item.title' )
+          .col-xs-12.col-lg-9(ng-class='{ "border-bottom": !item.description }')
+            h3(ng-show='item.title' marked='item.title')
           .hide-md-down.col-lg-3.end-lg( ng-show='item.emoji && item.description' )
             h5 {{item.emoji}}
           .col-xs-12.col-lg-9(
-            ng-class='{ "col-lg-offset-3": !item.emoji }'
+            ng-class='{ "col-lg-offset-3": !item.emoji, "border-bottom": item.description }'
             marked='item.description' )
 
   section#sponsors: .container-fluid: .row
