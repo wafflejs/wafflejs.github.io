@@ -6,7 +6,7 @@ div( class=className )
       .row.top-sm.start-xs.end-md#header
         .col-xs-12.col-md-3
           h4.logotype.text-left WaffleJS
-        .col-xs-12.col-md-9.hide-sm: ul.navigation
+        .col-xs-12.col-md-9.hide-sm: ul.navigation.no-padding.no-margin
           li: a.black(href='about') About
           li: a.black(href='speakers') Speakers
           li: a.black(href='performers') Performers
@@ -15,15 +15,15 @@ div( class=className )
         .col-xs-12.col-sm-8.col-md-7
           hr
           h1 A night of code, waffles, and karaoke
-          h3 All proceeds go to 
+          h3.margin-bottom-large All proceeds go to 
             a.black(href='http://girlswhocode.com') Girls Who Code.
-        .col-xs-12.col-sm-12.col-md-5: ul
+        .col-xs-12.col-sm-12.col-md-5: ul.no-padding.no-margin
           li 
             h5 Date & Time
-            h3 {{index.day.date | date:'EEEE, MMMM d':'UTC'}} at 7 PM
+            h3.margin-bottom-large {{index.day.date | date:'EEEE, MMMM d':'UTC'}} at 7 PM
           li 
             h5 Location
-            h3
+            h3.margin-bottom-large
               a.black(href='https://goo.gl/maps/0gkOe') SOMA StrEat Food Park
               |  (in the <a class="black" href="/map" target="_self">barn</a>)
 
@@ -46,7 +46,7 @@ div( class=className )
       .col-xs-12
         h2 Get Involved
     .row.between-xs
-      .col-xs-12.col-sm-6
+      .col-xs-12.col-sm-6.margin-bottom-large
         :marked
           ### Give a Talk
           Your talk can be anything from knitting machines to the JavaScript v8 
@@ -90,7 +90,7 @@ div( class=className )
             marked='item.description' )
 
   section#sponsors: .container-fluid: .row
-    .col-xs-12.col-sm-6
+    .col-xs-12.col-sm-6.margin-bottom-small
       :marked
         Sponsors
         --------
@@ -113,7 +113,7 @@ div( class=className )
       .col-xs-12: h2 Transparency
 
     .row
-      .col-xs-12.col-sm-6
+      .col-xs-12.col-sm-6.margin-bottom-small
         :marked
           ### Finance
 
