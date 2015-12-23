@@ -60,6 +60,9 @@ a {
   &:hover {
     text-decoration: underline;
   }
+  &.black {
+    color: black;
+  }
 }
 
 b, strong {
