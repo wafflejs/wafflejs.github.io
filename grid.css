@@ -68,6 +68,6 @@
   }
 
   .row-lg-offset--3 {
-    transform: translateX(-25%);
+    margin-left: -35.5%;
   }
 }
