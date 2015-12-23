@@ -63,6 +63,9 @@ a {
   &.black {
     color: black;
   }
+  &.lighter-gray {
+    color: var(--lighter-gray);
+  }
 }
 
 b, strong {
