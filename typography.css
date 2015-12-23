@@ -63,8 +63,8 @@ a {
   &.black {
     color: black;
   }
-  &.lighter-gray {
-    color: var(--lighter-gray);
+  &.light-gray {
+    color: var(--light-gray);
   }
 }
 
