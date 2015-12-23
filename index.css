@@ -12,7 +12,7 @@ body {
   }
 }
 
-main, footer {
+main {
   background-color: var(--tan);
 }
 
@@ -34,12 +34,12 @@ footer {
     background-color: var(--orange);
     .btn {
       border-radius: 0;
-      box-shadow: none !important;
+      box-shadow: none;
     }
   }
 
   @media (--sm-viewport) {
-    padding: .5rem 0;
+    padding: 1rem 2rem;
   }
 
   &.fixed {
@@ -47,25 +47,6 @@ footer {
     left: 0;
     bottom: 0;
     right: 0;
-    box-shadow: 0 0 10px hsla(0, 0%, 0%, .2);
-
-    @media (--sm-viewport) {
-      border-left: solid 5px var(--orange);
-      border-right: solid 5px var(--orange);
-    }
-  }
-
-  ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-    li {
-      display: inline-block;
-    }
-    li + li {
-      margin-left: 1em;
-    }
   }
 }
 

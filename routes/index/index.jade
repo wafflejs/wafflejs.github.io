@@ -1,22 +1,30 @@
 title · A fun night of code, waffles, and karaoke.
 
 div( class=className )
-  section#header: .container-fluid: .row.bottom-sm
-    .col-xs-12.col-sm-7
-      h4.highlight WaffleJS
+  section#header: .container-fluid
+    .row.between-xs
+      .col-xs-12.col-sm-6
+        h4.highlight: a(href='index') WaffleJS
+      .col-xs-12.col-sm-6.end-sm
+        ul.nav
+          li: a.black(href='speakers') Speakers
+          li: a.black(href='performers') Performers
+          li: a.black(href='sponsorship') Sponsorship
+    .row.bottom-sm
+      .col-xs-12.col-sm-7
+        h1 A fun night of code, waffles, and karaoke
 
-      h1 A fun night of code, waffles, and karaoke
+        h3 All proceeds go to 
+          a.black(href='http://girlswhocode.com') Girls Who Code.
 
-      h3 All proceeds go to <a href="http://girlswhocode.com/">Girls Who Code</a>.
+      .col-xs-12.col-sm-5
+        h5 Date & Time
+        h3 {{index.day.date | date:'EEEE, MMMM d':'UTC'}} at 7 PM
 
-    .col-xs-12.col-sm-5
-      h5 Date & Time
-      h3 {{index.day.date | date:'EEEE, MMMM d':'UTC'}} at 7 PM
-
-      h5 Location
-      h3
-        a( href='https://goo.gl/maps/0gkOe' ) SOMA StrEat Food Park
-        |  (in the <a href="/map" target="_self">barn</a>)
+        h5 Location
+        h3
+          a.black( href='https://goo.gl/maps/0gkOe' ) SOMA StrEat Food Park 
+          | (in the <a class="black" href="/map" target="_self">barn</a>)
   
   section#hero: .container-fluid
 

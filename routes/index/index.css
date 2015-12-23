@@ -6,6 +6,21 @@
     margin-top: 0;
   }
 
+  #header {
+    ul.nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        margin-right: 1em;
+      }
+      li:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
   #hero > .container-fluid {
     background: url('/images/hero-1.jpg') 50% 50%;
     background-size: cover;
