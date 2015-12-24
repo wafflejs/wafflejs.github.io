@@ -62,7 +62,15 @@
           name: Jon Kuperman
           twitter: jkup
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: talk
+        emoji: 🎨
+        title: Thinking Outside the (Crayon) Box&#58; Distances in Color Space
+        description: Why you might have to dig through a lot of green shoes
+          before finding the perfect brown ones.
+        person:
+          name: Amanda Glosson
+          twitter: amandaglosson
 
     - 9:15 PM:
         title: Open karaoke!
