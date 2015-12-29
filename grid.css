@@ -4,11 +4,15 @@
   padding-left: var(--gutter-width, 1rem);
   padding-right: var(--gutter-width, 1rem);
 
+  @media (--sm-viewport) {
+    padding-left: calc(3 * var(--gutter-width, 1rem));
+    padding-right: calc(3 * var(--gutter-width, 1rem));
+  }
+
   @media (--lg-viewport) {
     padding-left: calc(10 * var(--gutter-width, 1rem));
     padding-right: calc(10 * var(--gutter-width, 1rem));
     max-width: 90rem;
-    /*width: 100%;*/
   }
 }
 
