@@ -18,8 +18,7 @@
     - 7:45 PM:
         type: Talk
         emoji: 💠
-        title: Mathematical Graph Coloring and Picking Colors for Modular
-          Origami
+        title: Making Modular Origami Gorgeous with Graph Coloring
         description: The most aesthetically pleasing origami turns out to be
           the pieces that are properly colored (if the polyhedron shape is
           treated as a graph). Graph coloring, the four color map theorem, and
