@@ -10,12 +10,12 @@ How do I submit a talk?
 -----------------------
 You can either comment on [this issue][1] or [send us an email][2].
 
-[1]: https://github.com/wafflejs/wafflejs.github.io/issues/90
+[1]: https://github.com/wafflejs/wafflejs.github.io/issues/109
 [2]: mailto:speakers@wafflejs.com
 
 When and where will it be?
 --------------------------
-When: Wednesday, January 6 from 7 to 10 PM.  
+When: Wednesday, February from 3 to 10 PM.  
 Where: [Soma StrEat Food Park][3]
 
 [3]: https://goo.gl/maps/0gkOe
