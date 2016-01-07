@@ -72,8 +72,11 @@
           twitter: amandaglosson
 
     - 9:15 PM:
-        title: Open karaoke!
-        emoji: 🎉
+        title: Open karaoke + bevera.js!
+        emoji: 🎤
+        description: Head over to [Rumors](https://goo.gl/maps/a2NbC3Vvcy62)
+          (at 7th and Harrison) for karaoke and beverages. Cash bar and open
+          karaoke! 10 minutes by foot.
 
   sponsors:
     - New Relic: https://newrelic.com/about/careers
