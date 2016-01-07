@@ -39,7 +39,9 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:35 PM:
+    - 8:35 PM: Performer TBA
+
+    - 8:45 PM:
         type: Talk
         emoji: 🚀
         title: If you wish to learn ES6 from scratch you must first invent the universe.
@@ -47,8 +49,6 @@
         person:
           name: Ashley Williams
           twitter: ag_dubs
-
-    - 8:45 PM: Speaker TBA
 
     - 9:00 PM: Speaker TBA
 
