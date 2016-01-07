@@ -39,7 +39,14 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:35 PM: Performer TBA
+    - 8:35 PM:
+        type: Talk
+        emoji: 🚀
+        title: If you wish to learn ES6 from scratch you must first invent the universe.
+        description: A Carl-Sagan-themed talk about education and programming language design, and ES6.
+        person:
+          name: Ashley Williams
+          twitter: ag_dubs
 
     - 8:45 PM: Speaker TBA
 
