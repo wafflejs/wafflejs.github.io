@@ -70,6 +70,7 @@ module.exports = {
 
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({ name: 'vendor' }),
+    new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en$/),
   ],
 
   devServer: {

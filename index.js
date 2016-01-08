@@ -14,7 +14,8 @@ angular.module('wafflejs', [
   $locationProvider.html5Mode(true)
 })
 .run(($rootScope, $document) => {
-  $rootScope.$on('$stateChangeSuccess', () => {
-    $document[0].body.scrollTop = 0
+  $rootScope.$on('$stateChangeSuccess', (event, to) => {
+    if (to.scrollTop !== false)
+      $document[0].body.scrollTop = 0
   })
 })

@@ -37,6 +37,7 @@
     "lodash": "3.10.1",
     "markdown-loader": "0.1.7",
     "marked": "0.3.5",
+    "moment": "2.11.0",
     "ng-annotate-loader": "0.0.10",
     "normalize.css": "3.0.3",
     "postcss-calc": "5.0.0",

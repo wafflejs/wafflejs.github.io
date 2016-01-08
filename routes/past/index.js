@@ -1,5 +1,6 @@
 import angular from 'angular'
-import { find } from 'lodash'
+import moment from 'moment'
+import { sortBy, sortedLastIndex } from 'lodash'
 import css from '../index/index.css'
 
 export default angular.module('wafflejs.routes.past', [
@@ -11,15 +12,15 @@ export default angular.module('wafflejs.routes.past', [
   $stateProvider.state('past', {
     url: '/past/:day',
     template: require('../index/index.jade')(css),
-    resolve: {
-      day(calendar, $stateParams) {
-        return find(calendar, { day: $stateParams.day })
-      }
-    },
+    scrollTop: false,
     controllerAs: 'index',
     controller: class {
-      constructor(day) {
-        this.day = day
+      constructor(calendar, $stateParams) {
+        calendar = sortBy(calendar, 'day')
+        const yesterday = { day: moment($stateParams.day).subtract(1, 'day').format('YYYY-MM-DD') }
+        const index = sortedLastIndex(calendar, yesterday, 'day')
+        this.day = calendar[index]
+        this.last = calendar[index - 1]
       }
     },
   })
