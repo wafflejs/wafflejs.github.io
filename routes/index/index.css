@@ -45,6 +45,21 @@
     }
   }
 
+  #about {
+    .speakers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+    img {
+      border-radius: 100%;
+      height: auto;
+      margin: 3px;
+    }
+  }
+
   #get-involved {
     order: 1;
     &.tba { order: 0 }

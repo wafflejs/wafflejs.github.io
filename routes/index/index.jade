@@ -33,7 +33,14 @@ div( class=className )
         Conduct][1].
 
         [1]: http://jsconf.com/codeofconduct.html
-  
+        
+    .col-xs-12.col-sm-6.speakers
+      img(
+        title='{{speaker.name}}'
+        ng-style='{width: speaker.size, height: speaker.size }'
+        ng-src='https://twitter.com/{{speaker.twitter}}/profile_image?size=bigger'
+        ng-repeat='speaker in index.speakers' )
+
   section#get-involved( ng-class='{ tba: index.tba }' ): .container-fluid
     h2 Get Involved
 

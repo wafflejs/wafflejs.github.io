@@ -1,6 +1,6 @@
 import angular from 'angular'
 import moment from 'moment'
-import { sortBy, sortedLastIndex, some, values } from 'lodash'
+import { sortBy, sortedLastIndex, map, some, values, chain } from 'lodash'
 import css from './index.css'
 
 export default angular.module('wafflejs.routes.index', [
@@ -24,6 +24,15 @@ export default angular.module('wafflejs.routes.index', [
           const title = values(event)[0].title
           return title && title.match(/TBA/)
         })
+
+        this.speakers = chain(calendar)
+          .map((day) => map(day.schedule, (event) => values(event)[0].person))
+          .flatten()
+          .uniq(false, 'twitter')
+          .compact()
+          .forEach((person) => person.size = `${Math.random() * 43 + 20}px`)
+          .shuffle()
+          .value()
       }
     },
   })
