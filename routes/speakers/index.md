@@ -1,6 +1,6 @@
-<title>· Speaker FAQs</title>
 Speaker FAQs
 ============
+<title>· Speaker FAQs</title>
 
 What's WaffleJS?
 ----------------

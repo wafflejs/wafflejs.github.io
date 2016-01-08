@@ -1,6 +1,6 @@
-<title>· Sponsorship</title>
 Sponsorship
 ===========
+<title>· Sponsorship</title>
 
 About
 -----

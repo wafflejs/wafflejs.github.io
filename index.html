@@ -13,6 +13,20 @@
     <script src="/dist/main.js"></script>
   </head>
   <body ng-app="wafflejs" ng-strict-di>
+    <header class="container-fluid">
+      <div class="row between-xs">
+        <div class="col-xs-12 col-sm-6">
+          <h4 class="highlight"><a ui-sref='index'>WaffleJS</a></h4>
+        </div>
+        <div class="col-xs-12 col-sm-6 end-sm">
+          <ul class="nav">
+            <li><a class="light-gray" ui-sref="speakers">Speakers</a></li>
+            <li><a class="light-gray" ui-sref="performers">Performers</a></li>
+            <li><a class="light-gray" ui-sref="sponsorship">Sponsorship</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main ui-view></main>
     <footer class="fixed">
       <div class="row start-xs end-sm">

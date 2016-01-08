@@ -7,18 +7,6 @@
   }
 
   #header {
-    ul.nav {
-      list-style-type: none;
-      margin: 0 0 1.5rem 0;
-      padding: 0;
-      li {
-        display: inline-block;
-        margin-right: 1em;
-      }
-      li:last-of-type {
-        margin-right: 0;
-      }
-    }
     .headline {
       h1 {
         margin-bottom: 1.5rem;

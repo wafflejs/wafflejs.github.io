@@ -12,8 +12,23 @@ body {
   }
 }
 
-main {
+header, main {
   background-color: var(--tan);
+}
+
+header {
+  padding-top: 4rem;
+
+  ul.nav {
+    padding: 0;
+    margin-bottom: 1.5rem;
+    li {
+      display: inline-block;
+    }
+    li + li {
+      margin-left: 1em;
+    }
+  }
 }
 
 main {
@@ -24,7 +39,6 @@ main {
 
     &:first-child {
       margin-top: 0;
-      padding-top: 4rem;
     }
   }
 }
