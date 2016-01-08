@@ -268,8 +268,8 @@
 
   sponsors:
     - Dropbox: https://www.dropbox.com/jobs
-    - New Relic: https://newrelic.com/about/careers
     - Opendoor: https://www.opendoor.com/jobs
+    - New Relic: https://newrelic.com/about/careers
 
 - day: '2015-11-04'
   schedule:
@@ -355,6 +355,17 @@
 
 - day: '2015-10-07'
 
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+
 - day: '2015-09-02'
 
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Crunchyroll: http://www.crunchyroll.com/jobs
+
 - day: '2015-08-05'
+
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Particle: https://www.particle.io
