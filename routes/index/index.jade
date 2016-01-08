@@ -84,22 +84,23 @@ div( class=className )
 
   section#sponsors: .container-fluid: .row
     .col-xs-12.col-sm-6
-      :marked
-        Sponsors
-        --------
+      h1 Sponsors
 
-        This month's WaffleJS is sponsored by [New Relic][3] and [Opendoor][2].
+      p This month’s WaffleJS is sponsored by 
+        span( ng-repeat='sponsor in index.day.sponsors' )
+          span( ng-show='$middle' ) , 
+          span( ng-show='$last' )  and 
+          a( href='{{url}}' ng-repeat='(name, url) in sponsor' ) {{name}}
+        | .
 
-        Interested in sponsoring a future event?
-
-        [2]: https://www.opendoor.com/jobs
-        [3]: https://newrelic.com/about/careers
+      p Interested in sponsoring a future event?
 
       p: a.btn( ui-sref='sponsorship' ) Sponsorship Details
 
     .col-xs-12.col-sm-6.row.around-xs.middle-xs
-      include ../../images/sponsors/newrelic.svg
-      include ../../images/sponsors/opendoor.svg
+      span( ng-repeat='sponsor in index.day.sponsors' )
+        a( href='{{url}}' ng-repeat='(name, url) in sponsor' )
+          img( ng-src='/images/sponsors/{{name}}.svg' )
 
   section#transparency: .container-fluid
     h2 Transparency

@@ -97,6 +97,10 @@
           (at 7th and Harrison) for karaoke and beverages. Cash bar and open
           karaoke! 10 minutes by foot.
 
+  sponsors:
+    - New Relic: https://newrelic.com/about/careers
+    - Opendoor: https://www.opendoor.com/jobs
+
 - day: '2016-01-06'
   schedule:
     - 7:00 PM:
@@ -344,6 +348,10 @@
         person:
           name: Gabriel Gilder
           twitter: _gjg_
+
+  sponsors:
+    - New Relic: https://newrelic.com/about/careers
+    - Opendoor: https://www.opendoor.com/jobs
 
 - day: '2015-10-07'
 
