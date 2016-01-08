@@ -1,6 +1,6 @@
 import angular from 'angular'
 import moment from 'moment'
-import { sortBy, sortedLastIndex } from 'lodash'
+import { sortBy, sortedLastIndex, some, values } from 'lodash'
 import css from './index.css'
 
 export default angular.module('wafflejs.routes.index', [
@@ -20,6 +20,10 @@ export default angular.module('wafflejs.routes.index', [
         const index = sortedLastIndex(calendar, yesterday, 'day')
         this.day = calendar[index]
         this.last = calendar[index - 1]
+        this.tba = some(this.day.schedule, (event) => {
+          const title = values(event)[0].title
+          return title && title.match(/TBA/)
+        })
       }
     },
   })

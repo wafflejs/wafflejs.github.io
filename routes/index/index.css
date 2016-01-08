@@ -2,6 +2,9 @@
 @import '../../grid.css';
 
 :local(.className) {
+  display: flex;
+  flex-direction: column;
+
   h2 {
     margin-top: 0;
   }
@@ -37,6 +40,11 @@
         margin-bottom: 1.5rem;
       }
     }
+  }
+
+  #get-involved {
+    order: 1;
+    &.tba { order: 0 }
   }
 
   #schedule {
