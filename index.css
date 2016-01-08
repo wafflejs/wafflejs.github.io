@@ -7,9 +7,6 @@
 body {
   background-color: var(--orange);
   padding: 5px 0;
-  @media (--sm-viewport) {
-    padding: 5px;
-  }
 }
 
 header, main {
