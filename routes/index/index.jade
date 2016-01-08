@@ -59,7 +59,7 @@ div( class=className )
   section#schedule: .container-fluid: .row
     .col-xs-12.col-sm-6
       h2 Schedule
-      a( ui-sref='past({day: index.last.day})' ) Looking for last month?
+      a( ui-sref='{ day: index.last.day }' ) Looking for last month?
       ul.schedule: li( ng-repeat='event in index.day.schedule track by $index' )
         .row.row-lg-offset--3( ng-repeat="(time, item) in event" )
           .col-xs-12.col-lg-3.end-lg

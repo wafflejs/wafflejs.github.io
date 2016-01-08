@@ -60,16 +60,16 @@ Month                | Sponsors                     | Attendees
 [October][2015-10]   | Opendoor                     | 120
 [November][2015-11]  | New Relic, Opendoor          | 95
 [December][2015-12]  | Dropbox, Opendoor, New Relic | 125
-[December][2016-01]  | Opendoor, New Relic          | 103
+[January][2016-01]   | Opendoor, New Relic          | 103
 
 [1]: http://girlswhocode.com/
 
-[2015-08]: /past/2015-08-05
-[2015-09]: /past/2015-09-02
-[2015-10]: /past/2015-10-07
-[2015-11]: /past/2015-11-04
-[2015-12]: /past/2015-12-02
-[2016-01]: /past/2016-01-06
+[2015-08]: /?day=2015-08-05
+[2015-09]: /?day=2015-09-02
+[2015-10]: /?day=2015-10-07
+[2015-11]: /?day=2015-11-04
+[2015-12]: /?day=2015-12-02
+[2016-01]: /?day=2016-01-06
 
 Speakers & Attendees
 --------------------

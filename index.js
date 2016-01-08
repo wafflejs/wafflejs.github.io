@@ -5,7 +5,6 @@ import css from './index.css'
 
 angular.module('wafflejs', [
   require('./routes/index').default,
-  require('./routes/past').default,
   require('./routes/speakers').default,
   require('./routes/sponsorship').default,
   require('./title').default,
@@ -14,8 +13,8 @@ angular.module('wafflejs', [
   $locationProvider.html5Mode(true)
 })
 .run(($rootScope, $document) => {
-  $rootScope.$on('$stateChangeSuccess', (event, to) => {
-    if (to.scrollTop !== false)
+  $rootScope.$on('$stateChangeSuccess', (event, to, toParams, from) => {
+    if (from.name !== to.name)
       $document[0].body.scrollTop = 0
   })
 })

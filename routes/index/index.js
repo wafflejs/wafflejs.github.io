@@ -10,13 +10,13 @@ export default angular.module('wafflejs.routes.index', [
 ])
 .config(($stateProvider) => {
   $stateProvider.state('index', {
-    url: '/',
+    url: '/?day',
     template: require('./index.jade')(css),
     controllerAs: 'index',
     controller: class {
-      constructor(calendar) {
+      constructor(calendar, $stateParams) {
         calendar = sortBy(calendar, 'day')
-        const yesterday = { day: moment().subtract(1, 'day').format('YYYY-MM-DD') }
+        const yesterday = { day: moment($stateParams.day).subtract(1, 'day').format('YYYY-MM-DD') }
         const index = sortedLastIndex(calendar, yesterday, 'day')
         this.day = calendar[index]
         this.last = calendar[index - 1]
