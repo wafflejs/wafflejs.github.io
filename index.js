@@ -5,6 +5,7 @@ import css from './index.css'
 
 angular.module('wafflejs', [
   require('./routes/index').default,
+  require('./routes/performers').default,
   require('./routes/speakers').default,
   require('./routes/sponsorship').default,
   require('./title').default,

@@ -15,7 +15,7 @@ You can either comment on [this issue][1] or [send us an email][2].
 
 When and where will it be?
 --------------------------
-When: Wednesday, February from 3 to 10 PM.  
+When: Wednesday, February 3 from 7 PM to 10 PM.  
 Where: [Soma StrEat Food Park][3]
 
 [3]: https://goo.gl/maps/0gkOe
