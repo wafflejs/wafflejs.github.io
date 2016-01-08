@@ -25,16 +25,19 @@
     }
   }
 
-  #hero > .container-fluid {
-    background: url('/images/hero-1.jpg') 50% 50%;
-    background-size: cover;
-    height: 50vh;
-    @media (--md-viewport) {
-      height: 75vh;
+  #hero {
+    > .container-fluid {
+      margin-bottom: 3rem;
+      background: url('/images/hero-1.jpg') 50% 50%;
+      background-size: cover;
+      height: 50vh;
+      @media (--md-viewport) {
+        height: 75vh;
+      }
     }
   }
 
-  #get-involved, #sponsors, #transparency {
+  #about, #get-involved, #sponsors, #transparency {
     .row {
       .col-sm-6:first-of-type {
         margin-bottom: 1.5rem;
