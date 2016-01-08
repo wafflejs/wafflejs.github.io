@@ -83,11 +83,11 @@
     - 8:45 PM:
         type: Talk
         emoji: 💔
-        title: Unbreak My Build: A Ballad On the Subjectivity of Semver
+        title: 'Unbreak My Build: A Ballad On the Subjectivity of Semver'
         description: Unbreak my build. Say you'll green my tests again. Undo
           this hurt you caused when you released that minor version with a
           breaking change. Unsubtweet these feels. I caused so many upstream
-          bugs. Unbreak my build. My build. 
+          bugs. Unbreak my build. My build.
         person:
           name: Ashley Williams
           twitter: ag_dubs
