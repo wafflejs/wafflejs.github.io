@@ -41,7 +41,7 @@ Also
 All participants are expected to follow the [JSConf Code of Conduct][3].
 
 Organized by [Visnu][@visnup], [Billy][@billyroh],
-[Emily][@nexxylove], and [Kelly][@kng]. Inspired by [BrooklynJS][8].
+[Emily][@nexxylove], [Kelly][@kng], and [Myles][@thealphanerd]. Inspired by [BrooklynJS][8].
 
 Want to help? We organize on [GitHub][4] and send updates on
 [Twitter][@wafflejs]. Looking for [last month's event][10]?
@@ -61,4 +61,5 @@ Want to help? We organize on [GitHub][4] and send updates on
 [@billyroh]: https://twitter.com/billyroh
 [@nexxylove]: https://twitter.com/nexxylove
 [@kng]: https://twitter.com/kng
+[@thealphanerd]: https://twitter.com/thealphanerd
 [@wafflejs]: https://twitter.com/wafflejs
