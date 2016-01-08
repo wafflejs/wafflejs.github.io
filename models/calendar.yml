@@ -354,17 +354,116 @@
     - Opendoor: https://www.opendoor.com/jobs
 
 - day: '2015-10-07'
+  schedule:
+    - 7:30 PM:
+        person:
+          name: Cole Willsea
+          twitter: coledubs_ebooks
+    - 7:45 PM:
+        person:
+          name: Amy Wibowo
+          twitter: sailorhg
+    - 7:45 PM:
+        person:
+          name: Matt Baker
+          twitter: reissbaker
+    - 8:00 PM:
+        person:
+          name: Julia Nguyen
+          twitter: fleurchild
+    - 8:25 PM:
+        person:
+          name: Myles Borins
+          twitter: thealphanerd
+    - 8:35 PM:
+        person:
+          name: Amber Feng
+          twitter: amfeng
+    - 8:50 PM:
+        person:
+          name: Seth Thompson
+          twitter: s3ththompson
 
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs
 
 - day: '2015-09-02'
+  schedule:
+    - 7:45 PM:
+        person:
+          name: Monica Dinculescu
+          twitter: notwaldorf
+    - 8:00 PM:
+        person:
+          name: Billy Roh
+          twitter: billyroh
+    - 8:10 PM:
+        person:
+          name: Justine Lam
+          twitter: justine_lam
+    - 8:25 PM:
+        person:
+          name: Gabriel Gilder
+          twitter: _gjg_
+    - 8:35 PM:
+        person:
+          name: Jeanie Chung
+          twitter(broken): jeanieshark
+    - 8:50 PM:
+        person:
+          name: Natasha Lee
+          twitter: teh_natasha
+    - 9:00 PM:
+        person:
+          name: Isaac Schlueter
+          twitter: izs
+    - 9:15 PM:
+        person:
+          name: Natasha Lee
+          twitter: teh_natasha
 
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs
     - Crunchyroll: http://www.crunchyroll.com/jobs
 
 - day: '2015-08-05'
+  schedule:
+    - 7:45 PM:
+        person:
+          name: Susan Lin
+          twitter: bysusanlin
+    - 8:00 PM:
+        person:
+          name: Andrew Lunny
+          twitter: alunny
+    - 8:10 PM:
+        person:
+          name: Contra
+          twitter: contra
+    - 8:25 PM:
+        person:
+          name: Aniyia Williams
+          twitter: operaqueenie
+    - 8:35 PM:
+        person:
+          name: Guillermo Rauch
+          twitter(no image): rauchg
+    - 8:50 PM:
+        person:
+          name: Nelson Crespo
+          twitter: ecin
+    - 9:00 PM:
+        person:
+          name: May-li Khoe
+          twitter: mayli
+    - 9:15 PM:
+        person:
+          name: Stephanie Snopek
+          twitter: StephSnopek
+    - 9:15 PM:
+        person:
+          name: Steven Gill
+          twitter: stevesgill
 
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs
