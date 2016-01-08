@@ -4,7 +4,7 @@
   "description": "A fun-centric JSish meetup in the Bay Area.",
   "main": "index.js",
   "scripts": {
-    "test": "webpack -p",
+    "test": "webpack -p --bail",
     "start": "webpack-dev-server --hot --inline -d"
   },
   "repository": {
