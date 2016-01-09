@@ -105,6 +105,11 @@
       margin: 0 .5em;
       font-weight: normal;
     }
+
+    .person {
+      white-space: nowrap;
+      line-height: 150%;
+    }
   }
 
   #sponsors {

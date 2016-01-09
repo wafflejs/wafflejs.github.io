@@ -78,7 +78,14 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:35 PM: Performer TBA
+    - 8:35 PM:
+        type: Performance
+        title: Sahana & Noel
+        people:
+          - name: Sahana Rajasekar
+            twitter: sahanarajasekar
+          - name: Noel Moldvai
+            twitter: distributedbro
 
     - 8:45 PM:
         type: Talk
