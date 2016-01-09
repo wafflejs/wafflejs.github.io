@@ -364,13 +364,11 @@
           name: Cole Willsea
           twitter: coledubs_ebooks
     - 7:45 PM:
-        person:
-          name: Amy Wibowo
-          twitter: sailorhg
-    - 7:45 PM:
-        person:
-          name: Matt Baker
-          twitter: reissbaker
+        people:
+          - name: Amy Wibowo
+            twitter: sailorhg
+          - name: Matt Baker
+            twitter: reissbaker
     - 8:00 PM:
         person:
           name: Julia Nguyen
@@ -461,13 +459,11 @@
           name: May-li Khoe
           twitter: mayli
     - 9:15 PM:
-        person:
-          name: Stephanie Snopek
-          twitter: StephSnopek
-    - 9:15 PM:
-        person:
-          name: Steven Gill
-          twitter: stevesgill
+        people:
+          - name: Stephanie Snopek
+            twitter: StephSnopek
+          - name: Steven Gill
+            twitter: stevesgill
 
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs

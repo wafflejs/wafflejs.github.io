@@ -25,9 +25,12 @@ export default angular.module('wafflejs.routes.index', [
           return title && title.match(/TBA/)
         })
 
-        this.speakers = chain(calendar)
-          .map((day) => map(day.schedule, (event) => values(event)[0].person))
-          .flatten()
+        this.people = chain(calendar)
+          .map((day) => map(day.schedule, (event) => {
+            event = values(event)[0]
+            return event.person || event.people
+          }))
+          .flatten().flatten()
           .compact()
           .uniq(false, 'twitter')
           .forEach((person) => person.size = `${Math.random() * 43 + 20}px`)

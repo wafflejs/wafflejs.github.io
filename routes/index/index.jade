@@ -34,14 +34,14 @@ div( class=className )
 
         [1]: http://jsconf.com/codeofconduct.html
         
-    .col-xs-12.col-sm-6.speakers
-      a( href='https://twitter.com/{{speaker.twitter}}'
-         ng-show='speaker.twitter'
-         ng-repeat='speaker in index.speakers | limitTo:26' )
+    .col-xs-12.col-sm-6.people
+      a( href='https://twitter.com/{{person.twitter}}'
+         ng-show='person.twitter'
+         ng-repeat='person in index.people | limitTo:28' )
         img(
-          title='{{speaker.name}}'
-          ng-style='{width: speaker.size, height: speaker.size }'
-          ng-src='https://twitter.com/{{speaker.twitter}}/profile_image?size=bigger' )
+          title='{{person.name}}'
+          ng-style='{width: person.size, height: person.size }'
+          ng-src='https://twitter.com/{{person.twitter}}/profile_image?size=bigger' )
 
   section#get-involved( ng-class='{ tba: index.tba }' ): .container-fluid
     h2 Get Involved
@@ -77,10 +77,15 @@ div( class=className )
                 span( ng-show='item.type || item.emoji' ) · 
                 span( ng-show='item.emoji' ) {{item.emoji}} 
                 span( ng-show='item.type' ) {{item.type}}
-          .col-xs-12.col-lg-9( ng-show='item.person || item.type' )
+          .col-xs-12.col-lg-9( ng-show='item.person || item.people || item.type' )
             h5( ng-show='item.person' )
               a( ng-href='https://twitter.com/{{item.person.twitter}}' )
                 | {{item.person.name}} · @{{item.person.twitter}}
+            h5( ng-show='item.people' )
+              span( ng-repeat='person in item.people' )
+                span.separator( ng-hide='$first' ) &
+                a( ng-href='https://twitter.com/{{person.twitter}}' )
+                  | {{person.name}} · @{{person.twitter}}
           .hide-md-down.col-lg-3.end-lg( ng-show='item.type' )
             h5 {{item.type}}
           .col-xs-12.col-lg-9(ng-class='{ "border-bottom": !item.description }')
