@@ -41,6 +41,8 @@ main {
 }
 
 footer {
+  font-size: x-large;
+
   @media (--xs-viewport-only) {
     background-color: var(--orange);
     .btn {
