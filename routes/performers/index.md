@@ -8,16 +8,19 @@ WaffleJS is a monthly meetup centered around programming, waffles, and karaoke.
 
 How do I submit a performance?
 ------------------------------
-You can either comment on [this issue][1] or [send us an email](mailto:perform@wafflejs.com).
+You can either comment on [this issue][1] or [send us an email][2]. Come chat
+with us on [Slack][3] if you want immediate feedback.
 
 [1]: https://github.com/wafflejs/wafflejs.github.io/issues/110
+[2]: mailto:perform@wafflejs.com
+[3]: http://slack.borojs.com
 
 When and where will it be?
 --------------------------
 When: Wednesday, February 3 from 7 PM to 10 PM.  
-Where: [Soma StrEat Food Park][3]
+Where: [Soma StrEat Food Park][4]
 
-[3]: https://goo.gl/maps/0gkOe
+[4]: https://goo.gl/maps/0gkOe
 
 What kind of performance are you looking for?
 ---------------------------------------------
