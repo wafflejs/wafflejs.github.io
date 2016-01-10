@@ -33,6 +33,7 @@ export default angular.module('wafflejs.routes.index', [
           .flatten().flatten()
           .compact()
           .uniq(false, 'twitter')
+          .reject({ exclude: true })
           .forEach((person) => person.size = `${Math.random() * 43 + 20}px`)
           .shuffle()
           .value()

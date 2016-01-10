@@ -89,6 +89,7 @@
             twitter: sahanarajasekar
           - name: Noel Moldvai
             twitter: distributedbro
+            exclude: true
 
     - 8:45 PM:
         type: Talk
@@ -550,7 +551,8 @@
         description: The convergence of designers and programmers.
         person:
           name: Guillermo Rauch
-          twitter(no image): rauchg
+          twitter: rauchg
+          exclude: true
     - 8:50 PM:
         emoji: 🎶
         type: Performance
