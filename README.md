@@ -11,7 +11,7 @@
          --//+//::--:::://+//--
              --//+//++///--
                  +----
-](/images/waffle.png)
+](/images/wmo.png)
 
 WaffleJS
 ========
