@@ -11,8 +11,10 @@
     - 7:45 PM:
         type: Talk
         emoji: 🔐
-        title: A Parser for Things is a Function from Strings to Lists of Pairs of Things and Strings
-        description: Writing a simple parsing library without talking about monads.
+        title: A Parser for Things is a Function from Strings to Lists of Pairs
+          of Things and Strings
+        description: Writing a simple parsing library without talking about
+          monads.
         person:
           name: Kat Marchán
           twitter: maybekatz
@@ -228,8 +230,8 @@
         type: Talk
         title: How we hire — what we've learned that's worth sharing
         emoji: 👥
-        description: At npm, we've had some pretty excellent luck with hiring.
-          But even we get it wrong sometimes. Here's a 10-step breakdown of
+        description: At npm, we’ve had some pretty excellent luck with hiring.
+          But even we get it wrong sometimes. Here’s a 10-step breakdown of
           what we do now (and how it differs from other hiring processes).
         person:
           name: Raquel Vélez
@@ -338,7 +340,7 @@
           name: Nick Morgan
           twitter: skilldrick
         description: The Web Audio API is now a fully featured API for working
-          with audio. I'll show you how you can use this API to pull apart an
+          with audio. I’ll show you how you can use this API to pull apart an
           existing song into short samples and put it back together to create a
           new song, with very little code.
     - 9:00 PM:
@@ -368,28 +370,65 @@
 - day: '2015-10-07'
   schedule:
     - 7:30 PM:
+        emoji: 🎤
+        type: Performance
+        title: karaoke_ebooks
+        description: karaoke_ebooks takes in a Twitter username and pulls down
+          a bunch of that user’s tweets. It then applies some Markov chains and
+          other language-processing magic to construct rhymes into a "song".
+          After that, it display those lyrics in karaoke style over some
+          probabilistically generated web audio beats.
         person:
           name: Cole Willsea
           twitter: coledubs_ebooks
     - 7:45 PM:
+        emoji: 🏢
+        type: Talk
+        title: Programming Building Blocks (Literally)
+        description: Learn how we used JS to help us design and build a giant
+          lego mural!
         people:
           - name: Amy Wibowo
             twitter: sailorhg
           - name: Matt Baker
             twitter: reissbaker
     - 8:00 PM:
+        emoji: 💡
+        type: Talk
+        title: Exploring Mental Illness through Open Source
+        description: For almost a year, Julia has been leading if me, an open
+          source mental health community. It has allowed her to explore personal
+          insecurities with mental illness, taught her how to manage and value
+          contributors, and develop more robust web apps using Ruby on Rails
+          and JS. She will be delving into the lessons she’s learned
+          transforming a passion project into an open source project.
         person:
           name: Julia Nguyen
           twitter: fleurchild
     - 8:25 PM:
+        emoji: 🎵
+        type: Performance
+        title: Live Performance
         person:
           name: Myles Borins
           twitter: thealphanerd
     - 8:35 PM:
+        emoji: 🎮
+        type: Talk
+        title: Pixels and Tactics
+        description: Adventures of building a 2D tactics RPG in the browser.
+          Learn about tilesets, sprite animation, item factories, quest state
+          machines, and more!
         person:
           name: Amber Feng
           twitter: amfeng
     - 8:50 PM:
+        emoji: 🚗
+        type: Talk
+        title: How JavaScript engines work (and why you should care!)
+        description: A high level overview of Chrome's V8 JavaScript engine,
+          with plenty of GIFs for clarity.  Plus, some tips on how you can make
+          sure that your code always runs as fast as possible.
         person:
           name: Seth Thompson
           twitter: s3ththompson
@@ -400,34 +439,70 @@
 - day: '2015-09-02'
   schedule:
     - 7:45 PM:
+        emoji: 🌈
+        type: Talk
+        title: '🎉 🐱 ✨ or: How I didn’t fix emoji in Chrome'
+        description: Last year, in the dark days of the web, Chrome couldn’t
+          render emojis. Monica’s tried to fix it, failed, and has
+          been making silly emoji related apps ever since.
         person:
           name: Monica Dinculescu
           twitter: notwaldorf
     - 8:00 PM:
+        emoji: 🎤
+        type: Performance
+        title: Karaoke
         person:
           name: Billy Roh
           twitter: billyroh
     - 8:10 PM:
+        emoji: 🔖
+        type: Talk
+        title: You Can Bookmarklet That!
+        description: A bookmarklet is a special type of bookmark that runs
+          JavaScript code when you click it; it’s super easy to install and
+          create one. Justine will show you how!
         person:
           name: Justine Lam
           twitter: justine_lam
     - 8:25 PM:
+        emoji: 🎵
+        type: Performance
+        title: Karaoke
         person:
           name: Gabriel Gilder
           twitter: _gjg_
     - 8:35 PM:
+        emoji: 🙏
+        type: Talk
+        title: Zen and the Art of Coding
+        description: We’ve all heard some woo-woo stuff about zen and “finding
+          your center.” How can we integrate some mindful practices into our
+          coding and the way we relate to our coworkers? Maybe there’s some
+          value to this namaste shit after all.
         person:
-          name: Jeanie Chung
-          twitter(broken): jeanieshark
+          name: Jamie Chung
+          twitter: attnjamie
     - 8:50 PM:
+        emoji: 🎤
+        type: Performance
+        title: Performance Artist & Musician
         person:
           name: Natasha Lee
           twitter: teh_natasha
     - 9:00 PM:
+        emoji: 🚦
+        type: Talk
+        title: 'Unix Signals (or Why `kill(2)` Is/Isn’t Appropriately Named)'
+        description: Guaranteed to annoy and frustrate any veteran systems
+          engineers in the audience.
         person:
           name: Isaac Schlueter
           twitter: izs
     - 9:15 PM:
+        emoji: 🎤
+        type: Performance
+        title: Performance Artist & Musician
         person:
           name: Natasha Lee
           twitter: teh_natasha
@@ -439,34 +514,62 @@
 - day: '2015-08-05'
   schedule:
     - 7:45 PM:
+        emoji: 🎨
+        type: Talk
+        title: No Wasted Paint
+        description: Art history, color theory, and if the web were colorfast.
         person:
           name: Susan Lin
           twitter: bysusanlin
     - 8:00 PM:
+        emoji: 🎤
+        type: Performance
+        title: Karaoke
         person:
           name: Andrew Lunny
           twitter: alunny
     - 8:10 PM:
+        emoji: 💡
+        type: Talk
+        title: Experiments in Automated Lobbying
+        description: Combining MTurks and city government.
         person:
           name: Contra
           twitter: contrahacks
     - 8:25 PM:
+        emoji: 🎵
+        type: Performance
+        title: Karaoke
         person:
           name: Aniyia Williams
           twitter: operaqueenie
     - 8:35 PM:
+        emoji: ✨
+        type: Talk
+        title: Pure UI
+        description: The convergence of designers and programmers.
         person:
           name: Guillermo Rauch
           twitter(no image): rauchg
     - 8:50 PM:
+        emoji: 🎶
+        type: Performance
+        title: Karaoke
         person:
           name: Nelson Crespo
           twitter: ecin
     - 9:00 PM:
+        emoji: 💃
+        type: Talk
+        title: The Art of Shaking It
+        description: Putting some wiggle and dance into UI animation.
         person:
           name: May-li Khoe
           twitter: mayli
     - 9:15 PM:
+        emoji: 🎹
+        type: Performance
+        title: Karaoke
         people:
           - name: Stephanie Snopek
             twitter: StephSnopek
