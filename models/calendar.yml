@@ -11,8 +11,10 @@
     - 7:45 PM:
         type: Talk
         emoji: 🔐
-        title: A Parser for Things is a Function from Strings to Lists of Pairs of Things and Strings
-        description: Writing a simple parsing library without talking about monads.
+        title: A Parser for Things is a Function from Strings to Lists of Pairs
+          of Things and Strings
+        description: Writing a simple parsing library without talking about
+          monads.
         person:
           name: Kat Marchán
           twitter: maybekatz
@@ -220,8 +222,8 @@
         type: Talk
         title: How we hire — what we've learned that's worth sharing
         emoji: 👥
-        description: At npm, we've had some pretty excellent luck with hiring.
-          But even we get it wrong sometimes. Here's a 10-step breakdown of
+        description: At npm, we’ve had some pretty excellent luck with hiring.
+          But even we get it wrong sometimes. Here’s a 10-step breakdown of
           what we do now (and how it differs from other hiring processes).
         person:
           name: Raquel Vélez
@@ -336,8 +338,8 @@
     - 9:00 PM:
         emoji: 🔥
         type: Talk
-        title: Everything old is new again (hopefully): functional programming
-          in JavaScript
+        title: 'Everything old is new again (hopefully): functional programming
+          in JavaScript'
         person:
           name: Melinda Lu
           twitter: skewleft
@@ -431,7 +433,7 @@
     - 7:45 PM:
         emoji: 🌈
         type: Talk
-        title: 🎉 🐱 ✨ or: How I didn’t fix emoji in Chrome
+        title: '🎉 🐱 ✨ or: How I didn’t fix emoji in Chrome'
         description: Last year, in the dark days of the web, Chrome couldn’t
           render emojis. Monica’s tried to fix it, failed, and has
           been making silly emoji related apps ever since.
@@ -483,7 +485,7 @@
     - 9:00 PM:
         emoji: 🚦
         type: Talk
-        title: Unix Signals (or: Why `kill(2)` Is/Isn't Appropriately Named)
+        title: 'Unix Signals (or Why `kill(2)` Is/Isn’t Appropriately Named)'
         description: Guaranteed to annoy and frustrate any veteran systems
           engineers in the audience.
         person:
