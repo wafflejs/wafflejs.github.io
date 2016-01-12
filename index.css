@@ -29,6 +29,7 @@ header {
 }
 
 main {
+  min-height: 90vh;
   padding-bottom: 2rem;
 
   section {
