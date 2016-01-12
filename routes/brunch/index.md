@@ -17,6 +17,7 @@ Who's invited?
 * Speakers and performers from November, December, January
 * Co-organizers (Visnu, Billy, Kelly, Emily, Myles)
 * Two engineers from each sponsor (New Relic, Opendoor, Dropbox)
+* +1s of people attending
 
 How frequent will this be?
 --------------------------
