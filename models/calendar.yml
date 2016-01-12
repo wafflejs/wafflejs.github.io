@@ -44,6 +44,16 @@
         title: Get some tasty waffles and drinks
         emoji: 🍪
 
+    - 7:15 PM:
+        type: Performance
+        title: Opening
+        people:
+          - name: Sahana Rajasekar
+            twitter: sahanarajasekar
+          - name: Noel Moldvai
+            twitter: distributedbro
+            exclude: true
+
     - 7:30 PM:
         title: Introductions
         emoji: 👋
@@ -82,8 +92,10 @@
 
     - 8:35 PM:
         type: Performance
-        emoji: 🎤
+        emoji: 🎸
         title: Sahana & Noel
+        description: Sahana and Noel will be performing live, with Sahana
+          on the vocals and Noel on the guitar.
         people:
           - name: Sahana Rajasekar
             twitter: sahanarajasekar
