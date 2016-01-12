@@ -81,12 +81,20 @@ div( class=className )
             h5( ng-show='item.person' )
               a.person( ng-href='https://twitter.com/{{item.person.twitter}}' )
                 | {{item.person.name}} · @{{item.person.twitter}}
+                img(
+                  title='{{item.person.name}}'
+                  ng-src='https://twitter.com/{{item.person.twitter}}/profile_image?size=bigger'
+                  ng-hide='person.exclude' )
             h5( ng-show='item.people' )
               span( ng-repeat='person in item.people' )
                 span.separator( ng-hide='$first' ) &
                 wbr
                 a.person( ng-href='https://twitter.com/{{person.twitter}}' )
                   | {{person.name}} · @{{person.twitter}}
+                  img(
+                    title='{{person.name}}'
+                    ng-src='https://twitter.com/{{person.twitter}}/profile_image?size=bigger'
+                    ng-hide='person.exclude' )
           .hide-md-down.col-lg-3.end-lg( ng-show='item.type' )
             h5 {{item.type}}
           .col-xs-12.col-lg-9(ng-class='{ "border-bottom": !item.description }')

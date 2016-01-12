@@ -109,6 +109,15 @@
     .person {
       white-space: nowrap;
       line-height: 150%;
+
+      img {
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+        vertical-align: middle;
+        margin-left: 1ex;
+        filter: sepia(100%);
+      }
     }
   }
 
