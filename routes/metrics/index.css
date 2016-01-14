@@ -1,0 +1,24 @@
+@import '../../colors.css';
+
+svg {
+  width: 100%;
+  height: 400px;
+  font-size: small;
+
+  .axis {
+    line, path {
+      fill: none;
+      stroke: var(--gray);
+      shape-rendering: crispEdges;
+    }
+
+    text {
+      fill: var(--gray);
+    }
+  }
+
+  path.line {
+    fill: none;
+    stroke: var(--gray);
+  }
+}

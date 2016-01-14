@@ -1,0 +1,10 @@
+@import '../../colors.css';
+
+chart-tickets {
+  display: block;
+
+  path.line.February {
+    stroke: var(--orange);
+    stroke-width: 1.5px;
+  }
+}
