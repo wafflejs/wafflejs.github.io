@@ -127,7 +127,15 @@
         emoji: 🔬
         title: 'Doing Science to It: The Upsides and Pitfalls of Learning
           about Learning with A/B Testing'
-        description: A short introduction to the ups and downs of A/B testing.
+        description: 'Have you heard about "A/B testing"? Have you not heard
+        about "A/B testing"? If you answered "yes" to either of these questions,
+        this talk is for you! At Khan Academy we use A/B testing to help
+        millions of learners remember things better, pick them up faster,
+        and learn more often. In this talk we’ll cover the basics of learning
+        science and show how you can use the power of numbers to make better
+        (or at least better informed) decisions!'
+
+
         person:
           name: Eli Feasley
           twitter: eli_awry
