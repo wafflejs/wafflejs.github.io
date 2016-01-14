@@ -117,7 +117,15 @@
           name: Ashley Williams
           twitter: ag_dubs
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🔬
+        title: 'Doing Science to It: The Upsides and Pitfalls of Learning
+          about Learning with A/B Testing'
+        description: A short introduction to the ups and downs of A/B testing.
+        person:
+          name: Eli Feasley
+          twitter: eli_awry
 
     - 9:15 PM:
         title: Open karaoke + bevera.js
