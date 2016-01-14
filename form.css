@@ -4,7 +4,7 @@
   display: inline-block;
   border: solid 2px var(--orange);
   border-radius: 5px;
-  font-size: 0.8rem;
+  font-size: 0.8em;
   font-weight: 500;
   line-height: 125%;
   padding: .75rem 1rem;
