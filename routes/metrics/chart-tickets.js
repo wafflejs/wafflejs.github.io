@@ -35,14 +35,14 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [
       }
 
       onTickets(err, tickets) {
-        var byEvent = _(tickets)
+        var byMonth = chain(tickets)
           .sortBy('Ticket Created Date')
-          .groupBy('Event')
+          .groupBy('day')
           .value()
-        tickets = values(byEvent)
+        tickets = values(byMonth)
 
         // x
-        forEach(byEvent, (tickets, event) => {
+        forEach(byMonth, (tickets) => {
           tickets.day = moment(tickets[0].day).endOf('day')
           tickets.x = d3.time.scale()
             .domain([moment(tickets.day).subtract(38, 'days'), tickets.day])
@@ -74,7 +74,7 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [
 
         // line
         var line = d3.svg.line()
-          .x((ticket, i) => byEvent[ticket.Event].x(ticket['Ticket Created Date']))
+          .x((ticket, i) => byMonth[ticket.day].x(ticket['Ticket Created Date']))
           .y((ticket, i) => y(i+1))
         var opacity = d3.scale.linear()
           .domain([tickets[0].day, tickets[tickets.length-1].day])
