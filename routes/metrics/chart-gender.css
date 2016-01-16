@@ -1,0 +1,18 @@
+@import '../../colors.css';
+
+chart-gender {
+  display: block;
+
+  rect.bar {
+    shape-rendering: crispEdges;
+    fill: var(--lighter-gray);
+
+    &.null {
+      fill: var(--light-gray);
+    }
+
+    &.F {
+      fill: var(--orange);
+    }
+  }
+}

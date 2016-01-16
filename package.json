@@ -30,6 +30,7 @@
     "exports-loader": "0.6.2",
     "file-loader": "0.8.5",
     "flexboxgrid": "6.3.0",
+    "gender-guess": "1.0.4",
     "html-loader": "0.4.0",
     "jade": "1.11.0",
     "jade-loader": "0.8.0",

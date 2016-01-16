@@ -3,7 +3,8 @@ import css from './index.css'
 
 export default angular.module('wafflejs.routes.metrics', [
   require('angular-ui-router'),
-  require('./chart-tickets').default
+  require('./chart-gender').default,
+  require('./chart-tickets').default,
 ])
 .config(($stateProvider) => {
   $stateProvider.state('metrics', {

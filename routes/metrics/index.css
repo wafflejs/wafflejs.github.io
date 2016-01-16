@@ -1,5 +1,9 @@
 @import '../../colors.css';
 
+section:last-of-type {
+  margin-bottom: 5em;
+}
+
 svg {
   width: 100%;
   height: 400px;
