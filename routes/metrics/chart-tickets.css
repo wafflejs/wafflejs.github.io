@@ -3,7 +3,11 @@
 chart-tickets {
   display: block;
 
-  path.line.February {
+  svg {
+    height: 400px;
+  }
+
+  path.line.last {
     stroke: var(--orange);
     stroke-width: 1.5px;
   }

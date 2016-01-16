@@ -1,4 +1,11 @@
 {
   "asi": true,
-  "esnext": true
+  "browser": true,
+  "eqeqeq": true,
+  "esnext": true,
+  "undef": true,
+  "unused": true,
+  "globals": {
+    "require": false
+  }
 }

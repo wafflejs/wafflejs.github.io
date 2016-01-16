@@ -20,4 +20,7 @@ angular.module('wafflejs', [
     if (from.name !== to.name)
       $document[0].body.scrollTop = 0
   })
+  $rootScope.$on('$stateChangeError', (e, to, toParams, from, fromParams, error) => {
+    throw error
+  })
 })

@@ -5,14 +5,18 @@ chart-gender {
 
   rect.bar {
     shape-rendering: crispEdges;
-    fill: var(--lighter-gray);
+    fill: var(--light-gray);
 
     &.null {
-      fill: var(--light-gray);
+      fill: var(--lighter-gray);
     }
 
     &.F {
       fill: var(--orange);
     }
+  }
+
+  text.label {
+    fill: var(--tan-translucent);
   }
 }

@@ -2,16 +2,21 @@
 
 const fs = require('fs')
 const csv = require('csv')
-const merge = require('lodash/object/merge')
-const pick = require('lodash/object/pick')
+const _ = require('lodash')
 const gender = require('gender-guess')
 
-process.argv.slice(2).forEach(function(file, i) {
+const emails = {}
+var count = 0
+process.argv.slice(2).forEach((file, i) => {
   fs.createReadStream(file)
     .pipe(csv.parse({ columns: true }))
-    .pipe(csv.transform(function(record) {
+    .pipe(csv.transform((record) => {
+      var email = record['Ticket Email']
+      var emailDigest = emails[email] = emails[email] || count++
+      var month = record.Event.match(/WaffleJS \((.*)\)/)[1].substring(0, 3)
       var guess = gender.guess(record['Ticket First Name'])
-      return merge(pick(record, [
+      return _(record)
+        .pick([
           'Ticket Created Date',
           'Ticket Last Updated Date',
           'Ticket',
@@ -22,9 +27,13 @@ process.argv.slice(2).forEach(function(file, i) {
           'Tags',
           'Order Created Date',
           'Order Completed Date',
-      ]), {
-        'Ticket Gender Guess': guess && guess.gender
-      })
+        ])
+        .merge({
+          'Event Month': month,
+          'Ticket Gender Guess': guess && guess.gender,
+          'Ticket Email Digest': emailDigest,
+        })
+        .value()
     }))
     .pipe(csv.stringify({ header: i === 0 }))
     .pipe(process.stdout)

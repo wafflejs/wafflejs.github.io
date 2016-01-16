@@ -1,46 +1,52 @@
 import angular from 'angular'
 import d3 from 'd3'
-import moment from 'moment'
-import { forEach, keys, values, pairs, countBy, sortBy, chain } from 'lodash'
+import {
+  chain,
+  countBy,
+  forEach,
+  keys,
+  pairs,
+  sortBy,
+  values,
+} from 'lodash'
 import css from './chart-gender.css'
 
 export default angular.module('wafflejs.routes.metrics.chart-gender', [
   require('models/calendar').default
 ])
 .directive('chartGender', () => {
-  const margin = { top: 0, right: 10.5, bottom: 30.5, left: 100.5 }
+  const margin = { top: 0, right: 60.5, bottom: 30.5, left: 40.5 }
 
   return {
     restrict: 'EA',
+    scope: { tickets: '=' },
+    bindToController: true,
+    controllerAs: 'chartGender',
     controller: class {
       constructor($element) {
         this.svg = d3.select($element[0]).append('svg')
 
         this.chart = this.svg.append('g')
-          .attr('class', 'chart')
+          .classed('chart', true)
           .attr('transform', `translate(${margin.left}, ${margin.top})`)
 
         this.width = parseInt(this.svg.style('width')) - margin.left - margin.right
 
-        d3.csv('/routes/metrics/tickets.csv', (row, i) => {
-          row['Ticket Created Date'] = moment.utc(row['Ticket Created Date'], 'YYYY-MM-DD HH:mm:ss').toDate()
-          row.month = row.Event.match(/WaffleJS \((.*)\)/)[1]
-          return row
-        }, this.onTickets.bind(this))
-      }
-
-      onTickets(err, tickets) {
-        var byMonth = chain(tickets)
+        var byMonth = chain(this.tickets)
           .sortBy('Ticket Created Date')
-          .groupBy('month')
+          .groupBy('Event Month')
           .transform((byMonth, tickets, month) => {
             var x = 0
             byMonth[month] = sortBy(pairs(countBy(tickets, 'Ticket Gender Guess')))
             byMonth[month].total = tickets.length
-            forEach(byMonth[month], (d) => { d.x0 = x; x += d[1] })
+            forEach(byMonth[month], (d) => {
+              d.total = tickets.length
+              d.x0 = x
+              x += d[1]
+            })
           })
           .value()
-        tickets = values(byMonth)
+        var tickets = values(byMonth)
 
         const barHeight = 30
         this.height = tickets.length * barHeight - margin.top - margin.bottom
@@ -61,7 +67,7 @@ export default angular.module('wafflejs.routes.metrics.chart-gender', [
         var barGroups = this.chart.selectAll('g.month').data(keys(byMonth))
         barGroups.enter()
           .append('g')
-          .attr('class', 'month')
+          .classed('month', true)
           .attr('transform', d => `translate(0, ${y(d)})`)
         var bars = barGroups.selectAll('rect.bar').data(d => byMonth[d])
         bars.enter()
@@ -71,11 +77,21 @@ export default angular.module('wafflejs.routes.metrics.chart-gender', [
           .attr('height', y.rangeBand())
           .attr('x', d => x(d.x0))
 
+        // labels
+        var labels = barGroups.selectAll('text.label').data(d => byMonth[d])
+        labels.enter()
+          .append('text')
+          .classed('label', true)
+          .attr('x', d => x(d.x0 + d[1]/2))
+          .attr('y', '1em')
+          .attr('text-anchor', 'middle')
+          .text(d => `${d[0]} (${(d[1]/d.total*100).toFixed()}%)`)
+
         // axes drawn on top of bars
         var xAxis = d3.svg.axis()
           .scale(x)
         this.chart.append('g')
-          .attr('class', 'x axis')
+          .classed('x axis', true)
           .attr('transform', `translate(0, ${this.height})`)
           .call(xAxis)
 
@@ -83,7 +99,7 @@ export default angular.module('wafflejs.routes.metrics.chart-gender', [
           .scale(y)
           .orient('left')
         this.chart.append('g')
-          .attr('class', 'y axis')
+          .classed('y axis', true)
           .call(yAxis)
       }
     }
