@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "webpack -p --bail",
-    "start": "webpack-dev-server --hot --inline -d"
+    "start": "webpack-dev-server --hot --inline -d --devtool=eval-source-map"
   },
   "repository": {
     "type": "git",
