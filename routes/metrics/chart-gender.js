@@ -85,7 +85,7 @@ export default angular.module('wafflejs.routes.metrics.chart-gender', [
           .attr('x', d => x(d.x0 + d[1]/2))
           .attr('y', '1em')
           .attr('text-anchor', 'middle')
-          .text(d => `${d[0]} (${(d[1]/d.total*100).toFixed()}%)`)
+          .text(d => d[0] && `${d[0]} (${(d[1]/d.total*100).toFixed()}%)`)
 
         // axes drawn on top of bars
         var xAxis = d3.svg.axis()

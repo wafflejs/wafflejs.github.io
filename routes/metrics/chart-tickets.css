@@ -7,8 +7,15 @@ chart-tickets {
     height: 400px;
   }
 
-  path.line.last {
+  path.line.current {
     stroke: var(--orange);
     stroke-width: 1.5px;
+  }
+
+  g.voronoi {
+    path {
+      fill: none;
+      pointer-events: all;
+    }
   }
 }
