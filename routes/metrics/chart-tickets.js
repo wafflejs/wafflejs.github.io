@@ -17,24 +17,21 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [
     controllerAs: 'chartTickets',
     controller: class {
       constructor($element) {
+        const byMonth = chain(this.tickets)
+          .sortBy('Ticket Created Date')
+          .groupBy('date')
+          .value()
+        const tickets = values(byMonth)
+        const last = keys(byMonth).sort().reverse()[0]
+
         const svg = d3.select($element[0]).append('svg')
 
         const chart = svg.append('g')
           .classed('chart', true)
           .attr('transform', `translate(${margin.left}, ${margin.top})`)
-          .on('mouseout', () => {
-            lines.classed('current', d => d.last)
-          })
 
         const width = parseInt(svg.style('width')) - margin.left - margin.right
         const height = parseInt(svg.style('height')) - margin.top - margin.bottom
-
-        var byMonth = chain(this.tickets)
-          .sortBy('Ticket Created Date')
-          .groupBy('date')
-          .value()
-        var tickets = values(byMonth)
-        var last = keys(byMonth).sort().reverse()[0]
 
         // x
         forEach(tickets, (tickets) => {
@@ -49,8 +46,8 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [
             d.n = i + 1
           })
         })
-        var x = tickets[0][0].x
-        var xAxis = d3.svg.axis()
+        const x = tickets[0][0].x
+        const xAxis = d3.svg.axis()
           .scale(x)
           .tickFormat(d => Math.round(moment.duration(d - x.domain()[1]).asDays()))
         chart.append('g')
@@ -59,12 +56,11 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [
           .call(xAxis)
 
         // y
-        var y = d3.scale.linear()
+        const y = d3.scale.linear()
           .domain([0, d3.max(map(tickets, 'length'))])
           .range([height, 0])
           .nice()
-
-        var yAxis = d3.svg.axis()
+        const yAxis = d3.svg.axis()
           .scale(y)
           .orient('left')
           .ticks(4)
@@ -73,14 +69,14 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [
           .call(yAxis)
 
         // line
-        var line = d3.svg.line()
+        const line = d3.svg.line()
           .x(d => d.x(d['Ticket Created Date']))
           .y(d => y(d.n))
-        var opacity = d3.scale.linear()
+        const opacity = d3.scale.linear()
           .domain([tickets[0].date, tickets[tickets.length-1].date])
           .range([0.5, 1])
 
-        var lines = chart.selectAll('path.line').data(tickets)
+        const lines = chart.selectAll('path.line').data(tickets)
         lines
           .enter().append('path')
             .classed('line', true)
@@ -111,10 +107,9 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [
           .enter().append('path')
             .attr('d', d => `M${d.join('L')}Z`)
             .datum(d => d.point)
-            .on('mouseover', (p) => {
-              lines.classed('current', d => d.x === p.x)
-            });
+            .on('mouseover', p => lines.classed('current', d => d.x === p.x));
 
+        chart.on('mouseout', p => lines.classed('current', d => d.last))
         chart.on('mouseout')()
       }
     }
