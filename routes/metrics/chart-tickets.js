@@ -22,17 +22,19 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [
         const chart = svg.append('g')
           .classed('chart', true)
           .attr('transform', `translate(${margin.left}, ${margin.top})`)
-          .on('mouseout', this.onMouseOut.bind(this))
+          .on('mouseout', () => {
+            lines.classed('current', d => d.last)
+          })
 
         const width = parseInt(svg.style('width')) - margin.left - margin.right
         const height = parseInt(svg.style('height')) - margin.top - margin.bottom
 
-        this.byMonth = chain(this.tickets)
+        var byMonth = chain(this.tickets)
           .sortBy('Ticket Created Date')
           .groupBy('date')
           .value()
-        var tickets = values(this.byMonth)
-        var last = keys(this.byMonth).sort().reverse()[0]
+        var tickets = values(byMonth)
+        var last = keys(byMonth).sort().reverse()[0]
 
         // x
         forEach(tickets, (tickets) => {
@@ -78,8 +80,8 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [
           .domain([tickets[0].date, tickets[tickets.length-1].date])
           .range([0.5, 1])
 
-        this.lines = chart.selectAll('path.line').data(tickets)
-        this.lines
+        var lines = chart.selectAll('path.line').data(tickets)
+        lines
           .enter().append('path')
             .classed('line', true)
             .attr('opacity', d => opacity(d.date))
@@ -109,17 +111,11 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [
           .enter().append('path')
             .attr('d', d => `M${d.join('L')}Z`)
             .datum(d => d.point)
-            .on('mouseover', this.onMouseOver.bind(this))
+            .on('mouseover', (p) => {
+              lines.classed('current', d => d.x === p.x)
+            });
 
-        this.onMouseOut()
-      }
-
-      onMouseOver(p) {
-        this.lines.classed('current', d => d.x === p.x)
-      }
-
-      onMouseOut() {
-        this.lines.classed('current', d => d.last)
+        chart.on('mouseout')()
       }
     }
   }
