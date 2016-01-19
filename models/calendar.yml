@@ -70,7 +70,11 @@
     - 8:00 PM:
         type: Talk
         emoji: ⛅
-        title: Why SaaS can't survive without Customer Success
+        title: 'The Who, What, When, and Whys of Customer Success for your
+          Company?'
+        description: 'Anecdotes and facts on why you should start thinking about
+          Customer Success in your [X]aaS company (Something as a service) /
+          developer focused company.'
         person:
           name: Corey Hobbs
           twitter: chobberoni
