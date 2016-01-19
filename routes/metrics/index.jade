@@ -3,18 +3,23 @@ div( class=className )
     h1 Tickets by Month
     p.
       Tickets sold by month, counting backwards from the date of the event.
-      August and September both sold out and sales ended early. February is
-      still in progress.
+      August and September both sold out and sales ended early. October was our
+      first event in the larger barn, and received some Twitter attention from
+      <a href="https://twitter.com/nrrrdcore/status/649286798745534464">@nrrrdcore</a>.
+      January tickets were available for an extra week due to how weeks and
+      months work out. February is still in progress.
     chart-tickets( tickets='metrics.tickets' )
 
-  section#retention: .container-fluid
+  //section#retention: .container-fluid
     h1 Retention
+    p Work in progress. Meant to visualize repeat ticket buyers over time.
     chart-retention( tickets='metrics.tickets' )
 
-  section#gender-by-month: .container-fluid
+  //section#gender-by-month: .container-fluid
     h1 Gender by Month
     p.
       A guess at gender identification of ticket holders by month. Based on
       first names and <a href="https://www.npmjs.com/package/gender-guess">US
-      Social Security data</a>.
+      Social Security data</a>. This is intentionally meant to be directional
+      and estimated and should not be construed as authoritative data.
     chart-gender( tickets='metrics.tickets' )
