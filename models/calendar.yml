@@ -1,3 +1,51 @@
+- day: '2016-04-06'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM:
+        type: Talk
+        emoji: 🔬
+        title: Genetic Algorithms on Canvas
+        person:
+          name: Potch
+          twitter: potch
+
+    - 8:00 PM:
+        type: Talk
+        emoji: 🖥
+        title: Desktop Apps with React, Node, and Electron
+        person:
+          name: Evan Morikawa
+          twitter: e0m
+
+    - 8:25 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:35 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM:
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
+          for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
+          foot.
+  sponsors:
+    - New Relic: https://newrelic.com/about/careers
+    - Opendoor: https://www.opendoor.com/jobs
+
+  budget: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit#gid=1004574897
+
 - day: '2016-03-02'
   schedule:
     - 7:00 PM:
@@ -19,7 +67,13 @@
           name: Kat Marchán
           twitter: maybekatz
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: ⛅
+        title: Why SaaS can't survive without Customer Success
+        person:
+          name: Corey Hobbs
+          twitter: chobberoni
 
     - 8:25 PM:
         title: Intermission
@@ -27,7 +81,13 @@
 
     - 8:35 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 🎶
+        title: Title TBA
+        person:
+          name: Ge Wang
+          twitter: gewang
 
     - 9:00 PM: Speaker TBA
 
