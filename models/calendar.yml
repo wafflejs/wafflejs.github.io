@@ -205,8 +205,6 @@
         and learn more often. In this talk we’ll cover the basics of learning
         science and show how you can use the power of numbers to make better
         (or at least better informed) decisions!'
-
-
         person:
           name: Eli Feasley
           twitter: eli_awry
@@ -221,6 +219,7 @@
   sponsors:
     - New Relic: https://newrelic.com/about/careers
     - Opendoor: https://www.opendoor.com/jobs
+    - Earnest: https://www.meetearnest.com/careers
 
   budget: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit#gid=535800837
 
