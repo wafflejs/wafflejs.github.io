@@ -50,8 +50,8 @@ History
 -------
 The first session was in August 2015 and it has been held monthly ever since.
 We use funds to cover the cost of food, the venue, and equipment. We donate
-all profits to [Girls Who Code][1], a non-profit that encourages more women to
-enter STEM fields.
+all unused funds each month to [Girls Who Code][1], a non-profit that
+encourages more women to enter STEM fields.
 
 Month                | Sponsors                     | Attendees
 :--------------------|:-----------------------------|---------:
@@ -107,4 +107,5 @@ Contact Us
 If you’re interested in sponsoring WaffleJS, please contact us at
 <sponsorship@wafflejs.com>. Please keep in mind that we do not select speakers
 the same month their company sponsors us. We do however encourage you to submit
-for the next month.
+for the next month or use your 2-minute spot during intros for short talk
+ideas.
