@@ -73,8 +73,8 @@ Year | Month                | Sponsors                     | Attendees
      | [March][2016-01]     | New Relic, Uber, Twitter     | ???
      | April                | Opendoor, New Relic, Twitter | ???
      | May                  | Opendoor, New Relic, Twitter | ???
-     | June                 | Opendoor, New Relic, Twitter | ???
-     | July                 | Opendoor, New Relic, Twitter | ???
+     | June                 | Opendoor, Twitter            | ???
+     | July                 | Opendoor, Twitter            | ???
      | August               | Opendoor, Twitter            | ???
      | September            | Opendoor                     | ???
      | October              | Opendoor                     | ???
