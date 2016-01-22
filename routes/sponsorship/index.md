@@ -58,9 +58,18 @@ Month                | Sponsors                     | Attendees
 [August][2015-08]    | Opendoor, Particle           | 66
 [September][2015-09] | Opendoor, Crunchyroll        | 74
 [October][2015-10]   | Opendoor                     | 120
-[November][2015-11]  | New Relic, Opendoor          | 95
-[December][2015-12]  | Dropbox, Opendoor, New Relic | 125
+[November][2015-11]  | Opendoor, New Relic          | 95
+[December][2015-12]  | Opendoor, New Relic, Dropbox | 125
 [January][2016-01]   | Opendoor, New Relic          | 103
+[February][2016-02]  | Opendoor, New Relic, Earnest | ???
+[March][2016-01]     | Opendoor, New Relic, Uber    | ???
+April                | Opendoor, New Relic, Twitter | ???
+May                  | Opendoor, New Relic, Twitter | ???
+June                 | Opendoor, New Relic, Twitter | ???
+July                 | Opendoor, New Relic, Twitter | ???
+August               | Opendoor                     | ???
+September            | Opendoor                     | ???
+October              | Opendoor                     | ???
 
 [1]: http://girlswhocode.com/
 
@@ -70,6 +79,8 @@ Month                | Sponsors                     | Attendees
 [2015-11]: /?day=2015-11-04
 [2015-12]: /?day=2015-12-02
 [2016-01]: /?day=2016-01-06
+[2016-02]: /?day=2016-02-03
+[2016-03]: /?day=2016-03-02
 
 Speakers & Attendees
 --------------------
