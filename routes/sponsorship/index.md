@@ -36,10 +36,10 @@ During the event, sponsors have a chance to talk to attendees in a casual
 setting. Here are some other things you get with your sponsorship:
 
 - **Stage time:**
-  2 minutes of stage time to do whatever you want with (the more creative the
+  Two minutes of stage time to do whatever you want with (the more creative the
   better).
 - **Free tickets:**
-  2 tickets for people at your company.
+  Two tickets for people at your company.
 - **Swag and merch:**
   Place to put stickers and swag on the check-in desk or on tables around the
   venue.
