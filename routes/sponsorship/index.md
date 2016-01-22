@@ -113,7 +113,8 @@ we do to make that happen:
   women to enter the STEM field.
 - **Student sponsorships:**
   We sponsor students to come to the event so they can meet more people in the
-  industry. So far, we’ve had students from Hackbright and Hack Reactor.
+  industry. So far, we’ve had students from Waterloo, Stanford, Hackbright, and
+  Hack Reactor.
 - **Diverse speakers:**
   We make sure that we have a wide range of speakers at each of our events,
   with an eye toward gender, racial, and socioeconomic diversity.
