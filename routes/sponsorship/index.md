@@ -45,6 +45,9 @@ setting. Here are some other things you get with your sponsorship:
   venue.
 - **Branding:**
   Featured in the emails to the attendees and shown on wafflejs.com.
+- **Opt-in email list:**
+  We ask all attendees whether they'd like to be contacted by sponsors. We'll
+  share the contact information of those (and only those) who have opted in.
 - **Brunch:**
   Every three months, we invite sponsors, speakers and performers to have brunch
   with us. [Learn more][brunch]
