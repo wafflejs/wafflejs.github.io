@@ -45,6 +45,11 @@ setting. Here are some other things you get with your sponsorship:
   venue.
 - **Branding:**
   Featured in the emails to the attendees and shown on wafflejs.com.
+- **Brunch:**
+  Every three months, we invite sponsors, speakers and performers to have brunch
+  with us. [Learn more][brunch]
+
+[brunch]: /brunch
 
 History
 -------
@@ -53,23 +58,23 @@ We use funds to cover the cost of food, the venue, and equipment. We donate
 all unused funds each month to [Girls Who Code][1], a non-profit that
 encourages more women to enter STEM fields.
 
-Month                | Sponsors                     | Attendees
-:--------------------|:-----------------------------|---------:
-[August][2015-08]    | Opendoor, Particle           | 66
-[September][2015-09] | Opendoor, Crunchyroll        | 74
-[October][2015-10]   | Opendoor                     | 120
-[November][2015-11]  | Opendoor, New Relic          | 95
-[December][2015-12]  | Opendoor, New Relic, Dropbox | 125
-[January][2016-01]   | Opendoor, New Relic          | 103
-[February][2016-02]  | Opendoor, New Relic, Earnest | ???
-[March][2016-01]     | Opendoor, New Relic, Uber    | ???
-April                | Opendoor, New Relic, Twitter | ???
-May                  | Opendoor, New Relic, Twitter | ???
-June                 | Opendoor, New Relic, Twitter | ???
-July                 | Opendoor, New Relic, Twitter | ???
-August               | Opendoor                     | ???
-September            | Opendoor                     | ???
-October              | Opendoor                     | ???
+Year | Month                | Sponsors                     | Attendees
+:----|:---------------------|:-----------------------------|----------:
+2015 | [August][2015-08]    | Opendoor, Particle           | 66
+     | [September][2015-09] | Opendoor, Crunchyroll        | 74
+     | [October][2015-10]   | Opendoor                     | 120
+     | [November][2015-11]  | Opendoor, New Relic          | 95
+     | [December][2015-12]  | Opendoor, New Relic, Dropbox | 125
+2016 | [January][2016-01]   | Opendoor, New Relic          | 103
+     | [February][2016-02]  | Opendoor, New Relic, Earnest | ???
+     | [March][2016-01]     | New Relic, Uber, Twitter     | ???
+     | April                | Opendoor, New Relic, Twitter | ???
+     | May                  | Opendoor, New Relic, Twitter | ???
+     | June                 | Opendoor, New Relic, Twitter | ???
+     | July                 | Opendoor, New Relic, Twitter | ???
+     | August               | Opendoor, Twitter            | ???
+     | September            | Opendoor                     | ???
+     | October              | Opendoor                     | ???
 
 [1]: http://girlswhocode.com/
 
@@ -113,10 +118,16 @@ we do to make that happen:
   We make sure that we have a wide range of speakers at each of our events,
   with an eye toward gender, racial, and socioeconomic diversity.
 
-Contact Us
-----------
+FAQs
+----
+### How do I sponsor an event?
 If you’re interested in sponsoring WaffleJS, please contact us at
-<sponsorship@wafflejs.com>. Please keep in mind that we do not select speakers
-the same month their company sponsors us. We do however encourage you to submit
-for the next month or use your 2-minute spot during intros for short talk
-ideas.
+<sponsorship@wafflejs.com>.
+
+### Can we have a speaker the same month that we sponsor?
+We don't select speakers the same month their company sponsors us. We do
+however encourage you to submit for the next month or use your 2-minute spot
+during intros for short talk ideas.
+
+### How many sponsors do you have per month?
+We have up to three sponsors per month.
