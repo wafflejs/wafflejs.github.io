@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Twitter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0.0084,0.11508 L38.2746,0.11508 L38.2746,31.2116 L0.0084,31.2116"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Twitter" sketch:type="MSLayerGroup">
+            <circle id="Oval-1" fill="#616161" sketch:type="MSShapeGroup" cx="35" cy="35" r="35"></circle>
+            <g id="TwitterLogo_white" transform="translate(15.820000, 19.460000)">
+                <mask id="mask-2" sketch:name="Clip 2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M38.2746,3.79722 C36.86634,4.42176 35.35294,4.84386 33.7645,5.0337 C35.38584,4.06182 36.63086,2.52294 37.21718,0.68936 C35.7,1.58914 34.01944,2.24266 32.2308,2.5949 C30.79832,1.06876 28.75754,0.11508 26.49906,0.11508 C22.16228,0.11508 18.64632,3.6309 18.64632,7.9674 C18.64632,8.58284 18.7159,9.18218 18.84974,9.75688 C12.3235,9.42942 6.53744,6.30322 2.66448,1.55246 C1.98856,2.71222 1.60132,4.06112 1.60132,5.50018 C1.60132,8.22444 2.98774,10.62796 5.09474,12.03608 C3.80744,11.99534 2.59672,11.64212 1.5379,11.05398 C1.53734,11.08674 1.53734,11.11964 1.53734,11.15268 C1.53734,14.95732 4.2441,18.13112 7.83636,18.8524 C7.17738,19.03188 6.48368,19.12778 5.76744,19.12778 C5.26148,19.12778 4.76952,19.07864 4.29016,18.98694 C5.28934,22.1067 8.1893,24.37694 11.62546,24.44036 C8.93802,26.54638 5.55212,27.80176 1.8732,27.80176 C1.23942,27.80176 0.61432,27.76466 0,27.69214 C3.47508,29.9201 7.6027,31.22 12.0372,31.22 C26.48072,31.22 34.37896,19.25462 34.37896,8.87796 C34.37896,8.53748 34.3714,8.19882 34.35628,7.86212 C35.8904,6.755 37.2218,5.37194 38.2746,3.79722" id="Fill-1" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
