@@ -76,8 +76,7 @@ encourages more women to enter STEM fields.
       <td><a ui-sref="index({day: date.day})">{{::date.day | date:"MMMM"}}</a></td>
       <td>
         <span ng-repeat="sponsor in date.sponsors">
-          <span ng-hide="$first" class="text-gray">·</span>
-          <a href="{{::url}}" ng-repeat="(name, url) in sponsor">{{::name}}</a>
+          <a href="{{::url}}" ng-repeat="(name, url) in sponsor">{{::name}}</a><span ng-hide="$last" class="text-gray">,&nbsp;<wbr/></span>
         </span>
       </td>
       <td style="text-align:right">{{::date.attendees}}</td>
