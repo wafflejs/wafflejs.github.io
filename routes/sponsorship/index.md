@@ -39,7 +39,7 @@ setting. Here are some other things you get with your sponsorship:
   Two minutes of stage time to do whatever you want with (the more creative the
   better).
 - **Free tickets:**
-  Two tickets for people at your company.
+  Two tickets for people at your company (please, no recruiters).
 - **Swag and merch:**
   Place to put stickers and swag on the check-in desk or on tables around the
   venue.
@@ -49,8 +49,8 @@ setting. Here are some other things you get with your sponsorship:
   We ask all attendees whether they'd like to be contacted by sponsors. We'll
   share the contact information of those (and only those) who have opted in.
 - **Brunch:**
-  Every three months, we invite sponsors, speakers and performers to have brunch
-  with us. [Learn more][brunch]
+  Every three months, we invite sponsors, speakers and performers to have
+  [brunch][brunch] together.
 
 [brunch]: /brunch
 
