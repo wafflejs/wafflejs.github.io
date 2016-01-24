@@ -1,3 +1,32 @@
+- day: '2016-10-05'
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+
+- day: '2016-09-07'
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+
+- day: '2016-08-03'
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Twitter: https://about.twitter.com/careers
+
+- day: '2016-07-06'
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Twitter: https://about.twitter.com/careers
+
+- day: '2016-06-01'
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Twitter: https://about.twitter.com/careers
+
+- day: '2016-05-04'
+  sponsors:
+    - New Relic: https://newrelic.com/about/careers
+    - Opendoor: https://www.opendoor.com/jobs
+    - Twitter: https://about.twitter.com/careers
+
 - day: '2016-04-06'
   schedule:
     - 7:00 PM:
@@ -43,6 +72,7 @@
   sponsors:
     - New Relic: https://newrelic.com/about/careers
     - Opendoor: https://www.opendoor.com/jobs
+    - Twitter: https://about.twitter.com/careers
 
   budget: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit#gid=1004574897
 
@@ -111,8 +141,8 @@
 
   sponsors:
     - New Relic: https://newrelic.com/about/careers
-    - Opendoor: https://www.opendoor.com/jobs
     - Uber: https://www.uber.com/jobs
+    - Twitter: https://about.twitter.com/careers
 
   budget: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit#gid=1102684477
 
@@ -308,6 +338,7 @@
     - Opendoor: https://www.opendoor.com/jobs
 
   budget: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit#gid=1479607489
+  attendees: 103
 
 - day: '2015-12-02'
   schedule:
@@ -396,6 +427,7 @@
     - New Relic: https://newrelic.com/about/careers
 
   budget: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit#gid=1363812024
+  attendees: 125
 
 - day: '2015-11-04'
   schedule:
@@ -480,6 +512,7 @@
     - Opendoor: https://www.opendoor.com/jobs
 
   budget: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit#gid=1505012036
+  attendees: 95
 
 - day: '2015-10-07'
   schedule:
@@ -551,6 +584,7 @@
     - Opendoor: https://www.opendoor.com/jobs
 
   budget: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit#gid=0
+  attendees: 120
 
 - day: '2015-09-02'
   schedule:
@@ -628,6 +662,7 @@
     - Crunchyroll: http://www.crunchyroll.com/jobs
 
   budget: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit#gid=1859683143
+  attendees: 74
 
 - day: '2015-08-05'
   schedule:
@@ -700,3 +735,4 @@
     - Particle: https://www.particle.io
 
   budget: https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit#gid=366964316
+  attendees: 66

@@ -13,7 +13,7 @@ these things:
 - Promote a diverse and inclusive environment.
 - Get people to have fun.
 
-Today the meetup is co-organized by [Visnu][@visnup], [Billy][@billyroh], [Kelly][@kng], [Emily][@nexxylove] and [Myles][@thealphanerd].
+Today the meetup is co-organized by [Visnu][@visnup], [Billy][@billyroh], [Kelly][@kng], [Emily][@nexxylove], and [Myles][@thealphanerd].
 It's held at [SoMa StrEat Food Park][2] every first Wednesday of the month.
 
 [@visnup]: https://twitter.com/visnup
@@ -61,34 +61,31 @@ We use funds to cover the cost of food, the venue, and equipment. We donate
 all unused funds each month to [Girls Who Code][1], a non-profit that
 encourages more women to enter STEM fields.
 
-Year | Month                | Sponsors                     | Attendees
-:----|:---------------------|:-----------------------------|----------:
-2015 | [August][2015-08]    | Opendoor, Particle           | 66
-     | [September][2015-09] | Opendoor, Crunchyroll        | 74
-     | [October][2015-10]   | Opendoor                     | 120
-     | [November][2015-11]  | Opendoor, New Relic          | 95
-     | [December][2015-12]  | Opendoor, New Relic, Dropbox | 125
-2016 | [January][2016-01]   | Opendoor, New Relic          | 103
-     | [February][2016-02]  | Opendoor, New Relic, Earnest | ???
-     | [March][2016-01]     | New Relic, Uber, Twitter     | ???
-     | April                | Opendoor, New Relic, Twitter | ???
-     | May                  | Opendoor, New Relic, Twitter | ???
-     | June                 | Opendoor, Twitter            | ???
-     | July                 | Opendoor, Twitter            | ???
-     | August               | Opendoor, Twitter            | ???
-     | September            | Opendoor                     | ???
-     | October              | Opendoor                     | ???
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Year</th>
+      <th style="text-align:left">Month</th>
+      <th style="text-align:left">Sponsors</th>
+      <th style="text-align:right">Attendees</th>
+    </tr>
+  </thead>
+  <tbody ng-repeat="(year, months) in sponsorship.calendar">
+    <tr ng-repeat="date in months">
+      <td><span ng-show="$first">{{::year}}</span></td>
+      <td><a ui-sref="index({day: date.day})">{{::date.day | date:"MMMM"}}</a></td>
+      <td>
+        <span ng-repeat="sponsor in date.sponsors">
+          <span ng-hide="$first" class="text-gray">·</span>
+          <a href="{{::url}}" ng-repeat="(name, url) in sponsor">{{::name}}</a>
+        </span>
+      </td>
+      <td style="text-align:right">{{::date.attendees}}</td>
+    </tr>
+  </tbody>
+</table>
 
 [1]: http://girlswhocode.com/
-
-[2015-08]: /?day=2015-08-05
-[2015-09]: /?day=2015-09-02
-[2015-10]: /?day=2015-10-07
-[2015-11]: /?day=2015-11-04
-[2015-12]: /?day=2015-12-02
-[2016-01]: /?day=2016-01-06
-[2016-02]: /?day=2016-02-03
-[2016-03]: /?day=2016-03-02
 
 Speakers & Attendees
 --------------------

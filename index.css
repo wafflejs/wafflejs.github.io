@@ -64,7 +64,7 @@ footer {
   }
 }
 
-p, ul {
+p, ul, .text-gray {
   color: var(--gray);
 }
 
@@ -78,5 +78,13 @@ table {
 
   @media (--sm-viewport) {
     width: 75%;
+  }
+
+  td, th {
+    padding: 0 5px;
+    vertical-align: baseline;
+    &:first-child, &:last-child {
+      padding: 0;
+    }
   }
 }
