@@ -14,12 +14,12 @@ export default angular.module('wafflejs.routes.index', [
     template: require('./index.jade')(css),
     controllerAs: 'index',
     controller: class {
-      constructor(calendar, $stateParams) {
+      constructor(calendar, $scope, $state) {
         calendar = sortBy(calendar, 'day')
-        const yesterday = { day: moment($stateParams.day).subtract(1, 'day').format('YYYY-MM-DD') }
+        const yesterday = { day: moment($state.params.day).subtract(1, 'day').format('YYYY-MM-DD') }
         const index = sortedLastIndex(calendar, yesterday, 'day')
+        this.calendar = calendar
         this.day = calendar[index]
-        this.last = calendar[index - 1]
         this.tba = some(this.day.schedule, (event) => {
           const title = values(event)[0].title
           return title && title.match(/TBA/)
@@ -34,9 +34,14 @@ export default angular.module('wafflejs.routes.index', [
           .compact()
           .uniq(false, 'twitter')
           .reject({ exclude: true })
-          .forEach((person) => person.size = `${Math.random() * 43 + 20}px`)
+          .forEach((person) => person.size = `${Math.random() * 33 + 30}px`)
           .shuffle()
           .value()
+
+        $scope.$watch(() => this.day, (current, previous) => {
+          if (current !== previous)
+            $state.go('.', this.day)
+        })
       }
     },
   })
