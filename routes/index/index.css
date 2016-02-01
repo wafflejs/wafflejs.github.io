@@ -7,6 +7,12 @@
 
   h2 {
     margin-top: 0;
+
+    select {
+      border: solid 1px var(--lighter-gray);
+      background: none;
+      font-size: large;
+    }
   }
 
   #header {
@@ -45,7 +51,7 @@
       justify-content: center;
       align-items: center;
       align-content: center;
-      height: 210px;
+      min-height: 210px;
     }
     img {
       border-radius: 100%;
