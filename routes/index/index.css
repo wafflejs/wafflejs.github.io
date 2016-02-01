@@ -9,8 +9,6 @@
     margin-top: 0;
 
     select {
-      border: solid 1px var(--lighter-gray);
-      background: none;
       font-size: large;
     }
   }
