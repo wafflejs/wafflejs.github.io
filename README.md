@@ -24,20 +24,21 @@ All proceeds go to [Girls Who Code][7].
 
 About
 -----
-
 WaffleJS is a monthly meetup with waffles and a side of JavaScript.
 
 We host 10-minute talks about everything from watercolor painting to
 robot lobbyists, interspersed with fun!
 
+Calendar
+--------
+If you're looking for the schedule and other info, check out [calendar.yml](models/calendar.yml)
+
 Sponsors
 --------
-
 Interested in [being a sponsor](https://wafflejs.com/sponsorship)?
 
 Also
 ----
-
 All participants are expected to follow the [JSConf Code of Conduct][3].
 
 Organized by [Visnu][@visnup], [Billy][@billyroh],
