@@ -31,7 +31,7 @@ robot lobbyists, interspersed with fun!
 
 Calendar
 --------
-If you're looking for the schedule and other info, check out [calendar.yml](models/calendar.yml)
+If you're looking for the schedule and other info, check out [calendar.yml](models/calendar.yml).
 
 Sponsors
 --------
