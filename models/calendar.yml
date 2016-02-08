@@ -91,6 +91,16 @@
         title: Get some tasty waffles and drinks
         emoji: 🍪
 
+    - 7:15 PM:
+        type: Performance
+        emoji: 💗
+        title: Opening
+        description: 'Ghaida will perform a one-woman karaoke rendition of
+          Love Shack.'
+        person:
+          name: Ghaida Zahran
+          twitter: ghaidazahran
+
     - 7:30 PM:
         title: Introductions
         emoji: 👋
