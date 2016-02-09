@@ -32,4 +32,8 @@
       width: auto;
     }
   }
+  & button {
+      padding: 0;
+      text-transform: uppercase;
+  }
 }
