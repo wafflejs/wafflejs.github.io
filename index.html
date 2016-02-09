@@ -11,6 +11,7 @@
     <base href="/" />
     <script src="/dist/vendor.js"></script>
     <script src="/dist/main.js"></script>
+    <script src="https://js.tito.io/v1" async></script>
   </head>
   <body ng-app="wafflejs" ng-strict-di>
     <header>
@@ -34,7 +35,7 @@
     <footer class="fixed">
       <div class="row start-xs end-sm">
         <div class="col-xs-12 col-sm-5 col-md-3">
-          <a class="btn primary xs-full-width" href="https://ti.to/wafflejs/march">
+          <tito-button class="btn primary xs-full-width" event="wafflejs/march">
             <div class="row">
               <div class="col-xs-7 start-xs col-sm-12 center-sm">
                 <!-- Buy Waffle – $10 -->
@@ -48,7 +49,7 @@
                 </small>
               </div>
             </div>
-          </a>
+          </tito-button>
         </div>
       </div>
     </footer>
