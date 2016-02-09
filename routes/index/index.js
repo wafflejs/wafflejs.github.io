@@ -1,6 +1,6 @@
 import angular from 'angular'
 import moment from 'moment'
-import { sortBy, sortedLastIndex, map, some, values, chain } from 'lodash'
+import { sortBy, sortedLastIndexBy, map, some, values, chain } from 'lodash'
 import css from './index.css'
 
 export default angular.module('wafflejs.routes.index', [
@@ -30,7 +30,7 @@ export default angular.module('wafflejs.routes.index', [
 
         calendar = sortBy(calendar, 'day')
         const yesterday = { day: moment($state.params.day).subtract(1, 'day').format('YYYY-MM-DD') }
-        const index = sortedLastIndex(calendar, yesterday, 'day')
+        const index = sortedLastIndexBy(calendar, yesterday, 'day')
         this.calendar = calendar
         this.day = calendar[index]
 
