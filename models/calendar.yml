@@ -163,8 +163,10 @@
         title: 'Demystifying the Darknet Through the Lens of TOR: Part 1 of 2'
         description: 'This talk will explain the Darknet through its most
           popular example: The Onion Router (TOR).  With TOR, you can interact
-          with an endpoint that is or isn’t on TOR. Attendees will leave with a
-          visceral sense of how a central aspect of TOR works.'
+          with an endpoint that is or isn’t on TOR (e.g., google.com). This
+          talk will focus on the latter. Attendees will leave with a visceral
+          sense of how a central aspect of TOR works. Read more on
+          [Medium](https://medium.com/@nwokedi/demystifying-the-darknet-part-i-c62a6f5d4205#.wals6d4dp).'
         person:
           name: Nwokedi Idika
           twitter: nwokedi
