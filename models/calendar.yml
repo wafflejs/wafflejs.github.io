@@ -157,7 +157,18 @@
           name: Ge Wang
           twitter: gewang
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 😎
+        title: 'Demystifying the Darknet Through the Lens of TOR: Part 1 of 2'
+        description: 'This talk will explain the Darknet through its most
+          popular example: The Onion Router (TOR).  With TOR, you can interact
+          with a endpoint that on TOR or an endpoint that isn’t on TOR.
+          Attendees will leave with a visceral sense of how a central
+          aspect of TOR works.'
+        person:
+          name: Nwokedi Idika
+          twitter: nwokedi
 
     - 9:15 PM:
         title: Open karaoke + bevera.js
