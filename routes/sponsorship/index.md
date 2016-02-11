@@ -106,7 +106,8 @@ We believe this industry can and should be more inclusive. Here are the things
 we do to make that happen:
 
 - **Donations:**
-  We donate all proceeds to [Girls Who Code][1] and [Black Girls Code][2].
+  We donate all proceeds to non-profits such as [Girls Who Code][1] and
+  [Black Girls Code][2].
 - **Student sponsorships:**
   We sponsor students to come to the event so they can meet more people in the
   industry. So far, we’ve had students from Waterloo, Stanford, Hackbright, and
