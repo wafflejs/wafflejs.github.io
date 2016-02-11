@@ -58,8 +58,8 @@ History
 -------
 The first session was in August 2015 and it has been held monthly ever since.
 We use funds to cover the cost of food, the venue, and equipment. We donate
-all unused funds each month to [Girls Who Code][1], a non-profit that
-encourages more women to enter STEM fields.
+all unused funds each month to non-profits such as [Girls Who Code][1] and
+[Black Girls Code][2].
 
 <table>
   <thead>
@@ -84,8 +84,6 @@ encourages more women to enter STEM fields.
   </tbody>
 </table>
 
-[1]: http://girlswhocode.com/
-
 Speakers & Attendees
 --------------------
 Our past speakers have worked as developers at established companies, as well
@@ -108,8 +106,7 @@ We believe this industry can and should be more inclusive. Here are the things
 we do to make that happen:
 
 - **Donations:**
-  We donate all proceeds to Girls Who Code, a non-profit that encourages more
-  women to enter the STEM field.
+  We donate all proceeds to [Girls Who Code][1] and [Black Girls Code][2].
 - **Student sponsorships:**
   We sponsor students to come to the event so they can meet more people in the
   industry. So far, we’ve had students from Waterloo, Stanford, Hackbright, and
@@ -131,3 +128,6 @@ during intros for short talk ideas.
 
 ### How many sponsors do you have per month?
 We have up to three sponsors per month.
+
+[1]: http://girlswhocode.com/
+[2]: http://www.blackgirlscode.com/
