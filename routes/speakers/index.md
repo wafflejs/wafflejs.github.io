@@ -11,7 +11,7 @@ How do I submit a talk?
 You can either comment on [this issue][1] or [send us an email][2]. Come chat
 with us on [Slack][3] if you want immediate feedback.
 
-[1]: https://github.com/wafflejs/wafflejs.github.io/issues/109
+[1]: https://github.com/wafflejs/wafflejs.github.io/issues/135
 [2]: mailto:speakers@wafflejs.com
 [3]: http://slack.borojs.com
 
