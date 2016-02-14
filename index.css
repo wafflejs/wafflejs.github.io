@@ -95,3 +95,8 @@ select {
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjE2Ij48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDE2TDAgOWg4TTQgMGw0IDdIMCIvPjwvc3ZnPg==) no-repeat right 10px center;
   padding: 0 10px;
 }
+
+.tito-tickets-button {
+    background: none;
+    border: none;
+}
