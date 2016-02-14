@@ -32,8 +32,10 @@
       width: auto;
     }
   }
-  & button {
-      padding: 0;
-      text-transform: uppercase;
+
+  button {
+    padding: 0;
+    width: 100%;
+    text-transform: uppercase;
   }
 }
