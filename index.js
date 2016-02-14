@@ -1,5 +1,4 @@
 import heap from './heap'
-import tito from './tito'
 
 import angular from 'angular'
 import css from './index.css'
