@@ -5,8 +5,8 @@ import {
   countBy,
   forEach,
   keys,
-  pairs,
   sortBy,
+  toPairs,
   values,
 } from 'lodash'
 import css from './chart-gender.css'
@@ -29,7 +29,7 @@ export default angular.module('wafflejs.routes.metrics.chart-gender', [
           .groupBy('Event Month')
           .transform((byMonth, tickets, month) => {
             var x = 0
-            byMonth[month] = sortBy(pairs(countBy(tickets, 'Ticket Gender Guess')))
+            byMonth[month] = sortBy(toPairs(countBy(tickets, 'Ticket Gender Guess')))
             byMonth[month].total = tickets.length
             forEach(byMonth[month], (d) => {
               d.total = tickets.length
@@ -83,7 +83,7 @@ export default angular.module('wafflejs.routes.metrics.chart-gender', [
             .append('text')
             .classed('label', true)
             .attr('x', d => x(d.x0 + d[1]/2))
-            .attr('y', '1em')
+            .attr('y', '1.1em')
             .attr('text-anchor', 'middle')
             .text(d => d[0] && `${d[0]} (${(d[1]/d.total*100).toFixed()}%)`)
 
