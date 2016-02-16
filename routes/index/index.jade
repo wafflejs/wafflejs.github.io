@@ -106,7 +106,8 @@ div( class=className )
       p This month’s WaffleJS is sponsored by 
         span( ng-repeat='sponsor in index.day.sponsors' )
           span( ng-show='$middle' ) , 
-          span( ng-show='$last' ),  and 
+          span( ng-show='$last && index.day.sponsors.length === 2' )  and 
+          span( ng-show='$last && index.day.sponsors.length > 2' ) , and 
           a( href='{{url}}' ng-repeat='(name, url) in sponsor' ) {{name}}
         | .
 
