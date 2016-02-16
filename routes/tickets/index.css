@@ -39,6 +39,10 @@
         flex-basis: 100%;
         max-width: 100%;
       }
+
+      .tito-ticket-quantity span {
+        margin: 0 0.25rem;
+      }
       .tito-ticket-price, .tito-ticket-quantity {
         display: inline-block;
       }
@@ -52,6 +56,13 @@
         @media (--sm-viewport) {
           display: inline;
           margin-left: 1em;
+        }
+      }
+
+      .tito-ticket-description {
+        width: calc(171.429% + 0.5rem);
+        @media (--sm-viewport) {
+          width: 100%;
         }
       }
     }
