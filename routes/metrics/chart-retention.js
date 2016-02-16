@@ -10,9 +10,7 @@ import {
   uniq,
 } from 'lodash'
 
-export default angular.module('wafflejs.routes.metrics.chart-retention', [
-  require('models/calendar').default
-])
+export default angular.module('wafflejs.routes.metrics.chart-retention', [])
 .directive('chartRetention', () => {
   const margin = { top: 0, right: 60.5, bottom: 30.5, left: 40.5 }
 

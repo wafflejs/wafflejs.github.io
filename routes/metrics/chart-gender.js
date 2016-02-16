@@ -11,9 +11,7 @@ import {
 } from 'lodash'
 import css from './chart-gender.css'
 
-export default angular.module('wafflejs.routes.metrics.chart-gender', [
-  require('models/calendar').default
-])
+export default angular.module('wafflejs.routes.metrics.chart-gender', [])
 .directive('chartGender', () => {
   const margin = { top: 0, right: 60.5, bottom: 30.5, left: 40.5 }
 

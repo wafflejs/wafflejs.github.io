@@ -4,9 +4,7 @@ import moment from 'moment'
 import { chain, flatten, forEach, keys, map, values } from 'lodash'
 import css from './chart-tickets.css'
 
-export default angular.module('wafflejs.routes.metrics.chart-tickets', [
-  require('models/calendar').default
-])
+export default angular.module('wafflejs.routes.metrics.chart-tickets', [])
 .directive('chartTickets', () => {
   const margin = { top: 0, right: 60.5, bottom: 30.5, left: 40.5 }
 
@@ -30,8 +28,9 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [
           .classed('chart', true)
           .attr('transform', `translate(${margin.left}, ${margin.top})`)
 
-        const width = parseInt(svg.style('width')) - margin.left - margin.right
-        const height = parseInt(svg.style('height')) - margin.top - margin.bottom
+        let { width, height } = svg.node().getBoundingClientRect()
+        width = width - margin.left - margin.right
+        height = height - margin.top - margin.bottom
 
         // x
         forEach(tickets, (tickets) => {

@@ -70,7 +70,7 @@ all unused funds each month to non-profits such as [Girls Who Code][1] and
       <th style="text-align:right">Attendees</th>
     </tr>
   </thead>
-  <tbody ng-repeat="(year, months) in sponsorship.calendar">
+  <tbody ng-repeat="(year, months) in calendar">
     <tr ng-repeat="date in months">
       <td><span ng-show="$first">{{::year}}</span></td>
       <td><a ui-sref="index({day: date.day})">{{::date.day | date:"MMMM"}}</a></td>

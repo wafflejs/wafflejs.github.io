@@ -1,6 +1,5 @@
 import angular from 'angular'
-import moment from 'moment'
-import { sortBy, sortedLastIndexBy, map, some, values, chain } from 'lodash'
+import { sortBy, map, some, values, chain } from 'lodash'
 import css from './index.css'
 
 export default angular.module('wafflejs.routes.index', [
@@ -28,11 +27,8 @@ export default angular.module('wafflejs.routes.index', [
           .shuffle()
           .value()
 
-        calendar = sortBy(calendar, 'day')
-        const yesterday = { day: moment($state.params.day).subtract(1, 'day').format('YYYY-MM-DD') }
-        const index = sortedLastIndexBy(calendar, yesterday, 'day')
         this.calendar = calendar
-        this.day = calendar[index]
+        this.day = calendar.on($state.params.day)
 
         if (this.day.day === $state.params.day && this.day.survey) {
           this.day.schedule.push({
