@@ -10,6 +10,7 @@ angular.module('wafflejs', [
   require('./routes/performers').default,
   require('./routes/speakers').default,
   require('./routes/sponsorship').default,
+  require('./routes/tickets').default,
   require('./title').default,
 ])
 .config(($locationProvider) => {
