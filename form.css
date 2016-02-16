@@ -1,20 +1,26 @@
 @import './colors.css';
 
-.btn {
-  display: inline-block;
-  border: solid 2px var(--orange);
+input, button, .btn {
+  border: solid 2px var(--light-gray);
   border-radius: 5px;
   font-size: 0.8em;
   font-weight: 500;
   line-height: 125%;
   padding: .75rem 1rem;
+}
+
+button, .btn {
+  display: inline-block;
+  border-color: var(--orange);
+  background-color: transparent;
+  color: var(--orange);
   text-transform: uppercase;
   text-align: center;
   box-sizing: border-box;
   box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.2);
   transition: box-shadow .2s;
 
-  &.primary {
+  &.primary, &.tito-submit {
     border: none;
     background-color: var(--orange);
     color: white;
