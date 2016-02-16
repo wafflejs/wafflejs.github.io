@@ -1,5 +1,5 @@
 @import '../../colors.css';
-@import '../../grid.css';
+@import '../../media.css';
 
 :local(.className) {
   display: flex;

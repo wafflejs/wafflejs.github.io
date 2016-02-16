@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 @import url(https://cloud.typography.com/7886252/634328/css/fonts.css);
 @import './colors.css';
+@import './media.css';
 
 body {
   text-rendering: optimizeLegibility;

@@ -1,4 +1,5 @@
 @import './colors.css';
+@import './media.css';
 
 input, button, .btn {
   border: solid 2px var(--light-gray);

@@ -1,4 +1,5 @@
 @import '../../colors.css';
+@import '../../media.css';
 
 :local(.className) {
   tito-widget {
@@ -47,7 +48,11 @@
       .tito-tickets-remaining {
         font-size: small;
         color: var(--light-gray);
-        margin-left: 1em;
+        display: block;
+        @media (--sm-viewport) {
+          display: inline;
+          margin-left: 1em;
+        }
       }
     }
 

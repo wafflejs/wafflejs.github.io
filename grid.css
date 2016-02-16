@@ -1,4 +1,5 @@
 @import 'flexboxgrid/src/css/flexboxgrid.css';
+@import './media.css';
 
 .container-fluid {
   padding-left: var(--gutter-width, 1rem);
@@ -15,14 +16,6 @@
     max-width: 90rem;
   }
 }
-
-/* https://github.com/kristoferjoseph/flexboxgrid/pull/140 */
-@custom-media --sm-viewport-down only screen and (max-width: 63.9375em);
-@custom-media --md-viewport-down only screen and (max-width: 74.9375em);
-
-@custom-media --xs-viewport-only only screen and (max-width: 47.9375em);
-@custom-media --sm-viewport-only only screen and (min-width: 48em) and (max-width: 63.9375em);
-@custom-media --md-viewport-only only screen and (min-width: 64em) and (max-width: 74.9375em);
 
 @media (--xs-viewport-only) {
   .hide-xs {
