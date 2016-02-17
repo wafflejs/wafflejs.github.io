@@ -38,7 +38,7 @@ module.exports = {
         exclude: /node_modules/,
         loaders: ['ng-annotate?regexp=^.?angular.*$', 'babel?presets=es2015'] },
 
-      { test: /\.md$/, loaders: ['html', 'markdown?smartypants=true'] },
+      { test: /\.md$/, loaders: ['html', 'handlebars-unsmarten', 'markdown?smartypants=true'] },
 
       { test: /\.svg$/, loaders: ['url', 'svgo?useConfig=svgo'] },
 
