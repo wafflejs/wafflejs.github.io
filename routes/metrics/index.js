@@ -6,6 +6,7 @@ import css from './index.css'
 
 export default angular.module('wafflejs.routes.metrics', [
   require('angular-ui-router'),
+  require('models/calendar').default,
   require('./chart-gender').default,
   require('./chart-retention').default,
   require('./chart-tickets').default,
@@ -20,9 +21,9 @@ export default angular.module('wafflejs.routes.metrics', [
       },
 
       tickets(csv, calendar) {
-        const dates = transform(calendar, (dates, month) => {
+        const dates = transform(calendar.reverse(), (dates, month) => {
           dates[moment(month.day).format('MMM')] = month.day
-        })
+        }, {})
         return d3.csv.parse(csv.data, (row) => {
           row['Ticket Created Date'] = moment.utc(row['Ticket Created Date'], 'YYYY-MM-DD HH:mm:ss').toDate()
           row.date = dates[row['Event Month']]

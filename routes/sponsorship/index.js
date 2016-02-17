@@ -1,22 +1,19 @@
 import angular from 'angular'
-import { groupBy, sortBy } from 'lodash'
+import { groupBy } from 'lodash'
+
+// un-smartypants the angular bindings
 import html from './index.md'
+const template = html.replace(/{{([^}]*)}}/g, (match, p1) => `{{${p1.replace(/[”“]/g, '"')}}}`)
 
 export default angular.module('wafflejs.routes.sponsorship', [
   require('angular-ui-router'),
 ])
 .config(($stateProvider) => {
-  // un-smartypants the angular bindings
-  const template = html.replace(/{{([^}]*)}}/g, (match, p1) => `{{${p1.replace(/[”“]/g, '"')}}}`)
-
   $stateProvider.state('sponsorship', {
     url: '/sponsorship',
     template: `<section><div class="container-fluid">${template}</div></section>`,
-    controllerAs: 'sponsorship',
-    controller: class {
-      constructor(calendar) {
-        this.calendar = groupBy(sortBy(calendar, 'day'), date => date.day.slice(0, 4))
-      }
+    controller($scope, calendar) {
+      $scope.calendar = groupBy(calendar, date => date.day.slice(0, 4))
     }
   })
 })

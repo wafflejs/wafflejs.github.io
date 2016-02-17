@@ -17,7 +17,7 @@ with us on [Slack][3] if you want immediate feedback.
 
 When and where will it be?
 --------------------------
-When: Wednesday, February 3 from 7 PM to 10 PM.  
+When: {{day.date | date:"EEEE, MMMM d":"UTC"}} from 7 PM to 10 PM.  
 Where: [Soma StrEat Food Park][4]
 
 [4]: https://goo.gl/maps/0gkOe
