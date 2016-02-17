@@ -1,7 +1,7 @@
 import angular from 'angular'
 import d3 from 'd3'
 import moment from 'moment'
-import { transform } from 'lodash'
+import { reverse, transform } from 'lodash'
 import css from './index.css'
 
 export default angular.module('wafflejs.routes.metrics', [
@@ -21,7 +21,7 @@ export default angular.module('wafflejs.routes.metrics', [
       },
 
       tickets(csv, calendar) {
-        const dates = transform(calendar.reverse(), (dates, month) => {
+        const dates = transform(reverse(calendar), (dates, month) => {
           dates[moment(month.day).format('MMM')] = month.day
         }, {})
         return d3.csv.parse(csv.data, (row) => {
