@@ -43,8 +43,9 @@
     - 7:45 PM:
         type: Talk
         emoji: 📊
-        title: 'NaN: Not a NaN'
-        description: Description TBA
+        title: 'Idiosyncrasies of NaN'
+        description: 'What NaN is, where it appears, and what one should know
+          about it, from the perspectives of JavaScript and the IEEE754 spec.'
         person:
           name: Lewis Ellis
           twitter: LewisJEllis
