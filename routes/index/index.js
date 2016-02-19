@@ -29,9 +29,10 @@ export default angular.module('wafflejs.routes.index', [
 
         this.calendar = calendar
         this.day = calendar.on($state.params.day)
+        const schedule = this.day.schedule
 
         if (this.day.day === $state.params.day && this.day.survey) {
-          this.day.schedule.push({
+          schedule.push({
             Later: {
               title: 'Did you attend?',
               description: `Had fun or not so much? We'd love to hear any and
@@ -42,10 +43,11 @@ export default angular.module('wafflejs.routes.index', [
           })
         }
 
-        this.tba = some(this.day.schedule, (event) => {
-          const title = values(event)[0].title
-          return title && title.match(/TBA/)
-        })
+        this.tba = !schedule || schedule.length === 0 ||
+          some(schedule, (event) => {
+            const title = values(event)[0].title
+            return title && title.match(/TBA/)
+          })
 
         $scope.$watch(() => this.day, (current, previous) => {
           if (current !== previous)
