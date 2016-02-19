@@ -2,7 +2,7 @@ import angular from 'angular'
 
 export default angular.module('title', [])
 .directive('title', function($document, $timeout) {
-  var title = angular.element($document[0].querySelector('title')).clone()
+  const title = angular.element($document[0].querySelector('title')).clone()
 
   function syncTitle() {
     // $timeout is needed to get pushState + history + title to play correctly

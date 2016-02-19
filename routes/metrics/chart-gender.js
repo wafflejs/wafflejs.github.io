@@ -26,7 +26,7 @@ export default angular.module('wafflejs.routes.metrics.chart-gender', [])
           .sortBy('Ticket Created Date')
           .groupBy('Event Month')
           .transform((byMonth, tickets, month) => {
-            var x = 0
+            let x = 0
             byMonth[month] = sortBy(toPairs(countBy(tickets, 'Ticket Gender Guess')))
             byMonth[month].total = tickets.length
             forEach(byMonth[month], (d) => {
