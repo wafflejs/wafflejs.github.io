@@ -1,7 +1,7 @@
 @import './colors.css';
 @import './media.css';
 
-input, button, .btn {
+input, button, textarea, .btn {
   border: solid 2px var(--light-gray);
   border-radius: 5px;
   font-size: 0.8em;
