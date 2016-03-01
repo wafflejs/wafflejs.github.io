@@ -5,12 +5,16 @@ input, button, textarea, .btn {
   border: solid 2px var(--light-gray);
   border-radius: 5px;
   font-size: 0.8em;
-  font-weight: 500;
   line-height: 125%;
   padding: .75rem 1rem;
 }
 
+input, textarea {
+  font-weight: 400;
+}
+
 button, .btn {
+  font-weight: 500;
   display: inline-block;
   border-color: var(--orange);
   background-color: transparent;
