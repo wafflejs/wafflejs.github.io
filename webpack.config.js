@@ -1,4 +1,5 @@
 const webpack = require('webpack')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
 
 const marked = require('marked')
@@ -9,8 +10,8 @@ module.exports = {
   devtool: 'source-map',
 
   entry: {
-    main: './index.js',
-    vendor: [
+    'dist/main': './index.js',
+    'dist/vendor': [
       'angular',
       'angular-marked',
       'angular-ui-router',
@@ -21,8 +22,6 @@ module.exports = {
   },
 
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    publicPath: 'dist',
     filename: '[name].js',
     sourceMapFilename: '[file].map.json',
   },
@@ -70,7 +69,8 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin({ name: 'vendor' }),
+    new HtmlWebpackPlugin({ template: './index.jade', inject: 'head' }),
+    new webpack.optimize.CommonsChunkPlugin({ name: 'dist/vendor' }),
     new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en$/),
   ],
 

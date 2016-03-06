@@ -1,0 +1,45 @@
+doctype html
+html
+  head
+    title WaffleJS 
+    meta( charset='utf-8' )
+    meta( name='viewport' content='initial-scale=1,user-scalable=no' )
+    meta( property='og:title' content='WaffleJS' )
+    meta( property='og:description' content='A fun night of tech, waffles, and karaoke.' )
+    meta( property='og:type' content='website' )
+    meta( property='og:image' content='https://wafflejs.com/images/social.jpg' )
+    meta( property='og:url' content='https://wafflejs.com' )
+    base( href='/' )
+  body( ng-app='wafflejs' ng-strict-di )
+    header
+      .container-fluid
+        .row.between-xs
+          .col-xs-12.col-sm-6.col-md-7
+            h4.highlight
+              a( ui-sref='index({ day: null })' ) WaffleJS
+              a( href='https://twitter.com/wafflejs' )
+                include node_modules/evil-icons/assets/icons/ei-sc-twitter.svg
+              a( href='https://github.com/wafflejs/wafflejs.github.io/issues' )
+                include node_modules/evil-icons/assets/icons/ei-sc-github.svg
+          .col-xs-12.col-sm-6.end-sm.col-md-5.start-md
+            ul.nav
+              li I want to:
+              li: a.light-gray( ui-sref='speakers' ) Speak
+              li: a.light-gray( ui-sref='performers' ) Perform
+              li: a.light-gray( ui-sref='sponsorship' ) Sponsor
+
+    main( ui-view )
+
+    footer.fixed
+      .row.start-xs.end-sm
+        .col-xs-12.col-sm-5.col-md-3
+          a.btn.primary.xs-full-width( ui-sref='tickets' ui-sref-active='ng-hide' )
+            .row
+              .col-xs-7.start-xs.col-sm-12.center-sm
+                // Buy Waffle – $10
+                | Buy Waffle – $12
+                // Sold Out 😅
+              .col-xs-5.end-xs.col-sm-12.center-sm
+                small
+                  | Ticket Included
+                  // Join Waiting List

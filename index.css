@@ -16,6 +16,21 @@ header, main {
 header {
   padding-top: 4rem;
 
+  h4 a:first-child {
+    margin-right: 1em;
+  }
+
+  svg {
+    display: inline-block;
+    height: 3em;
+    width: 3em;
+    vertical-align: top;
+    margin-top: -.8em;
+    path {
+      fill: var(--orange);
+    }
+  }
+
   ul.nav {
     padding: 0;
     margin: 0 0 1.5rem;
