@@ -103,6 +103,8 @@
         type: Talk
         emoji: 🔬
         title: Genetic Algorithms on Canvas
+        description: In which Triangles are made to cavort and carouse in
+          the service of giving Earthly form to a Platonic Ideal
         person:
           name: Potch
           twitter: potch
@@ -110,8 +112,6 @@
     - 8:00 PM:
         type: Talk
         emoji: 🖥
-        description: In which Triangles are made to cavort and carouse in
-          the service of giving Earthly form to a Platonic Ideal
         title: Desktop Apps with React, Node, and Electron
         person:
           name: Evan Morikawa
