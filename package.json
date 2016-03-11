@@ -28,7 +28,6 @@
     "css-loader": "0.23.1",
     "csv": "0.4.6",
     "d3": "3.5.16",
-    "evil-icons": "1.8.0",
     "exports-loader": "0.6.3",
     "file-loader": "0.8.5",
     "flexboxgrid": "6.3.0",
