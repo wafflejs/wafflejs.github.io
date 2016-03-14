@@ -123,7 +123,14 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        title: "I18n/L10n your web app: It's a big world out there!"
+        emoji: 🌏
+        description: Why consider designing with I18n/L10n in mind and tips on 
+          how to do it. Also, RTL is a thing.
+        person:
+          name: Maria Mora
+          twitter: _riamaria
 
     - 9:00 PM: Speaker TBA
 
