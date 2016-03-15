@@ -37,7 +37,17 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        title: A new wave of software development workflow
+        emoji: ⚙
+        description: |
+          In this session I would talk about the move towards lambda
+          functions hosted in the cloud and how that's changing the
+          way we're writing and deploying software.
+        person:
+          name: Mohsen Azimi
+          twitter: mohsen____
 
     - 8:00 PM: Speaker TBA
 
