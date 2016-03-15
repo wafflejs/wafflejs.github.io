@@ -144,7 +144,9 @@
     - 8:00 PM:
         type: Talk
         emoji: 🖥
-        title: Desktop Apps with React, Node, and Electron
+        title: Desktop Apps with Electron, React, & Observables
+        description: Using modern frameworks to make high performance,
+          offline-ready, pixel-perfect native feeling desktop apps.
         person:
           name: Evan Morikawa
           twitter: e0m
