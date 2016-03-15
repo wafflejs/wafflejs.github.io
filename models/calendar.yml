@@ -28,42 +28,42 @@
     - New Relic: https://newrelic.com/about/careers
 
 - day: '2016-06-01'
-schedule:
-  - 7:00 PM:
-      title: Get some tasty waffles and drinks
-      emoji: 🍪
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
 
-  - 7:30 PM:
-      title: Introductions
-      emoji: 👋
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
 
-  - 7:45 PM: Speaker TBA
+    - 7:45 PM: Speaker TBA
 
-  - 8:00 PM: Speaker TBA
+    - 8:00 PM: Speaker TBA
 
-  - 8:15 PM:
-      title: Intermission
-      emoji: 🕣
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
 
-  - 8:30 PM: Performer TBA
+    - 8:30 PM: Performer TBA
 
-  - 8:45 PM: Speaker TBA
+    - 8:45 PM: Speaker TBA
 
-  - 9:00 PM: Speaker TBA
+    - 9:00 PM: Speaker TBA
 
-  - 9:15 PM:
-      title: Open karaoke + bevera.js
-      emoji: 🎤
-      description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
-        for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
-        foot.
+    - 9:15 PM:
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
+          for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
+          foot.
 
-charity:
-  Black Girls Code: http://www.blackgirlscode.com/
-  sponsors:
-    - Opendoor: https://www.opendoor.com/jobs
-    - Twitter: https://about.twitter.com/careers
-    - New Relic: https://newrelic.com/about/careers
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+    sponsors:
+      - Opendoor: https://www.opendoor.com/jobs
+      - Twitter: https://about.twitter.com/careers
+      - New Relic: https://newrelic.com/about/careers
 
 - day: '2016-05-04'
   schedule:
