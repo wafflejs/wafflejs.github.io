@@ -102,7 +102,17 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM: 
+        type: Talk
+        emoji: 🌈
+        title: 'Creating an inclusive workplace with JS'
+        description: 'People work best when they can be their authentic
+          selves in the workplace. Find out how you can foster an environment
+          that encourages inclusion with empathy, a little people-power,
+          and your trusty JS skillz.'
+        person:
+          name: Trish Ang
+          twitter: feesh
 
     - 9:00 PM: Speaker TBA
 
