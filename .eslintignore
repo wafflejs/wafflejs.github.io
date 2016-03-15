@@ -1,3 +1,2 @@
 heap.js
-dist/main.js
-dist/vendor.js
+dist/*
