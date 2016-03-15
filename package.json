@@ -4,7 +4,7 @@
   "description": "A fun-centric JSish meetup in the Bay Area.",
   "main": "index.js",
   "scripts": {
-    "test": "webpack -p --bail",
+    "test": "eslint . && webpack -p --bail",
     "start": "webpack-dev-server --hot --inline -d --devtool=eval-source-map --progress"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "css-loader": "0.23.1",
     "csv": "0.4.6",
     "d3": "3.5.16",
+    "eslint": "2.4.0",
     "exports-loader": "0.6.3",
     "file-loader": "0.8.5",
     "flexboxgrid": "6.3.0",

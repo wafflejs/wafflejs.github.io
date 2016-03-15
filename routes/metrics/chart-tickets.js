@@ -2,7 +2,7 @@ import angular from 'angular'
 import d3 from 'd3'
 import moment from 'moment'
 import { chain, flatten, forEach, keys, map, values } from 'lodash'
-import css from './chart-tickets.css'
+import {} from './chart-tickets.css'
 
 const margin = { top: 0, right: 60.5, bottom: 30.5, left: 40.5 }
 
@@ -103,9 +103,9 @@ export default angular.module('wafflejs.routes.metrics.chart-tickets', [])
         .enter().append('path')
           .attr('d', d => `M${d.join('L')}Z`)
           .datum(d => d.point)
-          .on('mouseover', p => lines.classed('current', d => d.x === p.x));
+          .on('mouseover', p => lines.classed('current', d => d.x === p.x))
 
-      chart.on('mouseout', p => lines.classed('current', d => d.last))
+      chart.on('mouseout', () => lines.classed('current', d => d.last))
       chart.on('mouseout')()
     }
   }

@@ -9,7 +9,7 @@ import {
   toPairs,
   values,
 } from 'lodash'
-import css from './chart-gender.css'
+import {} from './chart-gender.css'
 
 const margin = { top: 0, right: 60.5, bottom: 30.5, left: 40.5 }
 

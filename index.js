@@ -1,7 +1,7 @@
-import heap from './heap'
+import {} from './heap'
 
 import angular from 'angular'
-import css from './index.css'
+import {} from './index.css'
 
 angular.module('wafflejs', [
   require('./routes/index').default,

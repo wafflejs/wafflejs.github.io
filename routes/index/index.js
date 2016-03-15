@@ -1,5 +1,5 @@
 import angular from 'angular'
-import { sortBy, map, some, values, chain } from 'lodash'
+import { map, some, values, chain } from 'lodash'
 import css from './index.css'
 
 export default angular.module('wafflejs.routes.index', [

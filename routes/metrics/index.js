@@ -28,7 +28,7 @@ export default angular.module('wafflejs.routes.metrics', [
           row['Ticket Created Date'] = moment.utc(row['Ticket Created Date'], 'YYYY-MM-DD HH:mm:ss').toDate()
           row.date = dates[row['Event Month']]
           return row
-        });
+        })
       }
     },
     controllerAs: 'metrics',
