@@ -60,10 +60,11 @@
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
-    sponsors:
-      - Opendoor: https://www.opendoor.com/jobs
-      - Twitter: https://about.twitter.com/careers
-      - New Relic: https://newrelic.com/about/careers
+
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Twitter: https://about.twitter.com/careers
+    - New Relic: https://newrelic.com/about/careers
 
 - day: '2016-05-04'
   schedule:
@@ -102,7 +103,7 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: 
+    - 8:45 PM:
         type: Talk
         emoji: 🌈
         title: 'Creating an inclusive workplace with JS'
