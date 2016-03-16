@@ -188,7 +188,16 @@
           name: Maria Mora
           twitter: _riamaria
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 👐
+        title: "I am Mentor and So Can You"
+        description: It takes a little knowledge, and a lot of courage, but 
+          you (yes you!) could help someone learn to code. A brief guide on
+          mentorship from a serial Nodeschool mentor.
+        person:
+          name: Lydia Kats
+          twitter: llkats
 
     - 9:15 PM:
         title: Open karaoke + bevera.js
