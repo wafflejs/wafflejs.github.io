@@ -57,7 +57,17 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        title: If You Only Make Chrome Extensions, You're Killing The Open Web
+        emoji: ❄
+        description: |
+          Let's explore what it takes to build Firefox extensions
+          alongside Chrome ones, using the same codebase (hint -
+          not much)!
+        person:
+          name: Rodney Folz
+          twitter: rodneyfolz
 
     - 9:00 PM: Speaker TBA
 
