@@ -60,7 +60,7 @@
     - 8:45 PM:
         type: Talk
         title: If You Only Make Chrome Extensions, You're Killing The Open Web
-        emoji: ❄
+        emoji: ⚒
         description: |
           Let's explore what it takes to build Firefox extensions
           alongside Chrome ones, using the same codebase (hint -
