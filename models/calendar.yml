@@ -55,7 +55,17 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        title: Sounds All Around
+        emoji: ⚡
+        description: |
+          I like to make interactive and immersive art.
+          In this piece we'll surround ourselves with several 
+          clouds of synthsounds. 
+        person:
+          name: Kawandeep Virdee
+          twitter: whichlight
 
     - 8:45 PM:
         type: Talk
@@ -294,7 +304,7 @@
           name: Ge Wang
           twitter: gewang
 
-    - 9:00 PM:
+    - 9:00 PM:w
         type: Talk
         emoji: 😎
         title: 'Demystifying the Darknet Through the Lens of TOR: Part 1 of 2'
