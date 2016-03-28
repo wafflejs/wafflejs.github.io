@@ -29,6 +29,12 @@ WaffleJS is a monthly meetup with waffles and a side of JavaScript.
 We host 10-minute talks about everything from watercolor painting to
 robot lobbyists, interspersed with fun!
 
+Running Locally
+------------
+1. Run `npm install`.
+2. Run `npm start`.
+3. It should now be running at `localhost:8080`.
+
 Contributing
 ------------
 If you're looking for the schedule or other info, check out [calendar.yml](models/calendar.yml).
