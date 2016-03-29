@@ -186,7 +186,16 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: ⚡
+        title: "Sounds All Around"
+        description: "I like to make interactive and immersive art.
+          In this piece we'll surround ourselves with several 
+          clouds of synthsounds."
+        person:
+          name: Kawandeep Virdee
+          twitter: whichlight
 
     - 8:45 PM:
         type: Talk
