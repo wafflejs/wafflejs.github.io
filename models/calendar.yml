@@ -273,23 +273,6 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 📞
-        title: 'Internet: A Series of Tubes'
-        description: 'From the perspective of photons that transport the
-          information, whether it is a tweet, a picture, or a chat message,
-          our Internet is mostly just a series of tubes.'
-        person:
-          name: Ariya Hidayat
-          twitter: AriyaHidayat
-
-    - 8:15 PM:
-        title: Intermission
-        emoji: 🕣
-
-    - 8:30 PM: Performer TBA
-
-    - 8:45 PM:
-        type: Talk
         emoji: 🌈
         title: 'Creating an inclusive workplace with JS'
         description: 'People work best when they can be their authentic
@@ -299,6 +282,23 @@
         person:
           name: Trish Ang
           twitter: feesh
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM:
+        type: Talk
+        emoji: 📞
+        title: 'Internet: A Series of Tubes'
+        description: 'From the perspective of photons that transport the
+          information, whether it is a tweet, a picture, or a chat message,
+          our Internet is mostly just a series of tubes.'
+        person:
+          name: Ariya Hidayat
+          twitter: AriyaHidayat
 
     - 9:00 PM: Speaker TBA
 
