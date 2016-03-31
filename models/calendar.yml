@@ -234,7 +234,18 @@
           name: Rodney Folz
           twitter: rodneyfolz
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM: 
+        type: Talk
+        title: One small click for developers, one giant leap for a11y
+        emoji: 🎹
+        description: |
+          Maintaining an accessible website starts 
+          with paying attention to a few key strokes. 
+          Learn about keyboard testing, one of the easiest ways 
+          to get quick feedback when coding accessible websites.
+        person:
+          name: Kimberly Muñoz
+          twitter: kimberlymunoz
 
     - 9:15 PM:
         title: Open karaoke + bevera.js
