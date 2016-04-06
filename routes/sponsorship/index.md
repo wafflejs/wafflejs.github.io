@@ -52,7 +52,7 @@ setting. Here are some other things you get with your sponsorship:
   Every three months, we invite sponsors, speakers and performers to have
   [brunch][brunch] together.
 
-[brunch]: /brunch
+[brunch]: https://ti.to/wafflejs/brunch
 
 History
 -------
