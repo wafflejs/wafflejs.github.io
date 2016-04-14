@@ -36,6 +36,11 @@ button, .btn {
     box-shadow: 0 2px 8px hsla(0, 0%, 0%, 0.25);
   }
 
+  &[disabled] {
+    border-color: var(--gray);
+    color: var(--gray);
+  }
+
   &.xs-full-width {
     width: 100%;
     padding: .75rem 1rem;
