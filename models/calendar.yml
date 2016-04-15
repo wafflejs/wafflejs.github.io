@@ -165,7 +165,17 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        title: React-Native, from zero to the App Store
+        emoji: 🚚
+        description: |
+          It's an amazing time to write mobile apps! Lets learn React-Native
+          with real examples from the app we've made for Lugg.com. Penguins
+          included.
+        person:
+          name: Pedro Belo
+          twitter: ped
 
     - 8:15 PM:
         title: Intermission
