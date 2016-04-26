@@ -329,7 +329,15 @@
           name: Ariya Hidayat
           twitter: AriyaHidayat
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🎨
+        title: 'Sketchnoting 101'
+        description: 'Learn how to turn simple shapes you already know how to
+          draw into a map of a conference talk that resonates for you."
+        person:
+          name: Marlena Compton
+          twitter: marlenac
 
     - 9:15 PM:
         title: Open karaoke + bevera.js
