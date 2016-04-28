@@ -6,6 +6,7 @@ import yml from './calendar.yml'
 
 const calendar = forEach(sortBy(yml, 'day'), (day) => {
   day.date = new Date(day.day)
+  day.budget = day.budget || 'https://docs.google.com/spreadsheets/d/1D3_RS7sMBZZxJRSmrTM_3Rf0ZyTfD3ApbftW8TwZ468/edit'
   forEach(day.schedule, (event) => {
     forEach(event, (item, time) => {
       // expand shorthand
