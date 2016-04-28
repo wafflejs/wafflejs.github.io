@@ -183,7 +183,13 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        title: TBD
+        emoji: 🍉
+        person:
+          name: Paul Irish
+          twitter: paul_irish
 
     - 9:00 PM: Speaker TBA
 
