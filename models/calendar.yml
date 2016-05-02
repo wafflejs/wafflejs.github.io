@@ -332,9 +332,12 @@
         title: "Code Monkey"
         description: |
           Code monkey like you <3
-        person:
-          name: Hannah Wei & Noel Moldvai
-          twitter: herlifeinpixels
+        people:
+          - name: Hannah Wei
+            twitter: herlifeinpixels
+          - name: Noel Moldvai
+            twitter: distributedbro
+            exclude: true
 
     - 8:45 PM:
         type: Talk
