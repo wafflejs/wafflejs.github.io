@@ -326,7 +326,15 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎸
+        title: "Code Monkey"
+        description: |
+          Code monkey like you <3
+        person:
+          name: Hannah Wei & Noel Moldvai
+          twitter: herlifeinpixels
 
     - 8:45 PM:
         type: Talk
