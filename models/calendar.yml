@@ -181,7 +181,17 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎸
+        title: TBD
+        description: |
+          JavaScript meets pop music, possibly feat. synthesizers and accordions.
+        people:
+          - name: Andrew Watterson
+            twitter: andrewwatterson
+          - name: Max Goodman
+            twitter: chromakode
 
     - 8:45 PM:
         type: Talk
