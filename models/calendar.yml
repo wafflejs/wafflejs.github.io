@@ -242,7 +242,15 @@
           name: Mohsen Azimi
           twitter: mohsen____
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        title: KittyCam, Rasperry Pi, and You
+        emoji: 😻
+        description: |
+          Description TBA
+        person:
+          name: Tomomi Imura
+          twitter: girlie_mac
 
     - 8:15 PM:
         title: Intermission
