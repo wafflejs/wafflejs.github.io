@@ -244,10 +244,10 @@
 
     - 8:00 PM:
         type: Talk
-        title: KittyCam, Rasperry Pi, and You
+        title: "KittyCam: Smile, you're on Raspberry Pi Camera (if you're a cat)!"
         emoji: 😻
         description: |
-          Description TBA
+          Raspberry Pi app with a camera and a motion sensor, written in Node.js with Johnny-Five and KittyDar
         person:
           name: Tomomi Imura
           twitter: girlie_mac
