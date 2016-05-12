@@ -244,7 +244,7 @@
 
     - 8:00 PM:
         type: Talk
-        title: KittyCam: Smile, you're on Raspberry Pi Camera (if you're a cat)!
+        title: "KittyCam: Smile, you're on Raspberry Pi Camera (if you're a cat)!"
         emoji: 😻
         description: |
           Raspberry Pi app with a camera and a motion sensor, written in Node.js with Johnny-Five and KittyDar
