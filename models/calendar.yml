@@ -163,7 +163,18 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        title: Thinking Inside the Box
+        emoji: ⬛
+        description: |
+          In pixel art, constraints are not compromises but are instead
+          some of the most powerful tools that we can leverage. We'll take
+          a look at how constraints can help lead us to creative solutions
+          to our next Big Problems.
+        person:
+          name: Amanda Glosson
+          twitter: amandaglosson
 
     - 8:00 PM:
         type: Talk
