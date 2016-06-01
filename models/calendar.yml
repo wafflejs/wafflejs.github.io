@@ -22,12 +22,11 @@
 
     - 9:00 PM: Speaker TBA
 
-    - 9:15 PM:
+    - 9:15 PM: &barn_beverajs
         title: Open karaoke + bevera.js
         emoji: 🎤
-        description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
-          for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
-          foot.
+        description: Drink car is open until 10 PM! Hang out and we'll be doing
+          karaoke in the barn.
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -61,11 +60,7 @@
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM:
-        title: Open karaoke + bevera.js
-        emoji: 🎤
-        description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
-          for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
-          foot.
+        <<: *barn_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -100,11 +95,7 @@
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM:
-        title: Open karaoke + bevera.js
-        emoji: 🎤
-        description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
-          for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
-          foot.
+        <<: *barn_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -139,11 +130,7 @@
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM:
-        title: Open karaoke + bevera.js
-        emoji: 🎤
-        description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
-          for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
-          foot.
+        <<: *barn_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -215,11 +202,7 @@
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM:
-        title: Open karaoke + bevera.js
-        emoji: 🎤
-        description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
-          for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
-          foot.
+        <<: *barn_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -303,11 +286,7 @@
           twitter: kimberlymunoz
 
     - 9:15 PM:
-        title: Open karaoke + bevera.js
-        emoji: 🎤
-        description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
-          for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
-          foot.
+        <<: *barn_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -389,7 +368,7 @@
           name: Marlena Compton
           twitter: marlenac
 
-    - 9:15 PM:
+    - 9:15 PM: &rumors_beverajs
         title: Open karaoke + bevera.js
         emoji: 🎤
         description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
@@ -475,11 +454,7 @@
           twitter: llkats
 
     - 9:15 PM:
-        title: Open karaoke + bevera.js
-        emoji: 🎤
-        description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
-          for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
-          foot.
+        <<: *rumors_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -576,11 +551,7 @@
           twitter: nwokedi
 
     - 9:15 PM:
-        title: Open karaoke + bevera.js
-        emoji: 🎤
-        description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
-          for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
-          foot.
+        <<: *rumors_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -688,11 +659,7 @@
           twitter: eli_awry
 
     - 9:15 PM:
-        title: Open karaoke + bevera.js
-        emoji: 🎤
-        description: Head over to [Rumors](https://goo.gl/maps/HMggs5Lkt4B2)
-          for karaoke and beverages. Cash bar and open karaoke! 10 minutes by
-          foot.
+        <<: *rumors_beverajs
 
   charity:
     Girls Who Code: http://girlswhocode.com/
@@ -780,11 +747,7 @@
           twitter: amandaglosson
 
     - 9:15 PM:
-        title: Open karaoke + bevera.js
-        emoji: 🎤
-        description: Head over to [Rumors](https://goo.gl/maps/a2NbC3Vvcy62)
-          (at 7th and Harrison) for karaoke and beverages. Cash bar and open
-          karaoke! 10 minutes by foot.
+        <<: *rumors_beverajs
 
   charity:
     Girls Who Code: http://girlswhocode.com/
