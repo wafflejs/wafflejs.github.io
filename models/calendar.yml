@@ -1,3 +1,224 @@
+- day: '2017-05-03'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &barn_beverajs
+        title: Bevera.js
+        emoji: 🎤
+        description: Drink car will be open until 10 PM! Hang out and we'll
+          just chillax in the barn.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Microsoft: https://careers.microsoft.com/
+
+- day: '2017-04-05'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &barn_beverajs
+        title: Bevera.js
+        emoji: 🎤
+        description: Drink car will be open until 10 PM! Hang out and we'll
+          just chillax in the barn.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Microsoft: https://careers.microsoft.com/
+
+- day: '2017-03-01'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &barn_beverajs
+        title: Bevera.js
+        emoji: 🎤
+        description: Drink car will be open until 10 PM! Hang out and we'll
+          just chillax in the barn.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Microsoft: https://careers.microsoft.com/
+
+- day: '2017-02-01'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &barn_beverajs
+        title: Bevera.js
+        emoji: 🎤
+        description: Drink car will be open until 10 PM! Hang out and we'll
+          just chillax in the barn.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Microsoft: https://careers.microsoft.com/
+
+- day: '2017-01-04'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &barn_beverajs
+        title: Bevera.js
+        emoji: 🎤
+        description: Drink car will be open until 10 PM! Hang out and we'll
+          just chillax in the barn.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Microsoft: https://careers.microsoft.com/
+
+- day: '2016-12-07'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &barn_beverajs
+        title: Bevera.js
+        emoji: 🎤
+        description: Drink car will be open until 10 PM! Hang out and we'll
+          just chillax in the barn.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Microsoft: https://careers.microsoft.com/
+
 - day: '2016-11-02'
   schedule:
     - 7:00 PM:
@@ -32,6 +253,7 @@
     Black Girls Code: http://www.blackgirlscode.com/
 
   sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
     - New Relic: https://newrelic.com/about/careers
     - Shape Security: https://www.shapesecurity.com/jobs/
 
