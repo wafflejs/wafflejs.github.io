@@ -67,6 +67,8 @@ all unused funds each month to non-profits such as [Girls Who Code][1] and
       <th style="text-align:left">Year</th>
       <th style="text-align:left">Month</th>
       <th style="text-align:left">Sponsors</th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
       <th style="text-align:right">Attendees</th>
     </tr>
   </thead>
@@ -74,9 +76,9 @@ all unused funds each month to non-profits such as [Girls Who Code][1] and
     <tr ng-repeat="date in months">
       <td><span ng-show="$first">{{::year}}</span></td>
       <td><a ui-sref="index({day: date.day})">{{::date.day | date:"MMMM"}}</a></td>
-      <td>
-        <span ng-repeat="sponsor in date.sponsors">
-          <a href="{{::url}}" ng-repeat="(name, url) in sponsor">{{::name}}</a><span ng-hide="$last" class="text-gray">,&nbsp;<wbr/></span>
+      <td ng-repeat="index in [0, 1, 2]">
+        <span ng-if="date.sponsors.length >= (index + 1)" ng-repeat="(name, url) in date.sponsors[index]">
+          <a href="{{::url}}">{{::name}}</a>
         </span>
       </td>
       <td style="text-align:right">{{::date.attendees}}</td>
