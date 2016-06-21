@@ -22,11 +22,12 @@
 
     - 9:00 PM: Speaker TBA
 
-    - 9:15 PM: &barn_beverajs
-        title: Bevera.js
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
         emoji: 🎤
-        description: Drink car will be open until 10 PM! Hang out and we'll
-          just chillax in the barn.
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -58,11 +59,8 @@
 
     - 9:00 PM: Speaker TBA
 
-    - 9:15 PM: &barn_beverajs
-        title: Bevera.js
-        emoji: 🎤
-        description: Drink car will be open until 10 PM! Hang out and we'll
-          just chillax in the barn.
+    - 9:15 PM:
+        <<: *butter_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -95,11 +93,8 @@
 
     - 9:00 PM: Speaker TBA
 
-    - 9:15 PM: &barn_beverajs
-        title: Bevera.js
-        emoji: 🎤
-        description: Drink car will be open until 10 PM! Hang out and we'll
-          just chillax in the barn.
+    - 9:15 PM:
+        <<: *butter_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -132,11 +127,8 @@
 
     - 9:00 PM: Speaker TBA
 
-    - 9:15 PM: &barn_beverajs
-        title: Bevera.js
-        emoji: 🎤
-        description: Drink car will be open until 10 PM! Hang out and we'll
-          just chillax in the barn.
+    - 9:15 PM:
+        <<: *butter_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -169,11 +161,8 @@
 
     - 9:00 PM: Speaker TBA
 
-    - 9:15 PM: &barn_beverajs
-        title: Bevera.js
-        emoji: 🎤
-        description: Drink car will be open until 10 PM! Hang out and we'll
-          just chillax in the barn.
+    - 9:15 PM:
+        <<: *butter_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -206,11 +195,8 @@
 
     - 9:00 PM: Speaker TBA
 
-    - 9:15 PM: &barn_beverajs
-        title: Bevera.js
-        emoji: 🎤
-        description: Drink car will be open until 10 PM! Hang out and we'll
-          just chillax in the barn.
+    - 9:15 PM:
+        <<: *butter_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -243,11 +229,8 @@
 
     - 9:00 PM: Speaker TBA
 
-    - 9:15 PM: &barn_beverajs
-        title: Bevera.js
-        emoji: 🎤
-        description: Drink car will be open until 10 PM! Hang out and we'll
-          just chillax in the barn.
+    - 9:15 PM:
+        <<: *butter_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -282,7 +265,7 @@
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM:
-        <<: *barn_beverajs
+        <<: *butter_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -317,7 +300,7 @@
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM:
-        <<: *barn_beverajs
+        <<: *butter_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -352,7 +335,7 @@
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM:
-        <<: *barn_beverajs
+        <<: *butter_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -424,7 +407,7 @@
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM:
-        <<: *barn_beverajs
+        <<: *butter_beverajs
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
@@ -507,8 +490,11 @@
           name: Kimberly Muñoz
           twitter: kimberlymunoz
 
-    - 9:15 PM:
-        <<: *barn_beverajs
+    - 9:15 PM: &barn_beverajs
+        title: Bevera.js
+        emoji: 🎤
+        description: Drink car will be open until 10 PM! Hang out and we'll
+          just chillax in the barn.
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
