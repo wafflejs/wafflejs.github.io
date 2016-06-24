@@ -404,7 +404,20 @@
           name: Paul Irish
           twitter: paul_irish
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        title: 'Pair Programming: 2 > 1 + 1'
+        description: |
+          Pair programming is and has been the "buzz" concept for software for
+          good reason: the sum is greater than its parts. But what actually goes
+          into making pairing work for a project or even for the rest of your
+          career? Hear from someone wild enough to accept pairing for the rest
+          of her career and actionable tips on how to make it go well and how to
+          avoid it going horribly.
+        emoji: 👯
+        person:
+          name: Neha Batra
+          twitter: nerdneha
 
     - 9:15 PM:
         <<: *butter_beverajs
