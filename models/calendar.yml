@@ -387,7 +387,7 @@
     - 8:30 PM:
         type: Performance
         emoji: 🎸
-        title: TBD
+        title: Live Musical Performance
         description: |
           JavaScript meets pop music, possibly feat. synthesizers and accordions.
         people:
@@ -398,10 +398,8 @@
 
     - 8:45 PM:
         type: Talk
-        title: "What's new in HTML 3.2"
-        description: Relative to HTML 2.0, HTML 3.2 adds widely deployed
-          features such as...
-        emoji: 🆕
+        title: TBD
+        emoji: 🍉
         person:
           name: Paul Irish
           twitter: paul_irish
