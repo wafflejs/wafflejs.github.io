@@ -398,8 +398,11 @@
 
     - 8:45 PM:
         type: Talk
-        title: TBD
-        emoji: 🍉
+        title: "What's new in HTML 3.2"
+        description: |
+          Relative to HTML 2.0, HTML 3.2 adds widely deployed
+          features such as...
+        emoji: 🆕
         person:
           name: Paul Irish
           twitter: paul_irish
