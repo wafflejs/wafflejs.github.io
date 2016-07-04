@@ -287,7 +287,17 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🖥
+        title: JavaScript for SaaS statistics
+        description: You can do statistics with just JavaScript!
+          I'll demonstrate how I use JavaScript for SaaS and pave
+          the way for you to use JavaScript for statistics in any
+          field.
+        person:
+          name: Dillon Forrest
+          twitter: dillonforrest
 
     - 8:15 PM:
         title: Intermission
