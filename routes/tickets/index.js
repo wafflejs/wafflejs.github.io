@@ -1,9 +1,9 @@
 import angular from 'angular'
 import css from './index.css'
 
-export default angular.module('wafflejs.routes.tickets', [
+module.exports = angular.module('wafflejs.routes.tickets', [
   require('angular-ui-router'),
-  require('models/calendar').default,
+  require('models/calendar'),
 ])
 .config(($stateProvider) => {
   $stateProvider.state('tickets', {

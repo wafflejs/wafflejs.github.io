@@ -6,7 +6,7 @@ import {} from './chart-tickets.css'
 
 const margin = { top: 0, right: 60.5, bottom: 30.5, left: 40.5 }
 
-export default angular.module('wafflejs.routes.metrics.chart-tickets', [])
+module.exports = angular.module('wafflejs.routes.metrics.chart-tickets', [])
 .component('chartTickets', {
   bindings: { tickets: '<' },
   controllerAs: 'chartTickets',

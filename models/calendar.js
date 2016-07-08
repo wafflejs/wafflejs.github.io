@@ -24,6 +24,6 @@ Object.defineProperty(calendar, 'on', {
   }
 })
 
-export default angular.module('wafflejs.models.calendar', [])
+module.exports = angular.module('wafflejs.models.calendar', [])
 .constant('calendar', calendar)
 .name

@@ -1,9 +1,9 @@
 import angular from 'angular'
 import html from './index.md'
 
-export default angular.module('wafflejs.routes.performers', [
+module.exports = angular.module('wafflejs.routes.performers', [
   require('angular-ui-router'),
-  require('models/calendar').default,
+  require('models/calendar'),
 ])
 .config(($stateProvider) => {
   $stateProvider.state('performers', {

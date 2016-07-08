@@ -2,9 +2,9 @@ import angular from 'angular'
 import { groupBy } from 'lodash'
 import html from './index.md'
 
-export default angular.module('wafflejs.routes.sponsorship', [
+module.exports = angular.module('wafflejs.routes.sponsorship', [
   require('angular-ui-router'),
-  require('models/calendar').default,
+  require('models/calendar'),
 ])
 .config(($stateProvider) => {
   $stateProvider.state('sponsorship', {

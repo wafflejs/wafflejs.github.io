@@ -4,13 +4,13 @@ import angular from 'angular'
 import {} from './index.css'
 
 angular.module('wafflejs', [
-  require('./routes/index').default,
-  require('./routes/metrics').default,
-  require('./routes/performers').default,
-  require('./routes/speakers').default,
-  require('./routes/sponsorship').default,
-  require('./routes/tickets').default,
-  require('./title').default,
+  require('./routes/index'),
+  require('./routes/metrics'),
+  require('./routes/performers'),
+  require('./routes/speakers'),
+  require('./routes/sponsorship'),
+  require('./routes/tickets'),
+  require('./title'),
 ])
 .config(($locationProvider) => {
   $locationProvider.html5Mode(true)

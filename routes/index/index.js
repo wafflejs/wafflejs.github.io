@@ -2,10 +2,10 @@ import angular from 'angular'
 import { map, some, values, chain } from 'lodash'
 import css from './index.css'
 
-export default angular.module('wafflejs.routes.index', [
+module.exports = angular.module('wafflejs.routes.index', [
   require('angular-ui-router'),
   require('angular-marked'),
-  require('models/calendar').default,
+  require('models/calendar'),
 ])
 .config(($stateProvider) => {
   $stateProvider.state('index', {

@@ -13,7 +13,7 @@ import {} from './chart-gender.css'
 
 const margin = { top: 0, right: 60.5, bottom: 30.5, left: 40.5 }
 
-export default angular.module('wafflejs.routes.metrics.chart-gender', [])
+module.exports = angular.module('wafflejs.routes.metrics.chart-gender', [])
 .component('chartGender', {
   bindings: { tickets: '<' },
   controllerAs: 'chartGender',

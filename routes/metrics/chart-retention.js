@@ -12,7 +12,7 @@ import {
 
 const margin = { top: 0, right: 60.5, bottom: 30.5, left: 40.5 }
 
-export default angular.module('wafflejs.routes.metrics.chart-retention', [])
+module.exports = angular.module('wafflejs.routes.metrics.chart-retention', [])
 .component('chartRetention', {
   bindings: { tickets: '<' },
   controllerAs: 'chartRetention',

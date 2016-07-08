@@ -4,12 +4,12 @@ import moment from 'moment'
 import { reverse, transform } from 'lodash'
 import css from './index.css'
 
-export default angular.module('wafflejs.routes.metrics', [
+module.exports = angular.module('wafflejs.routes.metrics', [
   require('angular-ui-router'),
-  require('models/calendar').default,
-  require('./chart-gender').default,
-  require('./chart-retention').default,
-  require('./chart-tickets').default,
+  require('models/calendar'),
+  require('./chart-gender'),
+  require('./chart-retention'),
+  require('./chart-tickets'),
 ])
 .config(($stateProvider) => {
   $stateProvider.state('metrics', {

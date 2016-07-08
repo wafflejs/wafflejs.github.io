@@ -1,6 +1,6 @@
 import angular from 'angular'
 
-export default angular.module('title', [])
+module.exports = angular.module('title', [])
 .directive('title', function($document, $timeout) {
   const title = angular.element($document[0].querySelector('title')).clone()
 
