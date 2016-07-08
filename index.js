@@ -7,6 +7,7 @@ angular.module('wafflejs', [
   require('./routes/index'),
   require('./routes/metrics'),
   require('./routes/performers'),
+  require('./routes/script'),
   require('./routes/speakers'),
   require('./routes/sponsorship'),
   require('./routes/tickets'),

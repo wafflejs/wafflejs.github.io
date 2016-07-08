@@ -1,0 +1,32 @@
+title · Script
+
+div( class=className )
+  section: .container-fluid
+    select( ng-options='month.day|date:"MMMM d" group by month.date.getFullYear() for month in script.calendar' ng-model='script.day' )
+    div( ng-repeat='event in script.day.schedule track by $index' )
+      .row.row-lg-offset--3( ng-repeat="(time, item) in event" )
+        .col-xs-12.col-lg-3.end-lg
+          h3 {{time}} 
+            span.hide-lg
+              span( ng-show='item.type || item.emoji' ) · 
+              span( ng-show='item.emoji' ) {{item.emoji}} 
+              span( ng-show='item.type' ) {{item.type}}
+        .col-xs-12.col-lg-9( ng-show='item.person || item.people || item.type' )
+          h5( ng-show='item.person' )
+            a.person( ng-href='https://twitter.com/{{item.person.twitter}}' )
+              | {{item.person.name}} · @{{item.person.twitter}}
+          h5( ng-show='item.people' )
+            span( ng-repeat='person in item.people' )
+              span.separator( ng-hide='$first' ) &
+              wbr
+              a.person( ng-href='https://twitter.com/{{person.twitter}}' )
+                | {{person.name}} · @{{person.twitter}}
+        .hide-md-down.col-lg-3.end-lg( ng-show='item.type' )
+          h5 {{item.type}}
+        .col-xs-12.col-lg-9(ng-class='{ "border-bottom": !item.description }')
+          h3(ng-show='item.title' marked='item.title')
+        .hide-md-down.col-lg-3.end-lg( ng-show='item.emoji && item.description' )
+          h5 {{item.emoji}}
+        .col-xs-12.col-lg-9(
+          ng-class='{ "col-lg-offset-3": !item.emoji, "border-bottom": item.description }'
+          marked='item.description' )
