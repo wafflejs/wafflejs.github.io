@@ -338,7 +338,17 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        title: Learning Growing Changing
+        emoji: 🤔
+        description: |
+          A live rendition of [Learning Growing Changing](https://www.youtube.com/watch?v=ttHukW70TAM)
+          by Dead Prez.
+        person:
+          name: Julia
+          github: juliascript
+
 
     - 8:45 PM: Speaker TBA
 
