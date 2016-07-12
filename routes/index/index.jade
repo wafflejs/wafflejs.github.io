@@ -79,8 +79,16 @@ div( class=className )
                 span( ng-show='item.type' ) {{item.type}}
           .col-xs-12.col-lg-9( ng-show='item.person || item.people || item.type' )
             h5( ng-show='item.person' )
-              a.person( ng-href='https://twitter.com/{{item.person.twitter}}' )
+              a.person(
+                ng-if='item.person.twitter'
+                ng-href='https://twitter.com/{{item.person.twitter}}'
+              )
                 | {{item.person.name}} · @{{item.person.twitter}}
+              a.person(
+                ng-if='item.person.github'
+                ng-href='https://github.com/{{item.person.github}}'
+              )
+                | {{item.person.name}} · @{{item.person.github}}
             h5( ng-show='item.people' )
               span( ng-repeat='person in item.people' )
                 span.separator( ng-hide='$first' ) &

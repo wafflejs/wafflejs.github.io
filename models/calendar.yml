@@ -342,7 +342,16 @@
 
     - 8:45 PM: Speaker TBA
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        title: Learning to Hallucinate (GANs and PixelCNNs)
+        emoji: 👓
+        description: |
+          Learn about generative adversarial networks (GANs) and
+          pixelCNNs.
+        person:
+          name: Ryan Dahl
+          github: ry
 
     - 9:15 PM:
         <<: *butter_beverajs
