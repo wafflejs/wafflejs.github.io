@@ -354,11 +354,9 @@
 
     - 9:00 PM:
         type: Talk
-        title: Learning to Hallucinate (GANs and PixelCNNs)
+        title: What's new in deep learning
         emoji: 👓
-        description: |
-          Learn about generative adversarial networks (GANs) and
-          pixelCNNs.
+        description: Putting the new into deep learning.
         person:
           name: Ryan Dahl
           github: ry
