@@ -332,7 +332,15 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM: 
+        type: Talk
+        title: Literally, Template Literals, Literally
+        emoji: 🤔
+        description:
+          A talk about how a relatively simple feature of ES2015 literally changes everything.
+        person:
+          name: Mikeal Rogers
+          github: mikeal
 
     - 8:15 PM:
         title: Intermission
@@ -341,7 +349,7 @@
     - 8:30 PM:
         type: Performance
         title: Learning Growing Changing
-        emoji: 🤔
+        emoji: 😎
         description: |
           A live rendition of [Learning Growing Changing](https://www.youtube.com/watch?v=ttHukW70TAM)
           by Dead Prez.
