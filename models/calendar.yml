@@ -317,7 +317,7 @@
           on a tool for maintaining icons and making it easy for
           developers on any platform to use the icons in their
           apps. Hear about our iterative approach to rolling out
-          the Yelpicon system and how we're looking beyond icons 
+          the Yelpicon system and how we're looking beyond icons
           to continue to tighten the gap between design and
           production code.
         person:
@@ -345,7 +345,20 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        title: Programming is Boring
+        emoji: 🤖
+        description: |
+          Sometimes programming is boring. We always talk about
+          it we're on a rocket that's powered by jetfuel, when really
+          sometimes it's painfully mind-numbing. This talk will give
+          a funny take on looking through log files, figuring out
+          how to send HTML email, and trying to figure out why is
+          a effing test failing.
+        person:
+          name: Duretti Hirpa
+          twitter: duretti
 
     - 8:00 PM:
         type: Talk
