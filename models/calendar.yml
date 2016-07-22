@@ -348,14 +348,13 @@
     - 7:45 PM:
         type: Talk
         title: Programming is Boring
-        emoji: 🤖
+        emoji: 💤
         description: |
-          Sometimes programming is boring. We always talk about
-          it we're on a rocket that's powered by jetfuel, when really
-          sometimes it's painfully mind-numbing. This talk will give
-          a funny take on looking through log files, figuring out
-          how to send HTML email, and trying to figure out why is
-          a effing test failing.
+          Sometimes, programming is boring. We always talk about
+          it as if we're on a rocket ship that's powered by jetfuel, when really
+          sometimes it's painfully mind-numbing. This talk is a 
+          funny take on the doldrums of the in-and-outs of programming
+          professionally, that's also hopefully inspiring in its own way.
         person:
           name: Duretti Hirpa
           twitter: duretti
