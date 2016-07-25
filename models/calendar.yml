@@ -291,7 +291,13 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🎨
+        title: TBD
+        person:
+          name: Ainsley Wagoner
+          twitter: ainsleywagon
 
     - 8:00 PM:
         type: Talk
