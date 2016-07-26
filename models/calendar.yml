@@ -400,14 +400,13 @@
 
     - 8:30 PM:
         type: Performance
-        title: Learning Growing Changing
-        emoji: 🎼
+        title: Closer by Tegan and Sara
+        emoji: 🎤
         description: |
-          A live rendition of [Learning Growing Changing](https://www.youtube.com/watch?v=ttHukW70TAM)
-          by Dead Prez.
+          A live karaoke rendition of Closer by Tegan and Sara.
         person:
-          name: Julia
-          github: juliascript
+          name: Marlena Compton
+          twitter: marlenac
 
     - 8:45 PM:
         type: Talk
