@@ -409,7 +409,13 @@
           name: Julia
           github: juliascript
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        title: TBD
+        emoji: 🤔
+        person:
+          name: Aysegul Yonet
+          twitter: AysegulYonet
 
     - 9:00 PM:
         type: Talk
