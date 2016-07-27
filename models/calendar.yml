@@ -410,8 +410,12 @@
 
     - 8:45 PM:
         type: Talk
-        title: TBD
-        emoji: 🤔
+        title: Creating 3D Components with Angular and Three.js
+        description: |
+          3D Web UI is not a thing just seen in the movies anymore.
+          Let's see how we can bring two of the great Web technologies
+          together, three.js and AngularJS, to create 3D components.
+        emoji: 📦
         person:
           name: Aysegul Yonet
           twitter: AysegulYonet
