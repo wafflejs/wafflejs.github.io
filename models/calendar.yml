@@ -266,7 +266,20 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 💻
+        title: Designing for the Web for Senior Citizens
+        description: |
+          Come learn about universal design lessons learned from
+          helping senior citizens use the web. Seniors are a user
+          group that's often forgotten (or worse, joked about) in
+          the design & development process, but they're actually
+          one of the fastest growing demographics of social
+          media users.
+        person:
+          name: Cordelia McGee-Tubb
+          twitter: cordeliadillon
 
     - 9:00 PM: Speaker TBA
 
