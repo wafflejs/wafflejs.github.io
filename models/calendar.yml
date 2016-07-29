@@ -281,7 +281,22 @@
           name: Cordelia McGee-Tubb
           twitter: cordeliadillon
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 📝
+        title: < input > I ♡ you, but you're bringing me down
+        description: |
+          Browsers have had an < input > element since the dawn of
+          time, and yet any time you talk to web developers about
+          it, everyone complains about it. It's unpredictable.
+          It's grumpy. It's got reaaaaally strong opinions about
+          style, and it doesn't want to listen to yours. I'm
+          going to tell you a story about how < input > grew up
+          to be the moody adult it is, and why it's maybe time
+          we stood up to it.
+        person:
+          name: Monica Dinosaurescu
+          twitter: notwaldorf
 
     - 9:15 PM:
         <<: *butter_beverajs
