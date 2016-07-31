@@ -259,6 +259,16 @@
           twitter: sailorhg
 
     - 8:00 PM: Speaker TBA
+        type: Talk
+        emoji: 💖
+        title: Functional Programming && Javascript
+        description: We'll talk about what we mean by functional
+        programming and what it looks like in Javascript. We'll
+        also talk about a few things you probably already do
+        that are heading in the direction of FP.
+        person:
+          name: Marlena Compton
+          twitter: marlenac
 
     - 8:15 PM:
         title: Intermission
@@ -413,10 +423,10 @@
 
     - 8:30 PM:
         type: Performance
-        title: Closer by Tegan and Sara
+        title: Walk on By by Dionne Warwick
         emoji: 🎤
         description: |
-          A live karaoke rendition of Closer by Tegan and Sara.
+          A live karaoke rendition of Walk on By by Dionne Warwick.
         person:
           name: Marlena Compton
           twitter: marlenac
