@@ -358,7 +358,7 @@
             twitter: distributedbro
             exclude: true
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
         type: Talk
         emoji: 🐕
         title: The Smart Shiba's Guide to Image File Formats
@@ -371,7 +371,6 @@
         person:
           name: Jessica Parsons
           twitter: verythorough
-
 
     - 9:00 PM:
         type: Talk
