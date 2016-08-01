@@ -359,6 +359,19 @@
             exclude: true
 
     - 8:45 PM: Speaker TBA
+        type: Talk
+        emoji: 🐕
+        title: The Smart Shiba's Guide to Image File Formats
+        description: |
+          JPG, GIF, PNG, or SVG?
+          The file formats you choose affect the size, speed, and
+          quality of the images in your projects. Learn which
+          formats work best in which context, all while enjoying
+          images of the most awesome dogs evar.
+        person:
+          name: Jessica Parsons
+          twitter: verythorough
+
 
     - 9:00 PM:
         type: Talk
