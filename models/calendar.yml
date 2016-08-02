@@ -259,16 +259,6 @@
           twitter: sailorhg
 
     - 8:00 PM: Speaker TBA
-        type: Talk
-        emoji: 💖
-        title: Functional Programming && Javascript
-        description: We'll talk about what we mean by functional
-        programming and what it looks like in Javascript. We'll
-        also talk about a few things you probably already do
-        that are heading in the direction of FP.
-        person:
-          name: Marlena Compton
-          twitter: marlenac
 
     - 8:15 PM:
         title: Intermission
