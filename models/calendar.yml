@@ -183,7 +183,15 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🔄
+        title: The JavaScript Event Loop
+        description: |
+          TBA
+        person:
+          name: Thomas Hunter II
+          twitter: tlhunter
 
     - 8:15 PM:
         title: Intermission
