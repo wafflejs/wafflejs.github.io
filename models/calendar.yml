@@ -188,7 +188,10 @@
         emoji: 🔄
         title: The JavaScript Event Loop
         description: |
-          TBA
+          Discover the JavaScript Event Loop, how it is built
+          upon a Stack, Heap, and Queue, and how to break up
+          heavy workloads to keep your application rendering
+          at a smooth 60 FPS.
         person:
           name: Thomas Hunter II
           twitter: tlhunter
