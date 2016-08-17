@@ -292,22 +292,7 @@
           name: Cordelia McGee-Tubb
           twitter: cordeliadillon
 
-    - 9:00 PM:
-        type: Talk
-        emoji: 📝
-        title: < input > I ♡ you, but you're bringing me down
-        description: |
-          Browsers have had an < input > element since the dawn of
-          time, and yet any time you talk to web developers about
-          it, everyone complains about it. It's unpredictable.
-          It's grumpy. It's got reaaaaally strong opinions about
-          style, and it doesn't want to listen to yours. I'm
-          going to tell you a story about how < input > grew up
-          to be the moody adult it is, and why it's maybe time
-          we stood up to it.
-        person:
-          name: Monica Dinosaurescu
-          twitter: notwaldorf
+    - 9:00 PM: Speaker TBA
 
     - 9:15 PM:
         <<: *butter_beverajs
@@ -330,15 +315,15 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM:  
+    - 7:45 PM:
         type: Talk
         emoji: 🎨
         title: 'Tech Feminism 101: Why We Should All Be Feminists'
         description: |
           2016 has been a good year for Feminism and our 
-          industry is talking about it. But if it's been a while since
-          Womens' Studies class, it's easy to misunderstand the context
-          of this moment in a larger history of Women's Lib. I'll do a little
+          industry is talking about it. But if it's been a while since 
+          Womens' Studies class, it's easy to misunderstand the context 
+          of this moment in a larger history of Women's Lib. I'll do a little 
           overview of the 4 waves of Feminism, talk about ways to spot 
           toxic patriarchy, and give some suggestions on how to be your 
           best Tech Feminist!
