@@ -323,13 +323,14 @@
         type: Talk
         emoji: 🎨
         title: 'Tech Feminism 101: Why We Should All Be Feminists'
-        description: '2016 has been a good year for Feminism and our 
-        industry is talking about it. But if it's been a while since
-        Womens' Studies class, it's easy to misunderstand the context
-        of this moment in a larger history of Women's Lib. I'll do a little
-        overview of the 4 waves of Feminism, talk about ways to spot 
-        toxic patriarchy, and give some suggestions on how to be your 
-        best Tech Feminist!'
+        description: |
+          2016 has been a good year for Feminism and our 
+          industry is talking about it. But if it's been a while since
+          Womens' Studies class, it's easy to misunderstand the context
+          of this moment in a larger history of Women's Lib. I'll do a little
+          overview of the 4 waves of Feminism, talk about ways to spot 
+          toxic patriarchy, and give some suggestions on how to be your 
+          best Tech Feminist!
         person:
           name: Ainsley Wagoner
           twitter: ainsleywagon
