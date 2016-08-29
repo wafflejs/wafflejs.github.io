@@ -327,7 +327,13 @@
           name: Cordelia McGee-Tubb
           twitter: cordeliadillon
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM
+        type: Talk
+        emoji: 
+        title: TBD
+        person:
+          name: Marina Zhao
+          twitter: m7z
 
     - 9:15 PM:
         <<: *butter_beverajs
