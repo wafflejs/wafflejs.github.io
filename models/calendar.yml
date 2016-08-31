@@ -304,7 +304,19 @@
           name: Amy Wibowo
           twitter: sailorhg
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🤖
+        title: Making BB8 dance with Electron
+        description: |
+          Come learn about building cross-platform desktop
+          apps in Electron - it’s easier than you think! 
+          And be entertained by a charming BB8 Sphero 
+          robot in the process.
+        person:
+          name: Katrina Uychaco
+          twitter: kuychaco
+
 
     - 8:15 PM:
         title: Intermission
@@ -329,7 +341,7 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: 🌳 
+        emoji: 🌳
         title: TBD
         person:
           name: Marina Zhao
