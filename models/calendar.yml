@@ -181,7 +181,13 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🎉
+        title: TBD
+        person:
+          name: Limin Shen
+          twitter: limins
 
     - 8:00 PM:
         type: Talk
@@ -202,7 +208,13 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 🚗
+        title: TBD
+        person:
+          name: Lita Cho
+          twitter: litacho
 
     - 9:00 PM: Speaker TBA
 
