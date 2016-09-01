@@ -2,6 +2,15 @@
 @import '../../media.css';
 
 :local(.className) {
+  #header {
+    h1 {
+      margin-bottom: 1.5rem;
+    }
+    .details {
+      margin-top: 1rem;
+    }
+  }
+
   tito-widget {
     h3 {
       margin-top: 2em;
