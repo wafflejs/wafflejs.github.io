@@ -220,7 +220,13 @@
           name: Lita Cho
           twitter: litacho
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 💖
+        title: TBD
+        person:
+          name: Max Goodman
+          twitter: chromakode
 
     - 9:15 PM:
         <<: *butter_beverajs
@@ -326,8 +332,8 @@
         title: Making BB8 dance with Electron
         description: |
           Come learn about building cross-platform desktop
-          apps in Electron - it’s easier than you think! 
-          And be entertained by a charming BB8 Sphero 
+          apps in Electron - it’s easier than you think!
+          And be entertained by a charming BB8 Sphero
           robot in the process.
         person:
           name: Katrina Uychaco
