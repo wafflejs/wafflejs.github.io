@@ -321,7 +321,22 @@
     - 7:45 PM:
         type: Talk
         emoji: 🎨
-        title: TBD
+        title: Fold, Paper, Scissors
+        description: |
+          This talk looks beyond origami as a childhood
+          pastime and an art form and explores origami
+          as a source of many interesting mathematical
+          problems, including one called the
+          fold-and-cut problem. The fold and cut theorem
+          states that it is possible, given a piece of
+          paper and any polygonal shape, to find a
+          series of folds of that paper such that the
+          given shape can be generated with a single cut.
+          This talk explores a proof of the theorem and
+          an implementation of a solver that determines
+          the correct series of folds given any input
+          polygon. There will be a live demo of the
+          program and paper cutting!
         person:
           name: Amy Wibowo
           twitter: sailorhg
