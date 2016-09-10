@@ -147,7 +147,18 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🗣
+        title: Think Globally, but Act Locally.
+        description: |
+          Localizing an application is much more work than translations.
+          Fortunately, the web platform, and our lovely community,
+          gives us plenty of tools to build an app that thinks globally,
+          but acts locally.
+        person:
+          name: Terin Stock
+          twitter: terinjokes
 
     - 8:00 PM: Speaker TBA
 
