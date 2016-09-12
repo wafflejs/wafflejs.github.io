@@ -13,7 +13,7 @@ these things:
 - Promote a diverse and inclusive environment.
 - Get people to have fun.
 
-Today the meetup is co-organized by [Visnu][@visnup], [Billy][@billyroh], [Kelly][@kng], [Emily][@nexxylove], [Max Goodman][@chromakode], and [Katrina Uychaco][@kuychaco].
+Today the meetup is co-organized by [Visnu][@visnup], [Billy][@billyroh], [Kelly][@kng], [Emily][@nexxylove], [Max][@chromakode], and [Katrina][@kuychaco].
 It's held at [SoMa StrEat Food Park][2] every first Wednesday of the month.
 
 [@visnup]: https://twitter.com/visnup
