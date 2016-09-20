@@ -236,7 +236,7 @@
     - 8:45 PM:
         type: Talk
         emoji: 🚗
-        title: Become a detective! Invesgiate how to use poorly documented APIs to ship faster!
+        title: | Become a detective! Invesgiate how to use poorly documented APIs to ship faster!
         description: |
         You’re so pumped. You found an API that will bring 
         your high-impact 3-month project down to 2 weeks! 
