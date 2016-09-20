@@ -1032,7 +1032,7 @@
         emoji: 🎼
         title: 'ChucK + oF: Programming Virtual Reality + Music'
         description: Ongoing efforts in combining
-          [ChucK](http://chuck.stanfurd.edu/) (an open-source audio programming
+          [ChucK](http://chuck.stanford.edu/) (an open-source audio programming
           language) and [OpenFrameworks](http://openframeworks.cc/) (an
           open-source C++ graphics toolkit) as an environment/abomination for
           programming musical VR interactions.
