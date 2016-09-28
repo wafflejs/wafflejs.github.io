@@ -411,8 +411,12 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: 🌳
-        title: TBD
+        emoji: 📸
+        title: Visualize photos with d3.js
+        description: |
+          Image files store a lot of metadata, like camera model, lens, shutter speed, time, date, and location. 
+          d3.js is a powerful JavaScript library for visualizing data.
+          Let's build some visualizations using the two.
         person:
           name: Marina Zhao
           twitter: m7z
