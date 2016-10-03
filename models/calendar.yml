@@ -237,19 +237,19 @@
         type: Talk
         emoji: 🚗
         title: | 
-        Become a detective! Invesgiate how to use poorly documented APIs to ship faster!
+          How to investigate poorly documented APIs
         description: |
-        You’re so pumped. You found an API that will bring 
-        your high-impact 3-month project down to 2 weeks! 
-        The next day, you want to flip a table because 
-        nobody knows how to use this API. Stack Overflow 
-        has failed you. Documentation is clearly a novella 
-        rather than being straightforward. What do you do? 
-        Do you just give up and build from scratch? No! 
-        In this talk, you will learn not to give up in these 
-        situations. Like Nancy Drew, you can hunt down the
-        information you need and save the world... or at
-        least ship your project.
+          You’re so pumped. You found an API that will bring 
+          your high-impact 3-month project down to 2 weeks! 
+          The next day, you want to flip a table because 
+          nobody knows how to use this API. Stack Overflow 
+          has failed you. Documentation is clearly a novella 
+          rather than being straightforward. What do you do? 
+          Do you just give up and build from scratch? No! 
+          In this talk, you will learn not to give up in these 
+          situations. Like Nancy Drew, you can hunt down the
+          information you need and save the world... or at
+          least ship your project.
         person:
           name: Lita Cho
           twitter: litacho
