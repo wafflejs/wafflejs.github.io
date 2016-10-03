@@ -256,8 +256,12 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: 💖
-        title: TBD
+        emoji: 🎆
+        title: The Reward
+        description: |
+          Remember the last time you were working on a project and everything
+          just... clicked? Let's examine the joy of making things and how to
+          rediscover that magic when it feels out of reach.
         person:
           name: Max Goodman
           twitter: chromakode
