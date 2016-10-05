@@ -29,4 +29,6 @@ div( class=className )
           h5 {{item.emoji}}
         .col-xs-12.col-lg-9(
           ng-class='{ "col-lg-offset-3": !item.emoji, "border-bottom": item.description }'
-          marked='item.description' )
+          marked='item.description'
+          compile='true'
+        )

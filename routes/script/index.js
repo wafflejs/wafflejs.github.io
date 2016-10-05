@@ -1,5 +1,5 @@
 import angular from 'angular'
-import { find, forEach, keys } from 'lodash'
+import { concat, filter, find, forEach, keys, map } from 'lodash'
 import css from './index.css'
 import script from './script.yml'
 
@@ -27,6 +27,12 @@ module.exports = angular.module('wafflejs.routes.script', [
         forEach(script, (description, time) => {
           eventAt(schedule, time).description = description
         })
+
+        const events = map(schedule, event => event[keys(event)[0]])
+        this.talks = filter(events, { type: 'Talk' })
+        this.speakers = map(this.talks, 'person')
+        this.performances = filter(events, { type: 'Performance' })
+        this.performers = map(this.performances, performance => concat(performance.person || performance.people))
 
         $scope.$watch(() => this.day, (current, previous) => {
           if (current !== previous)

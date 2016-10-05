@@ -32,10 +32,12 @@
 
   EMILY
 
-    So we have a total of **4x 10ish-minute lightning talks** with **Duretti**
-    and **Mikeal** going first, then a nice little intermission. At the end of
-    intermission, **Marlena** will be performing, followed by **Aysegul** and
-    finally **Ryan** after that.
+    So we have a total of **4x 10ish-minute lightning talks** with
+    **{{script.speakers[0].name}}** and **{{script.speakers[1].name}}** going
+    first, then a nice little intermission. At the end of intermission,
+    **{{script.performers[0]}}** will be performing, followed by
+    **{{script.speakers[2].name}}** and finally **{{script.speakers[3].name}}**
+    after that.
 
     We’ve got lots of stuff packed into two hours, so **if you’ve got
     questions** we encourage you to find your favorite speaker **after their
@@ -56,14 +58,14 @@
 
   EMILY
 
-    This is the **13th WaffleJS**! We have it the **first Wednesday of every
-    month**, always in this nice cozy barn. The next one is **Sep 7th** and if
+    This is the **?th WaffleJS**! We have it the **first Wednesday of every
+    month**, always in this nice cozy barn. The next one is **?** and if
     you have fun tonight, you should come to that one too and **bring your
     friends and co-workers and pets**.
 
-    If you have an idea for a **talk for September or November**, please submit
-    them via GitHub or email us at talks@wafflejs.com or come pitch the idea to
-    us on Slack. If you’re interested in performing in between the talks, also
+    If you have an idea for a **talk for upcoming months**, please submit them
+    via GitHub or email us at talks@wafflejs.com or come pitch the idea to us
+    on Slack. If you’re interested in performing in between the talks, also
     email us or find us. So if you like to sing or play the theremin or
     accordion or dance, contact us at perform@wafflejs.com!
 
