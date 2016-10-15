@@ -181,7 +181,7 @@
         description: |
           A story of failure, starring a very clever but complicated front-end cache
           that minimized bandwidth between client and server by calculating
-          everything that's changed since the user's last visit. 
+          everything that's changed since the user's last visit.
         person:
           name: Eric Eslinger
           twitter: pfooti
@@ -241,17 +241,17 @@
     - 8:45 PM:
         type: Talk
         emoji: 🚗
-        title: | 
+        title: |
           How to investigate poorly documented APIs
         description: |
-          You’re so pumped. You found an API that will bring 
-          your high-impact 3-month project down to 2 weeks! 
-          The next day, you want to flip a table because 
-          nobody knows how to use this API. Stack Overflow 
-          has failed you. Documentation is clearly a novella 
-          rather than being straightforward. What do you do? 
-          Do you just give up and build from scratch? No! 
-          In this talk, you will learn not to give up in these 
+          You’re so pumped. You found an API that will bring
+          your high-impact 3-month project down to 2 weeks!
+          The next day, you want to flip a table because
+          nobody knows how to use this API. Stack Overflow
+          has failed you. Documentation is clearly a novella
+          rather than being straightforward. What do you do?
+          Do you just give up and build from scratch? No!
+          In this talk, you will learn not to give up in these
           situations. Like Nancy Drew, you can hunt down the
           information you need and save the world... or at
           least ship your project.
@@ -303,8 +303,14 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 🙋
-        title: TBD
+        emoji: 🎨
+        title: Albers as a Millenial
+        description: |
+          What kind of art would Josef and Anni Albers
+          have made if they were millenials? Come learn
+          about how to make generative interactive art
+          with the magic of JavaScript. And learn a bit
+          about art history too.
         person:
           name: Billy Roh
           twitter: billyroh
@@ -437,7 +443,7 @@
         emoji: 📸
         title: Visualize photos with d3.js
         description: |
-          Image files store a lot of metadata, like camera model, lens, shutter speed, time, date, and location. 
+          Image files store a lot of metadata, like camera model, lens, shutter speed, time, date, and location.
           d3.js is a powerful JavaScript library for visualizing data.
           Let's build some visualizations using the two.
         person:
