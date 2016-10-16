@@ -323,7 +323,11 @@
     - 8:30 PM:
         type: Performance
         emoji: 📷
-        title: TBD
+        title: We Are All Made Of Pixel Dust
+        description: |
+          What would it feel like to be a pixel? Band together with all the
+          other pixels to form images and make new pixel friends in the
+          process!
         person:
           name: Visnu Pitiyanuvath
           twitter: visnup
