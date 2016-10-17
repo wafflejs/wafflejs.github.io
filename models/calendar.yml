@@ -126,7 +126,17 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 👾
+        title: Sometimes Clever Isn't Smart
+        description: |
+          A story of failure, starring a very clever but complicated front-end cache
+          that minimized bandwidth between client and server by calculating
+          everything that's changed since the user's last visit.
+        person:
+          name: Eric Eslinger
+          twitter: pfooti
 
     - 9:00 PM: Speaker TBA
 
@@ -174,17 +184,7 @@
 
     - 8:45 PM: Speaker TBA
 
-    - 9:00 PM:
-        type: Talk
-        emoji: 👾
-        title: Sometimes Clever Isn't Smart.
-        description: |
-          A story of failure, starring a very clever but complicated front-end cache
-          that minimized bandwidth between client and server by calculating
-          everything that's changed since the user's last visit.
-        person:
-          name: Eric Eslinger
-          twitter: pfooti
+    - 9:00 PM: Speaker TBA
 
     - 9:15 PM:
         <<: *butter_beverajs
