@@ -336,7 +336,11 @@
     - 8:45 PM:
         type: Talk
         emoji: ☕️
-        title: TBD
+        title: Tasting Wine With Data
+        description: |
+          Spectrophotometry, data visualization, and bayesian statistics!
+          Also known as: the least practical way to gain an edge in a wine
+          tasting competition.
         person:
           name: Brian Bloniarz
           github: b11z
