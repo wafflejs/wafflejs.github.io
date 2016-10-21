@@ -118,7 +118,17 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        title: Terminal Aliases with JavaScript
+        emoji: 🌲
+        description: |
+          Terminal aliases make the shell fast and fun. Yet creating,
+          saving, and sharing them is the opposite. In this talk,
+          we'll explore a new creation method using JSON objects.
+        person:
+          name: Dawson Botsford
+          twitter: dawsonbotsford
 
     - 8:15 PM:
         title: Intermission
