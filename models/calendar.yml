@@ -359,7 +359,11 @@
     - 9:00 PM:
         type: Talk
         emoji: 🤔
-        title: TBD
+        title: Web Animations
+        description: With so many different ways to animate the web, it can be hard 
+        to know what’s right for you. Let’s get inspired by some existing 
+        animations, and learn more about the different types of front end animations, 
+        what their limitations are, and how to choose between them.
         person:
           name: Kelly King
           twitter: kng
