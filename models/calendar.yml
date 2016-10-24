@@ -360,7 +360,8 @@
         type: Talk
         emoji: 🤔
         title: Web Animations
-        description: With so many different ways to animate the web, it can be hard 
+        description: |
+        With so many different ways to animate the web, it can be hard 
         to know what’s right for you. Let’s get inspired by some existing 
         animations, and learn more about the different types of front end animations, 
         what their limitations are, and how to choose between them.
