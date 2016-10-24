@@ -116,7 +116,18 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        title: Teaching computers to write popular music
+        emoji: 🎼
+        description: |
+          In order to write a #1 hit song, we'll apply traditional grammar 
+          modeling techniques to harmonic progressions found in today's popular 
+          music. Specifically we'll create a corpus, train a probablistic model, 
+          and then generate (hopefully) coherent songs from it.
+        person:
+          name: Sarah Brown
+          twitter: esbie
 
     - 8:00 PM:
         type: Talk
