@@ -5,11 +5,11 @@
 @import './typography.css';
 
 body {
-  background-color: var(--orange);
-  padding: 5px 0;
+  border-top: 5px solid var(--orange);
+  border-bottom: 5px solid var(--orange);
 }
 
-header, main {
+body, header, main {
   background-color: var(--tan);
 }
 
