@@ -269,13 +269,16 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🌳
-        title: The Future is Now
+        emoji: 🤔
+        title: Web Animations
         description: |
-          If we are to survive... We must embrace the future! 🖖
+          With so many different ways to animate the web, it can be hard
+          to know what’s right for you. Let’s get inspired by some existing
+          animations, and learn more about the different types of front end animations,
+          what their limitations are, and how to choose between them.
         person:
-          name: Emily Rose
-          twitter: nexxylove
+          name: Kelly King
+          twitter: kng
 
 
     - 8:00 PM:
@@ -325,16 +328,13 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: 🤔
-        title: Web Animations
+        emoji: 🌳
+        title: The Future is Now
         description: |
-          With so many different ways to animate the web, it can be hard
-          to know what’s right for you. Let’s get inspired by some existing
-          animations, and learn more about the different types of front end animations,
-          what their limitations are, and how to choose between them.
+          If we are to survive... We must embrace the future! 🖖
         person:
-          name: Kelly King
-          twitter: kng
+          name: Emily Rose
+          twitter: nexxylove
 
 
     - 9:15 PM:
