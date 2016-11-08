@@ -86,9 +86,12 @@
     - 8:00 PM:
         type: Talk
         title: Asynchronous functions
+        emoji: 🎂
         person:
           name: Bradford C. Smith
-        description: With the `async` and `await` keywords defined in
+          twitter: BradfordCSmith
+        description: |
+          With the `async` and `await` keywords defined in
           the latest draft standard, you can write code combining the
           results of lots of asynchronous processes as easily as if
           their results were all immediately available. This feature
