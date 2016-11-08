@@ -83,7 +83,17 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        title: Asynchronous functions
+        person:
+          name: Bradford C. Smith
+        description: With the `async` and `await` keywords defined in
+          the latest draft standard, you can write code combining the
+          results of lots of asynchronous processes as easily as if
+          their results were all immediately available. This feature
+          is implemented in the latest beta versions of Chrome and Firefox
+          and you can get them anywhere by means of closure-compiler.
 
     - 8:15 PM:
         title: Intermission
