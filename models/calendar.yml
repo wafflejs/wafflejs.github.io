@@ -134,9 +134,9 @@
         title: Teaching computers to write popular music
         emoji: 🎼
         description: |
-          In order to write a #1 hit song, we'll apply traditional grammar 
-          modeling techniques to harmonic progressions found in today's popular 
-          music. Specifically we'll create a corpus, train a probablistic model, 
+          In order to write a #1 hit song, we'll apply traditional grammar
+          modeling techniques to harmonic progressions found in today's popular
+          music. Specifically we'll create a corpus, train a probablistic model,
           and then generate (hopefully) coherent songs from it.
         person:
           name: Sarah Brown
@@ -172,7 +172,15 @@
           name: Eric Eslinger
           twitter: pfooti
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: ✨
+        title: A Visualization a Month
+        description: |
+          [Datasketch|es](http://www.datasketch.es/) is a monthly collaboration between [Shirley Wu](http://twitter.com/sxywu) and [Nadieh Bremer](https://twitter.com/NadiehBremer).  Each month, we choose a topic and build a data visualization by the end of the month.  We document our process and struggles as we gather data, sketch ideas, and implement. This is a talk about what we've built, and what we've learned.
+        person:
+          name: Shirley Wu
+          twitter: sxywu
 
     - 9:15 PM:
         <<: *butter_beverajs
