@@ -128,7 +128,7 @@ div( class=className )
       p: a.btn( ui-sref='sponsorship' ) Sponsorship Details
 
     .col-xs-12.col-sm-6: .row.around-xs.middle-xs
-      span( ng-repeat='sponsor in index.day.sponsors' )
+      span( class='sponsor' ng-repeat='sponsor in index.day.sponsors' )
         a( href='{{url}}' ng-repeat='(name, url) in sponsor' )
           img( ng-src='/images/sponsors/{{name}}.svg' )
 
