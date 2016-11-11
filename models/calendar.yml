@@ -105,6 +105,20 @@
     - 8:30 PM: Performer TBA
 
     - 8:45 PM: Speaker TBA
+        type: Talk
+        title: Skeletal Animation in the Browser with WebGL
+        emoji: ☠
+        person:
+          name: Chinedu Francis Nwafili
+          twitter: chinedufn
+        description: |
+          Skeletal animation? In the browser? Using only small modules?
+          My oh my do I want to hear more!
+          In this talk we'll briefly introduce skeletal animation
+          and then demonstrate an implementation using JavaScript and WebGL.
+          You will hopefully walk away with a high level understanding of
+          skeletal animation and an understanding of how you can go on to
+          experiment with it on your own!
 
     - 9:00 PM: Speaker TBA
 
