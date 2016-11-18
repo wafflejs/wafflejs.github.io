@@ -81,7 +81,19 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+     type: Talk
+        title: Host Your Own Katy Perry Party
+        emoji: :information_desk_person:
+        description: |
+          Learn how to make your next meet-up, workshop or conference 
+          the event no one forgets. I'll show you the value of making 
+          your events more diverse and inclusive and prove that you don't 
+          need a massive budget to host a high-caliber event that everyone 
+          will be talking about long after they leave. 
+        person:
+          name: Bianca Escalante
+          twitter: BiancaCreating
 
     - 8:00 PM:
         type: Talk
