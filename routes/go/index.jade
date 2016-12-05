@@ -1,0 +1,56 @@
+title · A fun night of code, waffles, and karaoke.
+
+div( class=className )
+  section#header: .container-fluid
+    .row.bottom-sm
+      .col-xs-12.col-sm-7
+        h1 It's go time!
+
+  section.checklist: .container-fluid: .row
+    .col-xs-12
+      h2 Run through AV setup with:
+
+      ul: li( ng-repeat='event in go.day.schedule track by $index' )
+        .row.middle-xs( ng-repeat="(time, item) in event" ng-if='item.person || item.people || item.type' )
+          .col-xs.checkbox: input( type='checkbox' )
+
+          .col-xs
+            h3( ng-show='item.person' )
+              a.person(
+                ng-if='item.person.twitter'
+                ng-href='https://twitter.com/{{item.person.twitter}}'
+              )
+                | {{item.person.name}} · @{{item.person.twitter}}
+              a.person(
+                ng-if='item.person.github'
+                ng-href='https://github.com/{{item.person.github}}'
+              )
+                | {{item.person.name}} · @{{item.person.github}}
+            h3( ng-show='item.people' )
+              span( ng-repeat='person in item.people' )
+                span.separator( ng-hide='$first' ) &
+                wbr
+                a.person( ng-href='https://twitter.com/{{person.twitter}}' )
+                  | {{person.name}} · @{{person.twitter}}
+
+  section.checklist: .container-fluid: .row
+    .col-xs-12
+      h2 Prep hosts:
+
+      ul: li
+        .row.middle-xs
+          .col-xs.checkbox: input( type='checkbox' )
+
+          .col-xs
+            h3: a( ui-sref='script' ) Open wafflejs.com/script on phones
+
+  section.checklist: .container-fluid: .row
+    .col-xs-12
+      h2 Start the show:
+
+      ul: li
+        .row.middle-xs
+          .col-xs.checkbox: input( type='checkbox' )
+
+          .col-xs
+            h3: a( href='https://docs.google.com/presentation/d/13ORfgENilw-Wj75H5Wghif1bs7qa_ir7W9AMbpklLg8' ) Launch the slides
