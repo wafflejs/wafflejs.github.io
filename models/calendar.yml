@@ -46,7 +46,20 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        title: Using Serverless Technology to Improve Your Self Esteem
+        emoji: 😃
+        description: |
+          Learn how new "serverless" tech to boost your self-esteem.
+          There are some cool new ways for devs to build apps without needing to
+          focus on or worry about devOps, scaling, or paying hourly for serverless.
+          This talk will talk about how you might be able to use some of these new
+          "function as a service" providers (AWS, Google, IBM, Microsoft, etc) in 
+          your next (work or personal) project. 🎉
+        person:
+          name: David Wells
+          twitter: DavidWells
 
     - 8:00 PM: Speaker TBA
 
