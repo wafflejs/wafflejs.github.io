@@ -40,6 +40,7 @@
         emoji: 🎆
         person:
           name: Mark Fleschler
+          github: octobeard
         description: |
             Ever wanted to know how the Current Orders display works at [eatsa](https://eatsa.com)?
             Come learn about the how the automat of the future has harnessed web technologies
