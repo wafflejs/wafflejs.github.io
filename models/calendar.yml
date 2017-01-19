@@ -19,6 +19,15 @@
     - 8:30 PM: Performer TBA
 
     - 8:45 PM: Speaker TBA
+        type: Talk
+        title: Building a visual restaurant queue
+        emoji: 🎆
+        person:
+          name: Mark Fleschler
+        description: |
+            Ever wanted to know how the Current Orders display works at [eatsa](https://eatsa.com)?
+            Come learn about the how the automat of the future has harnessed web technologies
+            to build dynamic and colorful visuals!
 
     - 9:00 PM: Speaker TBA
 
