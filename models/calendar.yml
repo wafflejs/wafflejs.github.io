@@ -8,7 +8,23 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        title: Why React is so Fast
+        emoji: 🤔
+        description:
+          React is a declarative, component-based JavaScript library
+          designed to manage the view layer of complex UIs. In recent
+          years, it has established itself as the dominant library for
+          building responsive and highly-performant interfaces. But all
+          of what React does feels like it's happening in a black box!
+          So, I hope to explain why React is so efficient by
+          highlighting 2 key features -- React's virtual DOM and diff
+          algorithm. Don't worry if you're not a React pro, this talk
+          is intended to be accessible to all audiences!
+        person:
+          name: Albert Han
+          github: alberth8
 
     - 8:00 PM: Speaker TBA
 
