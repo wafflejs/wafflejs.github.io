@@ -1,4 +1,4 @@
-title · A fun night of code, waffles, and karaoke.
+title · WaffleJS Start Checklist
 
 div( class=className )
   section#header: .container-fluid
@@ -33,6 +33,17 @@ div( class=className )
                 a.person( ng-href='https://twitter.com/{{person.twitter}}' )
                   | {{person.name}} · @{{person.twitter}}
 
+      ul: li( ng-repeat='sponsor in go.day.sponsors track by $index' )
+        .row.middle-xs( ng-repeat="(name, url) in sponsor" )
+          .col-xs.checkbox: input( type='checkbox' )
+
+          .col-xs
+            h3
+              a.person(
+                ng-href='{{url}}'
+              )
+                | {{name}}
+
   section.checklist: .container-fluid: .row
     .col-xs-12
       h2 Prep hosts:
@@ -48,9 +59,17 @@ div( class=className )
     .col-xs-12
       h2 Start the show:
 
-      ul: li
-        .row.middle-xs
-          .col-xs.checkbox: input( type='checkbox' )
+      ul
+        li
+          .row.middle-xs
+            .col-xs.checkbox: input( type='checkbox' )
 
-          .col-xs
-            h3: a( href='https://docs.google.com/presentation/d/13ORfgENilw-Wj75H5Wghif1bs7qa_ir7W9AMbpklLg8' ) Launch the slides
+            .col-xs
+              h3 Begin recording on camera
+
+        li
+          .row.middle-xs
+            .col-xs.checkbox: input( type='checkbox' )
+
+            .col-xs
+              h3: a( href='https://docs.google.com/presentation/d/13ORfgENilw-Wj75H5Wghif1bs7qa_ir7W9AMbpklLg8' ) Launch the slides
