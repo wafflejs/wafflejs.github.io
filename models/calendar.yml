@@ -251,7 +251,7 @@
         <<: *butter_beverajs
 
   charity:
-    Black Girls Code: http://www.blackgirlscode.com/
+    ACLU: https://www.aclu.org/
 
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs
