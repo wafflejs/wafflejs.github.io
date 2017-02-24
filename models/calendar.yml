@@ -87,7 +87,22 @@
           name: David Wells
           twitter: DavidWells
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM: 
+        type: Talk
+        title: Resilient Web Applications
+        emoji: 🔏
+        description: |
+          How do we build web apps that work under poor network conditions?
+          How do we build web apps that protect our privacy?
+          Building applications that are resilient to hostile networks and governments is
+          not a matter swapping out one service for another, it requires that we
+          rethink many of our assumptions about trust and infrastructure. It requires
+          that we build a lot more open source software infrastructure to make the
+          basic tools like signing and encryption as usable as we've made the rest
+          of our software infrastructure.
+        person:
+          name: Mikeal Rogers
+          twitter: mikeal
 
     - 8:15 PM:
         title: Intermission
