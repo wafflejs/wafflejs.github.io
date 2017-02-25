@@ -87,7 +87,7 @@
           name: David Wells
           twitter: DavidWells
 
-    - 8:00 PM: 
+    - 8:00 PM:
         type: Talk
         title: Resilient Web Applications
         emoji: 🔏
@@ -186,17 +186,17 @@
           skeletal animation and an understanding of how you can go on to
           experiment with it on your own!
 
-    - 9:00 PM:  
+    - 9:00 PM:
         type: Talk
         title: Automate your User-interface QA using selenium
-        emoji: ✨ 
+        emoji: ✨
         description: |
-          Testing front-end is tricky, it’s easy to become lenient on 
-          implementing front-end tests. But as many of you have experienced, 
-          changing just a little bit on a legacy-ish front-end application 
-          can become a daunting and sometimes scary. Hopefully, selenium 
-          which is an automated UI testing tool can help ease those concerns. 
-          In this talk, I’ll introduce what selenium is, how to get up and running. 
+          Testing front-end is tricky, it’s easy to become lenient on
+          implementing front-end tests. But as many of you have experienced,
+          changing just a little bit on a legacy-ish front-end application
+          can become a daunting and sometimes scary. Hopefully, selenium
+          which is an automated UI testing tool can help ease those concerns.
+          In this talk, I’ll introduce what selenium is, how to get up and running.
         person:
           name: Jouella Fabe
           twitter: jmfabe
@@ -205,7 +205,7 @@
         <<: *butter_beverajs
 
   charity:
-    Black Girls Code: http://www.blackgirlscode.com/
+    Transgender Law Center: https://transgenderlawcenter.org/
 
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs
