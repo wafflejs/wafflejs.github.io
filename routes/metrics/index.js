@@ -1,5 +1,5 @@
 import angular from 'angular'
-import d3 from 'd3'
+import * as d3 from 'd3'
 import moment from 'moment'
 import { reverse, transform } from 'lodash'
 import css from './index.css'
@@ -24,7 +24,7 @@ module.exports = angular.module('wafflejs.routes.metrics', [
         const dates = transform(reverse(calendar), (dates, month) => {
           dates[moment(month.day).format('MMM')] = month.day
         }, {})
-        return d3.csv.parse(csv.data, (row) => {
+        return d3.csvParse(csv.data, (row) => {
           row['Ticket Created Date'] = moment.utc(row['Ticket Created Date'], 'YYYY-MM-DD HH:mm:ss').toDate()
           row.date = dates[row['Event Month']]
           return row
