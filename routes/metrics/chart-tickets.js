@@ -1,5 +1,5 @@
 import angular from 'angular'
-import d3 from 'd3'
+import * as d3 from 'd3'
 import moment from 'moment'
 import { chain, flatten, forEach, keys, map, values } from 'lodash'
 import {} from './chart-tickets.css'
@@ -33,7 +33,7 @@ module.exports = angular.module('wafflejs.routes.metrics.chart-tickets', [])
       forEach(tickets, (tickets) => {
         tickets.last = tickets[0].date === last
         tickets.date = moment(tickets[0].date).endOf('day')
-        tickets.x = d3.time.scale()
+        tickets.x = d3.scaleTime()
           .domain([moment(tickets.date).subtract(38, 'days'), tickets.date])
           .range([0, width])
           .clamp(true)
@@ -43,7 +43,7 @@ module.exports = angular.module('wafflejs.routes.metrics.chart-tickets', [])
         })
       })
       const x = tickets[0][0].x
-      const xAxis = d3.svg.axis()
+      const xAxis = d3.axisBottom()
         .scale(x)
         .tickFormat(d => Math.round(moment.duration(d - x.domain()[1]).asDays()))
       chart.append('g')
@@ -52,23 +52,22 @@ module.exports = angular.module('wafflejs.routes.metrics.chart-tickets', [])
         .call(xAxis)
 
       // y
-      const y = d3.scale.linear()
+      const y = d3.scaleLinear()
         .domain([0, d3.max(map(tickets, 'length'))])
         .range([height, 0])
         .nice()
-      const yAxis = d3.svg.axis()
+      const yAxis = d3.axisLeft()
         .scale(y)
-        .orient('left')
         .ticks(4)
       chart.append('g')
         .classed('y axis', true)
         .call(yAxis)
 
       // line
-      const line = d3.svg.line()
+      const line = d3.line()
         .x(d => d.x(d['Ticket Created Date']))
         .y(d => y(d.n))
-      const opacity = d3.scale.linear()
+      const opacity = d3.scaleLinear()
         .domain([tickets[0].date, tickets[tickets.length-1].date])
         .range([0.5, 1])
 
@@ -93,7 +92,7 @@ module.exports = angular.module('wafflejs.routes.metrics.chart-tickets', [])
           .text(d => `${d[0]['Event Month']} (${d.length})`)
 
       // voronoi
-      const voronoi = d3.geom.voronoi()
+      const voronoi = d3.voronoi()
         .x(d => d.x(d['Ticket Created Date']))
         .y(d => y(d.n))
       const voronoiGroup = chart.append('g')

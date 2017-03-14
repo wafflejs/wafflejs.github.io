@@ -1,4 +1,4 @@
-- day: '2017-05-03'
+- day: '2017-08-02'
   schedule:
     - 7:00 PM:
         title: Get some tasty waffles and drinks
@@ -32,11 +32,7 @@
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
 
-  sponsors:
-    - Opendoor: https://www.opendoor.com/jobs
-    - Ueno: http://www.ueno.co/careers
-
-- day: '2017-04-05'
+- day: '2017-07-05'
   schedule:
     - 7:00 PM:
         title: Get some tasty waffles and drinks
@@ -49,6 +45,167 @@
     - 7:45 PM: Speaker TBA
 
     - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+- day: '2017-06-07'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+- day: '2017-05-03'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM:
+        type: Talk
+        title: Why React is so Fast
+        emoji: 🤔
+        description:
+          React is a declarative, component-based JavaScript library
+          designed to manage the view layer of complex UIs. In recent
+          years, it has established itself as the dominant library for
+          building responsive and highly-performant interfaces. But all
+          of what React does feels like it's happening in a black box!
+          So, I hope to explain why React is so efficient by
+          highlighting 2 key features -- React's virtual DOM and diff
+          algorithm. Don't worry if you're not a React pro, this talk
+          is intended to be accessible to all audiences!
+        person:
+          name: Albert Han
+          github: alberth8
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM:
+        type: Talk
+        title: Building a visual restaurant queue
+        emoji: 🎆
+        person:
+          name: Mark Fleschler
+          github: octobeard
+        description: |
+            Ever wanted to know how the Current Orders display works at [eatsa](https://eatsa.com)?
+            Come learn about the how the automat of the future has harnessed web technologies
+            to build dynamic and colorful visuals!
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Opendoor: https://www.opendoor.com/jobs
+    - Ueno: http://www.ueno.co/careers
+    - SparkPost: https://www.sparkpost.com/careers/
+
+- day: '2017-04-05'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM:
+        type: Talk
+        title: Using Serverless Technology to Improve Your Self Esteem
+        emoji: 😃
+        description: |
+          Learn how new "serverless" tech to boost your self-esteem.
+          There are some cool new ways for devs to build apps without needing to
+          focus on or worry about devOps, scaling, or paying hourly for serverless.
+          This talk will talk about how you might be able to use some of these new
+          "function as a service" providers (AWS, Google, IBM, Microsoft, etc) in
+          your next (work or personal) project. 🎉
+        person:
+          name: David Wells
+          twitter: DavidWells
+
+    - 8:00 PM:
+        type: Talk
+        title: Resilient Web Applications
+        emoji: 🔏
+        description: |
+          How do we build web apps that work under poor network conditions?
+          How do we build web apps that protect our privacy?
+          Building applications that are resilient to hostile networks and governments is
+          not a matter swapping out one service for another, it requires that we
+          rethink many of our assumptions about trust and infrastructure. It requires
+          that we build a lot more open source software infrastructure to make the
+          basic tools like signing and encryption as usable as we've made the rest
+          of our software infrastructure.
+        person:
+          name: Mikeal Rogers
+          twitter: mikeal
 
     - 8:15 PM:
         title: Intermission
@@ -81,9 +238,34 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        title: Host Your Own Katy Perry Party
+        emoji: 💁🏽
+        description: |
+          Learn how to make your next meet-up, workshop or conference
+          the event no one forgets. I'll show you the value of making
+          your events more diverse and inclusive and prove that you don't
+          need a massive budget to host a high-caliber event that everyone
+          will be talking about long after they leave.
+        person:
+          name: Bianca Escalante
+          twitter: BiancaCreating
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        title: Straight-through asynchronous functions with `async`/`await`
+        emoji: 🎂
+        person:
+          name: Bradford C. Smith
+          twitter: BradfordCSmith
+        description: |
+          With the `async` and `await` keywords defined in
+          the latest draft standard, you can write code combining the
+          results of lots of asynchronous processes as easily as if
+          their results were all immediately available. This feature
+          is implemented in the latest beta versions of Chrome and Firefox
+          and you can get them anywhere by means of closure-compiler.
 
     - 8:15 PM:
         title: Intermission
@@ -91,15 +273,42 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        title: Skeletal Animation in the Browser with WebGL
+        emoji: ☠
+        person:
+          name: Chinedu Francis Nwafili
+          twitter: chinedufn
+        description: |
+          Skeletal animation? In the browser? Using only small modules?
+          My oh my do I want to hear more!
+          In this talk we'll briefly introduce skeletal animation
+          and then demonstrate an implementation using JavaScript and WebGL.
+          You will hopefully walk away with a high level understanding of
+          skeletal animation and an understanding of how you can go on to
+          experiment with it on your own!
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        title: Automate your User-interface QA using selenium
+        emoji: ✨
+        description: |
+          Testing front-end is tricky, it’s easy to become lenient on
+          implementing front-end tests. But as many of you have experienced,
+          changing just a little bit on a legacy-ish front-end application
+          can become a daunting and sometimes scary. Hopefully, selenium
+          which is an automated UI testing tool can help ease those concerns.
+          In this talk, I’ll introduce what selenium is, how to get up and running.
+        person:
+          name: Jouella Fabe
+          twitter: jmfabe
 
     - 9:15 PM:
         <<: *butter_beverajs
 
   charity:
-    Black Girls Code: http://www.blackgirlscode.com/
+    Transgender Law Center: https://transgenderlawcenter.org/
 
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs
@@ -121,9 +330,9 @@
         title: Teaching computers to write popular music
         emoji: 🎼
         description: |
-          In order to write a #1 hit song, we'll apply traditional grammar 
-          modeling techniques to harmonic progressions found in today's popular 
-          music. Specifically we'll create a corpus, train a probablistic model, 
+          In order to write a #1 hit song, we'll apply traditional grammar
+          modeling techniques to harmonic progressions found in today's popular
+          music. Specifically we'll create a corpus, train a probablistic model,
           and then generate (hopefully) coherent songs from it.
         person:
           name: Sarah Brown
@@ -159,13 +368,21 @@
           name: Eric Eslinger
           twitter: pfooti
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: ✨
+        title: A Visualization a Month
+        description: |
+          [Datasketch|es](http://www.datasketch.es/) is a monthly collaboration between [Shirley Wu](http://twitter.com/sxywu) and [Nadieh Bremer](https://twitter.com/NadiehBremer).  Each month, we choose a topic and build a data visualization by the end of the month.  We document our process and struggles as we gather data, sketch ideas, and implement. This is a talk about what we've built, and what we've learned.
+        person:
+          name: Shirley Wu
+          twitter: sxywu
 
     - 9:15 PM:
         <<: *butter_beverajs
 
   charity:
-    Black Girls Code: http://www.blackgirlscode.com/
+    ACLU: https://www.aclu.org/
 
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs
@@ -284,10 +501,10 @@
     - 8:00 PM:
         type: Talk
         emoji: 🎨
-        title: Albers as a Millenial
+        title: Albers as a Millennial
         description: |
           What kind of art would Josef and Anni Albers
-          have made if they were millenials? Come learn
+          have made if they were millennials? Come learn
           about how to make generative interactive art
           with the magic of JavaScript. And learn a bit
           about art history too.
@@ -610,7 +827,7 @@
         emoji: 📦
         person:
           name: Aysegul Yonet
-          twitter: AysegulYonet
+          twitter: AysSomething
 
     - 9:00 PM:
         type: Talk

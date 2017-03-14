@@ -1,0 +1,34 @@
+:local(.className) {
+  display: flex;
+  flex-direction: column;
+
+  section.checklist {
+    h2 {
+      margin-top: 0;
+    }
+
+    h3 {
+      margin-bottom: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      color: inherit;
+      padding: 0;
+
+      .row {
+        margin-bottom: 1rem;
+      }
+
+      .checkbox {
+        display: flex;
+        flex-grow: 0;
+
+        input[type='checkbox'] {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+}
