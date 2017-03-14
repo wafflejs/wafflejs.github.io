@@ -134,7 +134,14 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎶
+        title: Nobody's Business
+        description: Bluesy Ukulele
+        person:
+          name: Bradford C. Smith
+          twitter: BradfordCSmith
 
     - 8:45 PM:
         type: Talk
