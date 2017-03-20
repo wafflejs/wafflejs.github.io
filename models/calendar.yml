@@ -199,11 +199,13 @@
 
     - 8:00 PM:
         type: Talk
-        title: Making Your Work Visible
-        emoji: 👀
+        title: Making Your Work Visible, and other things I wish I knew earlier
+        emoji: 🔍
         description: |
-          A talk about how sometimes you can work hard, but people gotta see that
-          hard work.
+          Sometimes, working hard isn't enough. Sometimes, other people need to 
+          see and value your work. Sometimes, you get lucky. This talk will cover
+          hard-work, visibility, the myth of meritocracy, and what we owe one another
+          once we are "successful".
         person:
           name: Duretti Hirpa
           twitter: duretti
