@@ -220,7 +220,16 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        title: Making Your Work Visible
+        emoji: 👀
+        description: |
+          A talk about how sometimes you can work hard, but people gotta see that
+          hard work.
+        person:
+          name: Duretti Hirpa
+          twitter: duretti
 
     - 9:00 PM: Speaker TBA
 
