@@ -199,6 +199,23 @@
 
     - 8:00 PM:
         type: Talk
+        title: Making Your Work Visible
+        emoji: 👀
+        description: |
+          A talk about how sometimes you can work hard, but people gotta see that
+          hard work.
+        person:
+          name: Duretti Hirpa
+          twitter: duretti
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM:
+        type: Talk
         title: Resilient Web Applications
         emoji: 🔏
         description: |
@@ -213,23 +230,6 @@
         person:
           name: Mikeal Rogers
           twitter: mikeal
-
-    - 8:15 PM:
-        title: Intermission
-        emoji: 🕣
-
-    - 8:30 PM: Performer TBA
-
-    - 8:45 PM:
-        type: Talk
-        title: Making Your Work Visible
-        emoji: 👀
-        description: |
-          A talk about how sometimes you can work hard, but people gotta see that
-          hard work.
-        person:
-          name: Duretti Hirpa
-          twitter: duretti
 
     - 9:00 PM:
         type: Talk
