@@ -231,7 +231,21 @@
           name: Duretti Hirpa
           twitter: duretti
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        title: Embracing change as an Open Source product
+        emoji: 🔄
+        description: |
+          The Open Source project I work on, BOSH, has been able to adapt to changing
+          product and engineering needs over the past 3 years. I'll talk about some of
+          the major changes that we've made while growing our contributor base. We
+          transitioned from waterfall to XP, scaled our team to be globally distributed,
+          and replaced core architectural components with zero downtime. While the
+          tech industry routinely encounters these challenges, doing so as an OS
+          product and maintaining shared vision throughout presents unique challenges.
+        person:
+          name: Shatarupa Nandi
+          twitter: rupanandi
 
     - 9:15 PM:
         <<: *butter_beverajs
