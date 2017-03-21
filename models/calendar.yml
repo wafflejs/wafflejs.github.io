@@ -202,7 +202,7 @@
         title: Making Your Work Visible, and other things I wish I knew earlier
         emoji: 🔍
         description: |
-          Sometimes, working hard isn't enough. Sometimes, other people need to 
+          Sometimes, working hard isn't enough. Sometimes, other people need to
           see and value your work. Sometimes, you get lucky. This talk will cover
           hard-work, visibility, the myth of meritocracy, and what we owe one another
           once we are "successful".
@@ -214,7 +214,15 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎶
+        title: Live Performance
+        description: |
+          TBD
+        person:
+          name: Brian Bloniarz
+          github: b11z
 
     - 8:45 PM:
         type: Talk
