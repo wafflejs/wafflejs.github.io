@@ -128,7 +128,15 @@
           name: Albert Han
           github: alberth8
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        title: Quantified Selfie
+        emoji: ❤️📈 
+        description:
+          We have become the largest producers of data in history. Almost every click online, each swipe on our tablets and each tap on our smartphone produces a data point in a virtual repository. There are living, breathing humans behind these spreadsheets and they took actions to create these data points. For this talk, I will talk about creating interactive graphics to visualize our digital footprints in ways that allows us to explore humanity with all its wondrous quirks.  
+        person:
+          name: Lam Thuy Vo
+          github: lamthuyvo
 
     - 8:15 PM:
         title: Intermission
