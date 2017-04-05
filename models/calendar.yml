@@ -253,6 +253,7 @@
 
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs
+    - Mindera: https://www.mindera.com/#we-are-hiring
 
 - day: '2017-05-03'
   schedule:
@@ -323,10 +324,10 @@
         title: |
             Building GraphQL Backend
         description: |
-            GraphQL is a powerful technology providing client an efficient and elegant way to fetch data, 
-            getting exactly the data and avoid multiple round-trips. I'm a co-author of library called Allograph. 
-            Allograph aims to integrate the various tools around GraphQL to provide a rapid development framework 
-            to enhance developer experience. After the talk, you'll gain deeper understanding on GraphQL itself, 
+            GraphQL is a powerful technology providing client an efficient and elegant way to fetch data,
+            getting exactly the data and avoid multiple round-trips. I'm a co-author of library called Allograph.
+            Allograph aims to integrate the various tools around GraphQL to provide a rapid development framework
+            to enhance developer experience. After the talk, you'll gain deeper understanding on GraphQL itself,
             with perspectives on how to build a GraphQL backend either alongside an existing app or from scratch.
         person:
           name: Ting Chou
