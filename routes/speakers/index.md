@@ -54,6 +54,10 @@ What should be in my talk submission?
 -------------------------------------
 Just a few sentences describing what you want to talk about would be great.
 
+When happens after I submit my talk?
+------------------------------------
+We will follow up with you via email! It may take a few days.
+
 What's the A/V situation?
 -------------------------
 We'll have HDMI to plug into (for video and audio) and a mic for you to use.
