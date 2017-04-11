@@ -229,7 +229,21 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+          type: Talk
+          title: Step by Step - Building a (open-source!) math solver
+          emoji: ➕💡
+          description:
+            Everyone has to learn math. And a lot of them don’t like it!!
+            Can we build software to solve any math problem, helping students
+            and teaching them along the way? Some algorithms are designed to
+            optimize for speed, but how do you design algorithms to optimize for
+            teaching? Let’s talk about how “mathsteps” uses code to step through
+            algebra problems, how these algorithms were designed with teaching
+            in mind, and why it’s so awesome that this project is open-source!
+          person:
+            name: Evy Kassirer
+            twitter: evykassirer
 
     - 8:15 PM:
         title: Intermission
