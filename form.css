@@ -19,7 +19,6 @@ button, .btn {
   border-color: var(--orange);
   background-color: transparent;
   color: var(--orange);
-  text-transform: uppercase;
   text-align: center;
   box-sizing: border-box;
   box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.2);
