@@ -196,7 +196,14 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: ⏲
+        title: Instrumenting Web Applications - Patterns, Asynchrony, and Data Management
+        description: Curious about how I could dig into the guts of my web apps, I built an agent for an application performance monitoring system, and am excited to share what I learned! We'll explore the various patterns of instrumentation, how to process and store it, and what to do when we're ready to ship it off to our service.
+        person:
+          name: Tyler Guillen
+          twitter: aastronautss
 
     - 8:15 PM:
         title: Intermission
