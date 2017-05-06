@@ -274,7 +274,15 @@
           name: Athan Reines
           github: kgryte
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        title: TBD
+        emoji: 🤔
+        description:
+          TBD
+        person:
+          name: Potch
+          twitter: potch
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
