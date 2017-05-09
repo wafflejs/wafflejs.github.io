@@ -213,7 +213,15 @@
 
     - 8:45 PM: Speaker TBA
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        title: TBD
+        emoji: 🤔
+        description:
+          TBD
+        person:
+          name: Potch
+          twitter: potch
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
@@ -245,15 +253,15 @@
           emoji: 🔨⌚️
           description:
             Design and Development are areas that work closely together but can be worlds
-            apart when it comes to the product development. This is a talk about how 
+            apart when it comes to the product development. This is a talk about how
             the production process can be improved through the use of communication and
             empowerment. This talk will also use story telling to touch on the
             use of design systems, mentorship, and explore the parallels that Tech has with
-            Mainstream Hip Hop/Rap. 
+            Mainstream Hip Hop/Rap.
           person:
             name: Brian Douglas
             twitter: bdougieYO
-            
+
     - 8:00 PM:
           type: Talk
           title: Step by Step - Building a (open-source!) math solver
@@ -294,15 +302,7 @@
           name: Athan Reines
           github: kgryte
 
-    - 9:00 PM:
-        type: Talk
-        title: TBD
-        emoji: 🤔
-        description:
-          TBD
-        person:
-          name: Potch
-          twitter: potch
+    - 9:00 PM: Speaker TBA
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
