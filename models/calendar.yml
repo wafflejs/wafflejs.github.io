@@ -158,7 +158,14 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🎉
+        title: TBD
+        description: TBD
+        person:
+          name: Tilde Ann Thurium
+          twitter: annthurium
 
     - 8:15 PM:
         title: Intermission
