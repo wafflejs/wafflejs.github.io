@@ -173,7 +173,26 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 🔮✨💜
+        title: Hexes and the Magic of Base 16
+        description:
+          Some numbers seem to be extra cool in the world of computer science -
+          256, 128, and of course, all of those 0's and 1's that make up binary.
+          But there's one number that's super magical, and almost all of us have
+          interacted with it as JavaScript developers. The number 16! This talk
+          will look at the awesomeness of hexadeimcal numbers. We'll explore the
+          logic behind color hex codes, and the math that's behind converting
+          between rgb and hex codes. Behind the hex codes that we are all
+          familiar with is a powerful hexadecimal number systems. We'll explore
+          why the base 16 number system is so common in computer science, and
+          look at hexadecimals in the wild (for example, in hex speak and even
+          in IP addresses!). Let's fall under the spell of hexadecimal numbers
+          and learn why exactly they are so powerful and popular.
+        person:
+          name: Vaidehi Joshi
+          twitter: vaidehijoshi
 
     - 9:00 PM: Speaker TBA
 
