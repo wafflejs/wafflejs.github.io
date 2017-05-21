@@ -309,7 +309,26 @@
           name: Athan Reines
           github: kgryte
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        title: Waffle.js & chill (srsly tho, just chillin')
+        emoji: 💡
+        description:
+          I'm a huge fan of mood lighting and app reliability. Related? Of
+          course!  I heard about Progressive Web Apps and thought it was a
+          great way to make web applications more accessible, so I wanted to
+          give it a try. (Disclaimer🤓  I don't think PWAs are going to replace
+          mobile apps just yet, but I do think they're a great way to make our
+          web apps even more awesome) At the same time I had been wanting to
+          create an application that let me control Philips Hue lights. That
+          way I could go anywhere and set the mood with my handy-dandy portable
+          lights. So, if I went outside to enjoy my yard, on the roof to hang
+          out with friends, or WaffleJS to chill with amazing people, I could
+          easily set the appropriate mood lighting with my app.  I would like
+          to share my experience with all of you and show off my new toys 😊
+        person:
+          name: Tara Z. Manicsic
+          github: tzmanics
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
