@@ -211,7 +211,7 @@
     - RunKit: https://runkit.com/jobs
     - SparkPost: https://www.sparkpost.com/careers/
 
-- day: '2017-07-05'
+- day: '2017-07-12'
   schedule:
     - 7:00 PM:
         title: Get some tasty waffles and drinks
@@ -247,7 +247,7 @@
         person:
           name: Malte Ubl
           twitter: cramforce
-          
+
     - 9:00 PM:
         type: Talk
         title: TBD
