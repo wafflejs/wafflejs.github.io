@@ -236,8 +236,15 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
-
+    - 8:30 PM:
+        type: Performance
+        emoji: 🔁
+        title: TBD
+        description: TBD
+        person:
+          name: Variable J
+          twitter: TBD
+          
     - 8:45 PM:
         type: Talk
         title: TBD
