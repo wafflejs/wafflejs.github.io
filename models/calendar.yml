@@ -156,8 +156,15 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
-
+    - 8:00 PM:
+        type: Talk
+        emoji: 🎉
+        title: TBD
+        description: TBD
+        person:
+          name: Rogelio Guzman
+          github: rogeliog
+          
     - 8:00 PM:
         type: Talk
         emoji: 🎉
