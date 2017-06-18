@@ -62,7 +62,6 @@
     "yaml-loader": "0.2.0"
   },
   "devDependencies": {
-    "svgo": "0.6.6",
     "webpack-dev-server": "1.14.0"
   }
 }
