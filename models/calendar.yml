@@ -206,7 +206,15 @@
           name: Vaidehi Joshi
           twitter: vaidehijoshi
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        title: TBD
+        emoji: 🌈
+        description:
+          TBD
+        person:
+          name: Chandler Abraham 
+          twitter: cba
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
