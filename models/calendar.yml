@@ -233,7 +233,15 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        title: TBD
+        emoji: ✨
+        description:
+          TBD
+        person:
+          name: Caroline Sinders 
+          twitter: carolinesinders
 
     - 8:00 PM:
         type: Talk
