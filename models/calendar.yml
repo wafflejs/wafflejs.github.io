@@ -275,10 +275,11 @@
           
     - 8:45 PM:
         type: Talk
-        title: TBD
+        title: The making of: @jsconfeu
         emoji: 💜
         description:
-          TBD
+          8 years ago we founded a little JavaScript conference called [JSConf EU](https://2017.jsconf.eu/). 
+          Some people think it is really good. This is a talk about how it is made and how you can make one yourself.
         person:
           name: Malte Ubl
           twitter: cramforce
