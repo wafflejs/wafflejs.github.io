@@ -267,8 +267,10 @@
     - 8:30 PM:
         type: Performance
         emoji: 🎸 🎶 💻
-        title: variable j bass music
-        description: bass loops and live web audio visualizations. [https://variablej.audio](https://variablej.audio/)
+        title: |
+          variable j bass music
+        description: |
+          bass loops and live web audio visualizations [https://variablej.audio](https://variablej.audio/)
         person:
           name: Justin John
           github: johnjv
