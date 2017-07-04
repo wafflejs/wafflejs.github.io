@@ -266,12 +266,14 @@
 
     - 8:30 PM:
         type: Performance
-        emoji: 🔁
-        title: TBD
-        description: TBD
+        emoji: 🎸 🎶 💻
+        title: |
+          variable j bass music
+        description: |
+          bass loops and live web audio visualizations [https://variablej.audio](https://variablej.audio/)
         person:
-          name: Variable J
-          twitter: TBD
+          name: Justin John
+          github: johnjv
           
     - 8:45 PM:
         type: Talk
