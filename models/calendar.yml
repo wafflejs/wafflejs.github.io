@@ -254,8 +254,8 @@
     - 8:00 PM:
         type: Talk
         emoji: ⏲
-        title: TBD
-        description: TBD
+        title: npm@5, fast and full of features
+        description: Learn about what's new with npm@5 and what's in our future.
         person:
           name: Rebecca
           twitter: ReBeccaOrg
