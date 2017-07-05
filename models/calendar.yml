@@ -288,7 +288,8 @@
 
     - 9:00 PM:
         type: Talk
-        title: Push and Pull: Boids!
+        title: |
+          Push and Pull: Boids!
         emoji: 🦅
         description:
           Simple rules, surprising complexity! Some simple physics demos and the basics behind them.
