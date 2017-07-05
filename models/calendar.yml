@@ -288,10 +288,11 @@
 
     - 9:00 PM:
         type: Talk
-        title: TBD
-        emoji: 🤔
+        title: |
+          Push and Pull: Boids!
+        emoji: 🦅
         description:
-          TBD
+          Simple rules, surprising complexity! Some simple physics demos and the basics behind them.
         person:
           name: Potch
           twitter: potch
