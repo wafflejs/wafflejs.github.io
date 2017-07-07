@@ -170,7 +170,7 @@
         person:
           name: Rogelio Guzman
           github: rogeliog
-          
+
     - 8:00 PM:
         type: Talk
         emoji: 🎉
@@ -209,12 +209,14 @@
 
     - 9:00 PM:
         type: Talk
-        title: TBD
+        title: The psychophysics of color on the web
         emoji: 🌈
         description:
-          TBD
+          What is the link between RGB color coordinates and the
+          human visual system? Let's dig deep into the 90 year old vision
+          experiments that are still the perceptual basis for modern color spaces.
         person:
-          name: Chandler Abraham 
+          name: Chandler Abraham
           twitter: cba
 
     - 9:15 PM: &butter_beverajs
@@ -249,7 +251,7 @@
         description:
           TBD
         person:
-          name: Caroline Sinders 
+          name: Caroline Sinders
           twitter: carolinesinders
 
     - 8:00 PM:
@@ -275,13 +277,13 @@
         person:
           name: Justin John
           github: johnjv
-          
+
     - 8:45 PM:
         type: Talk
         title: "The making of: @jsconfeu"
         emoji: 💜
         description:
-          8 years ago we founded a little JavaScript conference called [JSConf EU](https://2017.jsconf.eu/). 
+          8 years ago we founded a little JavaScript conference called [JSConf EU](https://2017.jsconf.eu/).
           Some people think it is really good. This is a talk about how it is made and how you can make one yourself.
         person:
           name: Malte Ubl
