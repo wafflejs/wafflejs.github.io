@@ -6,17 +6,14 @@ module.exports = angular.module('wafflejs.routes.index', [
   require('angular-ui-router'),
   require('angular-marked'),
   require('models/calendar'),
-  require('./sold-tracking'),
 ])
 .config(($stateProvider) => {
   $stateProvider.state('index', {
-    url: '/?day&sold',
+    url: '/?day',
     template: require('./index.jade')(css),
     controllerAs: 'index',
     controller: class {
       constructor(calendar, $scope, $state) {
-        this.sold = $state.params.sold
-
         this.people = chain(calendar)
           .map((day) => map(day.schedule, (event) => {
             event = values(event)[0]
