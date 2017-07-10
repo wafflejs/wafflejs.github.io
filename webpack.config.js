@@ -33,6 +33,7 @@ module.exports = {
         loaders: ['style', 'css', 'postcss'] },
 
       { test: /\.jade$/, loader: 'jade' },
+      { test: /\.html/, loader: 'html' },
 
       { test: /\.js$/,
         exclude: /node_modules/,
