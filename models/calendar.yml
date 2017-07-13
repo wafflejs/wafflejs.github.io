@@ -128,7 +128,7 @@
         person:
           name: Laurie Voss
           twitter: seldo
-          
+
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
@@ -180,9 +180,11 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 🎉
-        title: TBD
-        description: TBD
+        emoji: 🍕🦄
+        title: |
+          ESLint be with you: developer tools, empathy, and the Force
+        description: |
+          Shared, programmatically enforceable style guides make it easier for code reviewers and authors to have meaningful conversations about substance, not style (thanks ESlint!) Like the Force, linters have a dark and a light side. How do we make sure developer tools are providing value evenly for contributors of all levels?
         person:
           name: Tilde Ann Thurium
           twitter: annthurium
