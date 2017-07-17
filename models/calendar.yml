@@ -118,7 +118,14 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🎉
+        title: TBD
+        description: TBD
+        person:
+          name: Alaina Kafkes
+          twitter: alainakafkes
 
     - 8:00 PM:
         type: Talk
