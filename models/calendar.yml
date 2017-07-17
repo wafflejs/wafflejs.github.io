@@ -120,9 +120,13 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🎉
-        title: TBD
-        description: TBD
+        emoji: 📚
+        title: On Literature & Linked Lists: How Reading Books Can Make You a Better Engineer
+        description:
+          Reading books – especially fiction books – is quite undervalued in the tech industry.
+          But reading stories can lead to profound improvements in a software engineer’s work.
+          In this talk, I’ll address ways in which the simple act of reading books gives
+          engineers a boost in productivity & skills.
         person:
           name: Alaina Kafkes
           twitter: alainakafkes
