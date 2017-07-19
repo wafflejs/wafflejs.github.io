@@ -204,7 +204,14 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        title: TBA
+        emoji: 🎸
+        description: TBA
+        person:
+          name: Evy Kassirer
+          twitter: evykassirer
 
     - 8:45 PM:
         type: Talk
