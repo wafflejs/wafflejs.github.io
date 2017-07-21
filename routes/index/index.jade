@@ -94,7 +94,7 @@ div( class=className )
                 ng-if='item.person.github'
                 ng-href='https://github.com/{{item.person.github}}'
               )
-                | {{item.person.name}} · @{{item.person.github}}
+                | {{item.person.name}} · #[span.github-link: {{item.person.github}}]
             h5( ng-show='item.people' )
               span( ng-repeat='person in item.people' )
                 span.separator( ng-hide='$first' ) &
