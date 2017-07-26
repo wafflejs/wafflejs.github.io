@@ -35,7 +35,7 @@
     So we have a total of **4x 10ish-minute lightning talks** with
     **{{script.speakers[0].name}}** and **{{script.speakers[1].name}}** going
     first, then a nice little intermission. At the end of intermission,
-    **{{script.performers[0]}}** will be performing, followed by
+    **{{script.performers[0][0].name}}** will be performing, followed by
     **{{script.speakers[2].name}}** and finally **{{script.speakers[3].name}}**
     after that.
 
