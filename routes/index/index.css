@@ -118,6 +118,11 @@
       white-space: nowrap;
       line-height: 150%;
 
+      .pronouns {
+        font-weight: normal;
+        opacity: .85;
+      }
+
       .github-link {
         margin-left: 2px;
         padding-left: 17px;

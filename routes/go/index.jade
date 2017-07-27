@@ -20,18 +20,18 @@ div( class=className )
                 ng-if='item.person.twitter'
                 ng-href='https://twitter.com/{{item.person.twitter}}'
               )
-                | {{item.person.name}} · @{{item.person.twitter}}
+                | {{item.person.name}} #[span.pronouns( ng-if='item.person.pronouns' ) ({{item.person.pronouns}})] · @{{item.person.twitter}}
               a.person(
                 ng-if='item.person.github'
                 ng-href='https://github.com/{{item.person.github}}'
               )
-                | {{item.person.name}} · @{{item.person.github}}
+                | {{item.person.name}} #[span.pronouns( ng-if='item.person.pronouns' ) ({{item.person.pronouns}})] · @{{item.person.github}}
             h3( ng-show='item.people' )
               span( ng-repeat='person in item.people' )
                 span.separator( ng-hide='$first' ) &
                 wbr
                 a.person( ng-href='https://twitter.com/{{person.twitter}}' )
-                  | {{person.name}} · @{{person.twitter}}
+                  | {{person.name}} #[span.pronouns( ng-if='person.pronouns' ) ({{person.pronouns}})] · @{{person.twitter}}
 
       ul: li( ng-repeat='sponsor in go.day.sponsors track by $index' )
         .row.middle-xs( ng-repeat="(name, url) in sponsor" )

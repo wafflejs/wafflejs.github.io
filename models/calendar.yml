@@ -130,6 +130,7 @@
         person:
           name: Alaina Kafkes
           twitter: alainakafkes
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:00 PM:
         type: Talk
@@ -139,6 +140,7 @@
         person:
           name: Laurie Voss
           twitter: seldo
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:15 PM:
         title: Intermission
@@ -188,6 +190,7 @@
         person:
           name: Rogelio Guzman
           github: rogeliog
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:00 PM:
         type: Talk
@@ -199,6 +202,7 @@
         person:
           name: Tilde Ann Thurium
           twitter: annthurium
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:15 PM:
         title: Intermission
@@ -212,6 +216,7 @@
         person:
           name: Evy Kassirer
           twitter: evykassirer
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:45 PM:
         type: Talk
@@ -233,6 +238,7 @@
         person:
           name: Vaidehi Joshi
           twitter: vaidehijoshi
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:00 PM:
         type: Talk
@@ -245,6 +251,7 @@
         person:
           name: Chandler Abraham
           twitter: cba
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
