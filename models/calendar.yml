@@ -185,20 +185,7 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM:
-        type: Talk
-        emoji: 🃏
-        title: Jest Snapshots for everything but tests
-        description:
-          Jest snapshots are great for testing React components, but they can be used for a whole lot more.
-          Let's take a deep dive into some uncommon use cases for snapshot testing.
-          For example, we can use them for you Webpack config, or to keep track of the number of ESLint warnings.
-          This exploration aims to grow the snapshot ecosystem and figure out what new opportunities exist for the testing community.
-
-        person:
-          name: Rogelio Guzman
-          github: rogeliog
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+    - 7:45 PM: Speaker TBA
 
     - 8:00 PM:
         type: Talk
