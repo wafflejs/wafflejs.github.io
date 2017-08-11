@@ -142,9 +142,13 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 🎉
-        title: TBD
-        description: TBD
+        emoji: 👨🏻‍🎤
+        title: "npm 5 with npx: oh, the things you can do"
+        description:
+          Have you heard the good news about npm 5? It is super fast! But more than that,
+          it has solutions to a whole bunch of npm workflow problems that have existed since
+          npm got started. I'm going to walk you through how you set up a modern npm-powered
+          application, based on best practices we see emerging in the registry.
         person:
           name: Laurie Voss
           twitter: seldo
