@@ -167,12 +167,16 @@
     - 8:45 PM:
         type: Talk
         emoji: 🎉
-        title: TBD
-        description: TBD
+        title: Vim Gawd
+        description:
+          One of the ways engineers get things done is through the power of their editors.
+          This talk aims to show people, old and new, to Neovim and modal editing and 
+          asynchrony can lead to a really fluid and productive coding experience.
         person:
           name: Jacky Alciné
           twitter: jackyalcine
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          github: jalcine
+          pronouns: he/him
 
     - 9:00 PM: Speaker TBA
 
