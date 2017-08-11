@@ -44,7 +44,20 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🕴🏼
+        title: |
+          The Magic of Erasure Codes
+        description: |
+          Imagine you had a set of 100 files, and you could
+          generate 4 extra files that could later recover up to 4 missing
+          files from the set. Sound like magic? Fortunately, it’s real,
+          and by the end of this talk, you’ll know how it works!
+        person:
+          name: Fred Akalin
+          twitter: fakalin
+          pronouns: he/him
 
     - 8:15 PM:
         title: Intermission
@@ -82,15 +95,7 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM:
-        type: Talk
-        emoji: 🎉
-        title: TBD
-        description: TBD
-        person:
-          name: Fred Akalin
-          twitter: fakalin
-          pronouns: he/him
+    - 8:00 PM: Speaker TBA
 
     - 8:15 PM:
         title: Intermission
