@@ -93,7 +93,15 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🤔
+        title: TBD
+        description: TBD
+        person:
+          name: Jessica Parsons
+          twitter: verythorough
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:00 PM:
         type: Talk
@@ -187,7 +195,7 @@
         title: Vim Gawd
         description:
           One of the ways engineers get things done is through the power of their editors.
-          This talk aims to show people, old and new, to Neovim and modal editing and 
+          This talk aims to show people, old and new, to Neovim and modal editing and
           asynchrony can lead to a really fluid and productive coding experience.
         person:
           name: Jacky Alciné
