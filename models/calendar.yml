@@ -197,9 +197,9 @@
     - 9:00 PM:
         type: Talk
         emoji: 🤖
-        title: JS Freaking Everywhere: A Chatbot Powered by AWS & NodeJS
+        title: JS Freaking Everywhere- A Chatbot Powered by AWS & NodeJS
         description: 
-          I'll show you how we're using JS for every single aspect of Woebot:
+          I'll show you how we're using JS for every single aspect of Woebot-
           3 Lambda Functions, 2 Beanstalk Servers, 1 Google Apps Script, and hey,
           even a sprinkle of Machine Learning.
         person:
