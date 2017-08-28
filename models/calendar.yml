@@ -173,13 +173,14 @@
 
     - 8:30 PM:
         type: Performance
-        emoji: 🎉
-        title: TBD
-        description: TBD
+        emoji: 🎛️
+        title: Structural Integrity
+        description: Performance of a largely sample based electronic composition. Sounds sourced from various robots and machines found nearby.
         person:
-          name: Mark Fleschler
+          name: Conifold (aka Mark Fleschler)
           github: octobeard
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          soundcloud: Conifold
+          pronouns: he/him
 
     - 8:45 PM:
         type: Talk
