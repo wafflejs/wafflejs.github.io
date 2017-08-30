@@ -32,6 +32,9 @@
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
 
+  sponsors:
+    - Twitter: https://careers.twitter.com/
+
 - day: '2017-11-01'
   schedule:
     - 7:00 PM:
@@ -82,6 +85,7 @@
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs
     - RunKit: https://runkit.com/jobs
+    - Twitter: https://careers.twitter.com/
 
 - day: '2017-10-04'
   schedule:
@@ -128,6 +132,7 @@
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs
     - RunKit: https://runkit.com/jobs
+    - Twitter: https://careers.twitter.com/
 
 - day: '2017-09-06'
   schedule:
@@ -200,7 +205,7 @@
         type: Talk
         emoji: 🤖
         title: JS Freaking Everywhere- A Chatbot Powered by AWS & NodeJS
-        description: 
+        description:
           I'll show you how we're using JS for every single aspect of Woebot-
           3 Lambda Functions, 2 Beanstalk Servers, 1 Google Apps Script, and hey,
           even a sprinkle of Machine Learning.
