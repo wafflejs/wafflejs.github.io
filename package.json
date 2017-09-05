@@ -4,7 +4,7 @@
   "description": "A fun-centric JSish meetup in the Bay Area.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests && eslint . && webpack -p --bail",
+    "test": "mocha tests && eslint . && webpack -p --bail && ./scripts/generateSocialImage.js",
     "start": "webpack-dev-server --hot --inline -d --devtool=eval-source-map --progress"
   },
   "repository": {
@@ -63,6 +63,7 @@
   },
   "devDependencies": {
     "svgo": "0.6.6",
+    "typesetters-son": "^1.2.0",
     "webpack-dev-server": "1.14.0"
   }
 }
