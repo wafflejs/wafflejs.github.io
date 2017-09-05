@@ -97,8 +97,16 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
-
+    - 7:45 PM:
+        type: Talk
+        emoji: 🎉
+        title: TBD
+        description: TBD
+        person:
+          name: Terry Lee
+          github: dmono
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          
     - 8:00 PM:
         type: Talk
         emoji: 🎉
