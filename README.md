@@ -31,8 +31,8 @@ robot lobbyists, interspersed with fun!
 
 Running Locally
 ------------
-1. Run `npm install`.
-2. Run `npm start`.
+1. Run `yarn`.
+2. Run `yarn start`.
 3. It should now be running at `localhost:8080`.
 
 Contributing
