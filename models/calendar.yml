@@ -109,13 +109,21 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 🎉
-        title: TBD
-        description: TBD
+        emoji: 🚫☕️
+        title: |
+          Quitting Coffee(Script)
+        description: |
+          Coffee is an essential part of many developers' lives, but
+          sometimes we need to cut back. In this talk, I'll show you how a
+          small team of engineers safely and efficiently converted hundreds
+          of thousands of lines of CoffeeScript, spanning thousands of files
+          into modern JavaScript over a short span of time. I'll go over why
+          we made the switch, how I got buy-in, and how the team was able to
+          stay productive throughout the conversion.
         person:
           name: Kevin Gao
           github: sudowork
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 8:15 PM:
         title: Intermission
