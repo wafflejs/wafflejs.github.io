@@ -133,13 +133,18 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: 🤖
-        title: TBD
-        description: TBD
+        emoji: 💰
+        title: Buying the Hype: Understanding Startup Stock Options
+        description: Stock compensation is complicated, especially with
+          private, venture-backed startups. I'll give a quick but thorough
+          explanation of terms, pitfalls, and negotiating points for a
+          common type of offer - private company ISOs. I'll also share 
+          resources for learning about other types of equity and sharing this
+          info with others.
         person:
           name: Jessica Parsons
           twitter: verythorough
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 9:00 PM: Speaker TBA
 
