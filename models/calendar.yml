@@ -9,8 +9,16 @@
         emoji: 👋
 
     - 7:45 PM: Speaker TBA
-
-    - 8:00 PM: Speaker TBA
+    
+    - 8:00 PM:
+        type: Talk
+        emoji: 🎉
+        title: TBD
+        description: TBD
+        person:
+          name: Andres Cuervo
+          github: acwervo
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:15 PM:
         title: Intermission
