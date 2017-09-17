@@ -107,13 +107,18 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🎉
-        title: TBD
-        description: TBD
+        emoji: 🛠
+        title: Building a P2P Network from Scratch
+        description: Most of us have probably used a peer-to-peer network
+          like BitTorrent, but have you ever wondered how you could build
+          your own? In this talk, I'll go over the components you'll need to
+          create a file sharing P2P network with a focus on Kademlia, the
+          distributed hash table that is the foundation of current systems
+          like BitTorrent and Gnutella.
         person:
           name: Terry Lee
           github: dmono
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:00 PM:
         type: Talk
