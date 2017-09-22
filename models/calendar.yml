@@ -1,3 +1,188 @@
+- day: '2018-05-02'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Shape Security: https://www.shapesecurity.com/jobs/
+
+- day: '2018-04-04'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Shape Security: https://www.shapesecurity.com/jobs/
+
+- day: '2018-03-07'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Shape Security: https://www.shapesecurity.com/jobs/
+
+- day: '2018-02-07'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Shape Security: https://www.shapesecurity.com/jobs/
+
+- day: '2018-01-03'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty waffles and drinks
+        emoji: 🍪
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+    - Shape Security: https://www.shapesecurity.com/jobs/
+
 - day: '2017-12-06'
   schedule:
     - 7:00 PM:
@@ -9,7 +194,7 @@
         emoji: 👋
 
     - 7:45 PM: Speaker TBA
-    
+
     - 8:00 PM:
         type: Talk
         emoji: 🎉
@@ -50,6 +235,7 @@
 
   sponsors:
     - Twitter: https://careers.twitter.com/
+    - Shape Security: https://www.shapesecurity.com/jobs/
 
 - day: '2017-11-01'
   schedule:
@@ -159,7 +345,7 @@
         description: "Stock compensation is complicated, especially with
           private, venture-backed startups. I'll give a quick but thorough
           explanation of terms, pitfalls, and negotiating points for a
-          common type of offer: private company ISOs. I'll also share 
+          common type of offer: private company ISOs. I'll also share
           resources for learning about other types of equity and sharing this
           info with others."
         person:
