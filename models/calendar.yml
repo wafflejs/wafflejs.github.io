@@ -217,15 +217,17 @@
         title: |
           Practical Things You Can Do to Protect the Privacy of Your Users
         description: |
-          Protecting privacy is the right thing to do, because even if most
-          users don’t care, some users are especially vulnerable (e.g. political
-          dissidents or victims of domestic abuse). It also makes business sense
-          to protect against a big data breach that could destroy your company's
+          Protecting privacy is the right thing to do. Consider especially that
+          a few of your users may be people such as political dissidents or
+          victims of domestic abuse that are especially vulnerable to privacy
+          violation. Protecting privacy also makes business sense. You want to
+          protect against a big data breach that could destroy your company's
           reputation, or to comply with upcoming European privacy regulations
-          that apply to all apps worldwide. But what is privacy anyway? Legally
-          it is a bit confusing. But don’t worry, as a developer there are
-          practical engineering things you can do, which I’ll outline in this
-          talk, concentrating on protecting data you store in your backends.
+          that apply to all apps worldwide. However privacy can be hard to get a
+          handle on, because it is often explained using legal jargon. In this
+          talk I speak as a fellow developer and outline the practical
+          engineering things you can do, concentrating on protecting data you
+          store in your backends.
         person:
           name: Eamonn O'Brien-Strain
           twitter: eob
