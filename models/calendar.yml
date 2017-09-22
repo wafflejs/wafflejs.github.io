@@ -214,12 +214,22 @@
     - 8:45 PM:
         type: Talk
         emoji: 🎉
-        title: TBD
-        description: TBD
+        title: |
+          Practical things you can do to protect the privacy of your users
+        description: |
+          Protecting privacy is the right thing to do, because even if most
+          users don’t care, some users are especially vulnerable (e.g. political
+          dissidents or victims of domestic abuse). It also makes business sense
+          to protect against a big data breach that could destroy your company's
+          reputation, or to comply with upcoming European privacy regulations
+          that apply to all apps worldwide. But what is privacy anyway? Legally
+          it is a bit confusing. But don’t worry, as a developer there are
+          practical engineering things you can do, which I’ll outline in this
+          talk, concentrating on protecting data you store in your backends.
         person:
           name: Eamonn O'Brien-Strain
           twitter: eob
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:00 PM: Speaker TBA
 
