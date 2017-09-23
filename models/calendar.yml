@@ -193,7 +193,15 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: ✴️
+        title: "Islamic Geometry: Hankin’s Polygons in Contact Algorithm"
+        description: TBD
+        person:
+          name: Yomna Nasser
+          twitter: yomnapple
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:00 PM:
         type: Talk
