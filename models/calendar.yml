@@ -359,12 +359,16 @@
     - 8:30 PM:
         type: Performance
         emoji: 🎉
-        title: TBD
-        description: TBD
+        title: |
+          open ./guitar.mp4 &
+        description: |
+          Live guitar performance looped through Ableton Live
+          [Find me on Soundcloud](https://soundcloud.com/L1fescape)
         person:
           name: Andrew Kennedy
           twitter: L1fescape
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          github: L1fescape
+          pronouns: he/him
 
     - 8:45 PM:
         type: Talk
