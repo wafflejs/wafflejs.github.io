@@ -330,8 +330,14 @@
     - 7:45 PM:
         type: Talk
         emoji: 🎉
-        title: TBD
-        description: TBD
+        title: 
+          Extending the Web w/ Machine Learning.
+        description: 
+          This is a talk about how we can extend the web platform. It's a 
+          talk about what we can do, today, to build framework agnostic 
+          improvements as elements. And it's a talk about a new project
+          that gives Machine Learning tools to regular developers by 
+          extending the web.
         person:
           name: Mikeal Rogers
           twitter: mikeal
