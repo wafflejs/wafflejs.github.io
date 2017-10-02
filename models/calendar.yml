@@ -205,13 +205,21 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 🎉
-        title: TBD
-        description: TBD
+        emoji: 💡👀
+        title: |
+            Virtual Reality on the Web Using A-Frame
+        description: |
+          If you were to try and make a webVR website from scratch right now I'm sure you could do it, but
+          there’d be a lot of boiler plate: handling VR events like screen connection,
+          handling head rotation & a myriad of controllers, performantly writing webGL to render the scene - and what
+          about mobile and desktop users?! Well, there’s this Javascript framework [A-Frame](https://aframe.io/) that
+          makes it easy to quickly make VR scenes using HTML web component-like syntax. It’s also designed 
+          to be easy to extend with your own components written in Javascript. I’ll be going through what
+          A-Frame gives you, how to get started, and some examples of what you can do with the library!
         person:
           name: Andres Cuervo
-          github: acwervo
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          twitter: acwervo
+          pronouns: they/them or he/him
 
     - 8:15 PM:
         title: Intermission
