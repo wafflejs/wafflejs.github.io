@@ -393,7 +393,15 @@
           twitter: verythorough
           pronouns: she/her
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: ⚡
+        title: TBD
+        description: TBD
+        person:
+          name: Guillermo Rauch
+          twitter: rauchg
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
