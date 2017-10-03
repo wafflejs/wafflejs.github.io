@@ -277,13 +277,20 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🎉
-        title: TBD
-        description: TBD
+        emoji: 🐛
+        title: Collaborative Debugging
+        description: If you’ve ever written code with other people, 
+          you’ve probably had to fix bugs with other people—and
+          sometimes that’s the hardest part. When your logs have expired,
+          you can’t reproduce the issue, and you’ve tested five different
+          hypotheses, maybe it’s time to give someone else a shot. But
+          what's the best way to do that? I’ll talk about the workflow I
+          use to collaboratively debug issues without repeating work or
+          losing progress and why it makes sense.
         person:
           name: Jackie Luo
           twitter: jackiehluo
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:00 PM:
         type: Talk
