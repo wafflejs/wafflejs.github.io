@@ -411,8 +411,12 @@
     - 9:00 PM:
         type: Talk
         emoji: ⚡
-        title: TBD
-        description: TBD
+        title: Ahead-of-Time React Compilation
+        description:
+          This talk will explore how ahead-of-time compilation works and its
+          application to JavaScript and React codebases. It will provide
+          real-world examples and show how you can start taking advantage of
+          these techniques in your own work.
         person:
           name: Guillermo Rauch
           twitter: rauchg
