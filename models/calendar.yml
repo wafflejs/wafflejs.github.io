@@ -279,7 +279,7 @@
         type: Talk
         emoji: 🐛
         title: Collaborative Debugging
-        description: If you’ve ever written code with other people, 
+        description: If you’ve ever written code with other people,
           you’ve probably had to fix bugs with other people—and
           sometimes that’s the hardest part. When your logs have expired,
           you can’t reproduce the issue, and you’ve tested five different
@@ -313,9 +313,29 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 🛠
+        title: Building a P2P Network from Scratch
+        description: Most of us have probably used a peer-to-peer network
+          like BitTorrent, but have you ever wondered how you could build
+          your own? In this talk, I'll go over the components you'll need to
+          create a file sharing P2P network with a focus on Kademlia, the
+          distributed hash table that is the foundation of current systems
+          like BitTorrent and Gnutella.
+        person:
+          name: Terry Lee
+          github: dmono
+          pronouns: she/her
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: ✨
+        title: TBD
+        person:
+          name: Heiko Behrens
+          twitter: hbehrens
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
@@ -386,7 +406,7 @@
         title: |
           open ./guitar.mp4 &
         description: |
-          Live guitar performance looped through Ableton Live.  
+          Live guitar performance looped through Ableton Live.
           [Find Andrew on Soundcloud](https://soundcloud.com/L1fescape).
         person:
           name: Andrew Kennedy
