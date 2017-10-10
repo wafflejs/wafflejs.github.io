@@ -158,7 +158,19 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🎉
+        title: Life of a Script
+        description: |
+          This is a talk about how the V8 JavaScript engine executes JavaScript. 
+          I'll give a run through the execution of a script from parsing, bytecode
+          generation, interpretation, JIT compilation and deoptimization and how
+          each of these phases work in V8.
+        person:
+          name: Sathya Gunasekaran
+          twitter: _gsathya
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:15 PM:
         title: Intermission
