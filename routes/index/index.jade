@@ -99,8 +99,16 @@ div( class=className )
               span( ng-repeat='person in item.people' )
                 span.separator( ng-hide='$first' ) &
                 wbr
-                a.person( ng-href='https://twitter.com/{{person.twitter}}' )
-                  | {{person.name}} #[span.pronouns( ng-if='item.person.pronouns' ) ({{item.person.pronouns}})] · @{{person.twitter}}
+                a.person(
+                  ng-if='person.twitter'
+                  ng-href='https://twitter.com/{{person.twitter}}'
+                )
+                  | {{person.name}} #[span.pronouns( ng-if='person.pronouns' ) ({{person.pronouns}})] · @{{person.twitter}}
+                a.person(
+                  ng-if='person.github'
+                  ng-href='https://github.com/{{person.github}}'
+                )
+                  | {{person.name}} #[span.pronouns( ng-if='person.pronouns' ) ({{person.pronouns}})] · #[span.github-link: {{person.github}}]
           .hide-md-down.col-lg-3.end-lg( ng-show='item.type' )
             h5 {{item.type}}
           .col-xs-12.col-lg-9(ng-class='{ "border-bottom": !item.description }')
