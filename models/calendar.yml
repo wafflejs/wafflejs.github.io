@@ -245,7 +245,18 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎸
+        title: Sahana & Noel
+        description: TBD
+        people:
+          - name: Sahana Rajasekar
+            twitter: sahanarajasekar
+            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          - name: Noel Moldvai
+            twitter: noeleo91
+            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:45 PM:
         type: Talk
