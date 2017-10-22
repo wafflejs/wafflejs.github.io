@@ -122,6 +122,14 @@
     - 7:45 PM: Speaker TBA
 
     - 8:00 PM: Speaker TBA
+        type: Talk
+        emoji: 🎉
+        title: "How to recognize speech: automatic speech recognition and the web speech API"
+        description: TBD
+        person:
+          name: Adrian Bauer
+          twitter: TooManyAdrians2
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:15 PM:
         title: Intermission
