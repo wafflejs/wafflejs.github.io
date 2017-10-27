@@ -378,11 +378,21 @@
     - 9:00 PM:
         type: Talk
         emoji: ✨
-        title: TBD
+        title: Being Jealous of Web Developers
+        description: |
+          We're used to quick iterations, powerful APIs, delectable
+          libraries, and tools that operate on standards such as PNG or SVG.
+          After deciding to
+          [participate in the demoscene](https://youtu.be/UC-ru1P3GVo)
+          using the Pebble smartwatch, I had to reclaim what I lost in a world
+          of slow installations, 24KB RAM, and no JavaScript.
+          I will share how I used React, TypeScript, WebSockets, JSON Schema,
+          GIFs, WebGL, and other friends to regain productivity despite
+          programming in C and ARM assembly.		
         person:
           name: Heiko Behrens
           twitter: hbehrens
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
