@@ -225,13 +225,17 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: ✴️
+        emoji: 🛠
         title: "Islamic Geometry: Hankin’s Polygons in Contact Algorithm"
-        description: TBD
+        description: In this talk we will go over Hankin’s “Polygons in Contact” algorithm, a technique for
+            generating common patterns encountered in Islamic geometry, and some variations on it. There
+            will be an introduction to tiling theory, quite a few pretty pictures, and two (!!) interactive
+            examples in JavaScript. We’ll also briefly touch on the historical and cultural aspects of this
+            kind of geometry!
         person:
           name: Yomna Nasser
           twitter: yomnapple
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:00 PM:
         type: Talk
