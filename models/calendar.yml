@@ -225,7 +225,7 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: ✴️
+        emoji: 🛠
         title: "Islamic Geometry: Hankin’s Polygons in Contact Algorithm"
         description: In this talk we will go over Hankin’s “Polygons in Contact” algorithm, a technique for
             generating common patterns encountered in Islamic geometry, and some variations on it. There
