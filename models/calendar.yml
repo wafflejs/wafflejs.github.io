@@ -297,7 +297,7 @@
     - 9:00 PM:
         type: Talk
         emoji: 💚
-        title: So Fast You'll Think It Broke: Content-Addressable Disk Caching in Pure JS
+        title: "So Fast You'll Think It Broke: Content-Addressable Disk Caching in Pure JS"
         description: |
           [cacache](https://npm.im/cacache) is a content-addressable cache that was written as
           part of npm@5, and was crucial in allowing the blazing-fast, heavily-process-parallelized
