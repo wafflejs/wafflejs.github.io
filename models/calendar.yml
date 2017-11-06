@@ -296,12 +296,19 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: ✨
-        title: TBD
+        emoji: 💚
+        title: So Fast You'll Think It Broke: Content-Addressable Disk Caching in Pure JS
+        description: |
+          [cacache](https://npm.im/cacache) is a content-addressable cache that was written as
+          part of npm@5, and was crucial in allowing the blazing-fast, heavily-process-parallelized
+          disk access patterns that npm needed. This talk will teach you about content-addressable caching,
+          what it is, when to use it, and include various lessons learned while trying to optimize
+          parallel disk access while guaranteeing data integrity. Expect general tips-and-tricks for
+          efficient (and safe!) general I/O when using Node.js!
         person:
           name: Kat Marchán
           twitter: maybekatz
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: they/them (or she/her)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
