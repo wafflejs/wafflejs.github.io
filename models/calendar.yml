@@ -197,22 +197,21 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: 🎉
+        emoji: 🔮
         title: The secretly fascinating government security checklist
         description: |
           How can you tell if you're ready for an earthquake? You can't, but you
           can manage risk by storing some water and not keeping heavy things above
           your bed. How can you tell if your system is secure -- no wait, how can
           you tell if you’re managing your security risks? The US federal government
-          has [NIST Special Publication 800-53](https://nvd.nist.gov/800-53), a
+          has [NIST Special Publication 800-53](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf), a
           detailed security risk checklist that is public and in the public domain.
           I'll explain why this NIST publication is surprisingly interesting and
-          inspiring, meant for an audience of people who are technical but not
-          necessarily programmers.
+          inspiring.
         person:
           name: Britta Gustafson
           twitter: brittagus
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 9:00 PM: Speaker TBA
 
