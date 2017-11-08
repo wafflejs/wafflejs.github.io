@@ -213,7 +213,21 @@
           twitter: brittagus
           pronouns: she/her
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🎉
+        title: Boolean Traps and Other API Disasters
+        description: |
+          Ever encounter some code that looks like new `Slider(true /*horizontal*/)`?
+          Perhaps you are confused by the semantics exhibited by `setState(true, false)`?
+          Did you get a headache when trying to unpack double negatives as in
+          `filter.caseInsensitive = false`? These are typical API blunders often denoted
+          as Boolean Traps. Learn how to recognize such a mistake and also more importantly,
+          how to prevent it from happening!
+        person:
+          name: Ariya Hidayat
+          twitter: ariyahidayat
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
