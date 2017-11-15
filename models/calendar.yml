@@ -234,7 +234,7 @@
         person:
           name: Ariya Hidayat
           twitter: ariyahidayat
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
