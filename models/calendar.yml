@@ -167,13 +167,13 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🎉
-        title: "The Disaster Strategy: Building innovative tech teams through organized chaos"
-        description: TBD
+        emoji: 🔥
+        title: "Disaster Politics in Tech"
+        description: What do Burning Man, earthquakes, and critical site outages have in common? They are all events that break down traditional hierarchies and require fundamentally new ways of problem solving. This talk will explore how disaster studies, the political theory of human interaction in exceptional times, can help us build innovative technical teams and systems. That is, if we can avoid the pitfalls of post-disaster "elite panic."
         person:
           name: Liz Hubertz
           twitter: lizhubertz
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:00 PM:
         type: Talk
