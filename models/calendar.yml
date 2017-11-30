@@ -144,8 +144,16 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
-
+    - 8:45 PM:
+        type: Talk
+        emoji: 🎉
+        title: The whole web at maximum FPS
+        description: TBD
+        person:
+          name: Lin Clark
+          twitter: @linclark
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM: &butter_beverajs
