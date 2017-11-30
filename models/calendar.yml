@@ -84,7 +84,15 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🎉
+        title: How to Estimate Like a Pro
+        description: TBD
+        person:
+          name: Parris Khachi
+          twitter: parrissays
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:15 PM:
         title: Intermission
