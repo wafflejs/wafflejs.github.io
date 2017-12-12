@@ -167,11 +167,12 @@
         type: Talk
         emoji: 🎉
         title: How to make twitter bots!
-        description: In this talk we’ll go over the process of making a twitter bot:
-        user interaction, scheduling bot actions (tweeting, replying etc)
-        and deployment. I’ll do a mini showcase of bots people have made. 
-        The focus will be on the creative and generative possibilities of
-        twitter bots rather than simulating human conversation or automating tasks.
+        description: |
+          In this talk we’ll go over the process of making a twitter bot:
+          user interaction, scheduling bot actions (tweeting, replying etc)
+          and deployment. I’ll do a mini showcase of bots people have made. 
+          The focus will be on the creative and generative possibilities of
+          twitter bots rather than simulating human conversation or automating tasks.
         person:
           name: Omayeli Arenyeka
           twitter: YellzHeard
