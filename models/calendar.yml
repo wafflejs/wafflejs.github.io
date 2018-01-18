@@ -140,7 +140,7 @@
         person:
           name: Terence Yang
           github: Tranced
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: He/him# examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:00 PM:
         type: Talk
