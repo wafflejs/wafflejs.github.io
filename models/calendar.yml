@@ -131,11 +131,16 @@
         type: Talk
         emoji: 🎉
         title: Programming kids to program
-        description: TBD
+        description: |
+          This is a short talk about some techniques for teaching programming. 
+          We'll do some call and response for some basic Javascript drills with the audience
+          and talk about some of the most key things when it comes to teaching!
+          Hopefully, by the end, you'll have a boost in confidence if you ever teach
+          and maybe know about a few ways to start.
         person:
           name: Terence Yang
           github: Tranced
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: He/him
 
     - 8:00 PM:
         type: Talk
