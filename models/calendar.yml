@@ -368,11 +368,11 @@
         type: Talk
         emoji: 🎉
         title: "How to recognize speech: automatic speech recognition and the web speech API"
-        description: TBD
+        description: A whirlwind overview of how English speech works, how computers recognize it, voice interfaces, and the web speech API.
         person:
           name: Adrian Bauer
           twitter: TooManyAdrians2
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 8:15 PM:
         title: Intermission
