@@ -392,11 +392,16 @@
         type: Talk
         emoji: 🎉
         title: The whole web at maximum FPS
-        description: TBD
+        description: 
+          As web developers, we want apps to run at a silky smooth 60 frames per second.
+          But there are lots of gotchas (e.g. animating background color) that can make
+          it hard for the browser to paint pixels to the screen fast enough. I'll explain what 
+          we're doing in Firefox to fix this and make pages run at maximum FPS.
+          
         person:
           name: Lin Clark
           twitter: linclark
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her or they/them
           
     - 9:00 PM:
         type: Talk
