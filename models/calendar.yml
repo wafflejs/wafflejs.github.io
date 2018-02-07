@@ -359,7 +359,7 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🎉
+        emoji: 🙋
         title: Programming kids to program
         description: |
           This is a short talk about some techniques for teaching programming. 
@@ -374,7 +374,7 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 🎉
+        emoji: 🗣️
         title: "How to recognize speech: automatic speech recognition and the web speech API"
         description: A whirlwind overview of how English speech works, how computers recognize it, voice interfaces, and the web speech API.
         person:
@@ -390,7 +390,7 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: 🎉
+        emoji: 🤖
         title: The whole web at maximum FPS
         description: 
           As web developers, we want apps to run at a silky smooth 60 frames per second.
@@ -405,7 +405,7 @@
           
     - 9:00 PM:
         type: Talk
-        emoji: 🎉
+        emoji: 🚀
         title: Bot it out!
         description: |
           In this talk we’ll go over the process of making a twitter bot:
