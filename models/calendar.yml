@@ -241,7 +241,23 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 🍫
+        title: Re-visiting Cocoa, Apple's forgotten kids programming environment
+        description: |
+          Did you know Apple was teaching kids to code before it was cool? In this talk I'll revisit
+          [Cocoa](https://www.dropbox.com/s/w3m7zeuva26t4u2/Advanced%20Cocoa%20Tutorial.pdf?dl=0),
+          the "internet programming" environment that Apple built for kids in the late 90s. I'll
+          fire up a Mac OS 7 emulator and show what made Cocoa so groundbreaking. I'll explain
+          how "programming by demonstration" and "actor-based" educational environments lower the
+          barrier to entry in computer science and establish mental models that make it easier for
+          kids to write great JavaScript later. tldr: Don't teach kids to write for loops, teach
+          them to think about state machines and scopes!
+        person:
+          name: Ben Gotow
+          twitter: bengotow
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:00 PM: Speaker TBA
 
