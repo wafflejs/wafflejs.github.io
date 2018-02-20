@@ -301,7 +301,18 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎉
+        title: |
+          open ./guitar.mp4 &
+        description: |
+          Live guitar performance looped through Ableton Live.
+          [Find Andrew on Soundcloud](https://soundcloud.com/L1fescape).
+        person:
+          name: Andrew Kennedy
+          twitter: L1fescape
+          pronouns: he/him
 
     - 8:45 PM: Speaker TBA
 
@@ -347,9 +358,24 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
-
-    - 8:45 PM: Speaker TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎉
+        title: TBD
+        description: TBD
+        person:
+          name: Liam Campbell
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          
+    - 8:45 PM:
+        type: Talk
+        emoji: 🦄
+        title: My gender is emoji pizza unicorn
+        description: TBD
+        person:
+          name: Tilde Ann Thurium
+          twitter: annthurium
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:00 PM: Speaker TBA
 
