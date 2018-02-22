@@ -352,7 +352,15 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 👾
+        title: An Intro to Design Systems
+        description: TBD
+        person:
+          name: Sarah Federman
+          twitter: sarah_federman
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:00 PM:
         type: Talk
