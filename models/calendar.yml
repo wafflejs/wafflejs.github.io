@@ -365,8 +365,16 @@
     - 8:00 PM:
         type: Talk
         emoji: ⏰
-        title: How to Estimate Like a Pro
-        description: Fundamentally, every engineer hates/cringes when they need to give an estimate. We beat ourselves up over it when we get them wrong. In my past I've been an engineer, a lead, a product manager and engineering manager. This is my perspective on when/why they matter and when they don't. I also have a few tips for delivering estimates, when you actually need to give them. Hopefully, I'll deliver this presentation in the alotted timeframe 😎.
+        title: |
+          How to Estimate Like a Pro
+        description: |
+          Fundamentally, every engineer hates/cringes when they need to give an 
+          estimate. We beat ourselves up over it when we get them wrong. In 
+          my past I've been an engineer, a lead, a product manager and 
+          engineering manager. This is my perspective on when/why they matter 
+          and when they don't. I also have a few tips for delivering estimates, 
+          when you actually need to give them. Hopefully, I'll deliver this 
+          presentation in the alotted timeframe 😎.
         person:
           name: Parris Khachi
           twitter: parrissays
