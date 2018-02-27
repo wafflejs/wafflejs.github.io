@@ -395,7 +395,15 @@
           twitter: annthurium
           pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🧠
+        title: Connecting the brain to the browser
+        description: TBD
+        person:
+          name: Alex Castillo
+          twitter: castillo__io
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
