@@ -406,13 +406,13 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: 🧠
+        emoji: 🔮
         title: Connecting the brain to the browser
-        description: TBD
+        description: What comes after the keyboard and the mouse? More advanced interfaces that allow more effective communication between human and machines, specifically those that tap into the brain. So, let's plugin the human brain to the Web!
         person:
           name: Alex Castillo
           twitter: castillo__io
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
