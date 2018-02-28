@@ -386,12 +386,13 @@
 
     - 8:30 PM:
         type: Performance
-        emoji: 🎉
-        title: TBD
-        description: TBD
+        emoji: 🍄
+        title: Uke Can Say That Again
+        description: A brief yet enthusiastic set of ukulele non-standards
         person:
           name: Liam Campbell
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          twitter: liamdanger
+          pronouns: he/him
           
     - 8:45 PM:
         type: Talk
