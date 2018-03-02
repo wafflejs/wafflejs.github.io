@@ -62,7 +62,7 @@
     "yaml-loader": "0.2.0"
   },
   "devDependencies": {
-    "svgo": "0.6.6",
+    "typesetters-son": "^1.2.0",
     "webpack-dev-server": "1.14.0"
   }
 }

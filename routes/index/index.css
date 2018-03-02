@@ -117,6 +117,20 @@
     .person {
       white-space: nowrap;
       line-height: 150%;
+
+      .pronouns {
+        font-weight: normal;
+        opacity: .85;
+      }
+
+      .github-link {
+        margin-left: 2px;
+        padding-left: 17px;
+        background: url('../../images/icons/github.svg');
+        background-repeat: no-repeat;
+        background-size: 14px 14px;
+        background-position: center left;
+      }
     }
   }
 

@@ -7,7 +7,7 @@ html
     meta( property='og:title' content='WaffleJS' )
     meta( property='og:description' content='A fun night of tech, waffles, and karaoke.' )
     meta( property='og:type' content='website' )
-    meta( property='og:image' content='https://wafflejs.com/images/social.jpg' )
+    meta( property='og:image' content='https://wafflejs.com/images/#{require("generate-social-img!")}' )
     meta( property='og:url' content='https://wafflejs.com' )
     base( href='/' )
   body( ng-app='wafflejs' ng-strict-di )
