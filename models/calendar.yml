@@ -290,14 +290,17 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 🎉
-        title: TBD
-        description: TBD
+        emoji: 👽
+        title: Exploring the Linguistics Behind Regular Expressions
+        description:
+          Regular expressions are one of the most mind-boggling programming techniques, but much of their mystery can be elucidated by tracking down how they made it into JavaScript in the first place.
+          In this talk, I’ll tell the story of the regular expression, from its humble linguistic origins to its awe-inspiring power in modern programming languages like JavaScript.
+          Once I reveal to the audience the linguistic theory behind regular expressions, they’ll feel empowered to start writing some of their own.
         person:
           name: Alaina Kafkes
           twitter: alainakafkes
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
-          
+          pronouns: she/her
+
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
