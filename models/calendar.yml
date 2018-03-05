@@ -359,11 +359,11 @@
         type: Talk
         emoji: 👾
         title: An Intro to Design Systems
-        description: TBD
+        description: A design system can vastly improve your team's productivity, but most of all, it leads to better products! We're going to explore common approaches to building design systems, the technology behind them, and how to go about creating your own.
         person:
           name: Sarah Federman
           twitter: sarah_federman
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:00 PM:
         type: Talk
