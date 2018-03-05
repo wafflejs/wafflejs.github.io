@@ -371,12 +371,12 @@
         title: |
           How to Estimate Like a Pro
         description: |
-          Fundamentally, every engineer hates/cringes when they need to give an 
-          estimate. We beat ourselves up over it when we get them wrong. In 
-          my past I've been an engineer, a lead, a product manager and 
-          engineering manager. This is my perspective on when/why they matter 
-          and when they don't. I also have a few tips for delivering estimates, 
-          when you actually need to give them. Hopefully, I'll deliver this 
+          Fundamentally, every engineer hates/cringes when they need to give an
+          estimate. We beat ourselves up over it when we get them wrong. In
+          my past I've been an engineer, a lead, a product manager and
+          engineering manager. This is my perspective on when/why they matter
+          and when they don't. I also have a few tips for delivering estimates,
+          when you actually need to give them. Hopefully, I'll deliver this
           presentation in the alotted timeframe 😎.
         person:
           name: Parris Khachi
@@ -396,16 +396,16 @@
           name: Liam Campbell
           twitter: liamdanger
           pronouns: he/him
-          
+
     - 8:45 PM:
         type: Talk
         emoji: 🦄
         title: My gender is emoji pizza unicorn
-        description: TBD
+        description: Every time I have to check the “Male” or “Female” boxes, it feels :poop emoji:. By building and shipping expanded gender options at my $DAYJOB, I learned how to convince folks that gender options in product matter, how to get time and resourcing for social justice projects at work, and how to measure the success of a feature that only a small portion of users interact with.
         person:
           name: Tilde Ann Thurium
           twitter: annthurium
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: they/them
 
     - 9:00 PM:
         type: Talk
@@ -447,7 +447,7 @@
         emoji: 🙋
         title: Programming kids to program
         description: |
-          This is a short talk about some techniques for teaching programming. 
+          This is a short talk about some techniques for teaching programming.
           We'll do some call and response for some basic Javascript drills with the audience
           and talk about some of the most key things when it comes to teaching!
           Hopefully, by the end, you'll have a boost in confidence if you ever teach
@@ -477,17 +477,17 @@
         type: Talk
         emoji: 🤖
         title: The whole web at maximum FPS
-        description: 
+        description:
           As web developers, we want apps to run at a silky smooth 60 frames per second.
           But there are lots of gotchas (e.g. animating background color) that can make
-          it hard for the browser to paint pixels to the screen fast enough. I'll explain what 
+          it hard for the browser to paint pixels to the screen fast enough. I'll explain what
           we're doing in Firefox to fix this and make pages run at maximum FPS.
-          
+
         person:
           name: Lin Clark
           twitter: linclark
           pronouns: she/her or they/them
-          
+
     - 9:00 PM:
         type: Talk
         emoji: 🚀
@@ -495,14 +495,14 @@
         description: |
           In this talk we’ll go over the process of making a twitter bot:
           user interaction, scheduling bot actions (tweeting, replying etc)
-          and deployment. I’ll do a mini showcase of bots people have made. 
+          and deployment. I’ll do a mini showcase of bots people have made.
           The focus will be on the creative and generative possibilities of
           twitter bots rather than simulating human conversation or automating tasks.
         person:
           name: Omayeli Arenyeka
           twitter: YellzHeard
           pronouns: she/her
-          
+
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
         emoji: 🎤
@@ -795,7 +795,7 @@
           of slow installations, 24KB RAM, and no JavaScript.
           I will share how I used React, TypeScript, WebSockets, JSON Schema,
           GIFs, WebGL, and other friends to regain productivity despite
-          programming in C and ARM assembly.		
+          programming in C and ARM assembly.
         person:
           name: Heiko Behrens
           twitter: hbehrens
