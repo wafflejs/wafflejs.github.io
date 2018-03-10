@@ -233,8 +233,16 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
-
+    - 8:00 PM:
+        type: Talk
+        emoji: 🧙
+        title: require('WebGL-magic') with glslify
+        description: TBD
+        person:
+          name: Max Bittker
+          twitter: MaxBittker
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
@@ -286,7 +294,15 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🔍
+        title: How to Navigate Large Codebases When You're Used To Simple Projects
+        description: TBD
+        person:
+          name: Dani Gellis
+          github: danisyellis
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:00 PM:
         type: Talk
@@ -328,7 +344,15 @@
           twitter: sailorhg
           pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 😈
+        title: The Worst Web Page in the World
+        description: TBD
+        person:
+          name: Feross Aboukhadijeh
+          twitter: feross
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
