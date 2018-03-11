@@ -231,7 +231,15 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 👾
+        title: Engineers need to learn UXR
+        description: TBD
+        person:
+          name: Neha Batra
+          twitter: nerdneha
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:00 PM:
         type: Talk
