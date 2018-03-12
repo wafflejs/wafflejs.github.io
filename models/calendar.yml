@@ -356,11 +356,11 @@
         type: Talk
         emoji: 😈
         title: The Worst Web Page in the World
-        description: TBD
+        description: The web platform in 2018 is powerful. What if we used that power for evil? What kind of terrible UX could we create if our goal was to build the worst web page in the world?
         person:
           name: Feross Aboukhadijeh
           twitter: feross
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
