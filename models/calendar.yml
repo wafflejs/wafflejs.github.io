@@ -344,13 +344,15 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: 🙌
-        title: TBD
-        description: TBD
+        emoji: 🔵🔶🎶
+        title: Nothing Compares Two(.js) You
+        description: |
+          Like many children who grew up in the 90s, one of first experiences programming computers was giving a triangle shaped turtle instructions for how to create shapes. Drawing APIs have come a
+          long way since then! This talk explores the 2D drawing API Two.js, starting from simple vector shapes up through building an animated cassette player. Let's have fun making art with javascript!
         person:
           name: Amy Wibowo
           twitter: sailorhg
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 9:00 PM:
         type: Talk
