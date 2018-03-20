@@ -304,13 +304,14 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🔍
-        title: How to Navigate Large Codebases When You're Used To Simple Projects
-        description: TBD
+        emoji: 🔍💻💥
+        title: Honey, I blew up the code!
+        description: For newer developers who've only worked on personal projects with small codebases, making the jump to working on a company's codebase or an open source project can be daunting. The codebase looks huge!
+        In this talk, you'll learn some useful tips for navigating, and contributing to, large codebases.
         person:
           name: Dani Gellis
-          github: danisyellis
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          github/twitter: danisyellis
+          pronouns: she/her
 
     - 8:00 PM:
         type: Talk
