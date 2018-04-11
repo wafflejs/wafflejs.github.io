@@ -275,7 +275,15 @@
           twitter: bengotow
           pronouns: he/him
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🛠
+        title: Code you can hold in your hands: Making your first IoT wearable
+        description: TBD
+        person:
+          name: Charlyn Gonda
+          twitter: chardane
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
