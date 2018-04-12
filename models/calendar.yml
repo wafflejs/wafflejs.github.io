@@ -253,12 +253,12 @@
         type: Talk
         emoji: 🧙
         title: import 'WebGL-magic' with glslify
-        description: Intrigued by WebGL? Don't go alone — npm install some helpful friends! "GLSLify" is a tool that allows you to write graphics programs the way you write javascript programs — gluing together small libraries. I'll introduce you to GLSLify plus everything you need to learn graphics programming and build things that will make people on the internet say "neat". 
+        description: Intrigued by WebGL? Don't go alone — npm install some helpful friends! "GLSLify" is a tool that allows you to write graphics programs the way you write javascript programs — gluing together small libraries. I'll introduce you to GLSLify plus everything you need to learn graphics programming and build things that will make people on the internet say "neat".
         person:
           name: Max Bittker
           twitter: MaxBittker
           pronouns: he/him
-          
+
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
@@ -285,13 +285,20 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: 🛠
-        title: "Code you can hold in your hands: Making your first IoT wearable"
-        description: TBD
+        emoji: 🦄✨🛠
+        title: "Code you can hold: Making your first IoT wearable"
+        description: If you know code, are fascinated with electronics, but don’t know the first thing
+                     about circuits, this is for you. Modern microcontrollers make it easy to bring your
+                     code out of the digital and into the physical. In this talk, we'll dive deep into
+                     my first maker project called "Sharknicorn" -- a 3D printed unicorn horn on a shark hat
+                     that has light animations depending on the realtime state of your Uber ride! We'll be going over
+                     the basics of microcontroller programming along the way and some tools you can use to get started.
+                     I hope this session will inspire you to scratch that maker itch and start your own project!
+                     Let’s pick up our soldering irons and put on safety goggles — it’s time to make things.
         person:
           name: Charlyn Gonda
           twitter: chardane
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
