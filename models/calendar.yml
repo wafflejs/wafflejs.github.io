@@ -267,13 +267,18 @@
 
     - 8:30 PM:
         type: Performance
-        emoji: 🎉
-        title: TBD
-        description: TBD
+        emoji: 🎹🎤💻🎶
+        title: "Felicity", performed by Greg Sabo
+        description: Greg Sabo is a software engineer by day, and a pop star by night.
+                     He'll be bringing his 80's synthpop sound in full force. If you like bands
+                     like Depeche Mode and a-ha, then you'll practically SEGFAULT when you
+                     hear this.
+                     Greg will be singing and playing his original song "Felicty".
+                     Visit [gregsabo.club](http://gregsabo.club) to see and hear more!
         person:
           name: Greg Sabo
           twitter: gregsabo
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
           
     - 8:45 PM:
         type: Talk
