@@ -247,13 +247,13 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 👾
+        emoji: 🎢
         title: Engineers need to learn UXR
-        description: TBD
+        description: There comes a day when you are going to be coding something and you find an interaction that you're not certain about. You're going to want to say "Meh works for me" and hear your conscience whispering "whaaat does the user waaaaant". This talk is to equip you with the basic basic know how on User Testing, Interviews, and research! Teach. Yo. Self.
         person:
           name: Neha Batra
           twitter: nerdneha
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:00 PM:
         type: Talk
@@ -283,7 +283,7 @@
           name: Greg Sabo
           twitter: gregsabo
           pronouns: he/him
-          
+
     - 8:45 PM:
         type: Talk
         emoji: 🍫
