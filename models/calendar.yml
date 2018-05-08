@@ -200,7 +200,22 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🔥
+        title: An Introduction to Building Decentralized (P2P) Applications
+        description: |
+          Most people think of P2P networks as just a playground for file sharing applications, but it
+          turns out you can build other types of applications with useful characteristics such as
+          enhanced privacy and security. Using the example of building a cloud file storage system
+          (think Dropbox) that instead runs on a P2P network, we’ll walk through the process of
+          building an increasingly complex system to touch on topics such as scaling a network’s size
+          and preserving data without a database.
+        person:
+          name: Dylan Barnard
+          twitter: dkbarns
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+
 
     - 8:15 PM:
         title: Intermission
@@ -208,7 +223,19 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 🙈
+        title: How Did I Survive Legacy Code Jungle
+        description: |
+          Legacy code is code written by others and usually is no longer supported but continually
+          patched. Do you find yourself lost in the legacy jungle? This talk explains my experience of
+          successfully dealing with the tangled web of legacy code at Yelp and thus will guide
+          programmers through tried and tested strategy to effectively plan a refactor.
+        person:
+          name: Tanvi Patel
+          github: tanvip
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:00 PM:
         type: Talk
