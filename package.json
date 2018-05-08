@@ -19,7 +19,7 @@
   "homepage": "https://github.com/wafflejs/wafflejs#readme",
   "dependencies": {
     "angular": "1.5.7",
-    "angular-marked": "1.2.1",
+    "angular-marked": "1.2.2",
     "angular-ui-router": "0.3.1",
     "autoprefixer": "6.3.7",
     "babel-core": "6.10.4",
