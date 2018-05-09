@@ -198,7 +198,20 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 📖
+        title: The Ten Commandments of Navigating Code Reviews
+        description: |
+          Navigating code review comments can be difficult, especially when the feedback is given in
+          tones that are harsh, blunt, and sometimes downright rude. Senior Software Engineer, Angie
+          Jones, will share the 10 guidelines she follows for navigating code reviews. These
+          practical tips will help lead to a productive process that will help you get your code
+          accepted faster, and without the drama.
+        person:
+          name: Angie Jones
+          twitter: techgirl1908
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:00 PM:
         type: Talk
