@@ -54,7 +54,7 @@
     "postcss-import": "8.2.0",
     "postcss-loader": "0.9.1",
     "postcss-nested": "1.0.1",
-    "style-loader": "0.13.1",
+    "style-loader": "0.21.0",
     "svgo": "0.7.2",
     "svgo-loader": "1.1.0",
     "url-loader": "0.6.2",
