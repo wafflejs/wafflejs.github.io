@@ -51,7 +51,7 @@
     "postcss-calc": "5.2.1",
     "postcss-custom-media": "5.0.1",
     "postcss-custom-properties": "5.0.2",
-    "postcss-import": "8.1.2",
+    "postcss-import": "8.2.0",
     "postcss-loader": "0.9.1",
     "postcss-nested": "1.0.0",
     "style-loader": "0.13.1",
