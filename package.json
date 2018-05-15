@@ -55,7 +55,7 @@
     "postcss-loader": "0.9.1",
     "postcss-nested": "1.0.0",
     "style-loader": "0.13.1",
-    "svgo": "0.6.6",
+    "svgo": "0.7.2",
     "svgo-loader": "1.1.0",
     "url-loader": "0.5.7",
     "webpack": "1.13.1",
