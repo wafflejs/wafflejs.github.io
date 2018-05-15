@@ -53,7 +53,7 @@
     "postcss-custom-properties": "5.0.2",
     "postcss-import": "8.1.2",
     "postcss-loader": "0.9.1",
-    "postcss-nested": "1.0.0",
+    "postcss-nested": "1.0.1",
     "style-loader": "0.13.1",
     "svgo": "0.6.6",
     "svgo-loader": "1.1.0",
