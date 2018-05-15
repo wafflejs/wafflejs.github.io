@@ -20,7 +20,7 @@
   "dependencies": {
     "angular": "1.7.0",
     "angular-marked": "1.2.2",
-    "angular-ui-router": "0.4.3",
+    "angular-ui-router": "1.0.3",
     "autoprefixer": "8.5.0",
     "babel-core": "6.26.3",
     "babel-loader": "6.4.1",
