@@ -50,7 +50,7 @@
     "normalize.css": "4.2.0",
     "postcss-calc": "5.3.1",
     "postcss-custom-media": "5.0.1",
-    "postcss-custom-properties": "5.0.2",
+    "postcss-custom-properties": "7.0.0",
     "postcss-import": "8.2.0",
     "postcss-loader": "0.13.0",
     "postcss-nested": "1.0.1",
