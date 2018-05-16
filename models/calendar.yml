@@ -261,12 +261,16 @@
     - 9:00 PM:
         type: Talk
         emoji: 📝
-        title: TBD
-        description: TBD
+        title: JavaScript Developers and Security
+        description: |
+          npm recently ran a survey of over 16,000 JavaScript developers and we found out a WHOLE BUNCH
+          of fun facts about them. This talk focuses on what JavaScript developers think about the
+          security of open source code, what they believe the best practices for security are, and some
+          very easy to follow advice on how you can improve the security of your own projects.
         person:
           name: Laurie Voss
           twitter: seldo
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
