@@ -54,7 +54,7 @@ What should be in my talk submission?
 -------------------------------------
 Just a few sentences describing what you want to talk about would be great.
 
-When happens after I submit my talk?
+What happens after I submit my talk?
 ------------------------------------
 We will follow up with you via email! It may take a few days.
 
