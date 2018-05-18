@@ -44,7 +44,7 @@
     "lodash": "4.17.10",
     "markdown-loader": "2.0.2",
     "marked": "0.3.19",
-    "mocha": "2.5.3",
+    "mocha": "5.2.0",
     "moment": "2.22.1",
     "ng-annotate-loader": "0.6.1",
     "normalize.css": "4.2.0",
