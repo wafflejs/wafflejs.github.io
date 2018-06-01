@@ -197,7 +197,16 @@
           twitter: isthisthais
           pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: ⚡
+        title: Extreme functional programming in frontend development
+        description: |
+          TBD
+        person:
+          name: Dillon Forrest
+          twitter: dillonforrest
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
