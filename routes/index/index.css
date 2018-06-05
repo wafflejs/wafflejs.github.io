@@ -83,7 +83,8 @@
     }
   }
 
-  ul.schedule {
+  ul.schedule,
+  ul.mc-details {
     list-style-type: none;
     color: inherit;
     padding: 0;

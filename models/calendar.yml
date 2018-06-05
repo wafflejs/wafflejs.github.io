@@ -218,6 +218,12 @@
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
 
+  mc:
+    emoji: 🦄
+    name: Tilde Ann Thurium
+    twitter: annthurium
+    pronouns: they/them
+
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs/
     - Slack: https://slack.com/careers
@@ -318,6 +324,12 @@
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
 
+  mc:
+    emoji: ✨
+    name: Jacky Alciné
+    twitter: annthurium
+    pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs/
     - Mixmax: https://mixmax.com/careers/
@@ -416,6 +428,12 @@
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
+  
+  mc:
+    emoji: 😮
+    name: Feross Aboukhadijeh
+    twitter: feross
+    pronouns: he/him
 
   sponsors:
     - Shape Security: https://www.shapesecurity.com/jobs/
@@ -506,6 +524,12 @@
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
 
+  mc:
+    emoji: 🔥
+    name: Duretti Hirpa
+    twitter: duretti
+    pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+
   sponsors:
     - Shape Security: https://www.shapesecurity.com/jobs/
     - Mixmax: https://mixmax.com/careers/
@@ -592,6 +616,12 @@
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
+
+  mc:
+    emoji: 👋
+    name: Laurie Voss
+    twitter: seldo
+    pronouns: he/him
 
   sponsors:
     - Shape Security: https://www.shapesecurity.com/jobs/
