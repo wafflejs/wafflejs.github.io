@@ -202,11 +202,16 @@
         emoji: ⚡
         title: Extreme functional programming in frontend development
         description: |
-          TBD
+          Functional programming has become more and more prevalent with javascript
+          developers. Transforming data into UI views with deterministic functions
+          was a powerful idea that took the industry by storm when React debuted. I
+          believe you can build not just your views, but your entire application
+          with just deterministic functions. I'll show you how I approach the
+          problem!
         person:
           name: Dillon Forrest
           twitter: dillonforrest
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
