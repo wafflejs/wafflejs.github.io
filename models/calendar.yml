@@ -160,14 +160,16 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: ✨
-        title: Descartes, Berkeley and Functional Reactive Programming
+        emoji: 🖖
+        title: Descartes, Berkeley and Functional Programming
         description: |
-          TBD
+          We will recast the debate between OOP (object-oriented programming) 
+          and FP (functional programming) as a debate between Rene Descartes’ 
+          realism and George Berkeley’s idealism.
         person:
           name: David Valdman
           twitter: dmvaldman
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 8:00 PM:
         type: Talk
