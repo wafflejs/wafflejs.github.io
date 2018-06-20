@@ -193,11 +193,14 @@
         emoji: 🦈
         title: Searching for Sharks
         description: |
-          TBD
+          Whale sharks are gentle and fascinating ocean giants, but there's so much we 
+          don't yet know about them... In this talk, we will deep dive into a jawsome 
+          use of algorithmic fingerprinting for identifying and tracking whale 
+          sharks!
         person:
           name: Thais Laney
           twitter: isthisthais
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 9:00 PM:
         type: Talk
