@@ -173,14 +173,15 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 💜
-        title: TBD
+        emoji: 📚
+        title: Computers Writing Badly
         description: |
-          TBD
+          Inspired by famously terrible fiction, we'll explore how to use Natural 
+          Language Processing and Machine Learning to generate writing so bad, it's good.
         person:
           name: Chloe Revery
           twitter: chloerevery
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:15 PM:
         title: Intermission
