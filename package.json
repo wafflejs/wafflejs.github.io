@@ -52,7 +52,7 @@
     "postcss-custom-media": "5.0.1",
     "postcss-custom-properties": "5.0.2",
     "postcss-import": "8.2.0",
-    "postcss-loader": "0.13.0",
+    "postcss-loader": "2.1.6",
     "postcss-nested": "1.0.1",
     "style-loader": "0.21.0",
     "svgo": "0.7.2",
