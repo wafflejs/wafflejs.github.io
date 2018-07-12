@@ -120,7 +120,15 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🤖
+        title: TBD (WASM / WebGL)
+        description: TBD
+        person:
+          name: Andres Cuervo
+          twitter: acwervo
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:00 PM: Speaker TBA
 
@@ -132,7 +140,15 @@
 
     - 8:45 PM: Speaker TBA
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🎨
+        title: Context Free Art
+        description: TBD
+        person:
+          name: Jeremy Apthorp
+          twitter: nornagon
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
