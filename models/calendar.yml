@@ -134,11 +134,21 @@
         description: TBD
         people:
           - name: Siggy Bilstein
+            twitter: sbilstein
             pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
           - name: Sara LeMesh
+            twitter: saralemesh
             pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 📈
+        title: TBD (Live Coding)
+        description: TBD
+        person:
+          name: Shirley Wu
+          twitter: sxywu
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:00 PM: Speaker TBA
 
