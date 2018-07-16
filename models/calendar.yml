@@ -126,7 +126,16 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        title: Sarah and Siggi
+        emoji: 🎸
+        description: TBD
+        people:
+          - name: Siggy Bilstein
+            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          - name: Sara LeMesh
+            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:45 PM: Speaker TBA
 
