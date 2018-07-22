@@ -205,13 +205,17 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: 🎗️
+        emoji: 🌊
         title: The Bipolar Software Engineer
-        description: TBD
+        description: |
+          2.6% of the American adult population is diagnosed with bipolar 
+          disorder, and yet it is one of the most heavily stigmatized mental illnesses
+          out there. What is bipolar disorder, and how do people experience it?
+          This talk is through the lens of a software engineer.
         person:
           name: Jenna Quindica
           twitter: jennskiezz
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her/hers
 
     - 9:00 PM:
         type: Talk
