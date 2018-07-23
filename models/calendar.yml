@@ -221,11 +221,15 @@
         type: Talk
         emoji: 🎨
         title: Context Free Art
-        description: TBD
+        description: |
+          We're used to grammars for language, both human and programming. Context Free
+          Art is a tool for using recursive rules—grammars—to draw pictures. From Koch's
+          snowflake to awkward polaroids, learn how you can wield context-free grammars and
+          probabilistic recursion to paint wonderful (and frequently hypnotic) images.
         person:
           name: Jeremy Apthorp
           twitter: nornagon
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
