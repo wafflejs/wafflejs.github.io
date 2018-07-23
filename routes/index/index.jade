@@ -75,6 +75,15 @@ div( class=className )
             ng-options='month.day|date:"MMMM d" group by month.date.getFullYear() for month in index.calendar'
             ng-model='index.day'
           )
+      ul.mc-details(
+        ng-if='index.day.mc'
+        ng-init='mc = index.day.mc'
+      )
+        li
+          h3
+            | Starring Guest MC {{mc.emoji}}&#32;
+            a( ng-href='https://twitter.com/{{mc.twitter}}' ) {{mc.name}} #[span.pronouns( ng-if='mc.pronouns' ) ({{mc.pronouns}})]
+            | &#32; {{mc.emoji}}
       ul.schedule: li( ng-repeat='event in index.day.schedule track by $index' )
         .row.row-lg-offset--3( ng-repeat="(time, item) in event" )
           .col-xs-12.col-lg-3.end-lg

@@ -83,7 +83,8 @@
     }
   }
 
-  ul.schedule {
+  ul.schedule,
+  ul.mc-details {
     list-style-type: none;
     color: inherit;
     padding: 0;
@@ -131,6 +132,16 @@
         background-size: 14px 14px;
         background-position: center left;
       }
+    }
+  }
+
+  ul.mc-details li {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: solid 1px var(--lighter-gray);
+
+    .pronouns {
+      opacity: .65;
     }
   }
 
