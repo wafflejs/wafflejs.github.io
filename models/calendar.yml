@@ -215,20 +215,20 @@
 
     - 8:30 PM:
         type: Performance
-        title: TBD
+        title: 'She' by Andee Mckee, 'Drifting' by Andee Mckee
         emoji: 🎸
-        description: TBD
+        description: Dope Guitar Music
         person:
           name: David Harris
           twitter: dahveedgh
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
-          
+          pronouns: he/him/his
+
     - 8:45 PM:
         type: Talk
         emoji: 🌊
         title: The Bipolar Software Engineer
         description: |
-          2.6% of the American adult population is diagnosed with bipolar 
+          2.6% of the American adult population is diagnosed with bipolar
           disorder, and yet it is one of the most heavily stigmatized mental illnesses
           out there. What is bipolar disorder, and how do people experience it?
           This talk is through the lens of a software engineer.
@@ -287,8 +287,8 @@
         emoji: 🖖
         title: Descartes, Berkeley and Functional Programming
         description: |
-          We will recast the debate between OOP (object-oriented programming) 
-          and FP (functional programming) as a debate between Rene Descartes’ 
+          We will recast the debate between OOP (object-oriented programming)
+          and FP (functional programming) as a debate between Rene Descartes’
           realism and George Berkeley’s idealism.
         person:
           name: David Valdman
@@ -300,7 +300,7 @@
         emoji: 📚
         title: Computers Writing Badly
         description: |
-          Inspired by famously terrible fiction, we'll explore how to use Natural 
+          Inspired by famously terrible fiction, we'll explore how to use Natural
           Language Processing and Machine Learning to generate writing so bad, it's good.
         person:
           name: Chloe Revery
@@ -318,9 +318,9 @@
         emoji: 🦈
         title: Searching for Sharks
         description: |
-          Whale sharks are gentle and fascinating ocean giants, but there's so much we 
-          don't yet know about them... In this talk, we will deep dive into a jawsome 
-          use of algorithmic fingerprinting for identifying and tracking whale 
+          Whale sharks are gentle and fascinating ocean giants, but there's so much we
+          don't yet know about them... In this talk, we will deep dive into a jawsome
+          use of algorithmic fingerprinting for identifying and tracking whale
           sharks!
         person:
           name: Thais Laney
@@ -563,7 +563,7 @@
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
-  
+
   mc:
     emoji: 😮
     name: Feross Aboukhadijeh
