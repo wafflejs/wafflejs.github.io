@@ -191,13 +191,14 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🤖
-        title: TBD (WASM / WebGL)
-        description: TBD
+        emoji: 🖌
+        title: AR Art on the Web Using Wasm
+        description: What if you could draw in 3D space using your phone? What if you could simulate millions of particles with this magical application? Well you can, and you can use the web to build it! We'll go through how to get started with [`three.ar.js`](https://github.com/google-ar/three.ar.js) and how to achieve this sort of stuff using [WebAssembly](https://webassembly.org/) (abbreviated as "Wasm") to make it performant!
         person:
-          name: Andres Cuervo
+          name: Andrés Cuervo
           twitter: acwervo
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: they/them or he/him
+
 
     - 8:00 PM:
         type: Talk
@@ -976,7 +977,7 @@
           to be easy to extend with your own components written in Javascript. I’ll be going through what
           A-Frame gives you, how to get started, and some examples of what you can do with the library!
         person:
-          name: Andres Cuervo
+          name: Andrés Cuervo
           twitter: acwervo
           pronouns: they/them or he/him
 
