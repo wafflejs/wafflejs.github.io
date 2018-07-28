@@ -216,14 +216,14 @@
 
     - 8:30 PM:
         type: Performance
-        title: TBD
+        title: 'She' by Andee Mckee, 'Drifting' by Andee Mckee
         emoji: 🎸
-        description: TBD
+        description: Dope Guitar Music
         person:
           name: David Harris
           twitter: dahveedgh
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
-          
+          pronouns: he/him/his
+
     - 8:45 PM:
         type: Talk
         emoji: 🌊
