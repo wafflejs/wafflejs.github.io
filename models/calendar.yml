@@ -204,11 +204,11 @@
         type: Talk
         emoji: 😱
         title: History of Outages I've Caused
-        description: TBD
+        description: A brief history of outages I've known, caused, and loved, and the hard-won lessons they taught me.
         person:
           name: Duretti Hirpa
           twitter: duretti
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she / her
 
     - 8:15 PM:
         title: Intermission
