@@ -226,20 +226,6 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: 🌊
-        title: The Bipolar Software Engineer
-        description: |
-          2.6% of the American adult population is diagnosed with bipolar 
-          disorder, and yet it is one of the most heavily stigmatized mental illnesses
-          out there. What is bipolar disorder, and how do people experience it?
-          This talk is through the lens of a software engineer.
-        person:
-          name: Jenna Quindica
-          twitter: jennskiezz
-          pronouns: she/her/hers
-
-    - 9:00 PM:
-        type: Talk
         emoji: 🎨
         title: Context Free Art
         description: |
@@ -251,6 +237,18 @@
           name: Jeremy Apthorp
           twitter: nornagon
           pronouns: he/him
+          
+    - 9:00 PM:
+        type: Talk
+        emoji: 🎈
+        title: 3 Year Retrospective
+        description: |
+          Tonight marks WaffleJS's 3rd anniversary! The WaffleJS organizers will share
+          some thoughts and lessons from their last 3 years of organizing this meetup.
+        person:
+          name: Team WaffleJS
+          twitter: wafflejs
+          pronouns: they/them
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
