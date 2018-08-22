@@ -178,13 +178,13 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: 📈
-        title: TBD (Live Coding)
-        description: TBD
+        emoji: ✨
+        title: live-code that viz
+        description: live-code a data visualization from scratch with d3.js and react.js
         person:
           name: Shirley Wu
           twitter: sxywu
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:00 PM:
         type: Talk
