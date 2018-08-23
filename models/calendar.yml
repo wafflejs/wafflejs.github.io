@@ -137,13 +137,18 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🦄
-        title: TBD
-        description: TBD
+        emoji: 🥖
+        title: Parlez-vous Javascript?
+        description: |
+          A fun divergence into language design and learning. What kind of languages? All kinds. 
+          Both computer languages and spoken ones. Think they're different? Maybe not. 
+          From English to Japanese, from Javascript to PHP, we'll take well established programming 
+          language design principles and critique the various contenders from the perspective of 
+          predicability, usability, and consistency. How will your favorite language hold up? 
         person:
           name: Christian Schlensker
           twitter: wordofchristian
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him/his
 
     - 8:00 PM:
         type: Talk
