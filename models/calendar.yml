@@ -57,14 +57,15 @@
     - 8:30 PM:
         type: Performance
         title: Harp and Guitar
-        emoji: 🎶
-        description: TBD
+        emoji: ✨
+        description: Old Irish folk tunes arranged for instruments they weren't precisely originally intended for, but close enough.
         people:
           - name: Britta Gustafson
             twitter: brittagus
-            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
-          - name: TBD
-            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+            pronouns: she/her
+          - name: Esten Hurtle
+            twitter: esten
+            pronouns: she/her
             
     - 8:45 PM: Speaker TBA
 
