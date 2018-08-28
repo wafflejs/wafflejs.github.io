@@ -54,8 +54,18 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
-
+    - 8:30 PM:
+        type: Performance
+        title: Harp and Guitar
+        emoji: 🎶
+        description: TBD
+        people:
+          - name: Britta Gustafson
+            twitter: brittagus
+            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          - name: TBD
+            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+            
     - 8:45 PM: Speaker TBA
 
     - 9:00 PM: Speaker TBA
