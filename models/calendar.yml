@@ -102,8 +102,16 @@
 
     - 7:45 PM: Speaker TBA
 
-    - 8:00 PM: Speaker TBA
-
+    - 8:00 PM:
+        type: Talk
+        emoji: 🔷
+        title: Playing With Polyhedra: Creating Beauty from Obsession
+        description: TBD
+        person:
+          name: Nat Alison
+          twitter: tesseralis
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
