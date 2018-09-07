@@ -4,7 +4,8 @@
   "description": "A fun-centric JSish meetup in the Bay Area.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests && eslint . && webpack -p --bail",
+    "test": "mocha tests && eslint .",
+    "build": "webpack -p --bail",
     "start": "webpack-dev-server --hot --inline -d --devtool=eval-source-map --progress"
   },
   "repository": {
