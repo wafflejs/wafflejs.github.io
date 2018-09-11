@@ -104,13 +104,18 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 🔷
+        emoji: 💎
         title: "Playing With Polyhedra: Creating Beauty from Obsession"
-        description: TBD
+        description: |
+          The Polyhedra Viewer (https://polyhedra.tessera.li) is an interactive web app that explores the relationships
+          between convex polyhedra. Users can select operations and watch as shapes expand, twist, and contract according
+          to mathematical rules. Join me on my journey taking my lifelong passion for these shapes into a work
+          that is accessible to students, teachers, and artists. Learn about my inspirations and struggles in creating this
+          application and the complex relationship between obsession and creativity.
         person:
           name: Nat Alison
           twitter: tesseralis
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her or they/them
           
     - 8:15 PM:
         title: Intermission
