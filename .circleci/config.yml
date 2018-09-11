@@ -42,7 +42,7 @@ jobs:
             git config user.email "robot@circleci.com"
             git config user.name "CircleCI"
             git add images/social*.jpg
-            git commit -am "webpack" && git push origin master
+            git commit -am "webpack" && git push origin master; echo 'done!'
 
 workflows:
   version: 2
