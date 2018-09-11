@@ -118,7 +118,15 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: ✍
+        title: "Let's Sketch Tech!"
+        description: TBD
+        person:
+          name: Marlena Compton
+          twitter: marlenac
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:00 PM: Speaker TBA
 
