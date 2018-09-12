@@ -128,7 +128,23 @@
           twitter: marlenac
           pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🌔
+        title: "Witchy Algorithms: Writing Code to Calculate the Phases of the Moon"
+        description: |
+          For witches, werewolves, and wizards, the phases of the moon can be a problem because
+          certain kinds of magic only work on certain phases of the moon. For programmers, the
+          phases of the moon is a problem that can be solved by an algorithm. In this talk, the
+          magical meets the mathematical as we take a look at how to calculate the phases of the
+          moon.<br /><br />
+          We'll write code that calculates the percent illumination of the moon based on the
+          current position of the moon and sun, and step by step, go over the trigonometry proofs
+          that show how it works.
+        person:
+          name: Amy Wibowo
+          twitter: sailorhg
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
