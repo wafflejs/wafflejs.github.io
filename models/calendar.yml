@@ -152,7 +152,7 @@
         person:
           name: Amy Wibowo
           twitter: sailorhg
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her, they/them
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
