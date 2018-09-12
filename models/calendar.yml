@@ -100,7 +100,15 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 💃
+        title: "Solving algorithms using choreographed movement"
+        description: TBD
+        person:
+          name: Morgan Fogarty
+          twitter: mofo37
+          pronouns: she/her
 
     - 8:00 PM:
         type: Talk
