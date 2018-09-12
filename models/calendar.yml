@@ -129,7 +129,18 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎸
+        title: "Live Performance"
+        description: A live guitar performance with vocals.
+        people:
+          - name: Kyle Owen
+            github: kyle-owen-opendoor
+            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          - name: Visnu Pitiyanuvath
+            twitter: visnup
+            pronouns: he/him
 
     - 8:45 PM:
         type: Talk
