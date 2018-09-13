@@ -133,7 +133,7 @@
     - 8:30 PM:
         type: Performance
         emoji: 🎸
-        title: "Live Performance"
+        title: Kysnusan
         description: A live guitar performance with vocals.
         people:
           - name: Kyle Owen
@@ -142,6 +142,8 @@
           - name: Visnu Pitiyanuvath
             twitter: visnup
             pronouns: he/him
+          - name: Susan Hu
+            pronouns: she/her
 
     - 8:45 PM:
         type: Talk

@@ -122,6 +122,10 @@ div( class=className )
                   ng-href='https://github.com/{{person.github}}'
                 )
                   | {{person.name}} #[span.pronouns( ng-if='person.pronouns' ) ({{person.pronouns}})] · #[span.github-link: {{person.github}}]
+                a.person(
+                  ng-if='!person.twitter && !person.github'
+                )
+                  | {{person.name}} #[span.pronouns( ng-if='person.pronouns' ) ({{person.pronouns}})]
           .hide-md-down.col-lg-3.end-lg( ng-show='item.type' )
             h5 {{item.type}}
           .col-xs-12.col-lg-9(ng-class='{ "border-bottom": !item.description }')
