@@ -183,8 +183,12 @@
     - 7:45 PM:
         type: Talk
         emoji: 💃
-        title: "Solving algorithms using choreographed movement"
-        description: TBD
+        title: "Let's Move: Solving Algorithms Using Choreographed Movement"
+        description: |
+          Learning happens differently for everyone. I've spent most of my life as a modern/ballet dancer. 
+          After codeschool last year and before my first job, I tried to make learning easier for myself by combining a 
+          craft in which I'm well versed (movement/choreography) with one I'm working toward mastering (programmering). 
+          This talk is a peek into my process of understanding code and algorithms through movement and choreography. 
         person:
           name: Morgan Fogarty
           twitter: mofo37
