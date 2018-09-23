@@ -230,13 +230,15 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: ✍
+        emoji: 🖍️
         title: "Let's Sketch Tech!"
-        description: TBD
+        description: In this interactive talk, Marlena will show how sketching tech is for anyone who wants to pick up a pencil.
+          She will talk about different formats for sketching from sketchnotes to lettering and why sketching matters.
+          We'll explore different ways of helping our brains sort through and make sense of the complicated information we process in tech and look for new ways to understand tech with sketches!
         person:
           name: Marlena Compton
           twitter: marlenac
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her, they/them
 
     - 9:00 PM:
         type: Talk
