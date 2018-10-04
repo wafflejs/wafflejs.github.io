@@ -161,9 +161,27 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 👀
+        title: "TBD"
+        description: |
+          TBD
+        person:
+          name: Jenn Wong
+          github: jennz0r
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 👽
+        title: "TBD"
+        description: |
+          TBD
+        person:
+          name: Miles Hinson
+          twitter: mileshinson
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:15 PM:
         title: Intermission
@@ -182,9 +200,27 @@
             twitter: esten
             pronouns: she/her
             
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 📺
+        title: "TBD"
+        description: |
+          TBD
+        person:
+          name: Mars Jullian
+          twitter: marsjosephine
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🎉
+        title: "TBD"
+        description: |
+          TBD
+        person:
+          name: Laurie Voss
+          twitter: seldo
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
