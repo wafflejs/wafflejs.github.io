@@ -125,7 +125,16 @@
           twitter: marsjosephine
           pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
           
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 👽
+        title: "TBD"
+        description: |
+          TBD
+        person:
+          name: Miles Hinson
+          twitter: mileshinson
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:15 PM:
         title: Intermission
@@ -185,13 +194,13 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 👽
-        title: "TBD"
+        emoji: 🔃
+        title: TBD
         description: |
           TBD
         person:
-          name: Miles Hinson
-          twitter: mileshinson
+          name: Tanmai Gopal
+          twitter: tanmaigo
           pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:15 PM:
