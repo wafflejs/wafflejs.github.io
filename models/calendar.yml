@@ -189,14 +189,17 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 👀
-        title: "TBD"
+        emoji: 💩
+        title: "Compumathescitics"
         description: |
-          TBD
+          Mathematics and Computer Science: are they friends or foes? Or maybe estranged second
+          cousins once-removed? Many computer science ideas are based on mathematical concepts, but
+          did you know computer science often flips those concepts on their head? Let's explore the
+          wacky world of computer science! And maths!
         person:
           name: Jennifer Wong
           twitter: mybluewristband
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:00 PM:
         type: Talk
