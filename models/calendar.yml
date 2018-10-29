@@ -1,4 +1,4 @@
-- day: '2018-11-07'
+- day: '2019-03-06'
   schedule:
     - 7:00 PM:
         title: Get some tasty doughnuts and make new friends!
@@ -9,7 +9,7 @@
         emoji: 👋
 
     - 7:45 PM: Speaker TBA
-
+          
     - 8:00 PM: Speaker TBA
 
     - 8:15 PM:
@@ -33,9 +33,243 @@
     Black Girls Code: http://www.blackgirlscode.com/
 
   sponsors:
+      - Storj: http://foo.com
+
+- day: '2019-02-13'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty doughnuts and make new friends!
+        emoji: 🍩
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+          
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+
+- day: '2019-01-09'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty doughnuts and make new friends!
+        emoji: 🍩
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+          
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+- day: '2018-12-05'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty doughnuts and make new friends!
+        emoji: 🍩
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM:
+        type: Talk
+        emoji: 🅰
+        title: TBD
+        description: TBD
+        person:
+          name: Mars Jullian
+          twitter: marsjosephine
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          
+    - 8:00 PM:
+        type: Talk
+        emoji: 👽
+        title: "TBD"
+        description: |
+          TBD
+        person:
+          name: Miles Hinson
+          twitter: mileshinson
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM:
+        type: Talk
+        emoji: 🎄
+        title: Scaling Christmas - An Illustrated Adventure
+        description: |
+          Santa is sick! With Christmas only a week away, master planner and architect Mrs. 
+          Claus has to find a new way to scale Christmas. Join me and a merry band of lemurs 
+          as we learn how to scale, mitigate attacks, and prepare to save Christmas.
+        person:
+          name: Brandon Weaver
+          twitter: keystonelemur
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+      - Medium: https://medium.com/jobs-at-medium/
+      - Trim: https://www.asktrim.com/jobs
+
+- day: '2018-11-07'
+  mc:
+    name: Nat Alison
+    twitter: tesseralis
+    pronouns: she/her or they/them
+    emoji: 💎
+
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty doughnuts and make new friends!
+        emoji: 🍩
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM:
+        type: Talk
+        emoji: 👀
+        title: "TBD"
+        description: |
+          TBD
+        person:
+          name: Jennifer Wong
+          twitter: mybluewristband
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+
+    - 8:00 PM:
+        type: Talk
+        emoji: 🔃
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Tanmai Gopal
+          twitter: tanmaigo
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM:
+        type: Performance
+        title: Harp and Guitar
+        emoji: ✨
+        description: Old Irish folk tunes arranged for instruments they weren't precisely originally intended for, but close enough.
+        people:
+          - name: Britta Gustafson
+            twitter: brittagus
+            pronouns: she/her
+          - name: Esten Hurtle
+            twitter: esten
+            pronouns: she/her
+            
+    - 8:45 PM:
+        type: Talk
+        emoji: 📺
+        title: "TBD"
+        description: |
+          TBD
+        person:
+          name: Mars Jullian
+          twitter: marsjosephine
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+
+    - 9:00 PM:
+        type: Talk
+        emoji: 🎉
+        title: "TBD"
+        description: |
+          TBD
+        person:
+          name: Laurie Voss
+          twitter: seldo
+          pronouns: he/him
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
     - Opendoor: https://www.opendoor.com/jobs/
+    - Medium: https://medium.com/jobs-at-medium/
+    - Appear Works: https://appearworks.com/
 
 - day: '2018-10-03'
+  mc:
+    name: Thais Laney
+    twitter: isthisthais
+    pronouns: they/them or she/her
+    emoji: 🦈
+
   schedule:
     - 7:00 PM:
         title: Get some tasty doughnuts and make new friends!
@@ -45,19 +279,83 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 💃
+        title: "Let's Move: Solving Algorithms Using Choreographed Movement"
+        description: |
+          Learning happens differently for everyone. I've spent most of my life as a modern/ballet dancer. 
+          After codeschool last year and before my first job, I tried to make learning easier for myself by combining a 
+          craft in which I'm well versed (movement/choreography) with one I'm working toward mastering (programmering). 
+          This talk is a peek into my process of understanding code and algorithms through movement and choreography. 
+        person:
+          name: Morgan Fogarty
+          twitter: mofo37
+          pronouns: she/her
 
-    - 8:00 PM: Speaker TBA
-
+    - 8:00 PM:
+        type: Talk
+        emoji: 💎
+        title: "Playing With Polyhedra: Creating Beauty from Obsession"
+        description: |
+          The Polyhedra Viewer (https://polyhedra.tessera.li) is an interactive web app that explores the relationships
+          between convex polyhedra. Users can select operations and watch as shapes expand, twist, and contract according
+          to mathematical rules. Join me on my journey taking my lifelong passion for these shapes into a work
+          that is accessible to students, teachers, and artists. Learn about my inspirations and struggles in creating this
+          application and the complex relationship between obsession and creativity.
+        person:
+          name: Nat Alison
+          twitter: tesseralis
+          pronouns: she/her or they/them
+          
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎸
+        title: Kysnusan
+        description: A live guitar performance with vocals.
+        people:
+          - name: Kyle Owen
+            github: kyle-owen-opendoor
+            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          - name: Susan Hu
+            pronouns: she/her
+          - name: Visnu Pitiyanuvath
+            twitter: visnup
+            pronouns: he/him
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 🖍️
+        title: "Let's Sketch Tech!"
+        description: In this interactive talk, Marlena will show how sketching tech is for anyone who wants to pick up a pencil.
+          She will talk about different formats for sketching from sketchnotes to lettering and why sketching matters.
+          We'll explore different ways of helping our brains sort through and make sense of the complicated information we process in tech and look for new ways to understand tech with sketches!
+        person:
+          name: Marlena Compton
+          twitter: marlenac
+          pronouns: she/her, they/them
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🌔
+        title: "Witchy Algorithms: Writing Code to Calculate the Phases of the Moon"
+        description: |
+          For witches, werewolves, and wizards, the phases of the moon can be a problem because
+          certain kinds of magic only work on certain phases of the moon. For programmers, the
+          phases of the moon is a problem that can be solved by an algorithm. In this talk, the
+          magical meets the mathematical as we take a look at how to calculate the phases of the
+          moon.<br /><br />
+          We'll write code that calculates the percent illumination of the moon based on the
+          current position of the moon and sun, and step by step, go over the trigonometry proofs
+          that show how it works.
+        person:
+          name: Amy Wibowo
+          twitter: sailorhg
+          pronouns: she/her, they/them
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
@@ -71,8 +369,16 @@
 
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs/
+    - GitHub: https://github.com/about/careers/
+    - Medium: https://medium.com/jobs-at-medium/
 
 - day: '2018-09-05'
+  mc:
+    name: Neha Batra
+    twitter: nerdneha
+    pronouns: she/her
+    emoji: 🎢
+
   schedule:
     - 7:00 PM:
         title: Get some tasty doughnuts and make new friends!
@@ -82,19 +388,71 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🥖
+        title: Parlez-vous Javascript?
+        description: |
+          A fun divergence into language design and learning. What kind of languages? All kinds. 
+          Both computer languages and spoken ones. Think they're different? Maybe not. 
+          From English to Japanese, from Javascript to PHP, we'll take well established programming 
+          language design principles and critique the various contenders from the perspective of 
+          predicability, usability, and consistency. How will your favorite language hold up? 
+        person:
+          name: Christian Schlensker
+          twitter: wordofchristian
+          pronouns: he/him/his
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🌊
+        title: The Bipolar Software Engineer
+        description: |
+          2.6% of the American adult population is diagnosed with bipolar 
+          disorder, and yet it is one of the most heavily stigmatized mental illnesses
+          out there. What is bipolar disorder, and how do people experience it?
+          This talk is through the lens of a software engineer.
+        person:
+          name: Jenna Quindica
+          twitter: jennskiezz
+          pronouns: she/her/hers
 
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        title: Sara and Siggy
+        emoji: 🎸
+        description: Singing some covers accompanied by weird sounds.
+        people:
+          - name: Siggy Bilstein
+            twitter: sbilstein
+            pronouns: he/him
+          - name: Sara LeMesh
+            twitter: saralemesh
+            pronouns: she/her
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: ✨
+        title: live-code that viz
+        description: live-code a data visualization from scratch with d3.js and react.js
+        person:
+          name: Shirley Wu
+          twitter: sxywu
+          pronouns: she/her # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🍕
+        title: A Response To "Design Mistakes in Node"
+        description: How should design mistakes in Node.js be addressed?
+        person:
+          name: Rich Trott
+          twitter: trott
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
@@ -109,6 +467,7 @@
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs/
     - Mixmax: https://mixmax.com/careers/
+    - GitHub: https://github.com/about/careers/
 
 - day: '2018-08-01'
   schedule:
@@ -120,19 +479,66 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🖌
+        title: AR Art on the Web Using Wasm
+        description: What if you could draw in 3D space using your phone? What if you could simulate millions of particles with this magical application? Well you can, and you can use the web to build it! We'll go through how to get started with [`three.ar.js`](https://github.com/google-ar/three.ar.js) and how to achieve this sort of stuff using [WebAssembly](https://webassembly.org/) (abbreviated as "Wasm") to make it performant!
+        person:
+          name: Andrés Cuervo
+          twitter: acwervo
+          pronouns: they/them or he/him
 
-    - 8:00 PM: Speaker TBA
+
+    - 8:00 PM:
+        type: Talk
+        emoji: 😱
+        title: History of Outages I've Caused
+        description: A brief history of outages I've known, caused, and loved, and the hard-won lessons they taught me.
+        person:
+          name: Duretti Hirpa
+          twitter: duretti
+          pronouns: she / her
 
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        title: "'She' by Andee Mckee, 'Drifting' by Andee Mckee"
+        emoji: 🎸
+        description: Dope Guitar Music
+        person:
+          name: David Harris
+          twitter: dahveedgh
+          pronouns: he/him/his
 
-    - 8:45 PM: Speaker TBA
-
-    - 9:00 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 🎨
+        title: Context Free Art
+        description: |
+          We're used to grammars for language, both human and programming. Context Free
+          Art is a tool for using recursive rules—grammars—to draw pictures. From Koch's
+          snowflake to awkward polaroids, learn how you can wield context-free grammars and
+          probabilistic recursion to paint wonderful (and frequently hypnotic) images.
+        person:
+          name: Jeremy Apthorp
+          twitter: nornagon
+          pronouns: he/him
+          
+    - 9:00 PM:
+        type: Talk
+        emoji: 🎈
+        title: 3 Year Retrospective
+        description: |
+          Tonight marks WaffleJS's 3rd anniversary! The WaffleJS organizers will share
+          some thoughts and lessons from their last 3 years of organizing this meetup.
+        person:
+          name: Team WaffleJS
+          twitter: wafflejs
+          pronouns: they/them
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
@@ -144,9 +550,16 @@
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
 
+  mc:
+    name: Raquel Velez
+    twitter: rockbot
+    pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+    emoji: 🤖
+
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs/
     - Mixmax: https://mixmax.com/careers/
+    - GitHub: https://github.com/about/careers/
 
 - day: '2018-07-11'
   schedule:
@@ -158,9 +571,30 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🖖
+        title: Descartes, Berkeley and Functional Programming
+        description: |
+          We will recast the debate between OOP (object-oriented programming) 
+          and FP (functional programming) as a debate between Rene Descartes’ 
+          realism and George Berkeley’s idealism.
+        person:
+          name: David Valdman
+          twitter: dmvaldman
+          pronouns: he/him
 
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 📚
+        title: Computers Writing Badly
+        description: |
+          Inspired by famously terrible fiction, we'll explore how to use Natural 
+          Language Processing and Machine Learning to generate writing so bad, it's good.
+        person:
+          name: Chloe Revery
+          twitter: chloerevery
+          pronouns: she/her
 
     - 8:15 PM:
         title: Intermission
@@ -168,9 +602,35 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 🦈
+        title: Searching for Sharks
+        description: |
+          Whale sharks are gentle and fascinating ocean giants, but there's so much we 
+          don't yet know about them... In this talk, we will deep dive into a jawsome 
+          use of algorithmic fingerprinting for identifying and tracking whale 
+          sharks!
+        person:
+          name: Thais Laney
+          twitter: isthisthais
+          pronouns: she/her
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: ⚡
+        title: Extreme functional programming in frontend development
+        description: |
+          Functional programming has become more and more prevalent with javascript
+          developers. Transforming data into UI views with deterministic functions
+          was a powerful idea that took the industry by storm when React debuted. I
+          believe you can build not just your views, but your entire application
+          with just deterministic functions. I'll show you how I approach the
+          problem!
+        person:
+          name: Dillon Forrest
+          twitter: dillonforrest
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
@@ -181,6 +641,12 @@
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
+
+  mc:
+    emoji: 🦄
+    name: Tilde Ann Thurium
+    twitter: annthurium
+    pronouns: they/them
 
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs/
@@ -282,6 +748,12 @@
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
 
+  mc:
+    name: Jacky Alciné
+    twitter: jackyalcine
+    pronouns: he/him
+    emoji: 🎉
+
   sponsors:
     - Opendoor: https://www.opendoor.com/jobs/
     - Mixmax: https://mixmax.com/careers/
@@ -380,6 +852,12 @@
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
+  
+  mc:
+    emoji: 😮
+    name: Feross Aboukhadijeh
+    twitter: feross
+    pronouns: he/him
 
   sponsors:
     - Shape Security: https://www.shapesecurity.com/jobs/
@@ -470,6 +948,12 @@
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
 
+  mc:
+    emoji: 🔥
+    name: Duretti Hirpa
+    twitter: duretti
+    pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+
   sponsors:
     - Shape Security: https://www.shapesecurity.com/jobs/
     - Mixmax: https://mixmax.com/careers/
@@ -556,6 +1040,12 @@
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
+
+  mc:
+    emoji: 👋
+    name: Laurie Voss
+    twitter: seldo
+    pronouns: he/him
 
   sponsors:
     - Shape Security: https://www.shapesecurity.com/jobs/
@@ -775,7 +1265,7 @@
           to be easy to extend with your own components written in Javascript. I’ll be going through what
           A-Frame gives you, how to get started, and some examples of what you can do with the library!
         person:
-          name: Andres Cuervo
+          name: Andrés Cuervo
           twitter: acwervo
           pronouns: they/them or he/him
 

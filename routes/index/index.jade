@@ -28,13 +28,17 @@ div( class=className )
         About
         -----
 
-        WaffleJS is a meetup about web technology with a side of waffles
-        and karaoke. We meet on the first Wednesday of every month.
+        WaffleJS is a meetup about web technology with a side of
+        waffles<sup>1</sup> and karaoke. We meet on the first Wednesday of
+        every month.
 
         All participants are expected to follow the [JSConf Code of
         Conduct][1].
 
+        <sup>1</sup> Toroidal waffles from [Johnny Doughnuts][2].
+
         [1]: http://jsconf.com/codeofconduct.html
+        [2]: http://johnnydoughnuts.com
         
     .col-xs-12.col-sm-6.people
       a( href='https://twitter.com/{{person.twitter}}'
@@ -43,7 +47,7 @@ div( class=className )
         img(
           title='{{person.name}}'
           ng-style='{width: person.size, height: person.size }'
-          ng-src='https://twitter.com/{{person.twitter}}/profile_image?size=bigger' )
+          ng-src='https://avatars.io/twitter/{{person.twitter}}' )
 
   section#get-involved( ng-class='{ tba: index.tba }' ): .container-fluid
     h2 Get Involved
@@ -75,6 +79,15 @@ div( class=className )
             ng-options='month.day|date:"MMMM d" group by month.date.getFullYear() for month in index.calendar'
             ng-model='index.day'
           )
+      ul.mc-details(
+        ng-if='index.day.mc'
+        ng-init='mc = index.day.mc'
+      )
+        li
+          h3
+            | Starring Guest MC {{mc.emoji}}&#32;
+            a( ng-href='https://twitter.com/{{mc.twitter}}' ) {{mc.name}} #[span.pronouns( ng-if='mc.pronouns' ) ({{mc.pronouns}})]
+            | &#32; {{mc.emoji}}
       ul.schedule: li( ng-repeat='event in index.day.schedule track by $index' )
         .row.row-lg-offset--3( ng-repeat="(time, item) in event" )
           .col-xs-12.col-lg-3.end-lg
@@ -109,6 +122,10 @@ div( class=className )
                   ng-href='https://github.com/{{person.github}}'
                 )
                   | {{person.name}} #[span.pronouns( ng-if='person.pronouns' ) ({{person.pronouns}})] · #[span.github-link: {{person.github}}]
+                a.person(
+                  ng-if='!person.twitter && !person.github'
+                )
+                  | {{person.name}} #[span.pronouns( ng-if='person.pronouns' ) ({{person.pronouns}})]
           .hide-md-down.col-lg-3.end-lg( ng-show='item.type' )
             h5 {{item.type}}
           .col-xs-12.col-lg-9(ng-class='{ "border-bottom": !item.description }')
@@ -160,5 +177,5 @@ div( class=className )
           We plan everything out in the open. Come chat with us on [Slack][2]
           or chime in on [GitHub][3].
 
-          [2]: http://slack.borojs.com/
+          [2]: https://borojs.slack.com/join/shared_invite/enQtMzM2Nzc5ODExNjY2LTUyNTg3OGMzMzhhNWU2OWViNWUxNmMyZjA5NmMzNGFhYmJkOWE5NzA4NWI5ZGY2NjdmNzBmYWJjMjYzZjkwOGE
           [3]: https://github.com/wafflejs/wafflejs.github.io/issues

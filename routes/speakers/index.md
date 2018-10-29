@@ -14,7 +14,7 @@ channel) if you want immediate feedback.
 
 [1]: https://github.com/wafflejs/wafflejs.github.io/issues
 [2]: mailto:speakers@wafflejs.com
-[3]: http://slack.borojs.com
+[3]: https://borojs.slack.com/join/shared_invite/enQtMzM2Nzc5ODExNjY2LTUyNTg3OGMzMzhhNWU2OWViNWUxNmMyZjA5NmMzNGFhYmJkOWE5NzA4NWI5ZGY2NjdmNzBmYWJjMjYzZjkwOGE
 
 When and where will it be?
 --------------------------
