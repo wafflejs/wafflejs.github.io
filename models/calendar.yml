@@ -104,7 +104,10 @@
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
-
+    
+  sponsors: 
+      - Hustle: https://www.hustle.com/careers
+      
 - day: '2018-12-05'
   schedule:
     - 7:00 PM:
