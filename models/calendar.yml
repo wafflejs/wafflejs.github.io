@@ -243,9 +243,11 @@
     - 9:00 PM:
         type: Talk
         emoji: 🎉
-        title: "TBD"
+        title: "All The Times We Broke The npm Registry"
         description: |
-          TBD
+          The npm Registry has become vital infrastructure to the JavaScript world, but 
+          it doesn't always work. For your amusement and edification, here is a list of 
+          the most spectacular times we broke the registry, and what we learned in doing so.
         person:
           name: Laurie Voss
           twitter: seldo
