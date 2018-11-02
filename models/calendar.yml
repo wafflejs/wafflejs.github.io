@@ -143,12 +143,13 @@
         title: Scaling Christmas - An Illustrated Adventure
         description: |
           Santa is sick! With Christmas only a week away, master planner and architect Mrs. 
-          Claus has to find a new way to scale Christmas. Join me and a merry band of lemurs 
-          as we learn how to scale, mitigate attacks, and prepare to save Christmas.
+          Claus has to find a new way to scale Christmas. Join me and a merry band of lemurs
+          in an illustrated adventure as we learn how to scale, mitigate attacks, and prepare
+          to save Christmas.
         person:
           name: Brandon Weaver
           twitter: keystonelemur
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:00 PM: Speaker TBA
 
