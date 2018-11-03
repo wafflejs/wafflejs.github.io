@@ -234,7 +234,16 @@
             twitter: esten
             pronouns: she/her
             
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: ⚖️
+        title: "Design Systems at Scale"
+        description: |
+          TBD
+        person:
+          name: Sarah Federman
+          twitter: sarah_federman
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:00 PM:
         type: Talk
