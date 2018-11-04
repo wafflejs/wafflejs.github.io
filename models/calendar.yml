@@ -209,7 +209,7 @@
     - 8:00 PM:
         type: Talk
         emoji: 🔃
-        title: TBD
+        title: Realtime GraphQL and async serverless
         description: |
           TBD
         person:
