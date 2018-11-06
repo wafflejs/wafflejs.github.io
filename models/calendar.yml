@@ -239,11 +239,12 @@
         emoji: ⚖️
         title: "Design Systems at Scale"
         description: |
-          TBD
+          Adobe's design system Spectrum is tackling a huge suite of products, serving thousands of employees, 
+          and 30 years of legacy culture and code. Let's talk about how we're solving these issues at scale.
         person:
           name: Sarah Federman
           twitter: sarah_federman
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 9:00 PM:
         type: Talk
