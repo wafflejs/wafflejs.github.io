@@ -208,14 +208,18 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: 🔃
+        emoji: 👹
         title: Realtime GraphQL and async serverless
         description: |
-          TBD
+          I’m going to take you through a 10 minute tutorial to describe an architectural pattern with
+          realtime GraphQL and async serverless. I’m going to live-stitch together a food-ordering app that 
+          uses GraphQL subscriptions & events on Postgres that trigger serverless functions. Then we’re 
+          all (you’re participating in this demo too) going to make lots of orders and watch our backend
+          scale without any glitches. 🤞
         person:
           name: Tanmai Gopal
           twitter: tanmaigo
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 8:15 PM:
         title: Intermission
