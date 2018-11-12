@@ -1,3 +1,77 @@
+- day: '2019-05-01'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty doughnuts and make new friends!
+        emoji: 🍩
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+          
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+      - Opendoor: https://www.opendoor.com/jobs
+
+- day: '2019-04-03'
+  schedule:
+    - 7:00 PM:
+        title: Get some tasty doughnuts and make new friends!
+        emoji: 🍩
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+          
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM: &butter_beverajs
+        title: Open karaoke + bevera.js
+        emoji: 🎤
+        description: Head over to [Butter](https://goo.gl/maps/1g8GPrFvJyS2)
+          for karaoke and beverages. Cash bar and open karaoke! Just across the
+          street.
+
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
+
+  sponsors:
+      - Opendoor: https://www.opendoor.com/jobs
+
 - day: '2019-03-06'
   schedule:
     - 7:00 PM:
@@ -33,6 +107,7 @@
     Black Girls Code: http://www.blackgirlscode.com/
 
   sponsors:
+      - Opendoor: https://www.opendoor.com/jobs
       - Storj: http://foo.com
 
 - day: '2019-02-13'
@@ -70,6 +145,7 @@
     Black Girls Code: http://www.blackgirlscode.com/
 
   sponsors:
+      - Opendoor: https://www.opendoor.com/jobs
 
 - day: '2019-01-09'
   schedule:
@@ -115,6 +191,7 @@
     Black Girls Code: http://www.blackgirlscode.com/
     
   sponsors: 
+      - Opendoor: https://www.opendoor.com/jobs
       - Hustle: https://www.hustle.com/careers
       
 - day: '2018-12-05'
@@ -173,6 +250,7 @@
     Black Girls Code: http://www.blackgirlscode.com/
 
   sponsors:
+      - Opendoor: https://www.opendoor.com/jobs
       - Medium: https://medium.com/jobs-at-medium/
       - Trim: https://www.asktrim.com/jobs
 
