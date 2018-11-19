@@ -204,7 +204,23 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🗺
+        title: Forget your data, focus on your domain
+        description: |
+          When migrating from REST to GraphQL, it’s easy to want to make your GraphQL schema match
+          your REST API, especially because there are tools out there that make that really easy.
+          While great for trying out GraphQL, if you keep this schema design moving forward you are
+          probably unintentionally carrying over some trade-offs you had to make when designing for
+          REST and not fully taking advantage of some of GraphQL’s strongest selling points.
+          Domain-driven development is well-suited for taking advantage of these strong points, and
+          also has the added benefit of encouraging and structuring cross-department communication
+          and collaboration.
+        person:
+          name: Thais Laney
+          twitter: isthisthais
+          pronouns: she/her
           
     - 8:00 PM:
         type: Talk
