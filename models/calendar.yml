@@ -209,7 +209,10 @@
         emoji: 👀
         title: Forget your data, focus on your domain
         description: |
-          TBD
+          GraphQL pushes us to think differently about how we design our data models. 
+          This introduces not just a technical shift, but also a shift in how we 
+          collaborate on product teams. I'm excited about these changes and maybe, 
+          by the end of this talk, you will be too.
         person:
           name: Thais Correia
           twitter: isthisthais
