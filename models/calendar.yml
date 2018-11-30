@@ -220,14 +220,18 @@
           
     - 8:00 PM:
         type: Talk
-        emoji: 👽
-        title: "TBD"
+        emoji: 📚
+        title: Tackling the Mysteries of Latin Literature via Word Embeddings
         description: |
-          TBD
+          Word embeddings are an incredibly popular tool in modern NLP, but they've predominantly been used on
+          living languages. What are the applications to using word embeddings in languages no longer spoken
+          (Latin, Ancient Greek, etc.), and what are the challenges faced? I'm excited to talk about work I've
+          done using word embeddings to better understand the poetry of an Augustan poet, Properties, and how 
+          Latin word embeddings pose different challenges from training them on a language like English.
         person:
           name: Miles Hinson
           twitter: mileshinson
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him/his
 
     - 8:15 PM:
         title: Intermission
