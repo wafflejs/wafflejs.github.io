@@ -221,12 +221,12 @@
     - 8:00 PM:
         type: Talk
         emoji: 📚
-        title: Tackling the mysteries of Latin literature via Word Embeddings
+        title: Tackling the Mysteries of Latin Literature via Word Embeddings
         description: |
           Word embeddings are an incredibly popular tool in modern NLP, but they've predominantly been used on
           living languages. What are the applications to using word embeddings in languages no longer spoken
           (Latin, Ancient Greek, etc.), and what are the challenges faced? I'm excited to talk about work I've
-          done using word embeddings to better understand the poetry of an Augustan poet, Properties, and how 
+          done using word embeddings to better understand the poetry of an Augustan poet, Propertius, and how 
           Latin word embeddings pose different challenges from training them on a language like English.
         person:
           name: Miles Hinson
