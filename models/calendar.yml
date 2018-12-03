@@ -262,11 +262,13 @@
           pronouns: he/him
 
     - 9:00 PM:
-        type: Talk
+        type: Making good trouble
         emoji: 🎉
         title: TBD
         description: |
-          TBD
+         Sometimes you want to make changes to processes and habits your team has, but it's not around the code itself. 
+         How can we do that? How do we make changes to the habits of hundreds? This talk will give you a starting guide
+         to making good trouble at work.
         person:
           name: Duretti Hirpa
           twitter: duretti
