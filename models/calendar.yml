@@ -195,6 +195,12 @@
       - Hustle: https://www.hustle.com/careers
       
 - day: '2018-12-05'
+  mc:
+    name: Elaine Yeung
+    twitter: egsy
+    pronouns: she/her
+    emoji: 👺
+    
   schedule:
     - 7:00 PM:
         title: Get some tasty doughnuts and make new friends!
@@ -207,7 +213,7 @@
     - 7:45 PM:
         type: Talk
         emoji: 👀
-        title: Forget your data, focus on your domain
+        title: Master your Domain with GraphQL
         description: |
           GraphQL pushes us to think differently about how we design our data models. 
           This introduces not just a technical shift, but also a shift in how we 
