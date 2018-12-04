@@ -262,9 +262,9 @@
           pronouns: he/him
 
     - 9:00 PM:
-        type: Making good trouble
+        type: Talk
         emoji: 🎉
-        title: TBD
+        title: Making good trouble
         description: |
          Sometimes you want to make changes to processes and habits your team has, but it's not around the code itself. 
          How can we do that? How do we make changes to the habits of hundreds? This talk will give you a starting guide
