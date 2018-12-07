@@ -159,7 +159,16 @@
 
     - 7:45 PM: Speaker TBA
           
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🎉
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Jacky Alciné
+          twitter: jackyalcine
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:15 PM:
         title: Intermission
@@ -178,7 +187,16 @@
           twitter: marsjosephine
           pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 📝
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Jason Tu
+          twitter: nucleartide
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
