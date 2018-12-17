@@ -190,9 +190,13 @@
     - 9:00 PM:
         type: Talk
         emoji: 📝
-        title: TBD
+        title: |
+          Joy Within Constraints: An Intro to the PICO-8 Fantasy Console
         description: |
-          TBD
+          PICO-8 is a game creation tool created by [@lexaloffle](https://twitter.com/lexaloffle),
+          which bills itself as a "fantasy console". This talk will underline the philosophy behind
+          the "fantasy console" concept, and explain how constraints enable the writing of fun,
+          little programs that you can enjoy in your free time.
         person:
           name: Jason Tu
           twitter: nucleartide
