@@ -162,13 +162,17 @@
     - 8:00 PM:
         type: Talk
         emoji: 🎉
-        title: TBD
+        title: "Talk to Me NICE: The IndieWeb, Fediverse and You" 
         description: |
-          TBD
+          We spend lots of time working on tools and platforms that optimize for data crunching and
+          extracting value from anything we do online. There's communities that aim to federate our
+          social interactions and bring back the part of the Web that made social networking exciting.
+          As a developer, I'd like to share some thoughts as to how and why I did this and why I'd want
+          you to join as well.
         person:
           name: Jacky Alciné
           twitter: jackyalcine
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 8:15 PM:
         title: Intermission
