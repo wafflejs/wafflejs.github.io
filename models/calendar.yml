@@ -148,6 +148,12 @@
       - Opendoor: https://www.opendoor.com/jobs
 
 - day: '2019-01-09'
+  mc:
+    name: Christian Schlenker
+    twitter: wordofchristian
+    pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+    emoji: 🍔
+  
   schedule:
     - 7:00 PM:
         title: Get some tasty doughnuts and make new friends!
