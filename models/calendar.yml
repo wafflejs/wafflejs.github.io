@@ -208,18 +208,18 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: 📝
+        emoji: 👾
         title: |
-          Joy Within Constraints: An Intro to the PICO-8 Fantasy Console
+          Making Waffles: An Intro to the PICO-8 Fantasy Console
         description: |
           PICO-8 is a game creation tool created by [@lexaloffle](https://twitter.com/lexaloffle),
           which bills itself as a "fantasy console". This talk will underline the philosophy behind
-          the "fantasy console" concept, and explain how constraints enable the writing of fun,
-          little programs that you can enjoy in your free time.
+          the "fantasy console" concept, and explain how PICO-8 enables the writing of fun, little
+          programs that you can enjoy in your free time.
         person:
           name: Jason Tu
           twitter: nucleartide
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
