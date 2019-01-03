@@ -86,14 +86,17 @@
           
     - 8:00 PM:
         type: Talk
-        emoji: ✅
-        title: TBD
-        description: |
-          TBD
+        emoji: 🤘
+        title: 10 Test Smells In 10 Minutes
+        description: Ah, those vexing tests that fail once in a while but pass
+          as soon as you re-run them. Don't you hate those things? I *hate*
+          those things. Will a fast-paced listicle-style run-through of causes
+          be helpful? I don't know! Maybe we'll find out! Together! Like a team!
+          Go team!
         person:
           name: Rich Trott
           twitter: trott
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)      
+          pronouns: he/him
           
     - 8:15 PM:
         title: Intermission
