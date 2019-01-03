@@ -202,7 +202,15 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎤
+        title: Karaoke!
+        description: A rockin' karaoke performance.
+        person:
+          name: Potch
+          twitter: potch
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:45 PM:
         type: Talk
