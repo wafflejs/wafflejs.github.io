@@ -178,13 +178,16 @@
     - 7:45 PM:
         type: Talk
         emoji: 📝
-        title: TBD
+        title: "SWE through a Puzzlin' Lens" 
         description: |
-          TBD
+          Crossword puzzles might not seem like a pastime you associate with anyone younger than baby boomers,
+          but it turns out that the patterns behind these wonderfully nerdy puzzles are a great lens through which
+          to consider different approaches to software engineering. In this talk, I'll take you on a journey through some of my
+          favorite clues and puzzles, and how they informed and improved my perspectives as a developer.
         person:
           name: Shelley Vohr
           twitter: codebytere
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)      
+          pronouns: she/her     
           
     - 8:00 PM:
         type: Talk
