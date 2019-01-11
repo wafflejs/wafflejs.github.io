@@ -134,8 +134,17 @@
 
     - 7:45 PM: Speaker TBA
           
-    - 8:00 PM: Speaker TBA
-
+    - 8:45 PM:
+        type: Talk
+        emoji: 🛋
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Mitchell DeMarco
+          twitter: neablis12321
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)   
+          
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
