@@ -248,14 +248,18 @@
 
     - 7:45 PM: 
         type: Talk
-        emoji: 🔄
-        title: TBD
+        emoji: 🦖
+        title: |
+          Offline First: Driving the Downasaur to Extinction
         description: |
-          TBD
+          Networks are flaky, but your app doesn’t have to be. From healthcare solutions in the developing world 
+          to entertainment for the daily commute, the Offline First approach to web development is transforming 
+          user experience. We'll look at how you can use simple tools like PouchDB and CouchDB to build apps that 
+          survive and thrive in real-world network conditions.
         person:
           name: Teri Chadbourne
-          twitter: eventteri
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)   
+          twitter: EventTeri
+          pronouns: she/her 
           
     - 8:45 PM:
         type: Talk
