@@ -237,6 +237,12 @@
       - GitHub: https://github.com/about/careers/
 
 - day: '2019-02-13'
+  mc:
+    emoji: 👋
+    name: Laurie Voss
+    twitter: seldo
+    pronouns: he/him
+    
   schedule:
     - 7:00 PM:
         title: Get some tasty doughnuts and make new friends!
