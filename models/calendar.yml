@@ -301,14 +301,18 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: 🍳
+        emoji: 👷🏽‍♀️
         title: TBD
         description: |
-          TBD
+          With the advent of Bitcoin and Ethereum, developers have been creating decentralized
+          applications that do not depend on a server. Not only can we do away with central
+          databases, but we an also create applications that don't use CDNs. In this talk we
+          will learn how to serve assets in a distributed fashion using IPFS, and why every
+          web developer should consider weaning themselves away from CDNs.
         person:
           name: Portia Burton
           twitter: pkafei
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)   
+          pronouns: she/it
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
