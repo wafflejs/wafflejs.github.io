@@ -43,8 +43,5 @@ button, .btn {
   &.xs-full-width {
     width: 100%;
     padding: .75rem 1rem;
-    @media (--sm-viewport) {
-      width: auto;
-    }
   }
 }
