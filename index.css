@@ -64,7 +64,7 @@ footer {
   font-size: x-large;
 
   @media (--xs-viewport-only) {
-    margin: 1.75rem 1rem;
+    margin: calc(1rem + env(safe-area-inset-bottom)) 1rem;
   }
 
   @media (--sm-viewport) {
