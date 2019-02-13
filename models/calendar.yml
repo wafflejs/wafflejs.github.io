@@ -299,11 +299,14 @@
         emoji: 🛠
         title: Private class fields in JavaScript
         description: |
-          TBD
+         JavaScript is getting the ability to create truly 
+         [private fields](https://developers.google.com/web/updates/2018/12/class-fields)
+         in classes with a new hashbang syntax. I'd like to share how this proposal 
+         evolved in TC39 with the various design and implementation trade-offs.
         person:
           name: Sathya Gunasekaran
           twitter: _gsathya
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)   
+          pronouns: he/him  
 
     - 9:00 PM:
         type: Talk
