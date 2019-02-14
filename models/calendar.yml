@@ -287,8 +287,10 @@
     - 8:30 PM:
         type: Performance
         emoji: 🍄
-        title: TBD
-        description: TBD
+        title: Some nice songs
+        description: |
+          Liam is a technologist who used to be a street musician. He'll play you 
+          some songs he wrote, and some he didn't. He hopes you like them.
         person:
           name: Liam Campbell
           twitter: liamdanger
