@@ -337,13 +337,17 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: 🌟
-        title: TBD
-        description: TBD
+        emoji: 🧰
+        title: Hey, you got C++ in my JavaScript!
+        description: For developers who use Node.js, JavaScript is our bread and butter.
+          Occasionally, though, it isn’t quite the right tool for the job. Fortunately
+          Node.js provides the ability to load dynamically linked shared objects written
+          in C and C++ — these are known as native addons. Let’s explore native addons and
+          talk about when and how to use them.
         person:
           name: Michelle Tilley
-          twitter: binarymuse
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          twitter: BinaryMue
+          pronouns: she/her
           
     - 9:00 PM: Speaker TBA
 
