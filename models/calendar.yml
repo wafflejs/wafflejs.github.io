@@ -370,6 +370,12 @@
       - GitHub: https://github.com/about/careers/
 
 - day: '2019-03-06'
+  mc:
+    emoji: 💃
+    name: Morgan Fogarty
+    twitter: mofo37
+    pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+
   schedule:
     - 7:00 PM:
         title: Get some tasty doughnuts and make new friends!
