@@ -13,4 +13,5 @@ If you're submitting a PR for a talk or a performance, here's the format you sho
     person:
       name: Foo Bar
       twitter: foobar
+      pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 ```
