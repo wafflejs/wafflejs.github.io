@@ -440,7 +440,7 @@
         person:
           name: Lydia Kats
           twitter: llkats
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/they
 
     - 9:00 PM:
         type: Talk
