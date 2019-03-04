@@ -445,12 +445,12 @@
     - 9:00 PM:
         type: Talk
         emoji: 🔥
-        title: TBD
-        description: TBD
+        title: Decentralized Data Structures
+        description: A quick introduction to decentralized data structures and their advantages over centralized and federated data.
         person:
           name: Mikeal Rogers
           twitter: mikeal
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
 
     - 9:15 PM: &butter_beverajs
