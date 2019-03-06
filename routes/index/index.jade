@@ -107,7 +107,7 @@ div( class=className )
                 ng-if='item.person.github'
                 ng-href='https://github.com/{{item.person.github}}'
               )
-                | {{item.person.name}} #[span.pronouns( ng-if='item.person.pronouns' ) ({{item.person.pronouns}})] · #[span.github-link: {{item.person.github}}]
+                | {{item.person.name}} #[span.pronouns( ng-if='item.person.pronouns' ) ({{item.person.pronouns}})] · #[span.github-link {{item.person.github}}]
             h5( ng-show='item.people' )
               span( ng-repeat='person in item.people' )
                 span.separator( ng-hide='$first' ) &
@@ -121,7 +121,7 @@ div( class=className )
                   ng-if='person.github'
                   ng-href='https://github.com/{{person.github}}'
                 )
-                  | {{person.name}} #[span.pronouns( ng-if='person.pronouns' ) ({{person.pronouns}})] · #[span.github-link: {{person.github}}]
+                  | {{person.name}} #[span.pronouns( ng-if='person.pronouns' ) ({{person.pronouns}})] · #[span.github-link {{person.github}}]
                 a.person(
                   ng-if='!person.twitter && !person.github'
                 )
