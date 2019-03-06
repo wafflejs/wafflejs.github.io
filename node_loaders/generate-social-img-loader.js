@@ -3,6 +3,7 @@ const fs = require('fs')
 const path = require('path')
 const yaml = require('js-yaml')
 const moment = require('moment')
+const puppeteer = require('puppeteer')
 const generateImage = require('typesetters-son')
 
 module.exports = function() {
@@ -23,15 +24,20 @@ module.exports = function() {
   const dayDate = moment(moment(nextEvent.day))
   const dateText = dayDate.format('dddd, MMMM D')
   const outputName = `social-${dayDate.format('YYYY-MM')}.jpg`
-  generateImage({
-    url: `file:${templatePath}`,
-    output: path.join(__dirname, '../images/', outputName),
-    width: 1200,
-    height: 630,
-    subs: {
-      '#date': `${dateText} at 7 PM`,
-    },
-  })
+
+  puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']})
+    .then(browser =>
+      generateImage({
+        browserWSEndpoint: browser.wsEndpoint(),
+        url: `file:${templatePath}`,
+        output: path.join(__dirname, '../images/', outputName),
+        width: 1200,
+        height: 630,
+        subs: {
+          '#date': `${dateText} at 7 PM`,
+        },
+      })
+    )
     .then(
       () => callback(null, `module.exports = '${outputName}'`),
       err => callback(err)
