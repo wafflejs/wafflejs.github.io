@@ -400,10 +400,10 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 📣
-        title: TBD
+        emoji: 💊
+        title: Learning From Machines
         description: |
-          TBD
+          Why do deep dream visuals look so trippy? Let's find out!
         person:
           name: Ashi Krishnan
           twitter: rakshesha
