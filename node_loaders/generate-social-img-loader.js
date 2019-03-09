@@ -4,7 +4,7 @@ const path = require('path')
 const yaml = require('js-yaml')
 const moment = require('moment')
 const puppeteer = require('puppeteer')
-const generateImage = require('typesetters-son')
+const { generateImage } = require('typesetters-son')
 
 module.exports = function() {
   this.cacheable()
