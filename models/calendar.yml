@@ -347,6 +347,15 @@
           pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
           
     - 8:00 PM: Speaker TBA
+        type: Talk
+        emoji: 💡
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Trish Ang
+          twitter: feesh
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
           
     - 8:15 PM:
         title: Intermission
