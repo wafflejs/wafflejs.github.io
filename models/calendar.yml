@@ -356,14 +356,18 @@
           
     - 8:00 PM:
         type: Talk
-        emoji: 💡
-        title: TBD
-        description: |
-          TBD
+        emoji: 💔
+        title: How to Fail at Accessibility
+        description: “YOU ARE CURRENTLY ON WEB CONTENT, to enter the web area, press
+          Control-Option-Shift-Down Arrow.” — If that sounds foreign to you… Congratulations!
+          You’ve got a whole new world of accessibility to discover! These issues are often
+          invisible to product designers and developers alike, but they don’t have to be.
+          Let’s break down some of the gotchas and hiccups we faced along the way to overcome
+          any biases we might have in building our JavaScript products.
         person:
           name: Trish Ang
           twitter: feesh
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
           
     - 8:15 PM:
         title: Intermission
