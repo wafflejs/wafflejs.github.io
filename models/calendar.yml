@@ -400,13 +400,16 @@
     - 9:00 PM:
         type: Talk
         emoji: 🖨
-        title: TBD
+        title: WebUSB: Making a label printer work in the browser
         description: |
-          TBD
+          I learnt how to use WebUSB when I had a task to make label printing easy. I want
+          to share with you what webusb is and how you can use it. I also implemented a
+          printer driver in javascript so that I can print to a label printer directly from
+          the browser. The happy future of easily connecting to custom hardware is close!
         person:
           name: Kevin Simper
           twitter: kevinsimper
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
