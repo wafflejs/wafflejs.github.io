@@ -400,7 +400,7 @@
     - 9:00 PM:
         type: Talk
         emoji: 🖨
-        title: WebUSB: Making a label printer work in the browser
+        title: "WebUSB: Making a label printer work in the browser"
         description: |
           I learnt how to use WebUSB when I had a task to make label printing easy. I want
           to share with you what webusb is and how you can use it. I also implemented a
