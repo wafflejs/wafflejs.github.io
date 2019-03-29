@@ -254,13 +254,14 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: 📅
-        title: TBD
-        description: TBD
+        emoji: 🌄
+        title: What is the Dojo?
+        description: |
+          The Dojo is what happens when you combine equal parts martial arts and coding paradigms? Putting those philosophies and practices together into one concept is what makes up Berekely JavaScript Dojo (BJD), and "The dao of the coder". Come see one man struggle to fit heady concepts, like code katas and koans, into a short digestible slide deck. The dao of the coder is to practice patterns.
         person:
           name: Tre' Grisby
           github: Trewaters
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:00 PM: Speaker TBA
 
