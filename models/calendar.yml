@@ -365,13 +365,17 @@
     - 7:45 PM:
         type: Talk
         emoji: ☕
-        title: TBD
+        title: CoffeeJS - How I hacked a coffee machine with JavaScript
         description: |
-          TBD
+          This is the story of how I hacked an API onto my coffee machine. 
+          We’ll look at why I chose JS, what you need to do to take control of a 
+          coffee machine, and what other things we can do with JS and hardware. 
+          You’ll be dreaming of the gadgets in your house that you can’t 
+          wait to rip open and hack.
         person:
           name: Dominik Kundel
           twitter: dkundel
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
           
     - 8:00 PM:
         type: Talk
