@@ -39,7 +39,7 @@
     "html-webpack-plugin": "3.2.0",
     "jade": "1.11.0",
     "jade-loader": "0.8.0",
-    "js-yaml": "3.11.0",
+    "js-yaml": "3.13.1",
     "json-loader": "0.5.7",
     "jstransformer-marked": "1.0.3",
     "lodash": "4.17.10",
