@@ -339,13 +339,13 @@
 
     - 8:30 PM:
         type: Performance
-        emoji: 🎼
-        title: TBD
-        description: TBD
+        emoji: 🏋
+        title: "Allons, il le faut... Adieu, notre petite table"
+        description: An aria from _Manon_ by Massenet
         person:
           name: Molly Hanes
           twitter: ebonhawkdown
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:45 PM:
         type: Talk
