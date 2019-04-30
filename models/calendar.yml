@@ -326,12 +326,22 @@
     - 8:00 PM:
         type: Talk
         emoji: 🎓
-        title: TBD
-        description: TBD
+        title: The Art of Training a New Grad
+        description: |
+          Spring is in the air (well, somewhere), and that means a whole new crop
+          of new grads are about to hit the workplace! Maybe you've extended offers
+          to one or a few, and congratulations! New grads are great! In my past
+          year as a new grad myself, I've seen some wonderful teams train up some
+          wonderful new engineers, designers, product managers, developer advocates,
+          and more! Aaaand I've also seen some missteps along the way. In this talk
+          I'll go through some moves that were great, and some tips I had to learn
+          the hard way, to help you train up your new grad to be happy and healthy at work.
+          
+          Also I really like dogs, so yeah, there's gonna be a lot of pictures of dogs. I'm not sorry.
         person:
           name: Lexi Galantino
           twitter: _gallexi
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her or they/them
           
     - 8:15 PM:
         title: Intermission
