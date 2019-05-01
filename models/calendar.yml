@@ -315,13 +315,17 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 📓
+        emoji: 📚
         title: Publishing Logic
-        description: TBD
+        description: |
+          In 2016, a group of friends got together to publish an independent print 
+          magazine about technology. Two years, seven issues, one book, and one and 
+          a half websites later, I'll share what we've learned—and whether we should've 
+          just published it all on the blockchain from the start.
         person:
           name: Christa Hartsock
           twitter: _hartsick
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:00 PM:
         type: Talk
