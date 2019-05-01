@@ -157,13 +157,15 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 💡
-        title: TBD
-        description: TBD
+        emoji: ✨
+        title: Juice Box Driven Design
+        description: |
+          A talk about building for mental health: why lightweight apps are so important 
+          and how to engage people without bogging down your product.
         person:
           name: Evan Conrad
           twitter: flaqueEau
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
           
     - 8:00 PM: Speaker TBA
 
