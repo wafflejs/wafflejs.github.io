@@ -64,11 +64,8 @@ footer {
   font-size: x-large;
 
   @media (--xs-viewport-only) {
-    background-color: var(--orange);
-    .btn {
-      border-radius: 0;
-      box-shadow: none;
-    }
+    margin: 1rem;
+    margin-bottom: calc(1rem + env(safe-area-inset-bottom));
   }
 
   @media (--sm-viewport) {

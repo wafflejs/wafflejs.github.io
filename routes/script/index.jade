@@ -14,13 +14,13 @@ div( class=className )
         .col-xs-12.col-lg-9( ng-show='item.person || item.people || item.type' )
           h5( ng-show='item.person' )
             a.person( ng-href='https://twitter.com/{{item.person.twitter}}' )
-              | {{item.person.name}} · @{{item.person.twitter}}
+              | {{item.person.name}} #[span.pronouns( ng-if='item.person.pronouns' ) ({{item.person.pronouns}})] · @{{item.person.twitter}}
           h5( ng-show='item.people' )
             span( ng-repeat='person in item.people' )
               span.separator( ng-hide='$first' ) &
               wbr
               a.person( ng-href='https://twitter.com/{{person.twitter}}' )
-                | {{person.name}} · @{{person.twitter}}
+                | {{person.name}} #[span.pronouns( ng-if='person.pronouns' ) ({{person.pronouns}})] · @{{person.twitter}}
         .hide-md-down.col-lg-3.end-lg( ng-show='item.type' )
           h5 {{item.type}}
         .col-xs-12.col-lg-9(ng-class='{ "border-bottom": !item.description }')

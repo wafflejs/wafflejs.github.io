@@ -1,0 +1,58 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: npm install
+          command: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - node_modules
+      - run:
+          name: test
+          command: npm test
+      - run:
+          name: build statics
+          command: npm run build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - index.html
+            - dist/*
+            - images/social*
+
+  deploy:
+    docker:
+      - image: circleci/node:6
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "f3:62:f9:5f:44:e7:a1:88:a9:03:4c:1d:34:65:7e:8b"
+      - attach_workspace:
+          at: .
+      - run:
+          name: push new commit onto GitHub
+          command: |
+            git config user.email "robot@circleci.com"
+            git config user.name "CircleCI"
+            git add images/social*.jpg
+            git commit -am "webpack" && git push origin master; echo 'done!'
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master

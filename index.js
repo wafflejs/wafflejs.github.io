@@ -11,6 +11,7 @@ angular.module('wafflejs', [
   require('./routes/speakers'),
   require('./routes/sponsorship'),
   require('./routes/tickets'),
+  require('./routes/go'),
   require('./title'),
 ])
 .config(($locationProvider) => {

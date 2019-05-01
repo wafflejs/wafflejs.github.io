@@ -8,12 +8,13 @@ WaffleJS is a monthly meetup centered around programming, waffles, and karaoke.
 
 How do I submit a talk?
 -----------------------
-You can either comment on [this issue][1] or [send us an email][2]. Come chat
-with us on [Slack][3] if you want immediate feedback.
+You can either comment on the current Call for Speakers [issue on Github][1] or
+[send us an email][2]. Come chat with us on [Slack][3] (on the #wafflejs
+channel) if you want immediate feedback.
 
-[1]: https://github.com/wafflejs/wafflejs.github.io/issues/135
+[1]: https://github.com/wafflejs/wafflejs.github.io/issues
 [2]: mailto:speakers@wafflejs.com
-[3]: http://slack.borojs.com
+[3]: https://borojs.slack.com/join/shared_invite/enQtMzM2Nzc5ODExNjY2LTUyNTg3OGMzMzhhNWU2OWViNWUxNmMyZjA5NmMzNGFhYmJkOWE5NzA4NWI5ZGY2NjdmNzBmYWJjMjYzZjkwOGE
 
 When and where will it be?
 --------------------------
@@ -52,6 +53,10 @@ speed through any self-bio slides.
 What should be in my talk submission?
 -------------------------------------
 Just a few sentences describing what you want to talk about would be great.
+
+What happens after I submit my talk?
+------------------------------------
+We will follow up with you via email! It may take a few days.
 
 What's the A/V situation?
 -------------------------

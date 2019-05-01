@@ -83,7 +83,8 @@
     }
   }
 
-  ul.schedule {
+  ul.schedule,
+  ul.mc-details {
     list-style-type: none;
     color: inherit;
     padding: 0;
@@ -117,6 +118,30 @@
     .person {
       white-space: nowrap;
       line-height: 150%;
+
+      .pronouns {
+        font-weight: normal;
+        opacity: .85;
+      }
+
+      .github-link {
+        margin-left: 2px;
+        padding-left: 17px;
+        background: url('../../images/icons/github.svg');
+        background-repeat: no-repeat;
+        background-size: 14px 14px;
+        background-position: center left;
+      }
+    }
+  }
+
+  ul.mc-details li {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: solid 1px var(--lighter-gray);
+
+    .pronouns {
+      opacity: .65;
     }
   }
 

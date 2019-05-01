@@ -5,7 +5,7 @@ Sponsorship
 About
 -----
 WaffleJS is a monthly meetup centered around programming, waffles, and karaoke.
-It started when Visnu and Billy went to [BrooklynJS][1]. They were inspired by
+It started when Visnu and Billy went to [BrooklynJS][brooklynjs]. They were inspired by
 the event and wanted to organize a Bay Area technology meetup that would do
 these things:
 
@@ -13,18 +13,8 @@ these things:
 - Promote a diverse and inclusive environment.
 - Get people to have fun.
 
-Today the meetup is co-organized by [Visnu][@visnup], [Billy][@billyroh], [Kelly][@kng], [Emily][@nexxylove], [Max][@chromakode], and [Katrina][@kuychaco].
-It's held at [SoMa StrEat Food Park][2] every first Wednesday of the month.
-
-[@visnup]: https://twitter.com/visnup
-[@billyroh]: https://twitter.com/billyroh
-[@nexxylove]: https://twitter.com/nexxylove
-[@kng]: https://twitter.com/kng
-[@chromakode]: https://twitter.com/chromakode
-[@kuychaco]: https://twitter.com/kuychaco
-
-[1]: http://brooklynjs.com
-[2]: https://goo.gl/maps/0gkOe
+Today the meetup is co-organized by [Visnu][@visnup], [Billy][@billyroh], [Kelly][@kng], [Emily][@nexxylove], [Brian][@b11z], [Max][@chromakode], [Katrina][@kuychaco], and [Michelle][@binarymuse].
+It's held at [SoMa StrEat Food Park][map] every first Wednesday of the month.
 
 Sponsorship Packages
 --------------------
@@ -53,14 +43,12 @@ setting. Here are some other things you get with your sponsorship:
   Every three months, we invite sponsors, speakers and performers to have
   [brunch][brunch] together.
 
-[brunch]: https://ti.to/wafflejs/brunch
-
 History
 -------
 The first session was in August 2015 and it has been held monthly ever since.
 We use funds to cover the cost of food, the venue, and equipment. We donate
-all unused funds each month to non-profits such as [Girls Who Code][1] and
-[Black Girls Code][2].
+all unused funds each month to non-profits such as [Girls Who Code][girlswhocode] and
+[Black Girls Code][blackgirlscode].
 
 <table>
   <thead>
@@ -109,8 +97,8 @@ We believe this industry can and should be more inclusive. Here are the things
 we do to make that happen:
 
 - **Donations:**
-  We donate all proceeds to non-profits such as [Girls Who Code][1] and
-  [Black Girls Code][2].
+  We donate all proceeds to non-profits such as [Girls Who Code][girlswhocode] and
+  [Black Girls Code][blackgirlscode].
 - **Student sponsorships:**
   We sponsor students to come to the event so they can meet more people in the
   industry. So far, we’ve had students from Waterloo, Stanford, Hackbright, and
@@ -133,5 +121,16 @@ during intros for short talk ideas.
 ### How many sponsors do you have per month?
 We have up to three sponsors per month.
 
-[1]: http://girlswhocode.com/
-[2]: http://www.blackgirlscode.com/
+[@b11z]: https://github.com/b11z
+[@billyroh]: https://twitter.com/billyroh
+[@binarymuse]: https://twitter.com/binarymuse
+[@chromakode]: https://twitter.com/chromakode
+[@kng]: https://twitter.com/kng
+[@kuychaco]: https://twitter.com/kuychaco
+[@nexxylove]: https://twitter.com/nexxylove
+[@visnup]: https://twitter.com/visnup
+[blackgirlscode]: http://www.blackgirlscode.com/
+[brooklynjs]: http://brooklynjs.com
+[brunch]: https://ti.to/wafflejs/brunch
+[girlswhocode]: http://girlswhocode.com/
+[map]: https://goo.gl/maps/0gkOe
