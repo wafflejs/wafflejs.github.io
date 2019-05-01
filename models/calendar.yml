@@ -386,12 +386,12 @@
     - 9:00 PM:
         type: Talk
         emoji: 📊
-        title: TBD
-        description: TBD
+        title: define.
+        description: the projects that have defined my freelancing career and my data visualization styles, and the projects I want to work on going forward.
         person:
           name: Shirley Wu
           twitter: sxywu
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
