@@ -261,13 +261,16 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🚀
-        title: TBD
-        description: TBD
+        emoji: ⬡
+        title: Hexing Ncurses
+        description: |
+          The first thing programmers learn, Hello World, prints a string to the terminal. But some terminal apps do WAY COOLER things than just printing strings! They move the cursor around the screen, they make colors and animations, and some of them can even take MOUSE INPUT??! How do they even do that???
+
+          The answer to this to use lies in mysterious and ancient curses (and includes a brief history of video terminals and the Digital Equipment Corporation).
         person:
           name: Jeremy Apthorp
           twitter: nornagon
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
           
     - 8:00 PM:
         type: Talk
