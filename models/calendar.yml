@@ -274,13 +274,13 @@
           
     - 8:00 PM:
         type: Talk
-        emoji: 🖼
-        title: TBD
-        description: TBD
+        emoji: ⚛️
+        title: Hacking Atom Editor
+        description: Text editors are complex, perhaps even scary. Writing your own editor extension might sound daunting, but it doesn't have to be! With a livecoding demo, I'll show you just how simple it is to write an extension for Atom Editor. We'll also discuss how to pick starter projects to get up and running with a new language or framework quickly.
         person:
           name: Tilde Ann Thurium
           twitter: annthurium
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: they/them
 
     - 8:15 PM:
         title: Intermission
