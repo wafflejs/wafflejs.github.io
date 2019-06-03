@@ -22,7 +22,7 @@ div( class=className )
   
   section#hero: .container-fluid
 
-  section#about: .container-fluid: .row
+  section: .container-fluid: .row
     .col-xs-12.col-sm-6
       :marked
         About
@@ -76,6 +76,7 @@ div( class=className )
           h2 Schedule 
         .col-xs-6
           select(
+	    aria-label='Select event'
             ng-options='month.day|date:"MMMM d" group by month.date.getFullYear() for month in index.calendar'
             ng-model='index.day'
           )
@@ -155,7 +156,7 @@ div( class=className )
     .col-xs-12.col-sm-6: .row.around-xs.middle-xs
       span( class='sponsor' ng-repeat='sponsor in index.day.sponsors' )
         a( href='{{url}}' ng-repeat='(name, url) in sponsor' )
-          img( ng-src='/images/sponsors/{{name}}.svg' )
+          img( ng-src='/images/sponsors/{{name}}.svg' title='{{name}}' )
 
   section#transparency: .container-fluid
     h2 Transparency
