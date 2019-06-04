@@ -1,9 +1,9 @@
 doctype html
-html
+html(lang='en')
   head
     title WaffleJS 
     meta( charset='utf-8' )
-    meta( name='viewport' content='initial-scale=1,user-scalable=no' )
+    meta( name='viewport' content='initial-scale=1' )
     meta( property='og:title' content='WaffleJS' )
     meta( property='og:description' content='A fun night of tech, waffles, and karaoke.' )
     meta( property='og:type' content='website' )
@@ -17,11 +17,11 @@ html
           .col-xs-12.col-sm-6.col-md-7
             h4.highlight
               a( ui-sref='index({ day: null })' ) WaffleJS
-              a( href='https://twitter.com/wafflejs' )
+              a( href='https://twitter.com/wafflejs' title='WaffleJS on Twitter' )
                 include images/icons/twitter.svg
-              a( href='https://github.com/wafflejs/wafflejs.github.io/issues' )
+              a( href='https://github.com/wafflejs/wafflejs.github.io/issues' title='WaffleJS on GitHub' )
                 include images/icons/github.svg
-              a( href='https://borojs.slack.com/join/shared_invite/enQtMzM2Nzc5ODExNjY2LTUyNTg3OGMzMzhhNWU2OWViNWUxNmMyZjA5NmMzNGFhYmJkOWE5NzA4NWI5ZGY2NjdmNzBmYWJjMjYzZjkwOGE' )
+              a( href='https://borojs.slack.com/join/shared_invite/enQtMzM2Nzc5ODExNjY2LTUyNTg3OGMzMzhhNWU2OWViNWUxNmMyZjA5NmMzNGFhYmJkOWE5NzA4NWI5ZGY2NjdmNzBmYWJjMjYzZjkwOGE' title='Slack channel' )
                 include images/icons/slack.svg
           .col-xs-12.col-sm-6.end-sm.col-md-5.start-md
             ul.nav
