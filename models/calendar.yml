@@ -233,7 +233,7 @@
     - 8:45 PM:
         type: Talk
         emoji: 📝
-        title: Is React Translated Ye?
+        title: Is React Translated Yet?
         description: |
           Over the course of a month, I've had the honor of working with the React team to set up the localization process for their docs. I want to share with you all some of anecdotes from my time on the project.  We'll talk cross-cultural foibles, getting sent to GitHub Jail, a frontend dev's futile attempt at bot-building and of course, the importance of localization in making software accessible to all.
         person:
