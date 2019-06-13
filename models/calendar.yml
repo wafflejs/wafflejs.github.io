@@ -230,7 +230,16 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 📝
+        title: Is React Translated Ye?
+        description: |
+          Over the course of a month, I've had the honor of working with the React team to set up the localization process for their docs. I want to share with you all some of anecdotes from my time on the project.  We'll talk cross-cultural foibles, getting sent to GitHub Jail, a frontend dev's futile attempt at bot-building and of course, the importance of localization in making software accessible to all.
+        person:
+          name: Nat Alison
+          twitter: tesseralis
+          pronouns: she/her or they/them
 
     - 9:00 PM: Speaker TBA
 
