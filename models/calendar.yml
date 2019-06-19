@@ -372,7 +372,18 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🔁
+        title: 'Tail Call Optimization: the Musical'
+        description: TBD
+        people:
+          - name: Natalia Margolis
+            twitter: nsmargolis
+            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          - name: Anjana Vakil
+            twitter: AnjanaVakil
+            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
           
     - 8:00 PM:
         type: Talk
@@ -401,7 +412,17 @@
           twitter: tesseralis
           pronouns: she/her or they/them
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🔍
+        title: Job hunting for happiness
+        description: |
+          A framework for job hunting to maximize happiness. Essentially defining and prioritizing needs/wants, figuring out how to ask quantitative questions to get qualitative answers, and suggestions for follow ups.<br><br>
+          I make very deliberate decisions when job hunting and have used this process to great success for the last 6 or so years. I want to share with other people so that they can be happy with new jobs as well!
+        person:
+          name: Colleen Briant
+          twitter: ccbriant
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
