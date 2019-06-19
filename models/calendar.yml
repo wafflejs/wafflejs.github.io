@@ -374,16 +374,19 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🔁
+        emoji: 🎵
         title: 'Tail Call Optimization: the Musical'
-        description: TBD
+        description: | 
+          “Stack overflow”! “Maximum call stack size exceeded”!! “Too much recursion”!!!<br><br>
+          You may have seen errors like these when you attempt to run a deeply recursive function. Computers can be so dramatic! But what’s the conflict, exactly, between recursion and call stacks? And is there any hope for resolving it into a happy ending? In this musical talk we'll see why recursion poses a problem for our finite-memory call stack, and learn how "Tail Call Optimization" (TCO) lets us get around that problem.<br><br>
+          We’ll sing our way through the meaning of these terms to explore how TCO messes with the call stack (in a useful way!), as we mess with the lyrics to some of our favorite animated musical songs (in a nerdy way!).
         people:
           - name: Natalia Margolis
             twitter: nsmargolis
-            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+            pronouns: she/her
           - name: Anjana Vakil
             twitter: AnjanaVakil
-            pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+            pronouns: she/her
           
     - 8:00 PM:
         type: Talk
