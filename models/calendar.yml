@@ -268,7 +268,7 @@
         emoji: 👋
 
     - 7:45 PM: Speaker TBA
-          
+
     - 8:00 PM:
         type: Talk
         emoji: ✨
@@ -286,7 +286,16 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 💯
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Logan Davis
+          twitter: logankeahidavis
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:00 PM: Speaker TBA
 
