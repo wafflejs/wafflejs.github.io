@@ -393,8 +393,9 @@
     - 8:00 PM:
         type: Talk
         emoji: 🥃
-        title: TBD
-        description: TBD
+        title: Keeping 100% Lighthouse score around the world
+        description: |
+          Performance is crucial to designing a delightful user experience. Yet even products with a 100% Lighthouse score often fall short in some regions of the world. You can determine your performance worldwide by measuring field data with Real User Monitoring (RUM) via Perfume.js. In this talk we’ll study how we use Perfume.js at Coinbase to maximize our performance around the globe.
         person:
           name: Leonardo Zizzamia
           twitter: zizzamia
