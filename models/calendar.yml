@@ -365,6 +365,12 @@
       - Airtable: https://airtable.com/jobs
 
 - day: '2019-07-03'
+  mc:
+    emoji: ✨🔥
+    name: Thais Correia
+    twitter: isthisthais
+    pronouns: they/them/she/her
+
   schedule:
     - 7:00 PM:
         title: Get some tasty doughnuts and make new friends!
