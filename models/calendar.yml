@@ -337,7 +337,16 @@
           twitter: flaqueEau
           pronouns: he/him
           
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 💥
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Duretti Hirpa
+          twitter: duretti
+          pronouns: she/her
 
     - 8:15 PM:
         title: Intermission
