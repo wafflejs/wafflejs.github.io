@@ -354,7 +354,16 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: ⛵️
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Neha Batra
+          twitter: nerdneha
+          pronouns: she/her
 
     - 9:00 PM: Speaker TBA
 
