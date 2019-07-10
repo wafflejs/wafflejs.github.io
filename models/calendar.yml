@@ -361,7 +361,16 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎤
+        title: Live karaoke
+        description: |
+          A rockin' live karaoke performance!
+        person:
+          name: Potch
+          twitter: potch
+          pronouns: he/him
 
     - 8:45 PM:
         type: Talk
