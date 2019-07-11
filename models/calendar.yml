@@ -278,6 +278,14 @@
         emoji: 👋
 
     - 7:45 PM: Speaker TBA
+        type: Talk
+        emoji: 🛠
+        title: A Totally Not-At-All-Terrifying Ten-Minute Crash Course On Worker Threads
+        description: TBD
+        person:
+          name: Rich Trott
+          twitter: trott
+          pronouns: he/him
 
     - 8:00 PM:
         type: Talk
