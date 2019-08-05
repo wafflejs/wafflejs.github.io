@@ -195,14 +195,15 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🔑
-        title: TBD
-        description: |
-          TBD
+        emoji: 🕵🏼
+        title: Blind Cross-Site Scripting (bXSS) 
+        description: Cross-Site Scripting (XSS) still plagues modern web applications, but what is often missed is Blind XSS 
+          (something that happens in back-end services such as help desk software which is not shown to the user). 
+          There are many ways to execute JavaScript and this talk will go into details on how to perform Blind XSS against legacy and modern applications.
         person:
           name: Lewis Ardern
           twitter: LewisArdern
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him  
           
     - 8:00 PM: Speaker TBA
 
