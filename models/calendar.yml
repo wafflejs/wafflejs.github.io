@@ -406,9 +406,9 @@
     - 9:00 PM:
         type: Talk
         emoji: 🔌
-        title: TBD
+        title: Benefits of a plugin-based framework
         description: |
-          TBD
+          Identifying some of the benefits of using a plugin-based framework for developing React applications in a large organisation.
         person:
           name: Carsten Jacobsen
           twitter: carstenjacobsen
