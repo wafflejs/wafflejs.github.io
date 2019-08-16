@@ -13,7 +13,20 @@ these things:
 - Promote a diverse and inclusive environment.
 - Get people to have fun.
 
-Today the meetup is co-organized by [Visnu][@visnup], [Billy][@billyroh], [Kelly][@kng], [Emily][@nexxylove], [Brian][@b11z], [Max][@chromakode], [Katrina][@kuychaco], and [Michelle][@binarymuse].
+Today the meetup is co-organized by
+[Visnu Pitiyanuvath][@visnup],
+[Billy Roh][@billyroh],
+[Emily Rose][@nexxylove],
+[Kelly King][@kng],
+[Max Goodhart][@chromakode],
+[Katrina Uychaco][@kuychaco],
+[Anami Lopez][@anami-sf],
+[Hannah Johnson][@hanndull],
+[Andy Tuba][@andytuba],
+[Kevin Arthur][@heykevinarthur],
+[Nat Alison][@tesseralis],
+and [Potch][@potch].
+
 It's held at [SoMa StrEat Food Park][map] every first Wednesday of the month.
 
 Sponsorship Packages
@@ -121,14 +134,18 @@ during intros for short talk ideas.
 ### How many sponsors do you have per month?
 We have up to three sponsors per month.
 
-[@b11z]: https://github.com/b11z
-[@billyroh]: https://twitter.com/billyroh
-[@binarymuse]: https://twitter.com/binarymuse
-[@chromakode]: https://twitter.com/chromakode
-[@kng]: https://twitter.com/kng
-[@kuychaco]: https://twitter.com/kuychaco
-[@nexxylove]: https://twitter.com/nexxylove
 [@visnup]: https://twitter.com/visnup
+[@billyroh]: https://twitter.com/billyroh
+[@nexxylove]: https://twitter.com/nexxylove
+[@kng]: https://twitter.com/kng
+[@chromakode]: https://twitter.com/chromakode
+[@kuychaco]: https://twitter.com/kuychaco
+[@anami-sf]: https://github.com/anami-sf
+[@hanndull]: https://github.com/hanndull
+[@andytuba]: https://twitter.com/andytuba
+[@heykevinarthur]: https://github.com/heykevinarthur
+[@tesseralis]: https://twitter.com/tesseralis
+[@potch]: https://twitter.com/potch
 [blackgirlscode]: http://www.blackgirlscode.com/
 [brooklynjs]: http://brooklynjs.com
 [brunch]: https://ti.to/wafflejs/brunch
