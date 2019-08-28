@@ -316,14 +316,16 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: 💯
-        title: TBD
+        emoji: 🌈
+        title: Introduction to Optimism
         description: |
-          TBD
+          Webapps we build should be not just RESTful, but RESPECTful... of our users' time.
+          In this talk-slash-food-fight, we'll look at one technique for writing performant frontends
+          (optimistic rendering) and weigh its pros and cons.
         person:
           name: Logan Davis
           twitter: logankeahidavis
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:00 PM: Speaker TBA
 
