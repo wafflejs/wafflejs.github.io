@@ -336,7 +336,16 @@
           twitter: logankeahidavis
           pronouns: he/him
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: 🎹
+        title: Building a Music Learning Game with Elm, Web MIDI, and SVG Animation
+        description: |
+          TBD
+        person:
+          name: Liz Krane
+          twitter: LearningNerd
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
