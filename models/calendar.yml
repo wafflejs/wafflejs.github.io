@@ -300,7 +300,7 @@
         type: Talk
         emoji: 🛠
         title: A Totally Not-At-All-Terrifying Ten-Minute Crash Course On Worker Threads
-        description: TBD
+        description: How to use the exciting new threads-ish feature in Node.js for fun and non-profit.
         person:
           name: Rich Trott
           twitter: trott
