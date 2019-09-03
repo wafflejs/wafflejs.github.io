@@ -341,11 +341,12 @@
         emoji: 🎹
         title: Building a Music Learning Game with Elm, Web MIDI, and SVG Animation
         description: |
-          TBD
+          Through a series of animated demos and funny failed experiments, join me on my journey
+          towards building a musical game where the controller is a digital piano!
         person:
           name: Liz Krane
           twitter: LearningNerd
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
