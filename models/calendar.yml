@@ -250,7 +250,16 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 🔒
+        title: Security @ Flickr: A Frontend Primer to Security With Real Examples
+        description: |
+          TBD
+        person:
+          name: Alex Seville
+          twitter: alex_seville
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
           
     - 8:00 PM:
         type: Talk
