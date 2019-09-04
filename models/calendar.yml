@@ -308,14 +308,14 @@
 
     - 8:00 PM:
         type: Talk
-        emoji: ✨
-        title: TBD
+        emoji: 🌟
+        title: The Power of Developer Productivity
         description: |
-          TBD
+          Hear about the latest research on what makes us productive as developers. Melody will share current data and tips to evaluate your own productivity.
         person:
           name: Melody Meckfessel
           twitter: mmeckf
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:15 PM:
         title: Intermission
