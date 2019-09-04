@@ -253,7 +253,7 @@
     - 7:45 PM:
         type: Talk
         emoji: 🔒
-        title: Security @ Flickr: A Frontend Primer to Security With Real Examples
+        title: 'Security @ Flickr: A Frontend Primer to Security With Real Examples'
         description: A review of common security concerns based on real reports from security researchers
         person:
           name: Alex Seville
