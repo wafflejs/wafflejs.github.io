@@ -65,6 +65,6 @@
   },
   "devDependencies": {
     "typesetters-son": "2.0.0",
-    "webpack-dev-server": "1.16.5"
+    "webpack-dev-server": "3.1.11"
   }
 }
