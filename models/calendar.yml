@@ -254,12 +254,11 @@
         type: Talk
         emoji: 🔒
         title: Security @ Flickr: A Frontend Primer to Security With Real Examples
-        description: |
-          TBD
+        description: A review of common security concerns based on real reports from security researchers
         person:
           name: Alex Seville
-          twitter: alex_seville
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          github: alex-seville
+          pronouns: he/him
           
     - 8:00 PM:
         type: Talk
