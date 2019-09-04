@@ -58,7 +58,7 @@
     "puppeteer": "1.13.0",
     "style-loader": "0.21.0",
     "svgo": "0.7.2",
-    "svgo-loader": "1.2.1",
+    "svgo-loader": "2.2.1",
     "url-loader": "0.6.2",
     "webpack": "1.15.0",
     "yaml-loader": "0.5.0"
