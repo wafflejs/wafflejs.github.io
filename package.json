@@ -43,7 +43,7 @@
     "json-loader": "0.5.7",
     "jstransformer-marked": "1.0.3",
     "lodash": "4.17.15",
-    "markdown-loader": "2.0.2",
+    "markdown-loader": "5.1.0",
     "marked": "0.3.19",
     "mocha": "2.5.3",
     "moment": "2.22.1",
