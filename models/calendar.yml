@@ -363,15 +363,16 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: 🎹
-        title: Building a Music Learning Game with Elm, Web MIDI, and SVG Animation
+        emoji: 👋
+        title: |
+          WaffleJS: A Retrospective
         description: |
-          Through a series of animated demos and funny failed experiments, join me on my journey
-          towards building a musical game where the controller is a digital piano!
+          Billy is leaving WaffleJS! Come listen to a short story about WaffleJS started and how we
+          got here.
         person:
-          name: Liz Krane
-          twitter: LearningNerd
-          pronouns: she/her
+          name: Billy Roh
+          twitter: billyroh
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
