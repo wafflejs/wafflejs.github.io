@@ -279,8 +279,17 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
-
+    - 8:00 PM:
+        type: Talk
+        emoji: 🌱
+        title: Growing Javascript
+        description: |
+          TBD
+        person:
+          name: Sravanti Tekumalla
+          twitter: sravanti__
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM: &butter_beverajs
