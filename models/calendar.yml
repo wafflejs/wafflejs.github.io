@@ -183,8 +183,9 @@
 
   sponsors:
     - Retool: https://tryretool.com/about
+    - Twilio: https://www.twilio.com/company/jobs
     - Coinbase: https://www.coinbase.com/careers
-
+    
 - day: '2019-11-06'
   schedule:
     - 7:00 PM:
@@ -305,7 +306,7 @@
 
   sponsors:
     - Crunchbase: https://about.crunchbase.com/about-us/careers/
-    - Twilio: https://www.twilio.com/company/jobs
+    - WeWork: https://careers.wework.com/
     - Coinbase: https://www.coinbase.com/careers
 
 - day: '2019-09-04'
