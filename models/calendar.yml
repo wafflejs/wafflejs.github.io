@@ -267,13 +267,13 @@
     - 8:00 PM:
         type: Talk
         emoji: 🗺️
-        title: TBD
+        title: '5 signs your map is lying. #2 will shock you!'
         description: |
-          TBD
+          Let's talk about how the most common map projection is so wrong and yet so right for slick Web rendering.
         person:
           name: Ker Lee Yap
           twitter: _klyap_
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:15 PM:
         title: Intermission
