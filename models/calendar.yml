@@ -211,13 +211,13 @@
     - 8:00 PM:
         type: Talk
         emoji: 🌎
-        title: TBD
+        title: 'Civic Hacking (in your free time)'
         description: |
-          TBD
+          Does life right now make you yearn for passion projects with a civic focus? Unsure of where to find repos that you can contribute to part time so you don’t burn out? Does the thought of having your code publicly reviewed make your stomach twist into geometric shapes? This talk addresses all of these topics in < 10 minutes!
         person:
           name: Sarah Yu
           github: SYU15
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 8:15 PM:
         title: Intermission
