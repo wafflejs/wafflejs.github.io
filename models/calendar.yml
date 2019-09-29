@@ -292,7 +292,16 @@
           twitter: sravanti__
           pronouns: she/her/hers
           
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM: 
+       type: Talk
+        emoji: 🌱
+        title: GitHub is my database.
+        description: |
+          Mikeal Makes Modules: October 2019 Edition.
+        person:
+          name: Mikeal Rogers
+          twitter: mikeal
+          pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
