@@ -286,11 +286,11 @@
         emoji: 🌱
         title: Growing Javascript
         description: |
-          TBD
+          Every year, new features are added to JavaScript. It's exciting, but as curious software engineers, we should ask ourselves: how is JavaScript as a language growing, and to what end? In this talk, I'll introduce the idea of architecting a programming language that isn’t created all at once, but rather one that grows over time, drawing analogies from urbanism and linguistics.
         person:
           name: Sravanti Tekumalla
           twitter: sravanti__
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her/hers
           
     - 9:00 PM: Speaker TBA
 
