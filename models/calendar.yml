@@ -293,8 +293,8 @@
           pronouns: she/her/hers
           
     - 9:00 PM: 
-       type: Talk
-        emoji: 🌱
+        type: Talk
+        emoji: 邏
         title: GitHub is my database.
         description: |
           Mikeal Makes Modules: October 2019 Edition.
