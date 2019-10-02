@@ -108,7 +108,6 @@
 
   sponsors:
     - Retool: https://tryretool.com/about
-    - WeWork: https://careers.wework.com/
 
 - day: '2020-01-08'
   schedule:
@@ -280,8 +279,16 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
-
+    - 8:30 PM:
+        type: Performance
+        emoji: 🦇
+        title: Addams Family Theme Song
+        description: A sing-along with Andy on the Tuba!
+        person:
+          name: Andy Tuba
+          twitter: andytuba
+          pronouns: he/him
+            
     - 8:45 PM:
         type: Talk
         emoji: 🌱
@@ -316,7 +323,7 @@
 
   sponsors:
     - Crunchbase: https://about.crunchbase.com/about-us/careers/
-    - Opendoor: https://www.opendoor.com/jobs
+    - WeWork: https://careers.wework.com/
     - Coinbase: https://www.coinbase.com/careers
 
 - day: '2019-09-04'
