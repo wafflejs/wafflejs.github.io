@@ -294,13 +294,13 @@
           
     - 9:00 PM: 
         type: Talk
-        emoji: 邏
-        title: GitHub is my database.
+        emoji: 🏔️
+        title: Designing very large (JavaScript) applications
         description: |
-          Mikeal Makes Modules: October 2019 Edition.
+          I used to build very large JavaScript applications. I don’t really do that anymore, so I thought it was a good time to give a bit of a retrospective and share what I learned.
         person:
-          name: Mikeal Rogers
-          twitter: mikeal
+          name: Malte Ubl
+          twitter: cramforce
           pronouns: he/him
 
     - 9:15 PM: &butter_beverajs
