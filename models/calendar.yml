@@ -226,7 +226,18 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        emoji: 📈
+        title: 'How to Develop as a Leader: Ask for that Big, Hairy Project. Then Go Make Mistakes.'
+        description: |
+          There are some clear stepping stones when you want to grow as an engineer. But what about when you want to grow as a leader? Or a develop more cross-functional skills, like influencing decisions across an organization or proposing more strategic engineering initiatives?
+          Well, take on that messy, large, and challenging project!
+          Together, we'll explore how you can seek out career-changing projects, strategies to tackle them, and the benefits of embarking on what could be a true growth period in your career.
+        person:
+          name: Tripta Gupta
+          github: neurosaurus
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:00 PM: Speaker TBA
 
