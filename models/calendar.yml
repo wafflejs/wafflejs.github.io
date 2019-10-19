@@ -122,7 +122,16 @@
 
     - 7:45 PM: Speaker TBA
           
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: 🦖
+        title: Why you should consider Fossil SCM for your side projects
+        description: |
+          Fossil is a simple, high-reliability, distributed software configuration management system (as stated on their website) so it’s like Git but it has some cool features that I find especially powerful for my myriad side projects. I’ll talk about why I think it's cool, how I've set it up, and what the downsides are.
+        person:
+          name: Mark Williams
+          twitter: mdfw
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 8:15 PM:
         title: Intermission
