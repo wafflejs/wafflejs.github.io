@@ -248,14 +248,14 @@
 
     - 8:45 PM:
         type: Talk
-        emoji: 🔌
-        title: TBD
+        emoji: 🔬
+        title: Have fun with Node.js loader hooks!
         description: |
-          TBD
+          The latests versions of Node.js introduce a hook system to intercept all loaded modules. Let's play a bit with it to build fun stuff! Are you dreaming about bringing TypeScript to Node.js? To load modules from a remote CDN or even rewrite modules as they are loaded? All of that can be done!
         person:
           name: Vladimir de Turckheim
           twitter: poledesfetes
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
 
     - 9:00 PM: Speaker TBA
 
