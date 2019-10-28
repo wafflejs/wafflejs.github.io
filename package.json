@@ -50,7 +50,7 @@
     "ng-annotate-loader": "0.6.1",
     "normalize.css": "4.2.0",
     "postcss-calc": "5.3.1",
-    "postcss-custom-media": "5.0.1",
+    "postcss-custom-media": "7.0.8",
     "postcss-custom-properties": "5.0.2",
     "postcss-import": "8.2.0",
     "postcss-loader": "0.13.0",
