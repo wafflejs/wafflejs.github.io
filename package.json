@@ -53,7 +53,7 @@
     "postcss-custom-media": "5.0.1",
     "postcss-custom-properties": "5.0.2",
     "postcss-import": "8.2.0",
-    "postcss-loader": "0.13.0",
+    "postcss-loader": "3.0.0",
     "postcss-nested": "1.0.1",
     "puppeteer": "1.19.0",
     "style-loader": "0.21.0",
