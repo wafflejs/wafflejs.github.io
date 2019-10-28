@@ -259,14 +259,14 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: 📺
-        title: "TBD"
+        emoji: 🎱
+        title: "How to hustle your codebase"
         description: |
-          TBD
+          Approaching code re-architectures through the eyes of a billiards player.
         person:
           name: Mars Jullian
           twitter: marsjosephine
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
