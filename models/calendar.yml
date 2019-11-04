@@ -9,7 +9,7 @@
         emoji: 👋
 
     - 7:45 PM: Speaker TBA
-          
+
     - 8:00 PM: Speaker TBA
 
     - 8:15 PM:
@@ -33,7 +33,7 @@
     Black Girls Code: http://www.blackgirlscode.com/
 
   sponsors:
-    - Retool: https://tryretool.com/about
+    - Retool: https://tryretool.com/jobs
 
 - day: '2020-03-04'
   schedule:
@@ -46,7 +46,7 @@
         emoji: 👋
 
     - 7:45 PM: Speaker TBA
-          
+
     - 8:00 PM: Speaker TBA
 
     - 8:15 PM:
@@ -70,7 +70,7 @@
     Black Girls Code: http://www.blackgirlscode.com/
 
   sponsors:
-    - Retool: https://tryretool.com/about
+    - Retool: https://tryretool.com/jobs
 
 - day: '2020-02-05'
   schedule:
@@ -83,7 +83,7 @@
         emoji: 👋
 
     - 7:45 PM: Speaker TBA
-          
+
     - 8:00 PM: Speaker TBA
 
     - 8:15 PM:
@@ -107,7 +107,7 @@
     Black Girls Code: http://www.blackgirlscode.com/
 
   sponsors:
-    - Retool: https://tryretool.com/about
+    - Retool: https://tryretool.com/jobs
     - WeWork: https://careers.wework.com/
 
 - day: '2020-01-08'
@@ -121,7 +121,7 @@
         emoji: 👋
 
     - 7:45 PM: Speaker TBA
-          
+
     - 8:00 PM:
         type: Talk
         emoji: 🦖
@@ -154,7 +154,7 @@
     Black Girls Code: http://www.blackgirlscode.com/
 
   sponsors:
-    - Retool: https://tryretool.com/about
+    - Retool: https://tryretool.com/jobs
     - Opendoor: https://www.opendoor.com/jobs
 
 - day: '2019-12-04'
@@ -168,7 +168,7 @@
         emoji: 👋
 
     - 7:45 PM: Speaker TBA
-          
+
     - 8:00 PM:
         type: Talk
         emoji: 🌱
@@ -203,10 +203,10 @@
     Black Girls Code: http://www.blackgirlscode.com/
 
   sponsors:
-    - Retool: https://tryretool.com/about
+    - Retool: https://tryretool.com/jobs
     - Twilio: https://www.twilio.com/company/jobs
     - Coinbase: https://www.coinbase.com/careers
-    
+
 - day: '2019-11-06'
   schedule:
     - 7:00 PM:
@@ -220,15 +220,15 @@
     - 7:45 PM:
         type: Talk
         emoji: 🕵🏼
-        title: Blind Cross-Site Scripting (bXSS) 
-        description: Cross-Site Scripting (XSS) still plagues modern web applications, but what is often missed is Blind XSS 
-          (something that happens in back-end services such as help desk software which is not shown to the user). 
+        title: Blind Cross-Site Scripting (bXSS)
+        description: Cross-Site Scripting (XSS) still plagues modern web applications, but what is often missed is Blind XSS
+          (something that happens in back-end services such as help desk software which is not shown to the user).
           There are many ways to execute JavaScript and this talk will go into details on how to perform Blind XSS against legacy and modern applications.
         person:
           name: Lewis Ardern
           twitter: LewisArdern
-          pronouns: he/him  
-          
+          pronouns: he/him
+
     - 8:00 PM:
         type: Talk
         emoji: 🌎
@@ -279,7 +279,7 @@
     Black Girls Code: http://www.blackgirlscode.com/
 
   sponsors:
-    - Retool: https://tryretool.com/about
+    - Retool: https://tryretool.com/jobs
     - Twilio: https://www.twilio.com/company/jobs
     - Coinbase: https://www.coinbase.com/careers
 
@@ -302,7 +302,7 @@
           name: Alex Seville
           github: alex-seville
           pronouns: he/him
-          
+
     - 8:00 PM:
         type: Talk
         emoji: 🗺️
@@ -327,7 +327,7 @@
           name: Andy Tuba
           twitter: andytuba
           pronouns: he/him
-            
+
     - 8:45 PM:
         type: Talk
         emoji: 🌱
@@ -338,8 +338,8 @@
           name: Sravanti Tekumalla
           twitter: sravanti__
           pronouns: she/her/hers
-          
-    - 9:00 PM: 
+
+    - 9:00 PM:
         type: Talk
         emoji: 🏔️
         title: Designing very large (JavaScript) applications
@@ -472,13 +472,13 @@
         emoji: ✨
         title: Juice Box Driven Design
         description: |
-          A talk about building for mental health: why lightweight apps are so important 
+          A talk about building for mental health: why lightweight apps are so important
           and how to engage people without bogging down your product.
         person:
           name: Evan Conrad
           twitter: flaqueEau
           pronouns: he/him
-          
+
     - 8:00 PM:
         type: Talk
         emoji: 😴
@@ -564,7 +564,7 @@
         type: Talk
         emoji: 🎵
         title: 'Tail Call Optimization: the Musical'
-        description: | 
+        description: |
           “Stack overflow”! “Maximum call stack size exceeded”!! “Too much recursion”!!!<br><br>
           You may have seen errors like these when you attempt to run a deeply recursive function. Computers can be so dramatic! But what’s the conflict, exactly, between recursion and call stacks? And is there any hope for resolving it into a happy ending? In this musical talk we'll see why recursion poses a problem for our finite-memory call stack, and learn how "Tail Call Optimization" (TCO) lets us get around that problem.<br><br>
           We’ll sing our way through the meaning of these terms to explore how TCO messes with the call stack (in a useful way!), as we mess with the lyrics to some of our favorite animated musical songs (in a nerdy way!).
@@ -575,7 +575,7 @@
           - name: Anjana Vakil
             twitter: AnjanaVakil
             pronouns: she/her
-          
+
     - 8:00 PM:
         type: Talk
         emoji: 🥃
@@ -661,7 +661,7 @@
           name: Jeremy Apthorp
           twitter: nornagon
           pronouns: he/him
-          
+
     - 8:00 PM:
         type: Talk
         emoji: ⚛️
@@ -730,9 +730,9 @@
         emoji: 📚
         title: Publishing Logic
         description: |
-          In 2016, a group of friends got together to publish an independent print 
-          magazine about technology. Two years, seven issues, one book, and one and 
-          a half websites later, I'll share what we've learned—and whether we should've 
+          In 2016, a group of friends got together to publish an independent print
+          magazine about technology. Two years, seven issues, one book, and one and
+          a half websites later, I'll share what we've learned—and whether we should've
           just published it all on the blockchain from the start.
         person:
           name: Christa Hartsock
@@ -752,13 +752,13 @@
           and more! Aaaand I've also seen some missteps along the way. In this talk
           I'll go through some moves that were great, and some tips I had to learn
           the hard way, to help you train up your new grad to be happy and healthy at work.
-          
+
           Also I really like dogs, so yeah, there's gonna be a lot of pictures of dogs. I'm not sorry.
         person:
           name: Lexi Galantino
           twitter: _gallexi
           pronouns: she/her or they/them
-          
+
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
@@ -833,16 +833,16 @@
         emoji: ☕
         title: CoffeeJS - How I hacked a coffee machine with JavaScript
         description: |
-          This is the story of how I hacked an API onto my coffee machine. 
-          We’ll look at why I chose JS, what you need to do to take control of a 
-          coffee machine, and what other things we can do with JS and hardware. 
-          You’ll be dreaming of the gadgets in your house that you can’t 
+          This is the story of how I hacked an API onto my coffee machine.
+          We’ll look at why I chose JS, what you need to do to take control of a
+          coffee machine, and what other things we can do with JS and hardware.
+          You’ll be dreaming of the gadgets in your house that you can’t
           wait to rip open and hack.
         person:
           name: Dominik Kundel
           twitter: dkundel
           pronouns: he/him # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
-          
+
     - 8:00 PM:
         type: Talk
         emoji: 💔
@@ -857,7 +857,7 @@
           name: Trish Ang
           twitter: feesh
           pronouns: she/her
-          
+
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
@@ -888,7 +888,7 @@
           name: Michelle Tilley
           twitter: BinaryMuse
           pronouns: she/her
-          
+
     - 9:00 PM:
         type: Talk
         emoji: 🖨
@@ -944,7 +944,7 @@
           name: Ashi Krishnan
           twitter: rakshesha
           pronouns: she/her
-          
+
     - 8:00 PM:
         type: Talk
         emoji: 🤘
@@ -958,7 +958,7 @@
           name: Rich Trott
           twitter: trott
           pronouns: he/him
-          
+
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
@@ -978,8 +978,8 @@
         emoji: 🌉
         title: Cheers to Maintenance
         description: |
-          Sustaining labor might be seen as unglamorous grunt work, but it pays 
-          the bills and keeps the lights on. I'll share stories and lessons I've 
+          Sustaining labor might be seen as unglamorous grunt work, but it pays
+          the bills and keeps the lights on. I'll share stories and lessons I've
           learned on the invaluable work of maintenance.
         person:
           name: Lydia Kats
@@ -1018,7 +1018,7 @@
     name: Laurie Voss
     twitter: seldo
     pronouns: he/him
-    
+
   schedule:
     - 7:00 PM:
         title: Get some tasty doughnuts and make new friends!
@@ -1028,20 +1028,20 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: 
+    - 7:45 PM:
         type: Talk
         emoji: 🦖
         title: |
           Offline First: Driving the Downasaur to Extinction
         description: |
-          Networks are flaky, but your app doesn’t have to be. From healthcare solutions in the developing world 
-          to entertainment for the daily commute, the Offline First approach to web development is transforming 
-          user experience. We'll look at how you can use simple tools like PouchDB and CouchDB to build apps that 
+          Networks are flaky, but your app doesn’t have to be. From healthcare solutions in the developing world
+          to entertainment for the daily commute, the Offline First approach to web development is transforming
+          user experience. We'll look at how you can use simple tools like PouchDB and CouchDB to build apps that
           survive and thrive in real-world network conditions.
         person:
           name: Teri Chadbourne
           twitter: EventTeri
-          pronouns: she/her 
+          pronouns: she/her
 
     - 8:00 PM:
         type: Talk
@@ -1065,26 +1065,26 @@
         emoji: 🍄
         title: Some nice songs
         description: |
-          Liam is a technologist who used to be a street musician. He'll play you 
+          Liam is a technologist who used to be a street musician. He'll play you
           some songs he wrote, and some he didn't. He hopes you like them.
         person:
           name: Liam Campbell
           twitter: liamdanger
           pronouns: he/him
-          
+
     - 8:45 PM:
         type: Talk
         emoji: 🛠
         title: Private class fields in JavaScript
         description: |
-         JavaScript is getting the ability to create truly 
+         JavaScript is getting the ability to create truly
          [private fields](https://developers.google.com/web/updates/2018/12/class-fields)
-         in classes with a new hashbang syntax. I'd like to share how this proposal 
+         in classes with a new hashbang syntax. I'd like to share how this proposal
          evolved in TC39 with the various design and implementation trade-offs.
         person:
           name: Sathya Gunasekaran
           twitter: _gsathya
-          pronouns: he/him  
+          pronouns: he/him
 
     - 9:00 PM:
         type: Talk
@@ -1121,7 +1121,7 @@
     twitter: wordofchristian
     pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
     emoji: 🍔
-  
+
   schedule:
     - 7:00 PM:
         title: Get some tasty doughnuts and make new friends!
@@ -1134,7 +1134,7 @@
     - 7:45 PM:
         type: Talk
         emoji: 📝
-        title: "SWE through a Puzzlin' Lens" 
+        title: "SWE through a Puzzlin' Lens"
         description: |
           Crossword puzzles might not seem like a pastime you associate with anyone younger than baby boomers,
           but it turns out that the patterns behind these wonderfully nerdy puzzles are a great lens through which
@@ -1143,12 +1143,12 @@
         person:
           name: Shelley Vohr
           twitter: codebytere
-          pronouns: she/her     
-          
+          pronouns: she/her
+
     - 8:00 PM:
         type: Talk
         emoji: 🎉
-        title: "Talk to Me NICE: The IndieWeb, Fediverse and You" 
+        title: "Talk to Me NICE: The IndieWeb, Fediverse and You"
         description: |
           We spend lots of time working on tools and platforms that optimize for data crunching and
           extracting value from anything we do online. There's communities that aim to federate our
@@ -1178,10 +1178,10 @@
         type: Talk
         emoji: 🍄
         title: "In the Palm of Your Hand: Using Storytelling to Grab Your Reader's Attention"
-        description: 
+        description:
           Need your conference proposal to stand out? Want to create memorable blogposts?
           One of the quickest ways to create an emotional connection with another person is through
-          storytelling. Together, we'll explore how to use words as the connective glue between you 
+          storytelling. Together, we'll explore how to use words as the connective glue between you
           and your reader.
         person:
           name: Mimi Nguyen
@@ -1212,19 +1212,19 @@
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
-    
-  sponsors: 
+
+  sponsors:
       - Opendoor: https://www.opendoor.com/jobs
       - Hustle: https://blog.hustle.com/
       - Bugsnag: https://www.bugsnag.com/jobs
-      
+
 - day: '2018-12-05'
   mc:
     name: Elaine Yeung
     twitter: egsy
     pronouns: she/her
     emoji: 👺
-    
+
   schedule:
     - 7:00 PM:
         title: Get some tasty doughnuts and make new friends!
@@ -1239,15 +1239,15 @@
         emoji: 👀
         title: Master your Domain with GraphQL
         description: |
-          GraphQL pushes us to think differently about how we design our data models. 
-          This introduces not just a technical shift, but also a shift in how we 
-          collaborate on product teams. I'm excited about these changes and maybe, 
+          GraphQL pushes us to think differently about how we design our data models.
+          This introduces not just a technical shift, but also a shift in how we
+          collaborate on product teams. I'm excited about these changes and maybe,
           by the end of this talk, you will be too.
         person:
           name: Thais Correia
           twitter: isthisthais
           pronouns: they/them/she/her
-          
+
     - 8:00 PM:
         type: Talk
         emoji: 📚
@@ -1256,7 +1256,7 @@
           Word embeddings are an incredibly popular tool in modern NLP, but they've predominantly been used on
           living languages. What are the applications to using word embeddings in languages no longer spoken
           (Latin, Ancient Greek, etc.), and what are the challenges faced? I'm excited to talk about work I've
-          done using word embeddings to better understand the poetry of an Augustan poet, Propertius, and how 
+          done using word embeddings to better understand the poetry of an Augustan poet, Propertius, and how
           Latin word embeddings pose different challenges from training them on a language like English.
         person:
           name: Miles Hinson
@@ -1276,13 +1276,13 @@
           name: Lexi Galantino
           twitter: _gallexi
           pronouns: she/her/hers or they/them/theirs
-          
+
     - 8:45 PM:
         type: Talk
         emoji: 🎄
         title: Scaling Christmas - An Illustrated Adventure
         description: |
-          Santa is sick! With Christmas only a week away, master planner and architect Mrs. 
+          Santa is sick! With Christmas only a week away, master planner and architect Mrs.
           Claus has to find a new way to scale Christmas. Join me and a merry band of lemurs
           in an illustrated adventure as we learn how to scale, mitigate attacks, and prepare
           to save Christmas.
@@ -1296,7 +1296,7 @@
         emoji: 🎉
         title: Making good trouble
         description: |
-         Sometimes you want to make changes to processes and habits your team has, but it's not around the code itself. 
+         Sometimes you want to make changes to processes and habits your team has, but it's not around the code itself.
          How can we do that? How do we make changes to the habits of hundreds? This talk will give you a starting guide
          to making good trouble at work.
         person:
@@ -1355,8 +1355,8 @@
         title: Realtime GraphQL and async serverless
         description: |
           I’m going to take you through a 10 minute tutorial to describe an architectural pattern with
-          realtime GraphQL and async serverless. I’m going to live-stitch together a food-ordering app that 
-          uses GraphQL subscriptions & events on Postgres that trigger serverless functions. Then we’re 
+          realtime GraphQL and async serverless. I’m going to live-stitch together a food-ordering app that
+          uses GraphQL subscriptions & events on Postgres that trigger serverless functions. Then we’re
           all (you’re participating in this demo too) going to make lots of orders and watch our backend
           scale without any glitches. 🤞
         person:
@@ -1380,13 +1380,13 @@
           - name: Esten Hurtle
             twitter: esten
             pronouns: she/her
-            
+
     - 8:45 PM:
         type: Talk
         emoji: ⚖️
         title: "Design Systems at Scale"
         description: |
-          Adobe's design system Spectrum is tackling a huge suite of products, serving thousands of employees, 
+          Adobe's design system Spectrum is tackling a huge suite of products, serving thousands of employees,
           and 30 years of legacy culture and code. Let's talk about how we're solving these issues at scale.
         person:
           name: Sarah Federman
@@ -1398,8 +1398,8 @@
         emoji: 🎉
         title: "All The Times We Broke The npm Registry"
         description: |
-          The npm Registry has become vital infrastructure to the JavaScript world, but 
-          it doesn't always work. For your amusement and edification, here is a list of 
+          The npm Registry has become vital infrastructure to the JavaScript world, but
+          it doesn't always work. For your amusement and edification, here is a list of
           the most spectacular times we broke the registry, and what we learned in doing so.
         person:
           name: Laurie Voss
@@ -1442,10 +1442,10 @@
         emoji: 💃
         title: "Let's Move: Solving Algorithms Using Choreographed Movement"
         description: |
-          Learning happens differently for everyone. I've spent most of my life as a modern/ballet dancer. 
-          After codeschool last year and before my first job, I tried to make learning easier for myself by combining a 
-          craft in which I'm well versed (movement/choreography) with one I'm working toward mastering (programmering). 
-          This talk is a peek into my process of understanding code and algorithms through movement and choreography. 
+          Learning happens differently for everyone. I've spent most of my life as a modern/ballet dancer.
+          After codeschool last year and before my first job, I tried to make learning easier for myself by combining a
+          craft in which I'm well versed (movement/choreography) with one I'm working toward mastering (programmering).
+          This talk is a peek into my process of understanding code and algorithms through movement and choreography.
         person:
           name: Morgan Fogarty
           twitter: mofo37
@@ -1465,7 +1465,7 @@
           name: Nat Alison
           twitter: tesseralis
           pronouns: she/her or they/them
-          
+
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
@@ -1551,11 +1551,11 @@
         emoji: 🥖
         title: Parlez-vous Javascript?
         description: |
-          A fun divergence into language design and learning. What kind of languages? All kinds. 
-          Both computer languages and spoken ones. Think they're different? Maybe not. 
-          From English to Japanese, from Javascript to PHP, we'll take well established programming 
-          language design principles and critique the various contenders from the perspective of 
-          predicability, usability, and consistency. How will your favorite language hold up? 
+          A fun divergence into language design and learning. What kind of languages? All kinds.
+          Both computer languages and spoken ones. Think they're different? Maybe not.
+          From English to Japanese, from Javascript to PHP, we'll take well established programming
+          language design principles and critique the various contenders from the perspective of
+          predicability, usability, and consistency. How will your favorite language hold up?
         person:
           name: Christian Schlensker
           twitter: wordofchristian
@@ -1566,7 +1566,7 @@
         emoji: 🌊
         title: The Bipolar Software Engineer
         description: |
-          2.6% of the American adult population is diagnosed with bipolar 
+          2.6% of the American adult population is diagnosed with bipolar
           disorder, and yet it is one of the most heavily stigmatized mental illnesses
           out there. What is bipolar disorder, and how do people experience it?
           This talk is through the lens of a software engineer.
@@ -1685,7 +1685,7 @@
           name: Jeremy Apthorp
           twitter: nornagon
           pronouns: he/him
-          
+
     - 9:00 PM:
         type: Talk
         emoji: 🎈
@@ -1734,8 +1734,8 @@
         emoji: 🖖
         title: Descartes, Berkeley and Functional Programming
         description: |
-          We will recast the debate between OOP (object-oriented programming) 
-          and FP (functional programming) as a debate between Rene Descartes’ 
+          We will recast the debate between OOP (object-oriented programming)
+          and FP (functional programming) as a debate between Rene Descartes’
           realism and George Berkeley’s idealism.
         person:
           name: David Valdman
@@ -1747,7 +1747,7 @@
         emoji: 📚
         title: Computers Writing Badly
         description: |
-          Inspired by famously terrible fiction, we'll explore how to use Natural 
+          Inspired by famously terrible fiction, we'll explore how to use Natural
           Language Processing and Machine Learning to generate writing so bad, it's good.
         person:
           name: Chloe Revery
@@ -1765,9 +1765,9 @@
         emoji: 🦈
         title: Searching for Sharks
         description: |
-          Whale sharks are gentle and fascinating ocean giants, but there's so much we 
-          don't yet know about them... In this talk, we will deep dive into a jawsome 
-          use of algorithmic fingerprinting for identifying and tracking whale 
+          Whale sharks are gentle and fascinating ocean giants, but there's so much we
+          don't yet know about them... In this talk, we will deep dive into a jawsome
+          use of algorithmic fingerprinting for identifying and tracking whale
           sharks!
         person:
           name: Thais Laney
@@ -2010,7 +2010,7 @@
 
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
-  
+
   mc:
     emoji: 😮
     name: Feross Aboukhadijeh
