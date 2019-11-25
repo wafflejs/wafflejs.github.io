@@ -188,7 +188,16 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Universal Javascript
+        emoji: 🌐
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Mikeal Rogers
+          twitter: mikeal
+          pronouns: he/him
 
     - 9:00 PM:
         type: Talk
