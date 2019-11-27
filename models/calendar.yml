@@ -191,9 +191,9 @@
     - 8:45 PM:
         type: Talk
         emoji: 🌐
-        title: Universal Javascript
+        title: First steps toward Universal JavaScript
         description: |
-          TBD
+          Universal JavaScript, JS that works in Browser and in Node.js without a compiler, are possible but currently very difficult. Many features we’ve come to rely on, like npm and Node’s dynamic module system, are not available. In this talk Mikeal will talk about some of these problems, particularly in package management, and show a new project that embraces the constraints native ESM imposes to create a new and even improved experience over our existing toolchains.
         person:
           name: Mikeal Rogers
           twitter: mikeal
