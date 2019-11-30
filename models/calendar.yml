@@ -166,10 +166,8 @@
     - 7:30 PM:
         title: Introductions
         emoji: 👋
-
-    - 7:45 PM: Speaker TBA
           
-    - 8:00 PM:
+    - 7:45 PM:
         type: Talk
         emoji: 🌱
         title: 'How to Develop as a Leader: Ask for that Big, Hairy Project. Then Go Make Mistakes.'
@@ -181,13 +179,32 @@
           name: Tripta Gupta
           github: neurosaurus
           pronouns: she
-
+          
+    - 8:00 PM:
+        type: Talk
+        emoji: 🤖
+        title: How to showcase your creative side using robots
+        description: |
+          TBD
+        person:
+          name: Chris Meyer
+          twitter: admirethemeyer
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+        
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
-
+    - 8:30 PM:
+        type: Performance
+        emoji: 💃
+        title: A robot dance performance
+        description: TBD
+        person:
+          name: Chloe Condon
+          twitter: ChloeCondon
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          
     - 8:45 PM:
         type: Talk
         emoji: 🌐
