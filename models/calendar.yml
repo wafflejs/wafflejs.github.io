@@ -185,11 +185,11 @@
         emoji: 🤖
         title: How to showcase your creative side using robots
         description: |
-          TBD
+          Most of the robots in our lives live life behind the scenes- helping us vacuum, serving us coffee, etc. But what if there was a way to create more robot entertainment and fun in the world? Sound cool but have no idea where to start? In this presentation Chris will show you how "welcome our robot overlords" with fun, creative, and and unique use cases.
         person:
           name: Chris Meyer
           twitter: admirethemeyer
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
         
     - 8:15 PM:
         title: Intermission
@@ -198,12 +198,13 @@
     - 8:30 PM:
         type: Performance
         emoji: 💃
-        title: A robot dance performance
-        description: TBD
+        title: Robot Perfomance Art
+        description: |
+          Chloe and Misty present a mini-variety *hour of entertainment. (*in way less than an hour)
         person:
           name: Chloe Condon
           twitter: ChloeCondon
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
           
     - 8:45 PM:
         type: Talk
