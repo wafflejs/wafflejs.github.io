@@ -139,8 +139,17 @@
 
     - 8:30 PM: Performer TBA
 
-    - 8:45 PM: Speaker TBA
-
+    - 8:45 PM:
+        type: Variable Fonts
+        emoji: 🖋️
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Jay Mahabal
+          twitter: jaymahabal
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          
     - 9:00 PM: Speaker TBA
 
     - 9:15 PM: &butter_beverajs
