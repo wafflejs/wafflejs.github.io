@@ -137,8 +137,22 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
-
+    - 8:30 PM:
+        type: Performance
+        emoji: 😆
+        title: Laughter meditation
+        description: |
+          Frazer's famous laughter sessions have been dubbed as the best laughter sessions in the world.
+          They are incredibly hysterical and liberating. We start with happiness warm ups and some positive
+          thoughts and smiles, we move on to big laughs and ecstatic ecstaticness, finishing with a
+          relaxation and contemplation. He has intentionally created this practice to explore feeling
+          fantastic, and also for us to contemplate and cultivate positive states of mind.
+          The outcome is to brain program these in the other areas of our life.
+        person:
+          name: Frazer Kirkman
+          twitter: FrazerKirkman
+          pronouns: it
+          
     - 8:45 PM:
         type: Variable Fonts
         emoji: 🖋️
