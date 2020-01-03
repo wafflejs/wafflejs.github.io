@@ -154,15 +154,18 @@
           pronouns: it
           
     - 8:45 PM:
-        type: Variable Fonts
+        type: Talk
         emoji: 🖋️
-        title: TBD
+        title: Variable Fonts
         description: |
-          TBD
+          Variable fonts allow designers and developers to dynamically change various parameters 
+          of a typeface, going beyond commonly adjusted attributes like font-size and font-weight 
+          to attributes like y-ascender height and optical size. This can be a powerful tool 
+          and also lead to some fun use cases.
         person:
           name: Jay Mahabal
           twitter: jaymahabal
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
           
     - 9:00 PM: Speaker TBA
 
