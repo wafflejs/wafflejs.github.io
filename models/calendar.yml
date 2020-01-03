@@ -82,7 +82,16 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: TBD
+        emoji: 🛡️
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Erica Kwan
+          twitter: pui_ling
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
           
     - 8:00 PM:
         type: How math keeps changing
