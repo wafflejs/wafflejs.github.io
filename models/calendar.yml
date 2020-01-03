@@ -172,6 +172,17 @@
           pronouns: it
           
     - 8:45 PM:
+        type: TBD
+        emoji: 🔄
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Max Edmands
+          twitter: thismax
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          
+    - 9:00 PM:
         type: Talk
         emoji: 🖋️
         title: Variable Fonts
@@ -184,8 +195,6 @@
           name: Jay Mahabal
           twitter: jaymahabal
           pronouns: he/him
-          
-    - 9:00 PM: Speaker TBA
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
