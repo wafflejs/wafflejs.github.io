@@ -94,15 +94,17 @@
           pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
           
     - 8:00 PM:
-        type: How math keeps changing
-        emoji: ➕
-        title: TBD
+        type: Talk
+        emoji: 🔰
+        title: Math, I cannot stress this enough, keeps changing
         description: |
-          TBD
+          Let’s take a journey to the depths of JavaScript to see how trigonometry
+          is hard even for computers, and how a detail of the language specification
+          means that you can’t be sure about, well… anything.
         person:
           name: Tom MacWright
           twitter: tmcw
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: he/him
           
     - 8:15 PM:
         title: Intermission
