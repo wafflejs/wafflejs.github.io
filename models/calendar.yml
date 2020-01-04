@@ -176,15 +176,18 @@
           pronouns: it
           
     - 8:45 PM:
-        type: TBD
+        type: Talk
         emoji: 🔄
-        title: TBD
+        title: Feedback loops
         description: |
-          TBD
+          Feedback loops are an effective way to make any kind of work more meaningful, impactful, and
+          fun. Good feedback loops encourage states of flow, in which we’re completely engrossed in the
+          thing we’re doing, engaging way more of our brainpower and providing a sense of joy. In this
+          talk, I’ll discuss how to build and sustain good feedback loops for software development!
         person:
           name: Max Edmands
           twitter: thismax
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
           
     - 9:00 PM:
         type: Talk
