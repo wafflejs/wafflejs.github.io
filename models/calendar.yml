@@ -149,7 +149,7 @@
     - 7:45 PM:
         type: Talk
         emoji: 📈
-        title: Modified Star Schemas: Structuring Your Data to Combat Dashboard Entropy
+        title: 'Modified Star Schemas: Structuring Your Data to Combat Dashboard Entropy'
         description: |
           Big Data == Slow Data?
           The transfortmational layer standing between your data warehouse and your amazing visualization
