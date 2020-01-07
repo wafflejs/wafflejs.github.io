@@ -148,14 +148,18 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 🌌
+        emoji: 📈
         title: 'Modified Star Schemas: Structuring Your Data to Combat Dashboard Entropy'
         description: |
-          TBD
+          Big Data == Slow Data?
+          The transfortmational layer standing between your data warehouse and your amazing visualization
+          often doesn't receive the thoughtful design it deserves.
+          I'm going to talk about crafting a standardized data transformation layer as a building block for readable, 
+          modular, and delightfully speedy metrics and data viz.
         person:
           name: Kristen Werner
-          #twitter: TBD
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          twitter: orbitist
+          pronouns: she/her
 
     - 8:00 PM:
         type: Talk
