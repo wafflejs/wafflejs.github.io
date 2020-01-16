@@ -45,7 +45,16 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        emoji: 📰
+        title: 'Crosswords & Code'
+        description: |
+          TBD
+        person:
+          name: Heather Rivers
+          twitter: heatherrivers
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
           
     - 8:00 PM: Speaker TBA
 
