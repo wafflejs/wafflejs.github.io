@@ -48,14 +48,14 @@
 
     - 7:45 PM:
         type: Talk
-        emoji: 📰
-        title: 'Crosswords & Code'
+        emoji: 🧩
+        title: 'Woman Yelling at a Crossword: A Story of Redemption'
         description: |
-          TBD
+          Whenever I tell people I'm into crosswords, they compulsively and emphatically say that they're NOT good at crosswords. They're just not one of those people! They don't know enough trivia! They tried once and it didn't work! But I'm here to report, from the other side of a Saturday, that it's all just debugging.
         person:
           name: Heather Rivers
           twitter: heatherrivers
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          pronouns: she/her
           
     - 8:00 PM: Speaker TBA
 
