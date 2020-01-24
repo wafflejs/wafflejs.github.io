@@ -129,6 +129,15 @@
     - 8:30 PM: Performer TBA
 
     - 8:45 PM: Speaker TBA
+        type: Talk
+        emoji: 🧩
+        title: TBD
+        description: |
+          TBD
+        person:
+          name: Fred Schott
+          twitter: FredKSchott
+          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
 
     - 9:00 PM: Speaker TBA
 
