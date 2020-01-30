@@ -46,16 +46,7 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM:
-        type: Talk
-        emoji: 🧩
-        title: 'Woman Yelling at a Crossword: A Story of Redemption'
-        description: |
-          Whenever I tell people I'm into crosswords, they compulsively and emphatically say that they're NOT good at crosswords. They're just not one of those people! They don't know enough trivia! They tried once and it didn't work! But I'm here to report, from the other side of a Saturday, that it's all just debugging.
-        person:
-          name: Heather Rivers
-          twitter: heatherrivers
-          pronouns: she/her
+    - 7:45 PM: Speaker TBA
           
     - 8:00 PM:
         type: Talk
@@ -121,6 +112,7 @@
           name: Erica Kwan
           twitter: pui_ling
           pronouns: she/her
+          
     - 8:00 PM:
         type: Talk
         emoji: 🔰
@@ -139,8 +131,19 @@
         emoji: 🕣
 
     - 8:30 PM: Performer TBA
-
+    
     - 8:45 PM:
+        type: Talk
+        emoji: 🧩
+        title: 'Woman Yelling at a Crossword: A Story of Redemption'
+        description: |
+          Whenever I tell people I'm into crosswords, they compulsively and emphatically say that they're NOT good at crosswords. They're just not one of those people! They don't know enough trivia! They tried once and it didn't work! But I'm here to report, from the other side of a Saturday, that it's all just debugging.
+        person:
+          name: Heather Rivers
+          twitter: heatherrivers
+          pronouns: she/her
+
+    - 9:00 PM:
         type: Talk
         emoji: 🧩
         title: TBD
@@ -150,9 +153,7 @@
           name: Fred Schott
           twitter: FredKSchott
           pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
-
-    - 9:00 PM: Speaker TBA
-
+          
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
         emoji: 🎤
