@@ -145,10 +145,10 @@
 
     - 9:00 PM:
         type: Talk
-        emoji: 🧩
-        title: TBD
+        emoji: 🐹
+        title: ESM - JavaScript's Quiet Revolution
         description: |
-          TBD
+           There's a quiet revolution going on in JavaScript. Have you noticed? ESM -- the official ES Module syntax -- has finally shipped in Node.js and reached feasibility for websites and applications to ship directly to browsers. This talk will explain why this may be the most radical change to happen to JavaScript since Node.js.
         person:
           name: Fred Schott
           twitter: FredKSchott
