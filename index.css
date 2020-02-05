@@ -105,6 +105,9 @@ table {
   }
 }
 
+.sponsor {
+  margin-bottom: 20px;
+}
 .sponsor + .sponsor {
   margin-left: 20px;
 }
