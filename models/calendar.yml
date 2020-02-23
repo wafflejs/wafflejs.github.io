@@ -60,13 +60,14 @@
     - 8:00 PM:
         type: Talk
         emoji: 🔍
-        title: TBD
+        title: How To Make Web Pages Without Using HTML
         description: |
-          TBD
+          Exactly what it says on the tin: we'll learn how to make a web page and not send a single byte of HTML over the wire. View source all you like - you won't find anything there.
         person:
           name: Rodney Folz
           twitter: rodneyfolz
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          github: folz
+          pronouns: he/him
 
     - 8:15 PM:
         title: Intermission
