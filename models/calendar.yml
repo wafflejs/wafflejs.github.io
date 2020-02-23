@@ -49,13 +49,15 @@
     - 7:45 PM:
         type: Talk
         emoji: 🗣️
-        title: I conlang, you conlang, they conlang too
+        title: Creating Languages for Fun and ...
         description: |
-          TBD
+          From Klingon to Esperanto, for amusement or philsophical inquiry, an impulse towards hacking language has
+          animated people through time and the world over. What is this strange impulse? How does one go about 
+          building a new grammar? A new lexicon? Is this something that I can do? (spoiler: you can)
         person:
           name: Sorrel June
-          # you can also add your twitter or github here
-          pronouns: # examples: she/her, they/them, he/him  (bit.ly/pronoun-faq)
+          github: sorrelbri
+          pronouns: she/her
           
     - 8:00 PM:
         type: Talk
