@@ -68,7 +68,6 @@
         person:
           name: Rodney Folz
           twitter: rodneyfolz
-          github: folz
           pronouns: he/him
 
     - 8:15 PM:
@@ -102,7 +101,6 @@
         person:
           name: Andy Sacher
           twitter: andytuba
-          github: andytuba
           pronouns: they/them or he/him
 
     - 9:15 PM: &butter_beverajs
