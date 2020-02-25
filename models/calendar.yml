@@ -83,12 +83,10 @@
         description: |
           A brief history of GraphQL at Reddit: some of the exciting benefits GraphQL offers, and challenges we've faced along the way.
         people:
-          person:
-            name: Laura Ungar
+          - name: Laura Ungar
             github: diffyqgirl
             pronouns: she/her
-          person:
-            name: Adam Collins
+          - name: Adam Collins
             github: m104
             pronouns: he/him
 
