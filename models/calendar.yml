@@ -68,7 +68,6 @@
         person:
           name: Rodney Folz
           twitter: rodneyfolz
-          github: folz
           pronouns: he/him
 
     - 8:15 PM:
@@ -80,7 +79,7 @@
     - 8:45 PM:
         type: Talk
         emoji: 🙏
-        title: "Why :pray: Ain't High-Five"
+        title: Why :pray: Ain't High-Five
         description: |
           A brief history of encoding culture(s) and identity into Multi-Person Grouping Emojis.
         person:
