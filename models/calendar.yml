@@ -68,7 +68,6 @@
         person:
           name: Rodney Folz
           twitter: rodneyfolz
-          github: folz
           pronouns: he/him
 
     - 8:15 PM:
@@ -78,6 +77,20 @@
     - 8:30 PM: Performer TBA
 
     - 8:45 PM:
+        emoji: 📈
+        type: Talk
+        title: "From Zero to Front Page: Two years of GraphQL at Reddit"
+        description: |
+          A brief history of GraphQL at Reddit: some of the exciting benefits GraphQL offers, and challenges we've faced along the way.
+        people:
+          - name: Laura Ungar
+            github: diffyqgirl
+            pronouns: she/her
+          - name: Adam Collins
+            github: m104
+            pronouns: he/him
+
+    - 9:00 PM:
         type: Talk
         emoji: 🙏
         title: "Why :pray: Ain't High-Five"
@@ -86,10 +99,7 @@
         person:
           name: Andy Sacher
           twitter: andytuba
-          github: andytuba
           pronouns: they/them or he/him
-
-    - 9:00 PM: Speaker TBA
 
     - 9:15 PM: &butter_beverajs
         title: Open karaoke + bevera.js
