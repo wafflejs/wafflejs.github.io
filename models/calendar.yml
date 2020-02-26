@@ -74,7 +74,19 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        emoji: 🎸
+        type: Performance
+        title: Ukulele Performance
+        description: |
+          Visnu and Yuqing will sing a duet!
+        people:
+          - name: Visnu Pitiyanuvath
+            twitter: visnup
+            pronouns: he/him
+          - name: Yuqing Ma
+            github: yuqingchingching
+            pronouns: she/her
 
     - 8:45 PM:
         emoji: 📈
