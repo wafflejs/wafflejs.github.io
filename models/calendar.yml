@@ -61,13 +61,13 @@
           
     - 8:00 PM:
         type: Talk
-        emoji: 🔍
-        title: How To Make Web Pages Without Using HTML
+        emoji: 📈
+        title: Vega-Lite
         description: |
-          Exactly what it says on the tin: we'll learn how to make a web page and not send a single byte of HTML over the wire. View source all you like - you won't find anything there.
+          A declarative language for interactive data visualization. Or, how to get a chart now, to aid in exploring your data. Or, I don't understand D3, help!
         person:
-          name: Rodney Folz
-          twitter: rodneyfolz
+          name: Visnu Pitiyanuvath
+          twitter: visnup
           pronouns: he/him
 
     - 8:15 PM:
