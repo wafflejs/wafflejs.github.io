@@ -4,7 +4,10 @@ div( class=className )
   section#header: .container-fluid
     .row.bottom-sm
       .col-xs-12.col-sm-7
-        h1 A fun night of code, waffles, and karaoke.
+        h1
+          span A fun
+          img.socially-distanced(src='/images/socially-distanced.svg')
+          span night of code, waffles, and karaoke.
 
         h3 All proceeds go to 
           a.black( ng-repeat='(name, url) in index.day.charity' ng-href='{{url}}' ) {{name}}

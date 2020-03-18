@@ -23,6 +23,11 @@
     .details {
       margin-top: 1rem;
     }
+    .socially-distanced {
+      width: 200px;
+      margin: 0 10px;
+      vertical-align: -45%;
+    }
   }
 
   #hero {
