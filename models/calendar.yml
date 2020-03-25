@@ -10,9 +10,24 @@
 
     - 7:45 PM: Speaker TBA
     
-    - 7:53 PM: Speaker TBA
+    - 7:53 PM:
+        type: Talk
+        emoji: 📜
+        title: List_of_lists_of_lists
+        description: 
+        person:
+          name: Lewis Ellis
+          twitter: LewisJEllis
           
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        emoji: ❓
+        title: Surprise
+        description: This topic will be a surprise!
+        person:
+          name: Shirley Wu
+          twitter: sxywu
+          pronouns: she/her
     
     - 8:08 PM: Speaker TBA
 
