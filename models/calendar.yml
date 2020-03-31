@@ -8,9 +8,7 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
-    
-    - 7:53 PM:
+    - 7:45 PM:
         type: Talk
         emoji: 📜
         title: List_of_lists_of_lists
@@ -19,6 +17,16 @@
           name: Lewis Ellis
           twitter: LewisJEllis
           pronouns: he/him
+
+    - 7:53 PM:
+        type: Talk
+        emoji: 🌐
+        title: Special:SpecialPages
+        description: 
+        person:
+          name: Ker Lee Yap
+          twitter: _klyap_
+          pronouns: she/her
           
     - 8:00 PM:
         type: Talk
@@ -30,19 +38,51 @@
           twitter: sxywu
           pronouns: she/her
     
-    - 8:08 PM: Speaker TBA
-
+    - 8:08 PM:
+        type: Talk
+        emoji: ❗
+        title: WP:NOT
+        description:
+        person:
+          name: Ashi Krishnan
+          twitter: rakshesha
+          pronouns: she/her
+          
     - 8:15 PM:
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎤
+        title: Internet Karaoke
+        description: |
+          A socially distanced Karaoke performance!
+        person:
+          name: Potch
+          twitter: potch
+          pronouns: he/him
 
     - 8:45 PM: Speaker TBA
     
-    - 8:53 PM: Speaker TBA
+    - 8:53 PM:
+        type: Talk
+        emoji: 🌌
+        title: Dark_Matter
+        description:
+        person:
+          name: Lin Lawhn
+          pronouns: she/her
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        emoji: ☣️
+        title: Corrupted_Blood_incident
+        description:
+        person:
+          name: Lisa Leibig
+          twitter: Sporkicide
+          pronouns: she/her
 
     - 9:08 PM: Speaker TBA
 
