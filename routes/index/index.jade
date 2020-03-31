@@ -110,7 +110,7 @@ div( class=className )
                 ng-href='https://github.com/{{item.person.github}}'
               )
                 | {{item.person.name}} #[span.pronouns( ng-if='item.person.pronouns' ) ({{item.person.pronouns}})] · #[span.github-link {{item.person.github}}]
-	      a.person(
+              a.person(
                 ng-if='!item.person.twitter && !item.person.github'
               )
                 | {{item.person.name}} #[span.pronouns( ng-if='item.person.pronouns' ) ({{item.person.pronouns}})]
