@@ -111,7 +111,7 @@ div( class=className )
               )
                 | {{item.person.name}} #[span.pronouns( ng-if='item.person.pronouns' ) ({{item.person.pronouns}})] · #[span.github-link {{item.person.github}}]
 	      a.person(
-                ng-if='!person.twitter && !person.github'
+                ng-if='!item.person.twitter && !item.person.github'
               )
                 | {{item.person.name}} #[span.pronouns( ng-if='item.person.pronouns' ) ({{item.person.pronouns}})]
             h5( ng-show='item.people' )
