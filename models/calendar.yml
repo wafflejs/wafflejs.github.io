@@ -1,3 +1,34 @@
+- day: '2020-05-06'
+  schedule:
+    - 7:00 PM:
+        title: Join the stream and chat!
+        description: |
+          [Join the Discord](https://discord.gg/mq3k5Jh) and say hello!
+        emoji: 🍩
+
+    - 7:30 PM:
+        title: Introductions
+        emoji: 👋
+
+    - 7:45 PM: Speaker TBA
+          
+    - 8:00 PM: Speaker TBA
+
+    - 8:15 PM:
+        title: Intermission
+        emoji: 🕣
+
+    - 8:30 PM: Performer TBA
+
+    - 8:45 PM: Speaker TBA
+
+    - 9:00 PM: Speaker TBA
+
+    - 9:15 PM:
+        title: Open karaoke
+        emoji: 🎤
+        description: Online karaoke after-party!!
+
 - day: '2020-04-01'
   schedule:
     - 7:00 PM:
