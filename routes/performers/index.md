@@ -18,7 +18,7 @@ channel) if you want immediate feedback.
 
 When and where will it be?
 --------------------------
-When: {{day.date | date:"EEEE, MMMM d":"UTC"}} from 7 PM to 10 PM.  
+When: {{day.date | date:"EEEE, MMMM d":"UTC"}} from 7 PM to 10 PM Pacific.  
 Where: Streamed Online
 
 What kind of performance are you looking for?
