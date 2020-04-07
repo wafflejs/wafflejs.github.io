@@ -34,7 +34,7 @@ module.exports = function() {
         width: 1200,
         height: 630,
         subs: {
-          '#date': `${dateText} at 7 PM`,
+          '#date': `${dateText} at 7 PM PT`,
         },
       })
     )
