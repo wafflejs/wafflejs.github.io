@@ -24,13 +24,16 @@
           
     - 8:00 PM:
         type: Talk
-        title: TBD
-        emoji: 📜
+        title: Exploring JavaScript Tagged Template Strings
+        emoji: 🌱
         description: |
-          TBD
+          Take a journey into the world of JavaScript Tagged Template Strings.
+          Learn about some of the useful (and useless) things that you can do
+          with JavaScript Tagged Template Strings.
         person:
           name: Raymond Sohn
           twitter: 20percentempty
+          pronouns: he/him
 
     - 8:15 PM:
         title: Intermission
