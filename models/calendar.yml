@@ -12,9 +12,25 @@
         title: Introductions
         emoji: 👋
 
-    - 7:45 PM: Speaker TBA
+    - 7:45 PM:
+        type: Talk
+        title: TBD
+        emoji: 🌀
+        description: |
+          TBD
+        person:
+          name: Jemma Lofy
+          github: JDLPro
           
-    - 8:00 PM: Speaker TBA
+    - 8:00 PM:
+        type: Talk
+        title: TBD
+        emoji: 📜
+        description: |
+          TBD
+        person:
+          name: Raymond Sohn
+          twitter: 20percentempty
 
     - 8:15 PM:
         title: Intermission
@@ -35,7 +51,15 @@
 
     - 8:45 PM: Speaker TBA
 
-    - 9:00 PM: Speaker TBA
+    - 9:00 PM:
+        type: Talk
+        title: TBD
+        emoji: ✒️
+        description: |
+          TBD
+        person:
+          name: Rodney Folz
+          twitter: rodneyfolz
 
     - 9:15 PM:
         title: Open karaoke
