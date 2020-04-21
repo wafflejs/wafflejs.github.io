@@ -44,7 +44,7 @@
     "jstransformer-marked": "1.0.3",
     "lodash": "4.17.15",
     "markdown-loader": "2.0.2",
-    "marked": "0.3.19",
+    "marked": "1.0.0",
     "mocha": "2.5.3",
     "moment": "2.22.1",
     "ng-annotate-loader": "0.6.1",
