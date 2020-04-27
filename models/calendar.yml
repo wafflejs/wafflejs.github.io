@@ -69,6 +69,12 @@
         title: Open karaoke
         emoji: 🎤
         description: Online karaoke after-party!!
+  
+  sponsors:
+    - Mode: https://mode.com/careers/
+    - Twilio: https://www.twilio.com/company/jobs
+    - Typeform: https://www.typeform.com/careers/
+
 
 - day: '2020-04-01'
   schedule:
