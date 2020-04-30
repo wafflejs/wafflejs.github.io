@@ -14,13 +14,14 @@
 
     - 7:45 PM:
         type: Talk
-        title: TBD
-        emoji: 🌀
+        title:  A Little About Color and Phaser 3
+        emoji: 💆‍♀️
         description: |
-          TBD
+          Bringing a little color out of your mind using Phaser 3 and Benham's disk. A fun coding project from my time spent as a science educator at the Exploratorium.
         person:
           name: Jemma Lofy
           github: JDLPro
+          pronouns: they/she
           
     - 8:00 PM:
         type: Talk
