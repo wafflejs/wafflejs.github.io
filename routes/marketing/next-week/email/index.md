@@ -22,7 +22,7 @@ Here's our lineup! Get excited!
 
 ### 💰 Sponsored by Sponsor, Sponsor, and Sponsor
 
-This month's WaffleJS is brought to you by [Example Sponsor](https://example.com/jobs), [Example Sponsor](https://example.com/jobs), and [Example Sponsor](https://example.com/jobs). They're super rad companies. Check em out.
+This month's WaffleJS is brought to you by [Sponsor](https://example.com/jobs), [Sponsor](https://example.com/jobs), and [Sponsor](https://example.com/jobs). They're super rad companies. Check em out.
 
 <br>
 See you soon,<br>
