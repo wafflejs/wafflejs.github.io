@@ -14,14 +14,13 @@
 
     - 7:45 PM:
         type: Talk
-        title:  A Little About Color and Phaser 3
-        emoji: 💆‍♀️
-        description: |
-          Bringing a little color out of your mind using Phaser 3 and Benham's disk. A fun coding project from my time spent as a science educator at the Exploratorium.
+        title: A fast talk on performance
+        emoji: ⏱️
+        description:
         person:
-          name: Jemma Lofy
-          github: JDLPro
-          pronouns: they/she
+          name: Jenna Zeigen
+          twitter: zeigenvector
+          pronouns: she/her
           
     - 8:00 PM:
         type: Talk
@@ -53,7 +52,18 @@
           twitter: L1fescape
           pronouns: he/him
 
-    - 8:45 PM: Speaker TBA
+    - 8:45 PM:
+        type: Talk
+        title:  A Little About Color and Phaser 3
+        emoji: 💆‍♀️
+        description: |
+          Bringing a little color out of your mind using Phaser 3 and Benham's disk. A fun coding project from my time spent as a science educator at the Exploratorium.
+          
+          Demo: https://caterwauling-loganberry.glitch.me/ 
+        person:
+          name: Jemma Lofy
+          github: JDLPro
+          pronouns: they/she
 
     - 9:00 PM:
         type: Talk
