@@ -24,16 +24,16 @@
           
     - 8:00 PM:
         type: Talk
-        title: Exploring JavaScript Tagged Template Strings
-        emoji: 🌱
+        title:  A Little About Color and Phaser 3
+        emoji: 💆‍♀️
         description: |
-          Take a journey into the world of JavaScript Tagged Template Strings.
-          Learn about some of the useful (and useless) things that you can do
-          with JavaScript Tagged Template Strings.
+          Bringing a little color out of your mind using Phaser 3 and Benham's disk. A fun coding project from my time spent as a science educator at the Exploratorium.
+          
+          Demo: https://caterwauling-loganberry.glitch.me/ 
         person:
-          name: Raymond Sohn
-          twitter: 20percentempty
-          pronouns: he/him
+          name: Jemma Lofy
+          github: JDLPro
+          pronouns: they/she
 
     - 8:15 PM:
         title: Intermission
@@ -54,16 +54,16 @@
 
     - 8:45 PM:
         type: Talk
-        title:  A Little About Color and Phaser 3
-        emoji: 💆‍♀️
+        title: Exploring JavaScript Tagged Template Strings
+        emoji: 🌱
         description: |
-          Bringing a little color out of your mind using Phaser 3 and Benham's disk. A fun coding project from my time spent as a science educator at the Exploratorium.
-          
-          Demo: https://caterwauling-loganberry.glitch.me/ 
+          Take a journey into the world of JavaScript Tagged Template Strings.
+          Learn about some of the useful (and useless) things that you can do
+          with JavaScript Tagged Template Strings.
         person:
-          name: Jemma Lofy
-          github: JDLPro
-          pronouns: they/she
+          name: Raymond Sohn
+          twitter: 20percentempty
+          pronouns: he/him
 
     - 9:00 PM:
         type: Talk
