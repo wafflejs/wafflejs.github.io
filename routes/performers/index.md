@@ -9,12 +9,11 @@ WaffleJS is a monthly meetup centered around programming, waffles, and karaoke.
 How do I submit a performance?
 ------------------------------
 You can either comment on the current Call for Performers [issue on Github][1] or
-[send us an email][2]. Come chat with us on [Slack][3] (on the #wafflejs
-channel) if you want immediate feedback.
+[send us an email][2]. Come chat with us on [Discord][3] if you want immediate feedback.
 
 [1]: https://github.com/wafflejs/wafflejs.github.io/issues?q=is%3Aopen+is%3Aissue+label%3Acfp
 [2]: mailto:perform@wafflejs.com
-[3]: https://borojs.slack.com/join/shared_invite/enQtMzM2Nzc5ODExNjY2LTUyNTg3OGMzMzhhNWU2OWViNWUxNmMyZjA5NmMzNGFhYmJkOWE5NzA4NWI5ZGY2NjdmNzBmYWJjMjYzZjkwOGE
+[3]: https://discord.com/invite/mq3k5Jh
 
 When and where will it be?
 --------------------------
