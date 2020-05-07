@@ -60,6 +60,7 @@ Organized by:
 - [Kevin Arthur][@heykevinarthur]
 - [Nat Alison][@tesseralis]
 - [Potch][@potch]
+- [CJ Joulain][@cjoulain]
 
 
 [1]: http://jsconf.com/codeofconduct.html
@@ -77,3 +78,4 @@ Organized by:
 [@heykevinarthur]: https://github.com/heykevinarthur
 [@tesseralis]: https://twitter.com/tesseralis
 [@potch]: https://twitter.com/potch
+[@cjoulain]: https://www.github.com/cjoulain
