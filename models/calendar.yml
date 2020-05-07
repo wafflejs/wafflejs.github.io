@@ -30,6 +30,9 @@
         title: Open karaoke
         emoji: 🎤
         description: Online karaoke after-party!!
+        
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
 
 - day: '2020-05-06'
   schedule:
@@ -113,6 +116,9 @@
         title: Open karaoke
         emoji: 🎤
         description: Online karaoke after-party!!
+        
+  charity:
+    Black Girls Code: http://www.blackgirlscode.com/
   
   sponsors:
     - Mode: https://mode.com/careers/
