@@ -250,6 +250,11 @@
   charity:
     Black Girls Code: http://www.blackgirlscode.com/
 
+  sponsors:
+    - Mode: https://mode.com/careers/
+    - Twilio: https://www.twilio.com/company/jobs
+    - Typeform: https://www.typeform.com/careers/
+
 - day: '2020-05-06'
   schedule:
     - 7:00 PM:
