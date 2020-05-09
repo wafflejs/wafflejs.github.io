@@ -1,6 +1,6 @@
 ---
 name: 'CFP: Call for Speakers'
-about: Solicit talks for WaffleJS
+about: (For WaffleJS organizer use) Solicit talks for WaffleJS
 title: Call for Speakers - {date:MMMM yyyy}
 labels: cfp
 assignees: ''
