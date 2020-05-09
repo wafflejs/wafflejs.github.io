@@ -12,7 +12,7 @@ We're looking for people to perform at our meetup!
 ![](https://media.giphy.com/media/3rgXBvnbXtxwaWmhr2/giphy.gif)
 
 **How do I submit a performance?**
-You can either comment on this issue or send us an email at perform@wafflejs.com.
+You can either [submit a new issue](https://github.com/wafflejs/wafflejs.github.io/issues/new?assignees=&labels=pitch&template=pitch-your-talk.md), comment on this issue or send us an email at perform@wafflejs.com.
 
 If you only have a rough idea, we’re also happy to workshop your idea with you on our [Discord server](https://discord.gg/mq3k5Jh).
 
