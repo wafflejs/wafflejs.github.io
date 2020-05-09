@@ -12,7 +12,7 @@ We're looking for speakers for our meetup!
 ![](https://media.giphy.com/media/XxMTS8OOwl59C/giphy.gif)
 
 **How do I submit a talk?**
-You can either comment on this issue or send us an email at talks@wafflejs.com.
+You can either [submit a new issue](https://github.com/wafflejs/wafflejs.github.io/issues/new?assignees=&labels=pitch&template=pitch-your-talk.md), comment on this issue or send us an email at talks@wafflejs.com.
 
 **When and where will it be?**
 When: Wednesday, {date:MMMM dd} from 7 to 10 PM Pacific.
