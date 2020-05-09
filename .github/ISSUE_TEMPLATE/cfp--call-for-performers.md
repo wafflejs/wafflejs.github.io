@@ -1,6 +1,6 @@
 ---
 name: 'CFP: Call for Performers'
-about: Solicit performers for WaffleJS
+about: (For WaffleJS organizer use) Solicit performers for WaffleJS
 title: Call for Performers - {date:MMMM yyyy}
 labels: cfp
 assignees: ''
