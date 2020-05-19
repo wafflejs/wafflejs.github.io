@@ -236,8 +236,19 @@
         title: Intermission
         emoji: 🕣
 
-    - 8:30 PM: Performer TBA
-
+    - 8:30 PM:
+        type: Performance
+        emoji: 🎉
+        title: |
+          open ./guitar.mp4 &
+        description: |
+          Live guitar performance looped through Ableton Live.
+          [Find Andrew on Soundcloud](https://soundcloud.com/L1fescape).
+        person:
+          name: Andrew Kennedy
+          twitter: L1fescape
+          pronouns: he/him
+          
     - 8:45 PM: Speaker TBA
 
     - 9:00 PM: Speaker TBA
