@@ -9,19 +9,18 @@ div( class=className )
           img.socially-distanced(src='/images/socially-distanced.svg')
           span night of code, waffles, and karaoke.
 
-        h3 All proceeds go to 
-          a.black( ng-repeat='(name, url) in index.day.charity' ng-href='{{url}}' ) {{name}}
-          | .
+        h3 On indefinite hiatus: 
+          a( href='https://twitter.com/wafflejs/status/1291062934735474693' ) any revival ideas appreciated
+          | !
 
       .col-xs-12.col-sm-5.details
         h5 Date & Time
         h3: a.black( href='/models/WaffleJS.ics' target='_self' )
-          | {{index.day.date | date:'EEEE, MMMM d':'UTC'}} at 7 PM Pacific	
+          strike {{index.day.date | date:'EEEE, MMMM d':'UTC'}} at 7 PM Pacific	
 
         h5 Location
         h3
-          a( href='https://www.youtube.com/channel/UCaph-ErybJV_3CoXFcEYnKA' ) Streamed Online
-          |  (Join the <a href="https://discord.gg/mq3k5Jh" target="_self">Discord</a>!)
+          | Indefinite hiatus (join the <a href="https://discord.gg/mq3k5Jh" target="_self">Discord</a> though)
   
   section#hero: .container-fluid
 
