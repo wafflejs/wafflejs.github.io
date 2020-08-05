@@ -18,7 +18,7 @@ You can either comment on the current Call for Performers [issue on Github][1] o
 When and where will it be?
 --------------------------
 When: {{day.date | date:"EEEE, MMMM d":"UTC"}} from 7 PM to 10 PM Pacific.  
-Where: Streamed Online
+Where: Indefinite hiatus
 
 What kind of performance are you looking for?
 ---------------------------------------------
